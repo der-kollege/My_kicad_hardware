@@ -408,6 +408,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "fd7503bc-e7fc-4766-b224-3d1c3d7de5ff",
+      "Root"
+    ],
+    [
+      "b651456b-f82d-416a-adc2-766f971f7bfa",
+      "ADC"
+    ],
+    [
+      "6ef258ed-945f-43cf-b75c-abeb7326966c",
+      "FPGA"
+    ],
+    [
+      "6c3bdaeb-3a48-483c-8f1c-d2943b7053f6",
+      "Current measure"
+    ]
+  ],
   "text_variables": {}
 }
