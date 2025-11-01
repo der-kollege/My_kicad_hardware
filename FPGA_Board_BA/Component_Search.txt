@@ -1,0 +1,13 @@
+DCDC:
+- Pmax CHB: 3W
+- Max 30-50 CHBs -> 90W-150W
+	- Traco Power 200 EUR, 14-160 VDC in, 5Vout, 150W (Farnell: 4147646)
+	- CUI 73 EUR, 18-75 VDC in, 5Vout, 150W (Farnell: 3873060)
+	- Murata 136 EUR, 57.6 VDC in, 5Vout, 150W (Farnell: 3879404)
+	
+	- Murata 37 EUR, 36-75 VDCin, 5Vout, 100W (Digikey: 811-2789-ND) {Not enclosed}
+	- Cincon 68 EUR, 36-75 VDCin, 5Vout, 100W (Digikey: 2034-2978-ND)
+	
+
+
+

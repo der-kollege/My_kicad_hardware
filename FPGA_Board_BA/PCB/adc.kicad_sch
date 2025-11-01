@@ -1040,6 +1040,7 @@
 	(symbol
 		(lib_id "MYLIB_U:LTC2320-16")
 		(at 119.38 104.14 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1047,7 +1048,7 @@
 		(dnp no)
 		(uuid "f188515a-206d-4c4c-ada3-7f49af905117")
 		(property "Reference" "U1"
-			(at 118.872 64.008 0)
+			(at 119.888 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1057,7 @@
 			)
 		)
 		(property "Value" "LTC2320-16"
-			(at 118.872 66.548 0)
+			(at 119.888 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,7 +1066,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_chips:UKG_52_7mm_8mm"
-			(at 116.84 52.07 0)
+			(at 121.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1075,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/232016fb.pdf"
-			(at 117.348 54.61 0)
+			(at 121.412 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1084,7 @@
 			)
 		)
 		(property "Description" "8 Channel 16 Bit Differential ADC"
-			(at 116.078 49.784 0)
+			(at 122.682 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
