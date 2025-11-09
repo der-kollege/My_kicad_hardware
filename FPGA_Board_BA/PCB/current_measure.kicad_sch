@@ -5,12 +5,12 @@
 	(uuid "ac9f7b4f-268b-444b-ba15-c2968bee7664")
 	(paper "A4")
 	(lib_symbols
-		(symbol "AMC0300D_1"
+		(symbol "MYLIB_Misc:AMC0300D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 14.478 0)
+				(at 0 14.732 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,7 +18,7 @@
 				)
 			)
 			(property "Value" "AMC0300D"
-				(at 0.254 12.192 0)
+				(at 0 12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,7 +26,7 @@
 				)
 			)
 			(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-				(at 0.762 26.924 0)
+				(at -0.254 24.384 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,7 +35,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-				(at -5.588 32.004 0)
+				(at 0.508 21.844 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,8 +43,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Isolation amplifier"
-				(at -0.762 29.718 0)
+			(property "Description" "isolation Amplifier"
+				(at 1.016 19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMC0300D_1_0_0"
+			(symbol "AMC0300D_0_0"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 1.27) (xy 0 1.524) (xy 0.508 1.27) (xy 0 1.016) (xy 0 1.27)
@@ -302,7 +302,7 @@
 					)
 				)
 			)
-			(symbol "AMC0300D_1_0_1"
+			(symbol "AMC0300D_0_1"
 				(rectangle
 					(start -12.7 10.16)
 					(end 12.7 -10.16)
@@ -459,7 +459,7 @@
 					)
 				)
 			)
-			(symbol "AMC0300D_1_1_1"
+			(symbol "AMC0300D_1_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.27) (xy 0 -1.27) (xy 0 -1.016) (xy 0.508 -1.27) (xy 0 -1.524) (xy 0 -1.27)
@@ -747,8 +747,7 @@
 		(uuid "b1801513-3231-48b3-9eaa-e8f475960e3a")
 	)
 	(symbol
-		(lib_name "AMC0300D_1")
-		(lib_id "MYLIB_U:AMC0300D")
+		(lib_id "MYLIB_Misc:AMC0300D")
 		(at 133.35 59.69 0)
 		(mirror y)
 		(unit 1)
@@ -756,8 +755,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "05753ce0-3790-43fb-9fab-38053370c9cb")
-		(property "Reference" "U6"
+		(fields_autoplaced yes)
+		(uuid "41fcacb4-249a-4131-9317-954eeb1a76bb")
+		(property "Reference" "U401"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -774,7 +774,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-			(at 132.588 32.766 0)
+			(at 133.604 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +783,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 138.938 27.686 0)
+			(at 132.842 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,8 +791,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Isolation amplifier"
-			(at 134.112 29.972 0)
+		(property "Description" "isolation Amplifier"
+			(at 132.334 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,128 +801,40 @@
 			)
 		)
 		(pin "4"
-			(uuid "6bab67f5-0655-4ff4-8c54-9ae8a4bc1aa3")
+			(uuid "a3e001da-9c97-4f1e-8446-95169df18bb1")
 		)
 		(pin "3"
-			(uuid "76f899fe-3fe3-4bbc-8694-e17c6fbd738c")
-		)
-		(pin "8"
-			(uuid "4969a145-233b-4fee-8352-7325d9756bf1")
-		)
-		(pin "1"
-			(uuid "a873eef8-8a8c-4343-a8f8-504bb65e86aa")
-		)
-		(pin "6"
-			(uuid "3b7d9c29-342c-4846-942f-abcbc8341a30")
+			(uuid "6e145ed6-044e-4cae-9466-485fd6fb9b72")
 		)
 		(pin "5"
-			(uuid "a13884d0-a399-4afc-9c94-1103a3f6805a")
+			(uuid "a20eb2f0-d25d-473b-bf9c-818a8a4b9927")
 		)
-		(pin "7"
-			(uuid "04662462-8cfc-45b5-8f88-2a4a018968eb")
+		(pin "1"
+			(uuid "cb47f6bf-d58c-4ab9-950c-64313df9c617")
 		)
 		(pin "2"
-			(uuid "8f2ee9a5-58c1-4b24-9eb7-0eb4bbb8ebb6")
+			(uuid "c1019ef2-f49f-4dee-815a-a34fccd4b03d")
+		)
+		(pin "7"
+			(uuid "48b43aef-2b0e-459c-b769-731ce97585ea")
+		)
+		(pin "8"
+			(uuid "a473b58b-0aaf-4a6a-ac30-2930baa6d3c7")
+		)
+		(pin "6"
+			(uuid "1d3d8293-e201-4de0-a5a7-409d39f3f563")
 		)
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
-					(reference "U6")
+					(reference "U401")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "AMC0300D_1")
-		(lib_id "MYLIB_U:AMC0300D")
-		(at 134.62 137.16 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a63be02-2e7b-4687-8c77-7fc11fd626f6")
-		(property "Reference" "U3"
-			(at 134.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMC0300D"
-			(at 134.62 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-			(at 133.858 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 140.208 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Isolation amplifier"
-			(at 135.382 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f704cc02-b297-4b60-ad10-e87876fe48aa")
-		)
-		(pin "3"
-			(uuid "b6729f07-be88-428d-8e6e-a74102883f14")
-		)
-		(pin "8"
-			(uuid "3aa4f0f4-454a-41e3-804b-1db319516ebf")
-		)
-		(pin "1"
-			(uuid "30bec3de-4bc4-4059-97e9-f909e2c4529b")
-		)
-		(pin "6"
-			(uuid "20801af7-95f1-45d5-8128-c84f6a026fdd")
-		)
-		(pin "5"
-			(uuid "f159348b-2c6f-4313-abe0-ada38f29304a")
-		)
-		(pin "7"
-			(uuid "943ff48c-47b6-417a-aadf-4de516908c50")
-		)
-		(pin "2"
-			(uuid "4a627593-138e-4234-992e-32f1cac85ad7")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "AMC0300D_1")
-		(lib_id "MYLIB_U:AMC0300D")
+		(lib_id "MYLIB_Misc:AMC0300D")
 		(at 133.35 97.79 0)
 		(mirror y)
 		(unit 1)
@@ -930,8 +842,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9f69602e-4ff5-4bfd-80e7-fbef41d81229")
-		(property "Reference" "U2"
+		(fields_autoplaced yes)
+		(uuid "5b21ef95-64b9-4900-8ee0-1701a89e34df")
+		(property "Reference" "U402"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -948,7 +861,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-			(at 132.588 70.866 0)
+			(at 133.604 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +870,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 138.938 65.786 0)
+			(at 132.842 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,8 +878,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Isolation amplifier"
-			(at 134.112 68.072 0)
+		(property "Description" "isolation Amplifier"
+			(at 132.334 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,33 +888,120 @@
 			)
 		)
 		(pin "4"
-			(uuid "99ff3dbf-e97a-4d39-8013-3a274482a3d7")
+			(uuid "6db8bed3-21bb-42de-8519-b07d400e5ffe")
 		)
 		(pin "3"
-			(uuid "21057762-f8a5-4633-b58f-9dd0b37b3adc")
-		)
-		(pin "8"
-			(uuid "f90e4acc-1d48-43a6-bd66-1b4961211902")
-		)
-		(pin "1"
-			(uuid "75023a1b-503b-4025-a20a-5e2b9a986a68")
-		)
-		(pin "6"
-			(uuid "b530e259-04d7-43bf-8d7e-3f7801374e64")
+			(uuid "4ad190cd-bbe8-407b-9071-a8b43c826ba0")
 		)
 		(pin "5"
-			(uuid "bbfc824b-12c1-402c-ab33-3c1d79a43a47")
+			(uuid "59ca716c-23f2-4bf4-b154-cf0e470b950a")
 		)
-		(pin "7"
-			(uuid "30fd8100-95a8-4880-b959-874e55b6568f")
+		(pin "1"
+			(uuid "62be322f-397e-4ab0-9c84-276ab5a3f658")
 		)
 		(pin "2"
-			(uuid "3b432de4-d77c-4108-9e1f-bfae6562b788")
+			(uuid "9a3f08a3-bd5d-41ed-844c-f792892760a3")
+		)
+		(pin "7"
+			(uuid "2a3ad047-3f7c-4719-8ae3-8c3ad2423c7e")
+		)
+		(pin "8"
+			(uuid "5d359c05-5d59-4ed7-b3f9-3884edf1e206")
+		)
+		(pin "6"
+			(uuid "1272b21c-1db3-468a-995d-b8e2bc616230")
 		)
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
-					(reference "U2")
+					(reference "U402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:AMC0300D")
+		(at 134.62 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e2f5006-62d9-4a5f-947c-8feb733cb1d8")
+		(property "Reference" "U403"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMC0300D"
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
+			(at 134.874 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
+			(at 134.112 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "isolation Amplifier"
+			(at 133.604 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f3d81391-912a-4865-83b9-fcba1383c5fd")
+		)
+		(pin "3"
+			(uuid "44a69dfe-91c6-486d-bef4-ea92ea8768b1")
+		)
+		(pin "5"
+			(uuid "9b444d6e-f36c-4e5f-a1a7-da9baf338003")
+		)
+		(pin "1"
+			(uuid "3ac415b1-e4c5-4160-af7b-34cf95d994c2")
+		)
+		(pin "2"
+			(uuid "9c5b1954-eb5a-4d51-8e01-e9319a7a2b47")
+		)
+		(pin "7"
+			(uuid "51f837e6-e71b-442f-ac32-dffa1d90d220")
+		)
+		(pin "8"
+			(uuid "0e27e693-1dac-437e-a52d-636a045cba39")
+		)
+		(pin "6"
+			(uuid "23e3c99e-267f-4c98-b732-73dbecc3d9f7")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
+					(reference "U403")
 					(unit 1)
 				)
 			)

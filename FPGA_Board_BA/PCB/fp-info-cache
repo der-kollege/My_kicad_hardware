@@ -1,4 +1,4 @@
-23258582142322222
+23265634285647320
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62167,12 +62167,19 @@ Banana_Socket_Altech_Red
 2
 1
 MYLIB_Misc
+SBR10U200P5
+
+
+0
+0
+0
+MYLIB_Misc
 SOIC-8_7.5x5.85mm_P1.27mm
 
 
 0
-0
-0
+8
+8
 MYLIB_Misc
 Zynq7020
 
@@ -62187,6 +62194,13 @@ UKG_52_7mm_8mm
 0
 68
 53
+MYLIB_chips
+VQFN 40 pin 5.8mm x 5.8mm
+
+
+0
+52
+41
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -91924,6 +91938,13 @@ SRB_Switch
 2
 2
 WLIB_Button_Switch
+Slide_Button_2_channel_OS202011MS2QS1
+
+
+0
+8
+7
+WLIB_Button_Switch
 TL3305BF160QG
 TL3305BF160QG-1-1
 Switch
@@ -92139,7 +92160,7 @@ Modularsteckverbinder, RJ45-Buchse, 1 x 2 (gekoppelt), 8P8C, Durchsteckmontage
 
 0
 27
-3
+25
 WLIB_Crystal
 Crystal_IQXO-791
 SMD Crystal SERIES IQXO-791 2520 Metric
@@ -92336,6 +92357,13 @@ PG-TISON-8
 0
 14
 8
+WLIB_Package_SOT
+ISC240P06LM
+
+
+0
+21
+5
 WLIB_Package_SOT
 SOT-23-6
 

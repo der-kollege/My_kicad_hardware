@@ -625,6 +625,14 @@
     [
       "6c3bdaeb-3a48-483c-8f1c-d2943b7053f6",
       "Current measure"
+    ],
+    [
+      "c363a192-a091-4a49-a77c-8a6e46625814",
+      "Main_DCDC"
+    ],
+    [
+      "0e4170b7-c04b-49af-9f71-fb64eba9da72",
+      "Connectors"
     ]
   ],
   "text_variables": {}

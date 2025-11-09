@@ -148,6 +148,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "- CHB out Connector (Wannenstecker 10Pin)\n- CHB input Connector\n- Poti\n- User LED\n- User Button\n- B6 connector\n- SM Connector (DFCM 1.5-3.5)\n- DMC 1.5 - G1\n- Encoder Connector (Molex)\n- "
+		(exclude_from_sim no)
+		(at 220.218 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adc4814b-96a9-4752-ad4e-d5b72c0c7dea")
+	)
 	(wire
 		(pts
 			(xy 227.33 96.52) (xy 227.33 102.87)
@@ -177,6 +188,16 @@
 			(type default)
 		)
 		(uuid "0cd8cd8b-25a8-4c42-bb54-e842c574f7af")
+	)
+	(wire
+		(pts
+			(xy 62.23 38.1) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d199a87-60b1-4850-b038-de77c3789393")
 	)
 	(wire
 		(pts
@@ -300,6 +321,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 76.2) (xy 62.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0930df-8ba7-4045-98b7-e63c2c45b2ed")
+	)
+	(wire
+		(pts
 			(xy 212.09 99.06) (xy 224.79 99.06)
 		)
 		(stroke
@@ -387,6 +418,16 @@
 			(type default)
 		)
 		(uuid "f1203b46-b9c9-4b82-a15d-587bb7c95a17")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2c0bcf-74e4-49cf-b135-ecc18570612b")
 	)
 	(symbol
 		(lib_id "MYLIB_R:0R100_2512")
@@ -650,8 +691,60 @@
 		)
 	)
 	(sheet
-		(at 177.8 76.2)
-		(size 34.29 31.75)
+		(at 30.48 68.58)
+		(size 25.4 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e4170b7-c04b-49af-9f71-fb64eba9da72")
+		(property "Sheetname" "Connectors"
+			(at 30.48 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 30.48 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Power_in" output
+			(at 55.88 76.2 0)
+			(uuid "aa1a083b-9418-4790-9508-c56bc1b2aaf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 76.2)
+		(size 30.48 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -666,7 +759,7 @@
 		)
 		(uuid "6c3bdaeb-3a48-483c-8f1c-d2943b7053f6")
 		(property "Sheetname" "Current measure"
-			(at 177.8 75.4884 0)
+			(at 181.61 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,7 +768,7 @@
 			)
 		)
 		(property "Sheetfile" "current_measure.kicad_sch"
-			(at 177.8 108.5346 0)
+			(at 181.61 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +845,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 72.39)
+		(at 105.41 72.39)
 		(size 27.94 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -768,7 +861,7 @@
 		)
 		(uuid "6ef258ed-945f-43cf-b75c-abeb7326966c")
 		(property "Sheetname" "FPGA"
-			(at 85.09 71.6784 0)
+			(at 105.41 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +870,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 85.09 112.3446 0)
+			(at 105.41 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,8 +887,8 @@
 		)
 	)
 	(sheet
-		(at 129.54 77.47)
-		(size 33.02 31.75)
+		(at 147.32 82.55)
+		(size 20.32 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -810,7 +903,7 @@
 		)
 		(uuid "b651456b-f82d-416a-adc2-766f971f7bfa")
 		(property "Sheetname" "ADC"
-			(at 129.54 76.7584 0)
+			(at 147.32 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,7 +912,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 129.54 109.8046 0)
+			(at 147.32 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,6 +924,58 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 33.02)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c363a192-a091-4a49-a77c-8a6e46625814")
+		(property "Sheetname" "Main_DCDC"
+			(at 68.58 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main_dcdc.kicad_sch"
+			(at 68.58 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 68.58 38.1 180)
+			(uuid "200567ac-8ba1-4445-929d-8e4d266a1be4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff"
+					(page "5")
 				)
 			)
 		)

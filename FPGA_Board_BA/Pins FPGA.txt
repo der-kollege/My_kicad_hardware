@@ -1,0 +1,7 @@
+Pins FPGA:
+
+Bank 13: number of pins 12
+Bank 34: ... 48
+Bank 35: #48
+
+CHB Connector: Wannenstecker - 10 pin (Harting-ML10)
