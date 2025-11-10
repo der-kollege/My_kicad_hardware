@@ -1,0 +1,607 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b66b5e18-8a56-480f-9e1c-350d056871c6")
+	(paper "A4")
+	(lib_symbols
+		(symbol "MYLIB_Misc:Plug_Termincal_8pin"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Plug_Termincal_8pin"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MYLIB_Misc:DMC 1,5_ 8-G1-3,5 P20THR"
+				(at -0.762 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product-download.phoenixcontact.com/7581871?response-content-disposition=inline;%20filename%3D%221786895_02_en_00.pdf%22&Expires=1762790272&Signature=swgT~pfHFsm~KFte~1FyTUdCZaY3mURW7Sm3ZO1670aosCFDktyp77XVjT~WM-BF5UAYAn7SB97Gn5JYnUQEo2Fo4coNlwQu8FvGxlAgu6cPDUpTS7qKwCUFJAfHbnWDITx10Xgr4f3IGJZgshPlJKuMwfqJ1~soOFux2NQtmqne1nW1QpnapOHvfXEmIqUT8lfI05sqOMTbP8aHqqhzBDIfpY8psZXo36OHFrhnt8hDQ0wXe394Nf9wPZgUL--r-V-FA68hmgIiKUjjxetMxbp5wlmyiyZTnTkfqKPBXq4SCTPMeVpkhphIF7vmWwvwFFSD8XTuiqvSgzKTNBIHtQ__&Key-Pair-Id=K1I2N54A7B0GD"
+				(at 0.508 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pluggable Terminal Blocks 8 Pos 3.5mm Dbl Row Plug 24-16AWG Spring"
+				(at -0.508 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mating Connector Mouser" " 651-1790357"
+				(at 1.016 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mating Connector Link" "https://product-download.phoenixcontact.com/8945604?response-content-disposition=inline;%20filename%3D%221790357_04_en_03.pdf%22&Expires=1762789986&Signature=ipEMNH2oRldeatNpCt2LgQ2qfu7zONe9r5fTnUSu~jVXEFxJXimB1mNBJG54W6gMaB3mL1auhUEZHbNWKHeBpVePo4wLkQTSMGiAroKySyTr75NkMuRgQrBNp5zFPa0nsk04bgnmTglvgn3Nkk0r-ygqga5CCZms3pwphqmh2MiSRDj1dVFlWYrLZMXfeWBeOA8eRxkTpTCFV9F7L5cZnVIsq0jCQRITzgdzqH05q~PF1m-rPiv5SdIFT0eLthdpIX2QoY37c2J4~ZpfG3fvrBenTcVOu77f1kcfo4KCglyWA8fQXeP5CE9fn8rCtQ8mClfe-vR81PjWTNgBQX~ynw__&Key-Pair-Id=K1I2N54A7B0GD"
+				(at 0.508 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Plug_Termincal_8pin_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -2.54 0.127)
+					(end -1.27 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.413)
+					(end -1.27 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -4.953)
+					(end -1.27 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -7.493)
+					(end -1.27 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 0.127)
+					(end 1.27 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.413)
+					(end 1.27 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -4.953)
+					(end 1.27 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.493)
+					(end 1.27 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -7.62 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "To get a Star Configuration\n\nConnect A2 - B2 - C2 - D2 togother (shorted)\nConnect Electrical Machine to A1-B1-C1-D1\n\n	A1: Phase A\n	B1: Phase B\n	C1: Phase C\n	D1: Star Point"
+		(exclude_from_sim no)
+		(at 171.704 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "677fc899-9ccf-4a6b-90f2-433928c9c39d")
+	)
+	(wire
+		(pts
+			(xy 134.62 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aafe94e-50bd-4efc-b214-b5d32b8fed82")
+	)
+	(wire
+		(pts
+			(xy 118.11 92.71) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1914c166-e0ae-45ee-ac34-1c832676c507")
+	)
+	(wire
+		(pts
+			(xy 134.62 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a374cd0-47ca-4544-a679-80da6ee3cba4")
+	)
+	(wire
+		(pts
+			(xy 134.62 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53565eca-e38a-49f8-a1ca-6b4bd2edb3eb")
+	)
+	(wire
+		(pts
+			(xy 118.11 87.63) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bed900-e026-482e-b690-d381879c48cd")
+	)
+	(wire
+		(pts
+			(xy 134.62 90.17) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72344ee7-3ad4-4a5e-8e0f-bc75923f2e3e")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917be737-6b75-40f6-be70-dc4f8ba91e58")
+	)
+	(wire
+		(pts
+			(xy 118.11 85.09) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5d4216-30bf-45c5-a161-827a5acfa82f")
+	)
+	(hierarchical_label "Ph_A1_out"
+		(shape input)
+		(at 138.43 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b4c3fe3-027c-4a69-9d56-4b53b3be2694")
+	)
+	(hierarchical_label "Ph_C1_out"
+		(shape input)
+		(at 138.43 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cc3b067-6a1c-40d5-b6c6-a0b1c89ba957")
+	)
+	(hierarchical_label "Ph_D1_out"
+		(shape input)
+		(at 138.43 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "424dd128-83ba-402e-a089-8c3f26732dc8")
+	)
+	(hierarchical_label "Ph_A2_out"
+		(shape input)
+		(at 118.11 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d7ee6c0-fffc-4dcc-a032-c3b9684a6a31")
+	)
+	(hierarchical_label "Ph_D2_out"
+		(shape input)
+		(at 118.11 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa2fe53e-e96d-40ca-8cf2-acb02e22546a")
+	)
+	(hierarchical_label "Ph_B2_out"
+		(shape input)
+		(at 118.11 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da38d326-fa1f-4de7-826e-aabbdaa2f580")
+	)
+	(hierarchical_label "Ph_C2_out"
+		(shape input)
+		(at 118.11 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ead0aa5a-1b61-4c5b-854d-e37d2a848f10")
+	)
+	(hierarchical_label "Ph_B1_out"
+		(shape input)
+		(at 138.43 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f88c56ce-55df-41ed-823a-16544d8cceae")
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Plug_Termincal_8pin")
+		(at 128.27 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cebc5b10-eb91-404a-a47e-20b4cc5e4d9a")
+		(property "Reference" "J103"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Plug_Termincal_8pin"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLIB_Misc:DMC 1,5_ 8-G1-3,5 P20THR"
+			(at 127.508 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product-download.phoenixcontact.com/7581871?response-content-disposition=inline;%20filename%3D%221786895_02_en_00.pdf%22&Expires=1762790272&Signature=swgT~pfHFsm~KFte~1FyTUdCZaY3mURW7Sm3ZO1670aosCFDktyp77XVjT~WM-BF5UAYAn7SB97Gn5JYnUQEo2Fo4coNlwQu8FvGxlAgu6cPDUpTS7qKwCUFJAfHbnWDITx10Xgr4f3IGJZgshPlJKuMwfqJ1~soOFux2NQtmqne1nW1QpnapOHvfXEmIqUT8lfI05sqOMTbP8aHqqhzBDIfpY8psZXo36OHFrhnt8hDQ0wXe394Nf9wPZgUL--r-V-FA68hmgIiKUjjxetMxbp5wlmyiyZTnTkfqKPBXq4SCTPMeVpkhphIF7vmWwvwFFSD8XTuiqvSgzKTNBIHtQ__&Key-Pair-Id=K1I2N54A7B0GD"
+			(at 128.778 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pluggable Terminal Blocks 8 Pos 3.5mm Dbl Row Plug 24-16AWG Spring"
+			(at 127.762 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector Mouser" " 651-1790357"
+			(at 129.286 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector Link" "https://product-download.phoenixcontact.com/8945604?response-content-disposition=inline;%20filename%3D%221790357_04_en_03.pdf%22&Expires=1762789986&Signature=ipEMNH2oRldeatNpCt2LgQ2qfu7zONe9r5fTnUSu~jVXEFxJXimB1mNBJG54W6gMaB3mL1auhUEZHbNWKHeBpVePo4wLkQTSMGiAroKySyTr75NkMuRgQrBNp5zFPa0nsk04bgnmTglvgn3Nkk0r-ygqga5CCZms3pwphqmh2MiSRDj1dVFlWYrLZMXfeWBeOA8eRxkTpTCFV9F7L5cZnVIsq0jCQRITzgdzqH05q~PF1m-rPiv5SdIFT0eLthdpIX2QoY37c2J4~ZpfG3fvrBenTcVOu77f1kcfo4KCglyWA8fQXeP5CE9fn8rCtQ8mClfe-vR81PjWTNgBQX~ynw__&Key-Pair-Id=K1I2N54A7B0GD"
+			(at 128.778 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "122bd213-8228-43dc-8575-329239600261")
+		)
+		(pin "8"
+			(uuid "e9494e1e-4970-49af-b5ed-074a37afe4bf")
+		)
+		(pin "4"
+			(uuid "d06b82b9-e611-4f76-aff5-705f381eea8b")
+		)
+		(pin "6"
+			(uuid "b6a633c1-8f39-4b99-b8b3-c9aa4be214f0")
+		)
+		(pin "3"
+			(uuid "a1abfb45-63d7-407f-9540-bcec97976a10")
+		)
+		(pin "1"
+			(uuid "0de92bfc-7a3c-4cee-b3a8-5032c3c4a421")
+		)
+		(pin "2"
+			(uuid "2c957ea0-8e0a-413d-9ec5-8125750ed475")
+		)
+		(pin "5"
+			(uuid "22742221-afa6-4762-991a-5eb7f46da49c")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/9a7bfc82-408b-4644-8882-19405b07f717"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

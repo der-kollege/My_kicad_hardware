@@ -633,6 +633,34 @@
     [
       "0e4170b7-c04b-49af-9f71-fb64eba9da72",
       "Connectors"
+    ],
+    [
+      "e884b539-4fb2-499d-8c9d-64645c35288e",
+      "Power from CHB"
+    ],
+    [
+      "a16b4f2b-17f2-4266-9fe6-1d2eb9682300",
+      "CHB_Phase_A"
+    ],
+    [
+      "73c9af6e-0ef4-4146-aa17-aae9d2bdcea4",
+      "CHB Phase B"
+    ],
+    [
+      "b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6",
+      "CHB Phase C"
+    ],
+    [
+      "8b3b752b-9ee5-4329-b285-81692bade71e",
+      "CHB Phase D"
+    ],
+    [
+      "4cefeee2-fd60-4f1a-a208-06a5d0a2f90a",
+      "User Interaction"
+    ],
+    [
+      "9a7bfc82-408b-4644-8882-19405b07f717",
+      "CHB to 3Ph"
     ]
   ],
   "text_variables": {}

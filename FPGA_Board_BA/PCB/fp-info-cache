@@ -1,4 +1,4 @@
-23265634285647320
+23267397066107790
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62167,12 +62167,19 @@ Banana_Socket_Altech_Red
 2
 1
 MYLIB_Misc
+DMC 1,5_ 8-G1-3,5 P20THR
+
+
+0
+16
+16
+MYLIB_Misc
 SBR10U200P5
 
 
 0
-0
-0
+3
+2
 MYLIB_Misc
 SOIC-8_7.5x5.85mm_P1.27mm
 

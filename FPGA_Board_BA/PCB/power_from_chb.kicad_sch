@@ -1,0 +1,424 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "93c01ea5-e909-4eec-8f54-af8903fbb338")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 104.14 46.99) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316d263b-a76c-44bc-9c92-781549dc30db")
+	)
+	(wire
+		(pts
+			(xy 104.14 123.19) (xy 116.84 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ea37ef-330c-45c5-9468-45b7c1fd4b23")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc17014-6ec7-4bbc-8947-18dcb51dee7b")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60165350-f076-4b01-b99a-84714290b579")
+	)
+	(wire
+		(pts
+			(xy 104.14 39.37) (xy 115.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649ff683-cacc-4d25-b5d9-f2accd5b5eba")
+	)
+	(wire
+		(pts
+			(xy 104.14 148.59) (xy 118.11 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc1e59e-eff6-4525-a453-d06795ec2054")
+	)
+	(wire
+		(pts
+			(xy 104.14 77.47) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d4f4a7-af01-47cc-99a4-675455c0f06d")
+	)
+	(wire
+		(pts
+			(xy 104.14 157.48) (xy 118.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a04380-0edf-498e-b46a-26c8e17b37aa")
+	)
+	(hierarchical_label "PH_B1"
+		(shape output)
+		(at 115.57 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "268d9e67-34d9-423c-b556-5fc5fa892b5a")
+	)
+	(hierarchical_label "Ph_B2"
+		(shape output)
+		(at 115.57 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d6f2a7f-3345-4ab0-8b2c-5acba5bd73f7")
+	)
+	(hierarchical_label "Ph_D2"
+		(shape output)
+		(at 118.11 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a447928-5540-4a13-9c66-83ab450fd523")
+	)
+	(hierarchical_label "Ph_A1"
+		(shape output)
+		(at 115.57 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60b081fd-66c4-4678-806b-ba51338babad")
+	)
+	(hierarchical_label "Ph_D1"
+		(shape output)
+		(at 118.11 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c0d0f02-b93b-4ed8-bb49-fbbc15c2b151")
+	)
+	(hierarchical_label "Ph_C1"
+		(shape output)
+		(at 116.84 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4a7e378-962f-431a-9ef2-1f42d4ad587e")
+	)
+	(hierarchical_label "Ph_A2"
+		(shape output)
+		(at 115.57 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0f2f272-6ce8-4e2f-b204-c39ee24ceedc")
+	)
+	(hierarchical_label "Ph_C2"
+		(shape output)
+		(at 116.84 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0fcc3f2-a263-4b7b-b0a9-63e2f790321e")
+	)
+	(sheet
+		(at 72.39 69.85)
+		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73c9af6e-0ef4-4146-aa17-aae9d2bdcea4")
+		(property "Sheetname" "CHB Phase B"
+			(at 72.39 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chb_phase_b.kicad_sch"
+			(at 72.39 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Out_1_Ph_B" output
+			(at 104.14 77.47 0)
+			(uuid "2fa90be3-cf1e-41e8-829e-1cb23638e7a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out_2_Ph_B" output
+			(at 104.14 86.36 0)
+			(uuid "c0d0f85e-0c6b-4811-8d59-a6848b6edc45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 140.97)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b3b752b-9ee5-4329-b285-81692bade71e")
+		(property "Sheetname" "CHB Phase D"
+			(at 72.39 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chb_phase_d.kicad_sch"
+			(at 72.39 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Out_1_Ph_D" output
+			(at 104.14 148.59 0)
+			(uuid "d6d797c6-fcb2-4242-bd56-67c5b17ed343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out_2_Ph_D" output
+			(at 104.14 157.48 0)
+			(uuid "6280f181-a7c1-4b02-83e1-0311c7ae7195")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 31.75)
+		(size 31.75 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a16b4f2b-17f2-4266-9fe6-1d2eb9682300")
+		(property "Sheetname" "CHB_Phase_A"
+			(at 72.39 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chb_phase_a.kicad_sch"
+			(at 72.39 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Out_1_Ph_A" output
+			(at 104.14 39.37 0)
+			(uuid "de3e7c6c-7f53-455e-8c45-b573a45ffa28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out_2_Ph_A" output
+			(at 104.14 46.99 0)
+			(uuid "9a647d61-cc6b-49e0-a1fe-903a4e5fa755")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 106.68)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6")
+		(property "Sheetname" "CHB Phase C"
+			(at 72.39 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chb_phase_c.kicad_sch"
+			(at 72.39 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Out_1_Ph_C" output
+			(at 104.14 114.3 0)
+			(uuid "b1e1d926-4a68-4d65-925d-aee829ca447b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out_2_Ph_C" output
+			(at 104.14 123.19 0)
+			(uuid "03cd66c1-6934-448e-8b1e-46e723b98669")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
+					(page "10")
+				)
+			)
+		)
+	)
+)

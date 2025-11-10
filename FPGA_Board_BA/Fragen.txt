@@ -1,0 +1,14 @@
+1: Wird HV-Tastkopf nicht isoliert, ist die Isolation der CHBs überflüssig. (Auch beim Phasenausfall-Test könnte es problematisch sein)
+2: Verschaltung der CHBs:
+
+	To get a Star Configuration
+
+	Connect A2 - B2 - C2 - D2 togother (shorted)
+	Connect Electrical Machine to A1-B1-C1-D1
+
+		A1: Phase A
+		B1: Phase B
+		C1: Phase C
+		D1: Star Point
+	
+3: Strommessung für Phase D?
