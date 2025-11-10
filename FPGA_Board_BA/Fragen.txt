@@ -12,3 +12,4 @@
 		D1: Star Point
 	
 3: Strommessung für Phase D?
+4: Encoder Connector: Passt es wenn ich die eine Seite als Socket lasse (39293166), und dann kabel mit beidseitigen Male Connector (zb 39012165) mache? [Molex 2x8pin]

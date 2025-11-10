@@ -1,4 +1,4 @@
-23267397066107790
+23270922651003068
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62173,6 +62173,20 @@ DMC 1,5_ 8-G1-3,5 P20THR
 0
 16
 16
+MYLIB_Misc
+DMCV 1,5_12-G1F-3,5-LR P20THR
+
+
+0
+24
+24
+MYLIB_Misc
+Molex_2x8pin_vertical_tht
+
+
+0
+0
+0
 MYLIB_Misc
 SBR10U200P5
 
