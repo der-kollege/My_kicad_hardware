@@ -4772,16 +4772,6 @@
 		)
 		(uuid "93753d64-20a3-48d7-956d-3d777c5067de")
 	)
-	(label "Vout"
-		(at 269.24 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "941793fa-6e6d-4535-bd58-3412b7c3d928")
-	)
 	(label "Vin"
 		(at 172.72 114.3 180)
 		(effects
@@ -4811,6 +4801,17 @@
 			(justify left bottom)
 		)
 		(uuid "cbdbc5dc-3456-493c-a4a2-09f6b2923c7f")
+	)
+	(hierarchical_label "Vout"
+		(shape output)
+		(at 269.24 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39a9a4d9-c901-4ea9-813e-5c354c899190")
 	)
 	(hierarchical_label "Vin"
 		(shape input)
