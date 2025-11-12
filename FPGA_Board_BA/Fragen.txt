@@ -3,5 +3,9 @@
 3: Strommessung für Phase D?
 4: Encoder Connector: Passt es wenn ich die eine Seite als Socket lasse (39293166), und dann kabel mit beidseitigen Male Connector (zb 39012165) mache? [Molex 2x8pin]
 5: Wozu wird die MPC1703 genau benutzt? Es hat nur 250mA out (ADC?)
-6: U < 3V gebraucht für OVDD vom ADC
+6: U < 2.5V gebraucht für OVDD vom ADC
 7: Rx, En, Err, passt es mit Wannenstecker?
+8: Brauche ich die LVDS/CMOS und SDR/DDR als input für die FPGA?
+9: a51 (IO_L9P_T1_34) hat keine Paar (L9N), a53 == a56, b25 == b64
+10: Passt es wenn ich den 3.3V vom FPGA nehme?
+11: Ich würde ESD Protection für alle Tx lines hinzufügen (48)

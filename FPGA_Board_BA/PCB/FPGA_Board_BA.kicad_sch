@@ -148,7 +148,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "[X] CHB input Connector (Wannenstecker 10Pin)\n[X] CHB output Connector\n- Poti\n[X] User LED\n[X] User Button\n[X] B6 connector\n[X] SM Connector (DFCM 1.5-3.5)\n[X] DMC 1.5 - G1\n[X] Encoder Connector (Molex)\n[X] Phoenix Connector statt BoxHeaders\n[X] Power Buffer for clean 5V for Analog\n[X] FPGA cleanup\n- DCDC for Differential-amplifier\n- ADC power supply (U < 3V)\n- Breakout for all unused pins\n[X] Rx, En, Err pins"
+	(text "[X] CHB input Connector (Wannenstecker 10Pin)\n[X] CHB output Connector\n[X] Poti\n[X] User LED\n[X] User Button\n[X] B6 connector\n[X] SM Connector (DFCM 1.5-3.5)\n[X] DMC 1.5 - G1\n[X] Encoder Connector (Molex)\n[X] Phoenix Connector statt BoxHeaders\n[X] Power Buffer for clean 5V for Analog\n[X] FPGA cleanup\n- DCDC for Differential-amplifier\n- ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n[X] Single ESD Diodes for unused pins\n- ESD Diode Array for unused pins\n[X] Rx, En, Err pins\n[X] Power LEDs"
 		(exclude_from_sim no)
 		(at 28.702 98.806 0)
 		(effects
@@ -294,6 +294,16 @@
 			(type default)
 		)
 		(uuid "14692c2f-1644-4373-b38e-6fda018f332c")
+	)
+	(wire
+		(pts
+			(xy 109.22 62.23) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192a3d54-d412-4e0b-868d-3f56d4cc4d88")
 	)
 	(wire
 		(pts
@@ -657,6 +667,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 67.31) (xy 156.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b2798e-f228-4fd4-b31c-4816b0a65f22")
+	)
+	(wire
+		(pts
 			(xy 198.12 90.17) (xy 226.06 90.17)
 		)
 		(stroke
@@ -857,6 +877,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 72.39) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe9ebd1-9328-4faf-a034-52eadf59df48")
+	)
+	(wire
+		(pts
 			(xy 317.5 99.06) (xy 353.06 99.06)
 		)
 		(stroke
@@ -894,6 +924,16 @@
 			(type default)
 		)
 		(uuid "e18c4078-95f4-42ea-a637-4dadd89a8437")
+	)
+	(wire
+		(pts
+			(xy 109.22 64.77) (xy 156.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c3dc5d-43fb-4d15-a52e-1be899cc2a9b")
 	)
 	(wire
 		(pts
@@ -1004,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "fa9d617f-0f32-4a96-87b5-aef87e784835")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 156.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8e506a-ae52-42be-a420-a141067887d8")
 	)
 	(symbol
 		(lib_id "MYLIB_R:0R100_2512")
@@ -1371,8 +1421,8 @@
 		)
 	)
 	(sheet
-		(at 85.09 116.84)
-		(size 25.4 161.29)
+		(at 76.2 116.84)
+		(size 34.29 161.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1386,7 +1436,7 @@
 		)
 		(uuid "1b181806-12f4-40c8-bf91-78ac0d892dab")
 		(property "Sheetname" "CHB Communication"
-			(at 84.836 116.078 0)
+			(at 75.946 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1445,7 @@
 			)
 		)
 		(property "Sheetfile" "chb_com.kicad_sch"
-			(at 85.09 278.892 0)
+			(at 76.2 278.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,6 +3167,56 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Button1" input
+			(at 156.21 62.23 180)
+			(uuid "4fc8595b-0c9f-4138-b5cc-bcfc06b2bd96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Button2" input
+			(at 156.21 64.77 180)
+			(uuid "a1ac4d8c-d4d9-472d-8aa8-34b331151b70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED1" output
+			(at 156.21 67.31 180)
+			(uuid "a4a74425-ad06-47d3-82f1-6ce11a2efa9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED2" output
+			(at 156.21 69.85 180)
+			(uuid "a935ae37-af51-45de-bfee-71b7f659948a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Poti" input
+			(at 156.21 72.39 180)
+			(uuid "88975a9a-9c27-4065-8cd4-a2d200eaca97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

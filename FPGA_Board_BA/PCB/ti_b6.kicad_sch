@@ -52,6 +52,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser nr Connector" "855-M20-7811045R "
+				(at 0.762 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "TI_BOOSTXL_3Ph_1_1"
 				(rectangle
 					(start -8.89 13.97)
@@ -15221,6 +15230,131 @@
 		(uuid "fcf4a421-123d-498a-becd-dca7f9cbb8dd")
 	)
 	(symbol
+		(lib_id "MYLIB_Misc:TI_BOOSTXL_3Ph")
+		(at 187.96 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05166f10-7f4d-4b2a-b2ff-ef5f659025ef")
+		(property "Reference" "U1001"
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOSTXL-3PHGANINV"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLIB_Misc:TI_BOOSTXL_3PH"
+			(at 188.976 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/tool/de-de/BOOSTXL-3PHGANINV#tech-docs"
+			(at 188.214 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "48-V-Dreiphasen-Inverter mit Shunt-basierter Inline-Motor Phasen-Strommessung – Evaluierungsmodul"
+			(at 188.214 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr Connector" "855-M20-7811045R "
+			(at 188.722 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "20"
+			(uuid "5d72ea09-2f17-4883-8e22-296165aa0c96")
+		)
+		(pin "39"
+			(uuid "bf627155-0404-45de-8942-205ab89b5fc2")
+		)
+		(pin "37"
+			(uuid "635c03c6-bb80-48d6-8339-e2603c677600")
+		)
+		(pin "38"
+			(uuid "dbfc0369-1628-423b-b1e6-8bb1b9db25c1")
+		)
+		(pin "13"
+			(uuid "712cf988-c04f-4d50-8cd5-c341c12634ef")
+		)
+		(pin "40"
+			(uuid "327cae60-02b4-4652-9c0a-977f93492b56")
+		)
+		(pin "26"
+			(uuid "ffe331fe-30db-4595-8dcc-4602f573938a")
+		)
+		(pin "36"
+			(uuid "11155e63-249f-4a4a-8a50-9fc6d84e1ef2")
+		)
+		(pin "34"
+			(uuid "523c2c43-4f32-4e40-81c2-26e90e95c6ca")
+		)
+		(pin "35"
+			(uuid "57f3c963-c50c-4fa1-858a-caf8095045f7")
+		)
+		(pin "24"
+			(uuid "a00058e5-a628-402a-b008-760cfa29c68c")
+		)
+		(pin "25"
+			(uuid "d4a329d5-9cdf-4cca-bc07-b57501d0fdce")
+		)
+		(pin "22"
+			(uuid "b1d9053a-ab57-41e6-83e2-38b0941918b1")
+		)
+		(pin "29"
+			(uuid "482b4b49-211e-457f-b581-eecd97b97744")
+		)
+		(pin "30"
+			(uuid "fbb2c7d2-a22b-4d14-8094-f8a5e0802235")
+		)
+		(pin "27"
+			(uuid "2c6204b1-d8fb-49d6-b15f-a80264c5882f")
+		)
+		(pin "28"
+			(uuid "75baba70-c212-4d69-a3e8-447abeda9a50")
+		)
+		(pin "23"
+			(uuid "37234d0c-8758-45cb-afac-61e662dae2db")
+		)
+		(instances
+			(project ""
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/cdd0bf2b-f478-4dc3-9571-56b5ccfa9f0c"
+					(reference "U1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 83.82 0)
 		(unit 1)
@@ -15281,122 +15415,6 @@
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/cdd0bf2b-f478-4dc3-9571-56b5ccfa9f0c"
 					(reference "#PWR0901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MYLIB_Misc:TI_BOOSTXL_3Ph")
-		(at 187.96 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac3f8ec4-a8ef-4188-bc67-393eddf7ea19")
-		(property "Reference" "U901"
-			(at 187.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOSTXL-3PHGANINV"
-			(at 187.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MYLIB_Misc:TI_BOOSTXL_3PH"
-			(at 188.976 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/tool/de-de/BOOSTXL-3PHGANINV#tech-docs"
-			(at 188.214 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "48-V-Dreiphasen-Inverter mit Shunt-basierter Inline-Motor Phasen-Strommessung – Evaluierungsmodul"
-			(at 188.214 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "22"
-			(uuid "29b84ad7-004b-493f-b52d-6e7ec310c638")
-		)
-		(pin "24"
-			(uuid "54bdcb36-4f74-408a-a6d5-f9d1daf46378")
-		)
-		(pin "34"
-			(uuid "fc9a8335-8ab9-4209-88aa-a5d391bc38d1")
-		)
-		(pin "28"
-			(uuid "15b5c2fd-0fa8-460a-9064-8371aebc5a6e")
-		)
-		(pin "13"
-			(uuid "f07fc531-7a24-404f-b773-565ae7f2f66d")
-		)
-		(pin "29"
-			(uuid "2a95806b-46b8-4240-a5bf-4ac8238ea5b4")
-		)
-		(pin "23"
-			(uuid "d8dfd269-a601-4ee7-a5c5-90bf45c4cf89")
-		)
-		(pin "30"
-			(uuid "8897c215-fd39-4b21-9fe2-e31fdbd74c88")
-		)
-		(pin "27"
-			(uuid "c9c03c5a-af54-4bdd-aa42-83401f808806")
-		)
-		(pin "20"
-			(uuid "8cf8e9ee-f496-466a-95af-42b01a82f6e2")
-		)
-		(pin "36"
-			(uuid "a3282f69-757c-422f-8cbf-f55eef49b662")
-		)
-		(pin "37"
-			(uuid "a082bc3c-155b-46dc-91ef-56286ae9459e")
-		)
-		(pin "38"
-			(uuid "6cd82392-3d28-48f2-b67d-f995b33ea190")
-		)
-		(pin "39"
-			(uuid "82d7b66a-9d52-4bba-a4e3-98efb3221154")
-		)
-		(pin "40"
-			(uuid "e226207b-8a37-40c5-bfe5-120cbf44140d")
-		)
-		(pin "35"
-			(uuid "509e4a71-d11d-4c67-ae29-c441663a78af")
-		)
-		(pin "26"
-			(uuid "6a0d892c-69b2-44b9-9730-53cc1a6734fa")
-		)
-		(pin "25"
-			(uuid "a9fcde2b-5fe2-41fa-a5c2-d89384d6a5d1")
-		)
-		(instances
-			(project ""
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/cdd0bf2b-f478-4dc3-9571-56b5ccfa9f0c"
-					(reference "U901")
 					(unit 1)
 				)
 			)

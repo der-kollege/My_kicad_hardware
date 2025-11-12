@@ -1,4 +1,4 @@
-23276211247862659
+23277975132446539
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62188,6 +62188,13 @@ Molex_2x8pin_vertical_tht
 16
 16
 MYLIB_Misc
+RK09D1130A1N
+
+
+0
+5
+5
+MYLIB_Misc
 SBR10U200P5
 
 
@@ -62207,7 +62214,7 @@ TI_BOOSTXL_3PH
 
 0
 40
-20
+40
 MYLIB_Misc
 TPS61022
 
@@ -62227,8 +62234,8 @@ Zynq7020
 
 
 0
-160
-160
+164
+162
 MYLIB_chips
 UKG_52_7mm_8mm
 
