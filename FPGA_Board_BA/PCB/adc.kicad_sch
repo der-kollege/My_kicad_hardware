@@ -1429,6 +1429,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Buffer for input: LT1819\nor Leo circuit\n\nNot pseudo-differential!"
+		(exclude_from_sim no)
+		(at 196.596 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "187e2c0e-a97a-4ae2-8f69-734987aeb57f")
+	)
 	(text "~{SDR}/LVDS:\nto GND for Single Data Rate, SDR\nto OVDD for Double Data Rate, DDR\n\n~{CMOS}/LVDS:\nto GND for CMOS Mode\nto OVDD for LVDS Mode\n\nCNV pin starts conversion phase when high,\nthen clocks out when low"
 		(exclude_from_sim no)
 		(at 33.528 114.808 0)

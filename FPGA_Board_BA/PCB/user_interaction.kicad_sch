@@ -5,158 +5,6 @@
 	(uuid "4eb0ab80-1a19-4887-bccb-167293374a2c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "MYLIB_Misc:ESD_Diode_5V6"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "B72590D50H160"
-				(at 0 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-				(at -1.524 14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
-				(at 0.254 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Diode, maximal 5.6V DC"
-				(at -0.508 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser nr." "871-B72590D50H160 "
-				(at -0.254 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD_Diode_5V6_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD_Diode_5V6_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MYLIB_Misc:Potentiometer"
 			(pin_names
 				(hide yes)
@@ -1132,157 +980,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WLIB_R:100k_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100k_0603"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/2710391.pdf"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "FARNELL" "2078921"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power Rating" "100mW"
-				(at 0 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB" "    C267258"
-				(at -1.27 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor 2078921"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "100k_0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "100k_0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "WLIB_R:10k_0603"
 			(pin_numbers
 				(hide yes)
@@ -1845,12 +1542,6 @@
 		(uuid "026dfacd-5d29-4ada-b429-1605dde464ff")
 	)
 	(junction
-		(at 205.74 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25dfdff5-987e-4a82-bce9-da219e68724d")
-	)
-	(junction
 		(at 172.72 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1873,12 +1564,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b53ace3-468d-4903-9e47-dc60befb7d44")
-	)
-	(junction
-		(at 224.79 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42b5f898-31a1-4f5b-86a1-40cd4f48a000")
 	)
 	(junction
 		(at 234.95 67.31)
@@ -1909,18 +1594,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd5ab7a4-a55b-4e0f-916a-0d4a308a43e6")
-	)
-	(junction
-		(at 214.63 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db3b8779-4b5b-46b5-8a1d-4035bb8c094c")
-	)
-	(junction
-		(at 214.63 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5085703-c057-4454-aec7-a66c697e032c")
 	)
 	(junction
 		(at 154.94 156.21)
@@ -1980,26 +1653,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 78.74) (xy 224.79 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "175f4f27-ea3e-4ac9-9122-ccdeaf2ea3e2")
-	)
-	(wire
-		(pts
-			(xy 205.74 93.98) (xy 214.63 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224c6314-6613-4049-b7ee-2a85958fb70e")
-	)
-	(wire
-		(pts
 			(xy 219.71 93.98) (xy 219.71 97.79)
 		)
 		(stroke
@@ -2017,6 +1670,16 @@
 			(type default)
 		)
 		(uuid "2d5ac471-dd36-4dbd-815b-6c177dedf071")
+	)
+	(wire
+		(pts
+			(xy 133.35 105.41) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309927d3-afe4-40c3-9b93-68466f09de11")
 	)
 	(wire
 		(pts
@@ -2040,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 93.98) (xy 224.79 93.98)
+			(xy 219.71 93.98) (xy 234.95 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2057,26 +1720,6 @@
 			(type default)
 		)
 		(uuid "411d0f85-bbae-4e0d-afe7-944b37f4684c")
-	)
-	(wire
-		(pts
-			(xy 224.79 71.12) (xy 214.63 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "471fcf2f-022c-4e27-8d57-75a7131a4c0e")
-	)
-	(wire
-		(pts
-			(xy 133.35 118.11) (xy 133.35 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "478c82f9-e228-4952-82b9-c401f92941e7")
 	)
 	(wire
 		(pts
@@ -2120,13 +1763,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 93.98) (xy 219.71 93.98)
+			(xy 205.74 93.98) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65252483-7e16-43de-b1a5-f4bd5aebcb6f")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 166.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684233b8-71fc-4a8e-87c0-ee0412391395")
 	)
 	(wire
 		(pts
@@ -2160,26 +1813,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 86.36) (xy 224.79 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba89382-e0d9-410d-8a17-d2ee0dcb4f73")
-	)
-	(wire
-		(pts
-			(xy 214.63 71.12) (xy 214.63 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2b47fe-fe73-457a-be02-24f3f74ca108")
-	)
-	(wire
-		(pts
 			(xy 172.72 149.86) (xy 172.72 156.21)
 		)
 		(stroke
@@ -2190,17 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 93.98) (xy 234.95 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c25f3a4-5f24-4627-a45c-a878a9f19b03")
-	)
-	(wire
-		(pts
-			(xy 205.74 86.36) (xy 205.74 93.98)
+			(xy 205.74 71.12) (xy 205.74 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2287,6 +1910,16 @@
 			(type default)
 		)
 		(uuid "b948f29e-61e8-4402-b52e-6e4b6ee150f7")
+	)
+	(wire
+		(pts
+			(xy 166.37 123.19) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ceeeda-c284-4f3b-b7b4-4e7da9f12ab2")
 	)
 	(wire
 		(pts
@@ -2380,16 +2013,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 118.11) (xy 166.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e10fc280-3b9c-4791-b9b1-f2fd36001d78")
-	)
-	(wire
-		(pts
 			(xy 191.77 74.93) (xy 191.77 93.98)
 		)
 		(stroke
@@ -2407,26 +2030,6 @@
 			(type default)
 		)
 		(uuid "e8245e78-1950-42c1-9f6b-5e72f2d0536c")
-	)
-	(wire
-		(pts
-			(xy 205.74 71.12) (xy 205.74 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed6ab38b-c9ab-4bb0-a4ac-ea030f80906b")
-	)
-	(wire
-		(pts
-			(xy 205.74 71.12) (xy 214.63 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05d7c41-5461-4ee4-8431-597ba38b5d25")
 	)
 	(wire
 		(pts
@@ -2450,13 +2053,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 86.36) (xy 214.63 93.98)
+			(xy 133.35 121.92) (xy 133.35 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fabd9d04-6d7a-4c70-99b0-0d823fcc702a")
+		(uuid "fa880823-d9e1-4395-96ce-ea1113662d0b")
 	)
 	(wire
 		(pts
@@ -2590,7 +2193,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 133.35 118.11 0)
+		(at 133.35 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2599,7 +2202,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ad55f5c-55e6-42e1-889f-6e90bd5f4a73")
 		(property "Reference" "#PWR01202"
-			(at 133.35 121.92 0)
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2211,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 133.35 113.03 0)
+			(at 133.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 118.11 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 118.11 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 118.11 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +2703,7 @@
 	)
 	(symbol
 		(lib_id "WLIB_S:TL3305BF100QG")
-		(at 166.37 128.27 90)
+		(at 166.37 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3108,7 +2711,7 @@
 		(dnp no)
 		(uuid "52a01a8f-ed11-48f3-a887-ed2d3ea955bd")
 		(property "Reference" "SW1202"
-			(at 159.258 134.874 0)
+			(at 159.258 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +2720,7 @@
 			)
 		)
 		(property "Value" "TL3305BF100QG"
-			(at 161.798 134.874 0)
+			(at 161.798 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +2729,7 @@
 			)
 		)
 		(property "Footprint" "WLIB_Button_Switch:TL3305BF160QG"
-			(at 151.13 128.27 0)
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +2738,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/140/E_Switch_TL3305-3483957.pdf"
-			(at 161.29 128.27 0)
+			(at 161.29 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +2747,7 @@
 			)
 		)
 		(property "Description" "Push button switch, two pins"
-			(at 166.37 128.27 0)
+			(at 166.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +2756,7 @@
 			)
 		)
 		(property "mouser" "612-TL3305BF100QG"
-			(at 153.67 128.27 0)
+			(at 153.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +2765,7 @@
 			)
 		)
 		(property "max. current" "50 mA"
-			(at 158.75 128.27 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +2774,7 @@
 			)
 		)
 		(property "max. voltage" "12 V"
-			(at 156.21 128.27 0)
+			(at 156.21 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,180 +2792,6 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/4cefeee2-fd60-4f1a-a208-06a5d0a2f90a"
 					(reference "SW1202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
-		(at 214.63 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "561b9cb8-1963-4bb3-861d-3feb0f4aa8a6")
-		(property "Reference" "D901"
-			(at 209.042 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B72590D50H160"
-			(at 211.582 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 200.406 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
-			(at 202.438 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Diode, maximal 5.6V DC"
-			(at 204.724 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser nr." "871-B72590D50H160 "
-			(at 206.502 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d79bbbcb-ba94-4ea3-85a9-1ffc70628a87")
-		)
-		(pin "1"
-			(uuid "73f50a21-973c-449c-88dd-9441e8712cec")
-		)
-		(instances
-			(project ""
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/4cefeee2-fd60-4f1a-a208-06a5d0a2f90a"
-					(reference "D901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WLIB_R:100k_0603")
-		(at 224.79 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5644e903-4c4f-4a29-b809-1c41d4c87759")
-		(property "Reference" "R903"
-			(at 219.202 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k_0603"
-			(at 221.742 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 224.79 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2710391.pdf"
-			(at 224.79 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 224.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "2078921"
-			(at 224.79 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" "100mW"
-			(at 224.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "    C267258"
-			(at 223.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "776508cd-3cab-46b1-971e-505563e831d5")
-		)
-		(pin "1"
-			(uuid "1658fdd0-83ac-408f-b974-b9d8a4803392")
-		)
-		(instances
-			(project ""
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/4cefeee2-fd60-4f1a-a208-06a5d0a2f90a"
-					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -3436,7 +2865,7 @@
 	)
 	(symbol
 		(lib_id "WLIB_S:TL3305BF100QG")
-		(at 133.35 128.27 90)
+		(at 133.35 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3444,7 +2873,7 @@
 		(dnp no)
 		(uuid "6df5f759-8099-481b-9213-b29f96ec7f11")
 		(property "Reference" "SW1201"
-			(at 125.984 135.382 0)
+			(at 125.984 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +2882,7 @@
 			)
 		)
 		(property "Value" "TL3305BF100QG"
-			(at 128.524 135.382 0)
+			(at 128.524 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +2891,7 @@
 			)
 		)
 		(property "Footprint" "WLIB_Button_Switch:TL3305BF160QG"
-			(at 118.11 128.27 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +2900,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/140/E_Switch_TL3305-3483957.pdf"
-			(at 128.27 128.27 0)
+			(at 128.27 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +2909,7 @@
 			)
 		)
 		(property "Description" "Push button switch, two pins"
-			(at 133.35 128.27 0)
+			(at 133.35 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +2918,7 @@
 			)
 		)
 		(property "mouser" "612-TL3305BF100QG"
-			(at 120.65 128.27 0)
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +2927,7 @@
 			)
 		)
 		(property "max. current" "50 mA"
-			(at 125.73 128.27 0)
+			(at 125.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +2936,7 @@
 			)
 		)
 		(property "max. voltage" "12 V"
-			(at 123.19 128.27 0)
+			(at 123.19 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,16 +3025,17 @@
 		)
 	)
 	(symbol
-		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
-		(at 205.74 82.55 90)
+		(lib_id "WLIB_R:100R_0603")
+		(at 133.35 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "973cbedd-ff72-4630-900a-9dd34b387d43")
-		(property "Reference" "D902"
-			(at 200.152 85.598 0)
+		(fields_autoplaced yes)
+		(uuid "9cf607ac-5a3e-444b-80be-d0d9ba597054")
+		(property "Reference" "R904"
+			(at 135.89 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,8 +3043,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B72590D50H160"
-			(at 202.692 91.44 0)
+		(property "Value" "100R_0603"
+			(at 135.89 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,8 +3052,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 191.516 84.074 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,8 +3061,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
-			(at 193.548 82.296 0)
+		(property "Datasheet" "https://www.farnell.com/datasheets/1862611.pdf"
+			(at 133.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,8 +3070,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ESD Diode, maximal 5.6V DC"
-			(at 195.834 83.058 0)
+		(property "Description" "Resistor"
+			(at 133.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,8 +3079,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser nr." "871-B72590D50H160 "
-			(at 197.612 82.804 0)
+		(property "FARNELL" "2078901"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "100mW"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C491168"
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,15 +3107,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4762d493-a2a9-4158-8b81-093a9a336e21")
+			(uuid "166e5f59-64a7-43b0-b635-629b7e954cf3")
 		)
 		(pin "1"
-			(uuid "0ba24b78-9aa4-49f8-98d7-d72bdfa16eed")
+			(uuid "cbc1e186-79f7-4965-a155-cd663c2d90b4")
 		)
 		(instances
-			(project "FPGA_Board_BA"
+			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/4cefeee2-fd60-4f1a-a208-06a5d0a2f90a"
-					(reference "D902")
+					(reference "R904")
 					(unit 1)
 				)
 			)
@@ -3972,6 +3420,103 @@
 		)
 	)
 	(symbol
+		(lib_id "WLIB_R:100R_0603")
+		(at 166.37 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6137fcd-6348-4470-b579-583b9e6989bb")
+		(property "Reference" "R905"
+			(at 168.91 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R_0603"
+			(at 168.91 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/1862611.pdf"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "2078901"
+			(at 166.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "100mW"
+			(at 166.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C491168"
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74712955-2db7-41db-9461-ba381f4aa1bf")
+		)
+		(pin "1"
+			(uuid "7d99cba8-a704-4c20-a00a-4c0e4600e0f3")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/4cefeee2-fd60-4f1a-a208-06a5d0a2f90a"
+					(reference "R905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WLIB_R:10k_0603")
 		(at 133.35 147.32 0)
 		(unit 1)
@@ -4263,7 +3808,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 166.37 118.11 0)
+		(at 166.37 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4272,7 +3817,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2044e5b-5f99-4a53-9f10-c59b22a6f398")
 		(property "Reference" "#PWR01203"
-			(at 166.37 121.92 0)
+			(at 166.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +3826,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 166.37 113.03 0)
+			(at 166.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +3834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 118.11 0)
+			(at 166.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +3843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 118.11 0)
+			(at 166.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +3852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 166.37 118.11 0)
+			(at 166.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1479,6 +1479,16 @@
 		)
 		(uuid "20ba5738-5330-4cb6-a59f-936e939b39b6")
 	)
+	(text "One side 5V\nOther GND for better EMV"
+		(exclude_from_sim no)
+		(at 96.266 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "691119b0-ca1d-4222-a3f8-ad06a4503da9")
+	)
 	(text "Power For the CHBs"
 		(exclude_from_sim no)
 		(at 34.036 31.242 0)
@@ -1489,6 +1499,16 @@
 		)
 		(uuid "70d12ba6-2b28-4f54-9d70-5fd0508fce76")
 	)
+	(text "Artikel nr Reichelt: WSL 26G\n26 pin WAnnenstecker -> 4 St. (GND-Tx gekoppelt)"
+		(exclude_from_sim no)
+		(at 84.9673 130.7909 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93d52d7a-6b5e-4e98-8462-dcfc7828871c")
+	)
 	(text "En, Err, Rx (for the CHB)"
 		(exclude_from_sim no)
 		(at 193.294 104.902 0)
@@ -1498,6 +1518,16 @@
 			)
 		)
 		(uuid "a3759a84-2eef-4743-a123-e3587a109da7")
+	)
+	(text "8 Pin Wannenstecker und 3 module gleichzeitig versorgt\nEine Plug terminal reicht für alle 48 CHBs"
+		(exclude_from_sim no)
+		(at 83.82 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da2dd501-7039-40e4-9b46-28c8c1093074")
 	)
 	(junction
 		(at 139.7 67.31)

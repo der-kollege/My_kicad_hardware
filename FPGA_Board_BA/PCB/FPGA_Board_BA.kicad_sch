@@ -148,7 +148,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "[X] CHB input Connector (Wannenstecker 10Pin)\n[X] CHB output Connector\n[X] Poti\n[X] User LED\n[X] User Button\n[X] B6 connector\n[X] SM Connector (DFCM 1.5-3.5)\n[X] DMC 1.5 - G1\n[X] Encoder Connector (Molex)\n[X] Phoenix Connector statt BoxHeaders\n[X] Power Buffer for clean 5V for Analog\n[X] FPGA cleanup\n- DCDC for Differential-amplifier\n- ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n[X] Single ESD Diodes for unused pins\n- ESD Diode Array for unused pins\n[X] Rx, En, Err pins\n[X] Power LEDs"
+	(text "[X] CHB input Connector (Wannenstecker 10Pin)\n[X] CHB output Connector\n[X] Poti\n[X] User LED\n[X] User Button\n[X] B6 connector\n[X] SM Connector (DFCM 1.5-3.5)\n[X] DMC 1.5 - G1\n[X] Encoder Connector (Molex)\n[X] Phoenix Connector statt BoxHeaders\n[X] Power Buffer for clean 5V for Analog\n[X] FPGA cleanup\n- DCDC for Differential-amplifier\n- ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n[X] Single ESD Diodes for unused pins\n- ESD Diode Array for unused pins\n[X] Rx, En, Err pins\n[X] Power LEDs\n- Add another ADC for B6\n- CHB Rx En Err -> 10 pin (wie base board)\n- Poti an Analog Input\n- ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n- FPGA falsche pin namen an Hersteller + BA \n- Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n- Pullup Resistor für Tx der CHB und auch Rx\n- Latex dokumentation beginnen"
 		(exclude_from_sim no)
 		(at 28.702 98.806 0)
 		(effects

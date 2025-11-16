@@ -1,11 +1,5 @@
-1: Wird HV-Tastkopf nicht isoliert, ist die Isolation der CHBs überflüssig. (Auch beim Phasenausfall-Test könnte es problematisch sein) + Wo genau sollte man das anschließen?
-2: Verschaltung der CHBs?	
-3: Strommessung für Phase D?
-4: Encoder Connector: Passt es wenn ich die eine Seite als Socket lasse (39293166), und dann kabel mit beidseitigen Male Connector (zb 39012165) mache? [Molex 2x8pin]
-5: Wozu wird die MPC1703 genau benutzt? Es hat nur 250mA out (ADC?)
-6: U < 2.5V gebraucht für OVDD vom ADC
-7: Rx, En, Err, passt es mit Wannenstecker?
-8: Brauche ich die LVDS/CMOS und SDR/DDR als input für die FPGA?
+6: U < 2.5V gebraucht für OVDD vom ADC (FPGA nehmen vllt)
+8: Brauche ich die LVDS/CMOS und SDR/DDR als input für die FPGA? (CMOS ist fets) (SDR/DDR als input)
 9: a51 (IO_L9P_T1_34) hat keine Paar (L9N), a53 == a56, b25 == b64
 10: Passt es wenn ich den 3.3V vom FPGA nehme?
 11: Ich würde ESD Protection für alle Tx lines hinzufügen (48)

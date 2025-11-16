@@ -779,6 +779,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "3 Phasen kommen auch vom gleichen Stecker, muss man vllt noch ändern\nJST Xh oder VH könnte hier bequem sein\noder s04b-xask JST"
+		(exclude_from_sim no)
+		(at 185.928 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "552881f8-c7cd-4aab-8939-9af28813bbc0")
+	)
 	(text "(The encoder is not Differential)"
 		(exclude_from_sim no)
 		(at 42.164 120.904 0)
