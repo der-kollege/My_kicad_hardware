@@ -3256,7 +3256,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Bank 13: Total 12 pins -> ADC (11pins) oder 13\nBank 34: Total 48 pins -> Tx Phase A,B,C,D (48 pins)\nBank 35: Total 48 pins -> B6 (8pins) + CHB En/Err/Rx (12pins)\n+ User Interactions (5 pins)\n"
+	(text "Bank 13: Total 12 pins -> ADC (11pins) oder 13\nBank 34: Total 48 pins -> Tx Phase A,B,C,D (48 pins)\nBank 35: Total 48 pins -> B6 (8pins) + CHB En/Err/Rx (12pins)\n+ User Interactions (5 pins) + ADC_Machine (11pin)\n"
 		(exclude_from_sim no)
 		(at 280.924 76.454 0)
 		(effects
@@ -4421,6 +4421,17 @@
 		)
 		(uuid "233bf654-57fd-42c2-83d8-2b22677f4187")
 	)
+	(hierarchical_label "SDO3_1"
+		(shape input)
+		(at 314.96 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "236e81ac-a3cf-4c15-a7e5-73dba6cadb45")
+	)
 	(hierarchical_label "Ph_C_Rx"
 		(shape output)
 		(at 140.97 110.49 180)
@@ -4431,6 +4442,17 @@
 			(justify right)
 		)
 		(uuid "238e4b6c-b4f6-42b9-8446-7897db5176a9")
+	)
+	(hierarchical_label "SDO1_1"
+		(shape input)
+		(at 314.96 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25ea7b3d-b6ce-49f8-b77d-fa78e33e5e33")
 	)
 	(hierarchical_label "Ph_B_Err"
 		(shape input)
@@ -4519,6 +4541,17 @@
 			(justify right)
 		)
 		(uuid "43bd5cfb-fc6d-49aa-b89d-c54f0b92a7f5")
+	)
+	(hierarchical_label "SDO8_1"
+		(shape input)
+		(at 314.96 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b4a4582-daf9-47e4-9e21-89cdd4b08ab3")
 	)
 	(hierarchical_label "SDO8"
 		(shape input)
@@ -4784,6 +4817,17 @@
 		)
 		(uuid "8f2abfa8-018a-43a4-8b46-bd1976838e86")
 	)
+	(hierarchical_label "~{CNV}_1"
+		(shape output)
+		(at 317.5 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9349c2f4-bdb4-4010-9cdc-6c1e484f023e")
+	)
 	(hierarchical_label "Ph_C_En"
 		(shape output)
 		(at 140.97 102.87 180)
@@ -4805,6 +4849,17 @@
 			(justify left)
 		)
 		(uuid "95ce0575-3f20-4f79-a067-44f20411261f")
+	)
+	(hierarchical_label "CLK_IN_1"
+		(shape output)
+		(at 317.5 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9608cb3f-69db-4db2-81de-db625f29706a")
 	)
 	(hierarchical_label "Ph_C_Tx2"
 		(shape input)
@@ -4860,6 +4915,28 @@
 			(justify right)
 		)
 		(uuid "9d926ced-3add-4f65-af54-a5900b9df4dc")
+	)
+	(hierarchical_label "SDO4_1"
+		(shape input)
+		(at 314.96 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f197fa0-8548-4645-a8fb-e3f23efeb56c")
+	)
+	(hierarchical_label "SDO6_1"
+		(shape input)
+		(at 314.96 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a29beb8d-f717-4f0a-af01-5253a7d5d46a")
 	)
 	(hierarchical_label "Ph_B_Tx3"
 		(shape input)
@@ -4927,6 +5004,17 @@
 		)
 		(uuid "b9093c7c-0500-4110-8b9a-04e032a5543f")
 	)
+	(hierarchical_label "SDO7_1"
+		(shape input)
+		(at 314.96 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9418a8c-08f4-4bec-8254-533f6215c7fe")
+	)
 	(hierarchical_label "PWM_BL"
 		(shape output)
 		(at 140.97 118.11 180)
@@ -4937,6 +5025,17 @@
 			(justify right)
 		)
 		(uuid "baa54a5b-e96f-4c38-bee8-97d114a8656c")
+	)
+	(hierarchical_label "CLK_OUT_1"
+		(shape output)
+		(at 317.5 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfc85c35-ef9e-48da-a41c-93d01c51b440")
 	)
 	(hierarchical_label "Ph_B_Tx6"
 		(shape input)
@@ -5003,6 +5102,17 @@
 			(justify left)
 		)
 		(uuid "d7d00248-9781-4340-acc9-744f5b9f3ce7")
+	)
+	(hierarchical_label "SDO2_1"
+		(shape input)
+		(at 314.96 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc1e0860-3886-4eb5-bcc8-630c692734d1")
 	)
 	(hierarchical_label "Ph_B_Tx9"
 		(shape input)
@@ -5135,6 +5245,17 @@
 			(justify left)
 		)
 		(uuid "f9b51504-1035-42c4-9b6c-bc1443d5ef91")
+	)
+	(hierarchical_label "SDO5_1"
+		(shape input)
+		(at 314.96 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb975c0d-27b9-4f63-831d-8ecd6df84da3")
 	)
 	(hierarchical_label "Ph_C_Tx11"
 		(shape input)

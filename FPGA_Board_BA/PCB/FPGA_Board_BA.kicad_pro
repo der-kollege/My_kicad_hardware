@@ -616,7 +616,7 @@
     ],
     [
       "b651456b-f82d-416a-adc2-766f971f7bfa",
-      "ADC"
+      "ADC for B6"
     ],
     [
       "6ef258ed-945f-43cf-b75c-abeb7326966c",
@@ -659,8 +659,16 @@
       "CHB Communication"
     ],
     [
+      "61f82991-823e-4c29-9a78-9b2ec5b110b2",
+      "ADC for Machine"
+    ],
+    [
       "81c9b981-9c9c-474d-998d-986f60c2f16d",
       "Encoder"
+    ],
+    [
+      "bf010b8c-6832-4a61-9247-eaeb93645cb7",
+      "Voltage Measure"
     ]
   ],
   "text_variables": {}

@@ -652,6 +652,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 173.99) (xy 119.38 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382a398a-cd45-4efb-b864-6cc58a040969")
+	)
+	(wire
+		(pts
 			(xy 148.59 95.25) (xy 154.94 95.25)
 		)
 		(stroke
@@ -702,6 +712,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 179.07) (xy 119.38 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95cbfba-b511-4cf8-b263-07bc588c637a")
+	)
+	(wire
+		(pts
+			(xy 149.86 173.99) (xy 156.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ebac33-6a98-450f-9a25-ec2ed6d6100e")
+	)
+	(wire
+		(pts
 			(xy 148.59 57.15) (xy 157.48 57.15)
 		)
 		(stroke
@@ -709,6 +739,16 @@
 			(type default)
 		)
 		(uuid "cee84404-7959-49c2-8056-a93f1bf2066e")
+	)
+	(wire
+		(pts
+			(xy 149.86 179.07) (xy 156.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41c8d60-cb4c-4743-a007-e0521841a74f")
 	)
 	(wire
 		(pts
@@ -761,6 +801,17 @@
 			(justify right)
 		)
 		(uuid "29e0f507-e628-45b3-b493-9279627c51c4")
+	)
+	(hierarchical_label "Ph_D+"
+		(shape input)
+		(at 156.21 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fdd5b61-e425-497d-a7c1-8a0fbb5dfee8")
 	)
 	(hierarchical_label "Ph_B+"
 		(shape input)
@@ -828,6 +879,17 @@
 		)
 		(uuid "b1801513-3231-48b3-9eaa-e8f475960e3a")
 	)
+	(hierarchical_label "PHD_OUTP"
+		(shape output)
+		(at 107.95 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c909b01f-1a78-43f3-bc3c-a3003d42e03c")
+	)
 	(hierarchical_label "PHB_OUTP"
 		(shape output)
 		(at 106.68 95.25 180)
@@ -838,6 +900,28 @@
 			(justify right)
 		)
 		(uuid "d634be0b-062f-4e6a-aa75-7dab8ad645c7")
+	)
+	(hierarchical_label "PHD_OUTN"
+		(shape output)
+		(at 107.95 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e19e2e87-3e8d-493b-abec-2bacde575fea")
+	)
+	(hierarchical_label "Ph_D-"
+		(shape input)
+		(at 156.21 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e43279f4-f50d-4943-b4f7-9bb10e11a839")
 	)
 	(hierarchical_label "PHA_OUTP"
 		(shape output)
@@ -954,6 +1038,93 @@
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
 					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:AMC0300D")
+		(at 134.62 176.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae08d2a-8ed8-44a4-aae8-14853fa989a5")
+		(property "Reference" "U404"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMC0300D"
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
+			(at 134.874 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
+			(at 134.112 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "isolation Amplifier"
+			(at 133.604 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6fdaeda2-bd30-4e27-9580-e9ad195be4dc")
+		)
+		(pin "3"
+			(uuid "29c61b82-3625-49f8-8fdf-a79ea2a2c847")
+		)
+		(pin "5"
+			(uuid "8044d67d-3162-4c4a-98f4-cde783fdb43e")
+		)
+		(pin "1"
+			(uuid "b6a9d985-e62c-4e6a-b840-fb54f17f79a0")
+		)
+		(pin "2"
+			(uuid "b7e2bf2c-1680-4a60-85b5-9f31b9c6bdfc")
+		)
+		(pin "7"
+			(uuid "c3ee58eb-7ec5-4ab2-bf8f-1b8727b566dc")
+		)
+		(pin "8"
+			(uuid "bd2d3e5e-86b3-4b38-a3f0-ad43b97816de")
+		)
+		(pin "6"
+			(uuid "c6c161b4-3034-4a49-8653-837d444d0569")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
+					(reference "U404")
 					(unit 1)
 				)
 			)

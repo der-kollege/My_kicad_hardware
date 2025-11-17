@@ -1,4 +1,4 @@
-23277975132446539
+23290325440800415
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62181,6 +62181,13 @@ DMCV 1,5_12-G1F-3,5-LR P20THR
 24
 24
 MYLIB_Misc
+HV_Probe
+
+
+0
+0
+0
+MYLIB_Misc
 Molex_2x8pin_vertical_tht
 
 
@@ -92176,7 +92183,7 @@ Samtec_PCIE-G4-01-01-F-DV-A-K-TR
 36
 36
 WLIB_Connector_WE
-RJ45-WE-2Channel
+RJ45-WE-4Channel
 
 
 0
@@ -92274,6 +92281,41 @@ XCVR_ESP32-S3-WROOM-1U
 49
 41
 WLIB_Logo
+illuminati
+
+
+0
+0
+0
+WLIB_Logo
+illuminati_small
+
+
+0
+0
+0
+WLIB_Logo
+templeOS
+
+
+0
+0
+0
+WLIB_Logo
+tf2_engineer
+
+
+0
+0
+0
+WLIB_Logo
+thumbs_up
+
+
+0
+0
+0
+WLIB_Logo
 tum_logo
 
 
@@ -92315,6 +92357,13 @@ Raspberry_pi_4
 0
 0
 0
+WLIB_Misc
+TMCM-1690-CoE
+
+
+0
+54
+54
 WLIB_Misc
 stencil_allignement_hole
 
