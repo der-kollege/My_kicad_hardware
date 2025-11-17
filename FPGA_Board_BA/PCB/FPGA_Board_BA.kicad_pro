@@ -735,8 +735,44 @@
       "Diffamp8"
     ],
     [
+      "b132d2b4-fa1f-46e7-9132-09c17e9d7846",
+      "Level_Shifter_8bit_2"
+    ],
+    [
+      "2c56f160-a2ae-4f59-8a6c-882f52f80e9b",
+      "Level_Shifter_8bit_3"
+    ],
+    [
+      "19c31672-712c-496a-9822-8b4acb098fff",
+      "Level_Shifter_8bit_4"
+    ],
+    [
+      "a671d0ee-a9ca-43ae-8724-f1724f229817",
+      "Level_Shifter_8bit_5"
+    ],
+    [
       "723da5aa-073c-46b3-9d44-c3664aff4ac6",
       "ADC power"
+    ],
+    [
+      "d9b7de85-7c7f-46d0-8e80-ea471418e151",
+      "Level_Shifter_8bit_1"
+    ],
+    [
+      "50a6f00f-5ba3-427d-aa22-51eaafebbe36",
+      "Level_Shifter_8bit_6"
+    ],
+    [
+      "e2e765af-525f-4805-b4e1-1d4694321b94",
+      "Level_shifter_error_2"
+    ],
+    [
+      "d6c6031d-c1b3-49bb-af8f-093ee0f25456",
+      "Level_shifter_Rx_En"
+    ],
+    [
+      "195faa44-0949-4e4a-a075-cc82f959d0cf",
+      "Level_shifter_error_1"
     ]
   ],
   "text_variables": {}

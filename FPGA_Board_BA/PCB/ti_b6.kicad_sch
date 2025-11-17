@@ -503,6 +503,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "All pins scaled to max 3.3V"
+		(exclude_from_sim no)
+		(at 40.64 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9dcdc7a-31ca-4fbd-8c01-b807aa6ddb2d")
+	)
 	(no_connect
 		(at 175.26 77.47)
 		(uuid "5763812f-f05f-4c8e-905b-1480b1700c45")

@@ -1,4 +1,4 @@
-23297379030767443
+23300905858377251
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62157,8 +62157,8 @@ BLM18SP221SZ1D
 
 
 0
-0
-0
+2
+2
 MYLIB_Misc
 Banana_Socket_Aletch_Black
 
@@ -62222,6 +62222,20 @@ SBR10U200P5
 0
 3
 2
+MYLIB_Misc
+SN74LXC2T45QDCURQ1
+
+
+0
+8
+8
+MYLIB_Misc
+SN74LXCH8T245
+
+
+0
+0
+0
 MYLIB_Misc
 SOIC-8_7.5x5.85mm_P1.27mm
 
