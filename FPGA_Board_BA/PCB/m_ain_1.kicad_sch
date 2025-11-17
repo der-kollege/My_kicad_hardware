@@ -1,0 +1,503 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e89592a7-5a2a-457f-9fb7-e3fb4a7f3916")
+	(paper "A4")
+	(lib_symbols
+		(symbol "MYLIB_Misc:LT1819_IS8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1819_IS8"
+				(at 0.508 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MYLIB_Misc:LT1819"
+				(at 0.254 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf"
+				(at -0.508 17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ual wide bandwidth, high slew rate, low noise and distortion operational amplifi ers with excellent DC performance"
+				(at -0.254 15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LT1819_IS8_1_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy 6.35 0) (xy -3.81 -5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LT1819_IS8_2_1"
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy 6.35 0) (xy -3.81 -5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LT1819_IS8_3_1"
+				(pin power_in line
+					(at -6.35 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:LT1819_IS8")
+		(at 185.42 80.01 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04094988-a983-44e1-aee8-88ab740f0469")
+		(property "Reference" "U1302"
+			(at 193.04 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1819_IS8"
+			(at 193.04 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MYLIB_Misc:LT1819"
+			(at 185.166 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf"
+			(at 185.928 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ual wide bandwidth, high slew rate, low noise and distortion operational amplifi ers with excellent DC performance"
+			(at 185.674 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f4efc87-0d82-4066-abb8-be55c2d31ebb")
+		)
+		(pin "6"
+			(uuid "b9ebd9dc-ba79-4649-9503-4dfacba18f5f")
+		)
+		(pin "5"
+			(uuid "db209485-a9b0-40c8-ac33-e785e9c681c8")
+		)
+		(pin "7"
+			(uuid "5a52ff55-632f-4b0c-a3f8-9841d0eef7e5")
+		)
+		(pin "4"
+			(uuid "70e266d3-ba71-41d4-a83d-fe06f5d5e76d")
+		)
+		(pin "8"
+			(uuid "06270e66-0d75-4fed-b16f-b8e3506f7507")
+		)
+		(pin "2"
+			(uuid "b2ff7ab8-15a6-44a2-b864-ff6c4a3bb547")
+		)
+		(pin "3"
+			(uuid "b8b7cb79-3aad-48ab-9e4a-ad097d038f68")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/5e17d16d-53ff-4a42-ac90-411eaa3f35be"
+					(reference "U1302")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:LT1819_IS8")
+		(at 132.08 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f68badd-cbd8-42fa-a03b-e35bc079804b")
+		(property "Reference" "U1302"
+			(at 130.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1819_IS8"
+			(at 130.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLIB_Misc:LT1819"
+			(at 131.826 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf"
+			(at 132.588 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ual wide bandwidth, high slew rate, low noise and distortion operational amplifi ers with excellent DC performance"
+			(at 132.334 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66a2084d-d951-419f-b8a9-5ca3c640a3ab")
+		)
+		(pin "6"
+			(uuid "b9ebd9dc-ba79-4649-9503-4dfacba18f60")
+		)
+		(pin "5"
+			(uuid "db209485-a9b0-40c8-ac33-e785e9c681c9")
+		)
+		(pin "7"
+			(uuid "5a52ff55-632f-4b0c-a3f8-9841d0eef7e6")
+		)
+		(pin "4"
+			(uuid "9a538781-a959-4d0a-9fc1-0b91231da8c5")
+		)
+		(pin "8"
+			(uuid "9ba04d83-f3a6-4b43-bff5-101f85093359")
+		)
+		(pin "2"
+			(uuid "06c7d004-010f-4e05-b313-9b96e9849df5")
+		)
+		(pin "3"
+			(uuid "3cdc61da-cc46-49d3-97f3-5bded10a6cac")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/5e17d16d-53ff-4a42-ac90-411eaa3f35be"
+					(reference "U1302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:LT1819_IS8")
+		(at 132.08 129.54 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9baca4b-8be1-442c-8893-cfd237d38197")
+		(property "Reference" "U1302"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1819_IS8"
+			(at 130.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLIB_Misc:LT1819"
+			(at 131.826 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/18189fb.pdf"
+			(at 132.588 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ual wide bandwidth, high slew rate, low noise and distortion operational amplifi ers with excellent DC performance"
+			(at 132.334 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f4efc87-0d82-4066-abb8-be55c2d31ebd")
+		)
+		(pin "6"
+			(uuid "1be58ae3-8534-429e-8878-9ce6aa6d819c")
+		)
+		(pin "5"
+			(uuid "bc0d5628-b5c6-4ace-8724-b180ce29c5f3")
+		)
+		(pin "7"
+			(uuid "fd53c84d-8972-4589-827c-ace3fa6d0897")
+		)
+		(pin "4"
+			(uuid "9a538781-a959-4d0a-9fc1-0b91231da8c6")
+		)
+		(pin "8"
+			(uuid "9ba04d83-f3a6-4b43-bff5-101f8509335a")
+		)
+		(pin "2"
+			(uuid "b2ff7ab8-15a6-44a2-b864-ff6c4a3bb549")
+		)
+		(pin "3"
+			(uuid "b8b7cb79-3aad-48ab-9e4a-ad097d038f6a")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/5e17d16d-53ff-4a42-ac90-411eaa3f35be"
+					(reference "U1302")
+					(unit 2)
+				)
+			)
+		)
+	)
+)

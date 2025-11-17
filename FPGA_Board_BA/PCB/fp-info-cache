@@ -1,4 +1,4 @@
-23290325440800415
+23297379030767443
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62153,6 +62153,13 @@ Yellow 5381 Series LED
 2
 2
 MYLIB_Misc
+BLM18SP221SZ1D
+
+
+0
+0
+0
+MYLIB_Misc
 Banana_Socket_Aletch_Black
 
 
@@ -62185,8 +62192,15 @@ HV_Probe
 
 
 0
+8
+8
+MYLIB_Misc
+LT1819
+
+
 0
-0
+8
+8
 MYLIB_Misc
 Molex_2x8pin_vertical_tht
 
@@ -62229,6 +62243,20 @@ TPS61022
 0
 7
 7
+MYLIB_Misc
+TPS6282518DMQR
+
+
+0
+6
+6
+MYLIB_Misc
+WE_74479275147
+
+
+0
+2
+2
 MYLIB_Misc
 WE_SMD_Inductor
 

@@ -5209,7 +5209,7 @@
 		)
 		(uuid "cbdbc5dc-3456-493c-a4a2-09f6b2923c7f")
 	)
-	(hierarchical_label "Vout"
+	(hierarchical_label "Vout_5V"
 		(shape output)
 		(at 269.24 92.71 0)
 		(effects

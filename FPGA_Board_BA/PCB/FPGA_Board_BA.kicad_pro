@@ -639,6 +639,22 @@
       "Power from CHB"
     ],
     [
+      "2909530f-5d2e-4a02-95a0-b3b4167499ae",
+      "Diffamp2"
+    ],
+    [
+      "982b8f7d-15d0-414a-96f8-d1e93ae957b7",
+      "Diffamp3"
+    ],
+    [
+      "a2980491-8d40-470a-913a-c4bef30507ea",
+      "Diffamp4"
+    ],
+    [
+      "a235475e-2284-446b-bacb-f3bf84d47a36",
+      "Diffamp5"
+    ],
+    [
       "01163162-2dd3-462f-91a6-fa3b981b9fc9",
       "Analog Voltage"
     ],
@@ -669,6 +685,58 @@
     [
       "bf010b8c-6832-4a61-9247-eaeb93645cb7",
       "Voltage Measure"
+    ],
+    [
+      "f458917b-df37-4861-8812-fe3406cfd86d",
+      "Diffamp1"
+    ],
+    [
+      "a42b717c-1bb0-48e9-8224-0b5d9f1900c3",
+      "Diffamp6"
+    ],
+    [
+      "462562d2-7be7-411f-9c5d-e2d8486d0989",
+      "Diffamp7"
+    ],
+    [
+      "95040919-3b80-403f-a324-376b5050da5d",
+      "Diffamp8"
+    ],
+    [
+      "0f8b8c0d-8d17-4ee9-bc08-703091d04de4",
+      "Diffamp1"
+    ],
+    [
+      "971bb431-acbf-4e6b-bbb8-657f7e112efb",
+      "Diffamp2"
+    ],
+    [
+      "292bb8e0-0265-40bb-937a-e3584158845b",
+      "Diffamp3"
+    ],
+    [
+      "558ff4b4-5991-4769-9e81-d6c769bf2fdb",
+      "Diffamp4"
+    ],
+    [
+      "d1933eb3-d053-4a0c-a4c8-1802ff07d6d5",
+      "Diffamp5"
+    ],
+    [
+      "3a977ff5-ced9-4d54-9352-0c31cd1e5a3f",
+      "Diffamp6"
+    ],
+    [
+      "a9dbff09-4845-4216-b958-7134b6bd162a",
+      "Diffamp7"
+    ],
+    [
+      "cb0f8086-e652-475e-a637-a73d5388d465",
+      "Diffamp8"
+    ],
+    [
+      "723da5aa-073c-46b3-9d44-c3664aff4ac6",
+      "ADC power"
     ]
   ],
   "text_variables": {}

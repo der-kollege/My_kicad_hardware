@@ -148,7 +148,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "- DCDC for Differential-amplifier\n- ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] Add another ADC for B6\n- CHB Rx En Err -> 10 pin (wie base board)\n- Poti an Analog Input\n- ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n- FPGA falsche pin namen an Hersteller + BA \n- Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n- Pullup Resistor für Tx der CHB und auch Rx\n- Latex dokumentation beginnen\n- Diff Eingang für ADC (mit OP-Amps)\n[X] CMOS Fest, DDR mit 2 Widerstände\n[X] HV-Probe hinzufügen"
+	(text "- DCDC for Differential-amplifier\n[X] ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] Add another ADC for B6\n- CHB Rx En Err -> 10 pin (wie base board)\n- Poti an Analog Input\n- ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n[X] FPGA falsche pin namen an Hersteller + BA \n- Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n- Pullup Resistor für Tx der CHB und auch Rx\n- Latex dokumentation beginnen\n[X] Diff Eingang für ADC (mit OP-Amps)\n[X] CMOS Fest, DDR mit 2 Widerstände\n[X] HV-Probe hinzufügen\n[X] 26 pin wannenstecker\n- RapidHarness Verkabelung"
 		(exclude_from_sim no)
 		(at 302.26 230.378 0)
 		(effects
@@ -158,6 +158,12 @@
 			(justify left)
 		)
 		(uuid "adc4814b-96a9-4752-ad4e-d5b72c0c7dea")
+	)
+	(junction
+		(at 96.52 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04dfcef2-283e-4bf4-af41-d8aa228f8fe1")
 	)
 	(junction
 		(at 332.74 73.66)
@@ -397,7 +403,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 38.1) (xy 100.33 38.1)
+			(xy 96.52 43.18) (xy 100.33 43.18)
 		)
 		(stroke
 			(width 0)
@@ -457,6 +463,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 40.64) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2941d9bd-e3c8-4b9e-afbb-7a9ddc68be6b")
+	)
+	(wire
+		(pts
 			(xy 363.22 36.83) (xy 363.22 64.77)
 		)
 		(stroke
@@ -477,7 +493,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 127) (xy 284.48 127)
+			(xy 256.54 127) (xy 284.48 127)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +513,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 129.54) (xy 284.48 129.54)
+			(xy 256.54 129.54) (xy 284.48 129.54)
 		)
 		(stroke
 			(width 0)
@@ -587,7 +603,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 72.39) (xy 224.79 72.39)
+			(xy 198.12 72.39) (xy 222.25 72.39)
 		)
 		(stroke
 			(width 0)
@@ -684,6 +700,16 @@
 			(type default)
 		)
 		(uuid "493790ac-443e-4d30-8e84-0c3af9e6abab")
+	)
+	(wire
+		(pts
+			(xy 67.31 38.1) (xy 58.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c475722-79ef-4c92-aede-5772acca1065")
 	)
 	(wire
 		(pts
@@ -807,7 +833,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 86.36) (xy 224.79 86.36)
+			(xy 198.12 86.36) (xy 222.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 67.31) (xy 224.79 67.31)
+			(xy 198.12 67.31) (xy 222.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -987,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 124.46) (xy 284.48 124.46)
+			(xy 256.54 124.46) (xy 284.48 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1047,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 224.79 81.28)
+			(xy 198.12 81.28) (xy 222.25 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1077,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 224.79 78.74)
+			(xy 198.12 78.74) (xy 222.25 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1117,13 +1143,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 224.79 96.52)
+			(xy 198.12 96.52) (xy 222.25 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa1b85cb-8afc-4b61-b0ab-834254896f7b")
+	)
+	(wire
+		(pts
+			(xy 96.52 26.67) (xy 96.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaebb8e9-37d6-496f-96c7-b1ef4f3f8373")
 	)
 	(wire
 		(pts
@@ -1147,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 224.79 88.9)
+			(xy 198.12 88.9) (xy 222.25 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1267,7 +1303,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 91.44) (xy 224.79 91.44)
+			(xy 198.12 91.44) (xy 222.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 224.79 83.82)
+			(xy 198.12 83.82) (xy 222.25 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1297,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 69.85) (xy 224.79 69.85)
+			(xy 198.12 69.85) (xy 222.25 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 93.98) (xy 224.79 93.98)
+			(xy 198.12 93.98) (xy 222.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 38.1) (xy 68.58 38.1)
+			(xy 67.31 40.64) (xy 68.58 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1387,6 +1423,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 43.18) (xy 96.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed98d4ab-b753-40e3-bb5d-4a7ddf8de227")
+	)
+	(wire
+		(pts
 			(xy 313.69 130.81) (xy 358.14 130.81)
 		)
 		(stroke
@@ -1437,6 +1483,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 26.67) (xy 96.52 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b43899-012d-410d-a9eb-bc45990c05ab")
+	)
+	(wire
+		(pts
 			(xy 110.49 266.7) (xy 156.21 266.7)
 		)
 		(stroke
@@ -1457,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 121.92) (xy 284.48 121.92)
+			(xy 256.54 121.92) (xy 284.48 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1484,6 +1540,16 @@
 			(type default)
 		)
 		(uuid "fa9d617f-0f32-4a96-87b5-aef87e784835")
+	)
+	(wire
+		(pts
+			(xy 67.31 40.64) (xy 67.31 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad364ce-2b6b-4ca7-9035-99b9abe4df87")
 	)
 	(wire
 		(pts
@@ -1864,7 +1930,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 33.02)
+		(at 100.33 38.1)
 		(size 27.94 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1880,7 +1946,7 @@
 		)
 		(uuid "01163162-2dd3-462f-91a6-fa3b981b9fc9")
 		(property "Sheetname" "Analog Voltage"
-			(at 100.33 32.3084 0)
+			(at 100.33 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1955,7 @@
 			)
 		)
 		(property "Sheetfile" "analog_voltage.kicad_sch"
-			(at 100.33 46.3046 0)
+			(at 100.33 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1964,7 @@
 			)
 		)
 		(pin "Vin_A" input
-			(at 100.33 38.1 180)
+			(at 100.33 43.18 180)
 			(uuid "3a03d3d1-77af-469f-a53a-dce62694ec17")
 			(effects
 				(font
@@ -2701,7 +2767,7 @@
 		)
 	)
 	(sheet
-		(at 224.79 59.69)
+		(at 222.25 59.69)
 		(size 34.29 83.82)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2717,7 +2783,7 @@
 		)
 		(uuid "61f82991-823e-4c29-9a78-9b2ec5b110b2")
 		(property "Sheetname" "ADC for Machine"
-			(at 224.79 58.9784 0)
+			(at 222.25 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2792,7 @@
 			)
 		)
 		(property "Sheetfile" "adc_machine.kicad_sch"
-			(at 224.79 144.0946 0)
+			(at 222.25 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2801,7 @@
 			)
 		)
 		(pin "CLK_IN_1" input
-			(at 224.79 67.31 180)
+			(at 222.25 67.31 180)
 			(uuid "49f70662-3410-4282-966e-0c9f1d10a933")
 			(effects
 				(font
@@ -2745,7 +2811,7 @@
 			)
 		)
 		(pin "CLK_OUT_1" input
-			(at 224.79 69.85 180)
+			(at 222.25 69.85 180)
 			(uuid "081c290b-25d9-4f68-ad86-4f720979c120")
 			(effects
 				(font
@@ -2755,7 +2821,7 @@
 			)
 		)
 		(pin "SDO1_1" output
-			(at 224.79 78.74 180)
+			(at 222.25 78.74 180)
 			(uuid "0b48f2e5-3c5e-47b5-9b26-81ebdda0e407")
 			(effects
 				(font
@@ -2765,7 +2831,7 @@
 			)
 		)
 		(pin "SDO2_1" output
-			(at 224.79 81.28 180)
+			(at 222.25 81.28 180)
 			(uuid "37e7c9f7-269a-46ec-84d2-38cce19dbf6a")
 			(effects
 				(font
@@ -2775,7 +2841,7 @@
 			)
 		)
 		(pin "SDO3_1" output
-			(at 224.79 83.82 180)
+			(at 222.25 83.82 180)
 			(uuid "001eba56-ddab-440c-a744-670a0bc4847c")
 			(effects
 				(font
@@ -2785,7 +2851,7 @@
 			)
 		)
 		(pin "SDO4_1" output
-			(at 224.79 86.36 180)
+			(at 222.25 86.36 180)
 			(uuid "2ef00814-dd54-45ee-bf44-2eea05f4841f")
 			(effects
 				(font
@@ -2795,7 +2861,7 @@
 			)
 		)
 		(pin "SDO5_1" output
-			(at 224.79 88.9 180)
+			(at 222.25 88.9 180)
 			(uuid "d13190c8-39e8-4023-a701-ab80c56f7df3")
 			(effects
 				(font
@@ -2805,7 +2871,7 @@
 			)
 		)
 		(pin "SDO6_1" output
-			(at 224.79 91.44 180)
+			(at 222.25 91.44 180)
 			(uuid "911b8e5f-511d-4381-bfc4-a064f2eae83f")
 			(effects
 				(font
@@ -2815,7 +2881,7 @@
 			)
 		)
 		(pin "SDO7_1" output
-			(at 224.79 93.98 180)
+			(at 222.25 93.98 180)
 			(uuid "2eac8473-73dd-4635-ad1c-a84de98ea862")
 			(effects
 				(font
@@ -2825,7 +2891,7 @@
 			)
 		)
 		(pin "SDO8_1" output
-			(at 224.79 96.52 180)
+			(at 222.25 96.52 180)
 			(uuid "27216316-92d5-436f-958d-24097ab23a57")
 			(effects
 				(font
@@ -2835,7 +2901,7 @@
 			)
 		)
 		(pin "~{CNV}_1" input
-			(at 224.79 72.39 180)
+			(at 222.25 72.39 180)
 			(uuid "2aa072eb-7603-48d4-996f-76341b09eae1")
 			(effects
 				(font
@@ -2845,7 +2911,7 @@
 			)
 		)
 		(pin "Vout_1" input
-			(at 259.08 121.92 0)
+			(at 256.54 121.92 0)
 			(uuid "f83162ea-8d31-45b4-8927-86c946a56611")
 			(effects
 				(font
@@ -2855,7 +2921,7 @@
 			)
 		)
 		(pin "Vout_2" input
-			(at 259.08 124.46 0)
+			(at 256.54 124.46 0)
 			(uuid "6c38d5de-71da-4c9b-b04c-d0924a9d94f4")
 			(effects
 				(font
@@ -2865,7 +2931,7 @@
 			)
 		)
 		(pin "Vout_3" input
-			(at 259.08 127 0)
+			(at 256.54 127 0)
 			(uuid "330e80d1-f027-46c8-a850-9c3578c23163")
 			(effects
 				(font
@@ -2875,7 +2941,7 @@
 			)
 		)
 		(pin "Vout_4" input
-			(at 259.08 129.54 0)
+			(at 256.54 129.54 0)
 			(uuid "ae6b3088-3ddf-41fe-8c00-74daeed6b956")
 			(effects
 				(font
@@ -4117,6 +4183,58 @@
 		)
 	)
 	(sheet
+		(at 100.33 20.32)
+		(size 27.94 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "723da5aa-073c-46b3-9d44-c3664aff4ac6")
+		(property "Sheetname" "ADC power"
+			(at 100.33 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc_power.kicad_sch"
+			(at 100.33 32.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin" input
+			(at 100.33 26.67 180)
+			(uuid "0e844a37-3bd7-4753-bb33-f7caf6d971b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 83.82 93.98)
 		(size 25.4 13.97)
 		(exclude_from_sim no)
@@ -4333,7 +4451,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "adc.kicad_sch"
+		(property "Sheetfile" "adc_for_b6.kicad_sch"
 			(at 223.52 163.83 0)
 			(effects
 				(font
@@ -4693,7 +4811,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 33.02)
+		(at 68.58 35.56)
 		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4709,7 +4827,7 @@
 		)
 		(uuid "c363a192-a091-4a49-a77c-8a6e46625814")
 		(property "Sheetname" "Main_DCDC"
-			(at 68.58 32.3084 0)
+			(at 68.58 34.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4836,7 @@
 			)
 		)
 		(property "Sheetfile" "main_dcdc.kicad_sch"
-			(at 68.58 46.3046 0)
+			(at 68.58 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4845,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 68.58 38.1 180)
+			(at 68.58 40.64 180)
 			(uuid "200567ac-8ba1-4445-929d-8e4d266a1be4")
 			(effects
 				(font
@@ -4736,8 +4854,8 @@
 				(justify left)
 			)
 		)
-		(pin "Vout" output
-			(at 92.71 38.1 0)
+		(pin "Vout_5V" output
+			(at 92.71 40.64 0)
 			(uuid "e8a63e89-531b-4f96-aeaa-a055862215ee")
 			(effects
 				(font
