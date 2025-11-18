@@ -1474,7 +1474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b4c4af-b948-4cf2-97c2-b25deb59c844")
-		(property "Reference" "#PWR03211"
+		(property "Reference" "#PWR0201"
 			(at 212.09 110.49 0)
 			(effects
 				(font
@@ -1524,7 +1524,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "#PWR03211")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -1539,7 +1539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11bc9f85-3c64-426a-8b5b-c37d73da6688")
-		(property "Reference" "R3201"
+		(property "Reference" "R159"
 			(at 113.03 94.234 90)
 			(effects
 				(font
@@ -1618,7 +1618,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "R3201")
+					(reference "R159")
 					(unit 1)
 				)
 			)
@@ -1634,7 +1634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a7c0bca-f92b-47a6-8001-0e9c19f08172")
-		(property "Reference" "C3212"
+		(property "Reference" "C148"
 			(at 219.71 93.9799 0)
 			(effects
 				(font
@@ -1715,7 +1715,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "C3212")
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -1731,7 +1731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5401ebe4-c767-42c6-8005-bd909c59d6f3")
-		(property "Reference" "#PWR03212"
+		(property "Reference" "#PWR0200"
 			(at 212.09 80.01 0)
 			(effects
 				(font
@@ -1781,7 +1781,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "#PWR03212")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -1797,7 +1797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57abb8ee-593a-4cd8-a603-1281b07a1ca8")
-		(property "Reference" "#PWR03205"
+		(property "Reference" "#PWR0199"
 			(at 173.99 109.22 0)
 			(effects
 				(font
@@ -1847,7 +1847,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "#PWR03205")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -1863,7 +1863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63b083ba-ad5e-4719-aa41-39547351421d")
-		(property "Reference" "C3201"
+		(property "Reference" "C145"
 			(at 166.37 90.1699 0)
 			(effects
 				(font
@@ -1944,7 +1944,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "C3201")
+					(reference "C145")
 					(unit 1)
 				)
 			)
@@ -1960,7 +1960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "674c4694-12c8-4cee-ae8e-35f566cc3d23")
-		(property "Reference" "U3203"
+		(property "Reference" "U38"
 			(at 133.35 78.74 0)
 			(effects
 				(font
@@ -2033,7 +2033,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "U3203")
+					(reference "U38")
 					(unit 1)
 				)
 			)
@@ -2049,7 +2049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68af5b8b-6662-4057-a535-ebb7fac67f22")
-		(property "Reference" "C3205"
+		(property "Reference" "C146"
 			(at 181.61 90.1699 0)
 			(effects
 				(font
@@ -2130,7 +2130,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "C3205")
+					(reference "C146")
 					(unit 1)
 				)
 			)
@@ -2146,7 +2146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad33e5e6-ac01-4882-85a1-0a8605eabbbd")
-		(property "Reference" "C3211"
+		(property "Reference" "C147"
 			(at 204.47 93.9799 0)
 			(effects
 				(font
@@ -2227,7 +2227,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "C3211")
+					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -2243,7 +2243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3904159-d807-44a2-9c6b-d8f024284cd2")
-		(property "Reference" "#PWR03202"
+		(property "Reference" "#PWR0197"
 			(at 87.63 113.03 0)
 			(effects
 				(font
@@ -2293,7 +2293,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "#PWR03202")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -2309,7 +2309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d563b443-a90d-42a0-b1a6-2f1a57163c87")
-		(property "Reference" "F3201"
+		(property "Reference" "F1"
 			(at 189.1792 73.66 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "F3201")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -2376,7 +2376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0e1ddf9-6466-4519-998e-be2521ca7d31")
-		(property "Reference" "L3201"
+		(property "Reference" "L4"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -2437,7 +2437,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "L3201")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e37e4e41-3887-41aa-b8e2-a95d46c054fa")
-		(property "Reference" "#PWR03204"
+		(property "Reference" "#PWR0198"
 			(at 146.05 107.95 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "#PWR03204")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef92226e-0b40-4e86-ad81-35b5fd9cd883")
-		(property "Reference" "C3203"
+		(property "Reference" "C144"
 			(at 91.44 97.7899 0)
 			(effects
 				(font
@@ -2600,7 +2600,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/723da5aa-073c-46b3-9d44-c3664aff4ac6"
-					(reference "C3203")
+					(reference "C144")
 					(unit 1)
 				)
 			)

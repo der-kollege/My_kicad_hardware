@@ -148,7 +148,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "- DCDC for Differential-amplifier\n[X] ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] Add another ADC for B6\n[X] CHB Rx En Err -> 10 pin (wie base board)\n- Poti an Analog Input\n- ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n[X] FPGA falsche pin namen an Hersteller + BA \n[X] Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n- Pullup Resistor für Tx der CHB und auch Rx\n[X] Latex dokumentation beginnen\n[X] Diff Eingang für ADC (mit OP-Amps)\n[X] CMOS Fest, DDR mit 2 Widerstände\n[X] HV-Probe hinzufügen\n[X] 26 pin wannenstecker\n- RapidHarness Verkabelung"
+	(text "- DCDC for Differential-amplifier\n[X] ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] Add another ADC for B6\n[X] CHB Rx En Err -> 10 pin (wie base board)\n[X] Poti an Analog Input\n- ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n[X] FPGA falsche pin namen an Hersteller + BA \n[X] Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n[X] Pullup Resistor für Tx der CHB und auch Rx\n[X] Latex dokumentation beginnen\n[X] Diff Eingang für ADC (mit OP-Amps)\n[X] CMOS Fest, DDR mit 2 Widerstände\n[X] HV-Probe hinzufügen\n[X] 26 pin wannenstecker\n- RapidHarness Verkabelung\n- 0402 R und C\n- CHB to PCB connect gleich wie beim Base-Board"
 		(exclude_from_sim no)
 		(at 302.26 230.378 0)
 		(effects
@@ -443,7 +443,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 62.23) (xy 156.21 62.23)
+			(xy 115.57 73.66) (xy 156.21 73.66)
 		)
 		(stroke
 			(width 0)
@@ -713,7 +713,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 72.39) (xy 222.25 72.39)
+			(xy 198.12 95.25) (xy 222.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 86.36) (xy 222.25 86.36)
+			(xy 198.12 109.22) (xy 222.25 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1193,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 67.31) (xy 156.21 67.31)
+			(xy 115.57 78.74) (xy 156.21 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1203,7 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 67.31) (xy 222.25 67.31)
+			(xy 198.12 90.17) (xy 222.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 222.25 81.28)
+			(xy 198.12 104.14) (xy 222.25 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1403,7 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 222.25 78.74)
+			(xy 198.12 101.6) (xy 222.25 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +1463,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 96.52) (xy 222.25 96.52)
+			(xy 198.12 119.38) (xy 222.25 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 88.9) (xy 222.25 88.9)
+			(xy 198.12 111.76) (xy 222.25 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 72.39) (xy 156.21 72.39)
+			(xy 115.57 83.82) (xy 156.21 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1683,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 91.44) (xy 222.25 91.44)
+			(xy 198.12 114.3) (xy 222.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 222.25 83.82)
+			(xy 198.12 106.68) (xy 222.25 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1723,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 69.85) (xy 222.25 69.85)
+			(xy 198.12 92.71) (xy 222.25 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 93.98) (xy 222.25 93.98)
+			(xy 198.12 116.84) (xy 222.25 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1763,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 64.77) (xy 156.21 64.77)
+			(xy 115.57 76.2) (xy 156.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 69.85) (xy 156.21 69.85)
+			(xy 115.57 81.28) (xy 156.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2194,7 +2194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b38b17af-0eb0-4ef6-b029-99a7f63cf34d")
-		(property "Reference" "R101"
+		(property "Reference" "R4"
 			(at 360.426 80.518 90)
 			(effects
 				(font
@@ -2266,7 +2266,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff"
-					(reference "R101")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3105,7 +3105,7 @@
 		)
 	)
 	(sheet
-		(at 90.17 59.69)
+		(at 90.17 71.12)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3121,7 +3121,7 @@
 		)
 		(uuid "4cefeee2-fd60-4f1a-a208-06a5d0a2f90a")
 		(property "Sheetname" "User Interaction"
-			(at 90.17 58.9784 0)
+			(at 90.17 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3130,7 @@
 			)
 		)
 		(property "Sheetfile" "user_interaction.kicad_sch"
-			(at 90.17 75.5146 0)
+			(at 90.17 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3139,7 @@
 			)
 		)
 		(pin "Button1" output
-			(at 115.57 62.23 0)
+			(at 115.57 73.66 0)
 			(uuid "8d1d43c2-3db9-4c23-904e-8016a279383c")
 			(effects
 				(font
@@ -3149,7 +3149,7 @@
 			)
 		)
 		(pin "Button2" output
-			(at 115.57 64.77 0)
+			(at 115.57 76.2 0)
 			(uuid "98540b89-76d3-4b7e-a51c-04dc179e8dbb")
 			(effects
 				(font
@@ -3159,7 +3159,7 @@
 			)
 		)
 		(pin "LED1" input
-			(at 115.57 67.31 0)
+			(at 115.57 78.74 0)
 			(uuid "c39ed45b-6f9d-49c0-994a-171a68d5a81d")
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 			)
 		)
 		(pin "LED2" input
-			(at 115.57 69.85 0)
+			(at 115.57 81.28 0)
 			(uuid "a44614db-ad29-4cc7-8ff4-a61d21b6af3b")
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 			)
 		)
 		(pin "Poti" output
-			(at 115.57 72.39 0)
+			(at 115.57 83.82 0)
 			(uuid "d269660f-6908-4e33-8de9-2038600e2421")
 			(effects
 				(font
@@ -3197,8 +3197,8 @@
 		)
 	)
 	(sheet
-		(at 222.25 59.69)
-		(size 34.29 83.82)
+		(at 222.25 69.85)
+		(size 34.29 73.66)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3213,7 +3213,7 @@
 		)
 		(uuid "61f82991-823e-4c29-9a78-9b2ec5b110b2")
 		(property "Sheetname" "ADC for Machine"
-			(at 222.25 58.9784 0)
+			(at 222.25 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3231,7 @@
 			)
 		)
 		(pin "CLK_IN_1" input
-			(at 222.25 67.31 180)
+			(at 222.25 90.17 180)
 			(uuid "49f70662-3410-4282-966e-0c9f1d10a933")
 			(effects
 				(font
@@ -3241,7 +3241,7 @@
 			)
 		)
 		(pin "CLK_OUT_1" input
-			(at 222.25 69.85 180)
+			(at 222.25 92.71 180)
 			(uuid "081c290b-25d9-4f68-ad86-4f720979c120")
 			(effects
 				(font
@@ -3251,7 +3251,7 @@
 			)
 		)
 		(pin "SDO1_1" output
-			(at 222.25 78.74 180)
+			(at 222.25 101.6 180)
 			(uuid "0b48f2e5-3c5e-47b5-9b26-81ebdda0e407")
 			(effects
 				(font
@@ -3261,7 +3261,7 @@
 			)
 		)
 		(pin "SDO2_1" output
-			(at 222.25 81.28 180)
+			(at 222.25 104.14 180)
 			(uuid "37e7c9f7-269a-46ec-84d2-38cce19dbf6a")
 			(effects
 				(font
@@ -3271,7 +3271,7 @@
 			)
 		)
 		(pin "SDO3_1" output
-			(at 222.25 83.82 180)
+			(at 222.25 106.68 180)
 			(uuid "001eba56-ddab-440c-a744-670a0bc4847c")
 			(effects
 				(font
@@ -3281,7 +3281,7 @@
 			)
 		)
 		(pin "SDO4_1" output
-			(at 222.25 86.36 180)
+			(at 222.25 109.22 180)
 			(uuid "2ef00814-dd54-45ee-bf44-2eea05f4841f")
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 			)
 		)
 		(pin "SDO5_1" output
-			(at 222.25 88.9 180)
+			(at 222.25 111.76 180)
 			(uuid "d13190c8-39e8-4023-a701-ab80c56f7df3")
 			(effects
 				(font
@@ -3301,7 +3301,7 @@
 			)
 		)
 		(pin "SDO6_1" output
-			(at 222.25 91.44 180)
+			(at 222.25 114.3 180)
 			(uuid "911b8e5f-511d-4381-bfc4-a064f2eae83f")
 			(effects
 				(font
@@ -3311,7 +3311,7 @@
 			)
 		)
 		(pin "SDO7_1" output
-			(at 222.25 93.98 180)
+			(at 222.25 116.84 180)
 			(uuid "2eac8473-73dd-4635-ad1c-a84de98ea862")
 			(effects
 				(font
@@ -3321,7 +3321,7 @@
 			)
 		)
 		(pin "SDO8_1" output
-			(at 222.25 96.52 180)
+			(at 222.25 119.38 180)
 			(uuid "27216316-92d5-436f-958d-24097ab23a57")
 			(effects
 				(font
@@ -3330,8 +3330,8 @@
 				(justify left)
 			)
 		)
-		(pin "~{CNV}_1" input
-			(at 222.25 72.39 180)
+		(pin "CNV_1" input
+			(at 222.25 95.25 180)
 			(uuid "2aa072eb-7603-48d4-996f-76341b09eae1")
 			(effects
 				(font
@@ -3591,8 +3591,8 @@
 		)
 	)
 	(sheet
-		(at 156.21 58.42)
-		(size 41.91 220.98)
+		(at 156.21 64.77)
+		(size 41.91 214.63)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3607,7 +3607,7 @@
 		)
 		(uuid "6ef258ed-945f-43cf-b75c-abeb7326966c")
 		(property "Sheetname" "FPGA"
-			(at 156.21 57.7084 0)
+			(at 156.21 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,16 +3987,6 @@
 		(pin "CLK_OUT" output
 			(at 198.12 177.8 0)
 			(uuid "5e274a7c-4721-4e03-b6a7-a9923649f6c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{CNV}" output
-			(at 198.12 180.34 0)
-			(uuid "90f219bb-ba0b-4106-a1b0-129c18b56560")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4435,7 @@
 			)
 		)
 		(pin "Button1" input
-			(at 156.21 62.23 180)
+			(at 156.21 73.66 180)
 			(uuid "4fc8595b-0c9f-4138-b5cc-bcfc06b2bd96")
 			(effects
 				(font
@@ -4455,7 +4445,7 @@
 			)
 		)
 		(pin "Button2" input
-			(at 156.21 64.77 180)
+			(at 156.21 76.2 180)
 			(uuid "a1ac4d8c-d4d9-472d-8aa8-34b331151b70")
 			(effects
 				(font
@@ -4465,7 +4455,7 @@
 			)
 		)
 		(pin "LED1" output
-			(at 156.21 67.31 180)
+			(at 156.21 78.74 180)
 			(uuid "a4a74425-ad06-47d3-82f1-6ce11a2efa9f")
 			(effects
 				(font
@@ -4475,7 +4465,7 @@
 			)
 		)
 		(pin "LED2" output
-			(at 156.21 69.85 180)
+			(at 156.21 81.28 180)
 			(uuid "a935ae37-af51-45de-bfee-71b7f659948a")
 			(effects
 				(font
@@ -4485,7 +4475,7 @@
 			)
 		)
 		(pin "Poti" input
-			(at 156.21 72.39 180)
+			(at 156.21 83.82 180)
 			(uuid "88975a9a-9c27-4065-8cd4-a2d200eaca97")
 			(effects
 				(font
@@ -4495,7 +4485,7 @@
 			)
 		)
 		(pin "CLK_IN_1" output
-			(at 198.12 67.31 0)
+			(at 198.12 90.17 0)
 			(uuid "455d9101-8011-4800-acc6-082e36eb6d49")
 			(effects
 				(font
@@ -4505,7 +4495,7 @@
 			)
 		)
 		(pin "CLK_OUT_1" output
-			(at 198.12 69.85 0)
+			(at 198.12 92.71 0)
 			(uuid "537b03d8-bd86-42a4-a6b7-954f7684f66c")
 			(effects
 				(font
@@ -4515,7 +4505,7 @@
 			)
 		)
 		(pin "SDO1_1" input
-			(at 198.12 78.74 0)
+			(at 198.12 101.6 0)
 			(uuid "9a68d74f-9e3b-48f7-8561-0036c32be64e")
 			(effects
 				(font
@@ -4525,7 +4515,7 @@
 			)
 		)
 		(pin "SDO2_1" input
-			(at 198.12 81.28 0)
+			(at 198.12 104.14 0)
 			(uuid "53da264e-8c44-43cf-8c7f-6f3c735d1fd3")
 			(effects
 				(font
@@ -4535,7 +4525,7 @@
 			)
 		)
 		(pin "SDO3_1" input
-			(at 198.12 83.82 0)
+			(at 198.12 106.68 0)
 			(uuid "568d4bef-0cbe-4995-8505-0f30081875d5")
 			(effects
 				(font
@@ -4545,7 +4535,7 @@
 			)
 		)
 		(pin "SDO4_1" input
-			(at 198.12 86.36 0)
+			(at 198.12 109.22 0)
 			(uuid "c2576c7e-a085-48d8-9293-9805e9d56aab")
 			(effects
 				(font
@@ -4555,7 +4545,7 @@
 			)
 		)
 		(pin "SDO5_1" input
-			(at 198.12 88.9 0)
+			(at 198.12 111.76 0)
 			(uuid "e1ea0cc4-95c6-43da-af3a-a291b5d27700")
 			(effects
 				(font
@@ -4565,7 +4555,7 @@
 			)
 		)
 		(pin "SDO6_1" input
-			(at 198.12 91.44 0)
+			(at 198.12 114.3 0)
 			(uuid "677db559-765f-45e4-b165-f06f640c9399")
 			(effects
 				(font
@@ -4575,7 +4565,7 @@
 			)
 		)
 		(pin "SDO7_1" input
-			(at 198.12 93.98 0)
+			(at 198.12 116.84 0)
 			(uuid "24e9c3ee-39bd-4a55-a1b8-8ddc609a69e6")
 			(effects
 				(font
@@ -4585,7 +4575,7 @@
 			)
 		)
 		(pin "SDO8_1" input
-			(at 198.12 96.52 0)
+			(at 198.12 119.38 0)
 			(uuid "1538985d-f80c-4c28-bed8-f64a46123f3b")
 			(effects
 				(font
@@ -4594,9 +4584,19 @@
 				(justify right)
 			)
 		)
-		(pin "~{CNV}_1" output
-			(at 198.12 72.39 0)
+		(pin "CNV_1" output
+			(at 198.12 95.25 0)
 			(uuid "a7f4b106-629f-4d05-a9e9-0691e7472db1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CNV" output
+			(at 198.12 180.34 0)
+			(uuid "881738ec-b897-4f63-9870-90061e618808")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,16 +4990,6 @@
 				(justify left)
 			)
 		)
-		(pin "~{CNV}" input
-			(at 223.52 180.34 180)
-			(uuid "62fafae1-376c-472a-882e-8a71cbea9ce5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I_A" input
 			(at 232.41 213.36 270)
 			(uuid "935551ec-e9ef-4e1e-9e7d-9399bc22cc98")
@@ -5063,6 +5053,16 @@
 		(pin "V_DC" input
 			(at 247.65 213.36 270)
 			(uuid "285445a3-3344-4034-87cb-2645360429a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CNV" input
+			(at 223.52 180.34 180)
+			(uuid "6ad9ae22-d0cd-4b91-bcd7-a567e15dddbb")
 			(effects
 				(font
 					(size 1.27 1.27)

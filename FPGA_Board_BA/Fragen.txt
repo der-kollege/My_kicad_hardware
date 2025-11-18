@@ -1,5 +1,6 @@
-6: U < 2.5V gebraucht für OVDD vom ADC (FPGA nehmen vllt)
-8: Brauche ich die LVDS/CMOS und SDR/DDR als input für die FPGA? (CMOS ist fets) (SDR/DDR als input)
-9: a51 (IO_L9P_T1_34) hat keine Paar (L9N), a53 == a56, b25 == b64
-10: Passt es wenn ich den 3.3V vom FPGA nehme?
-11: Ich würde ESD Protection für alle Tx lines hinzufügen (48)
+1: MYIR habe ich angeschrieben wegen pin fehler
+2: Level shifters für Rx, Tx, Err, En
+3: Habe 1.8V Supply überflüssig hunzugefügt (hätte 3A vom FPGA nehmen können)
+4: Conversion start pin (CNV) sollte mit maximal OVDD betrieben werden (1.8V)
+5: CHB Output Connector noch war noch nicht ganz Klar
+6: Müsste man beim Single Ended -> Diff Signal nicht doch Vref auf den nicht-invertierenden Eingang darauflegen?

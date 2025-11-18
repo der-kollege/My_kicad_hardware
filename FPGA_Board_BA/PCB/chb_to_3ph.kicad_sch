@@ -684,7 +684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cebc5b10-eb91-404a-a47e-20b4cc5e4d9a")
-		(property "Reference" "J103"
+		(property "Reference" "J9"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -772,7 +772,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/9a7bfc82-408b-4644-8882-19405b07f717"
-					(reference "J103")
+					(reference "J9")
 					(unit 1)
 				)
 			)

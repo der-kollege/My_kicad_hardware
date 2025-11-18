@@ -3410,7 +3410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3a7fb0-eb69-4a95-92de-ee7e36ba0d97")
-		(property "Reference" "J720"
+		(property "Reference" "J4"
 			(at 105.41 49.53 0)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
-					(reference "J720")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3563,7 +3563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14cb0b10-a27f-402b-9991-b82cb1597747")
-		(property "Reference" "J718"
+		(property "Reference" "J7"
 			(at 154.94 90.17 0)
 			(effects
 				(font
@@ -3699,7 +3699,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
-					(reference "J718")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3716,7 +3716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a16079de-a813-460a-958c-63e4ad4bbabd")
-		(property "Reference" "J717"
+		(property "Reference" "J5"
 			(at 105.41 90.17 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
-					(reference "J717")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3869,7 +3869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcebc49e-b78f-4255-8a29-9eb7563f7740")
-		(property "Reference" "J716"
+		(property "Reference" "J6"
 			(at 154.94 49.53 0)
 			(effects
 				(font
@@ -4005,7 +4005,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
-					(reference "J716")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4021,7 +4021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca8e73a-33bd-40f2-aca6-24aa9e7dbdfe")
-		(property "Reference" "J701"
+		(property "Reference" "J8"
 			(at 193.04 59.69 0)
 			(effects
 				(font
@@ -4085,7 +4085,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e"
-					(reference "J701")
+					(reference "J8")
 					(unit 1)
 				)
 			)
