@@ -148,7 +148,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "- DCDC for Differential-amplifier\n[X] ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] Add another ADC for B6\n[X] CHB Rx En Err -> 10 pin (wie base board)\n[X] Poti an Analog Input\n- ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n[X] FPGA falsche pin namen an Hersteller + BA \n[X] Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n[X] Pullup Resistor für Tx der CHB und auch Rx\n[X] Latex dokumentation beginnen\n[X] Diff Eingang für ADC (mit OP-Amps)\n[X] CMOS Fest, DDR mit 2 Widerstände\n[X] HV-Probe hinzufügen\n[X] 26 pin wannenstecker\n- RapidHarness Verkabelung\n- 0402 R und C\n- CHB to PCB connect gleich wie beim Base-Board"
+	(text "- DCDC for Isolation-amplifier\n[X] ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] Add another ADC for B6\n[X] CHB Rx En Err -> 10 pin (wie base board)\n[X] Poti an Analog Input\n[X] ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n[X] FPGA falsche pin namen an Hersteller + BA \n[X] Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n[X] Pullup Resistor für Tx der CHB und auch Rx\n[X] Latex dokumentation beginnen\n[X] Diff Eingang für ADC (mit OP-Amps)\n[X] CMOS Fest, DDR mit 2 Widerstände\n[X] HV-Probe hinzufügen\n[X] 26 pin wannenstecker\n- CHB to PCB Connector \n- 0402 R und C (maybe)\n- Plug Terminal 8 Pin Footprint korrigieren\n- Alle unconnected pins mit dem \"not-connected\" funktion machen"
 		(exclude_from_sim no)
 		(at 302.26 230.378 0)
 		(effects
@@ -3240,16 +3240,6 @@
 				(justify left)
 			)
 		)
-		(pin "CLK_OUT_1" input
-			(at 222.25 92.71 180)
-			(uuid "081c290b-25d9-4f68-ad86-4f720979c120")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SDO1_1" output
 			(at 222.25 101.6 180)
 			(uuid "0b48f2e5-3c5e-47b5-9b26-81ebdda0e407")
@@ -3330,16 +3320,6 @@
 				(justify left)
 			)
 		)
-		(pin "CNV_1" input
-			(at 222.25 95.25 180)
-			(uuid "2aa072eb-7603-48d4-996f-76341b09eae1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Vout_1" input
 			(at 256.54 121.92 0)
 			(uuid "f83162ea-8d31-45b4-8927-86c946a56611")
@@ -3378,6 +3358,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CLK_OUT_1" output
+			(at 222.25 92.71 180)
+			(uuid "95b17f92-8f21-423b-b994-9350e5aac948")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CNV}_1" input
+			(at 222.25 95.25 180)
+			(uuid "f8d11a02-097f-4612-9486-9922015d0202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3984,16 +3984,6 @@
 				(justify right)
 			)
 		)
-		(pin "CLK_OUT" output
-			(at 198.12 177.8 0)
-			(uuid "5e274a7c-4721-4e03-b6a7-a9923649f6c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Ph_C_Tx1" input
 			(at 156.21 181.61 180)
 			(uuid "77a7c15f-68b1-4f70-bb29-b4dc50f119b7")
@@ -4494,16 +4484,6 @@
 				(justify right)
 			)
 		)
-		(pin "CLK_OUT_1" output
-			(at 198.12 92.71 0)
-			(uuid "537b03d8-bd86-42a4-a6b7-954f7684f66c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SDO1_1" input
 			(at 198.12 101.6 0)
 			(uuid "9a68d74f-9e3b-48f7-8561-0036c32be64e")
@@ -4584,9 +4564,9 @@
 				(justify right)
 			)
 		)
-		(pin "CNV_1" output
-			(at 198.12 95.25 0)
-			(uuid "a7f4b106-629f-4d05-a9e9-0691e7472db1")
+		(pin "CLK_OUT_1" input
+			(at 198.12 92.71 0)
+			(uuid "dd417b43-c0c6-49ac-bc8d-c9b8081ea183")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,9 +4574,29 @@
 				(justify right)
 			)
 		)
-		(pin "CNV" output
+		(pin "CLK_OUT" input
+			(at 198.12 177.8 0)
+			(uuid "0f860e84-59ec-49c5-bdf3-4f5b7380c947")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CNV}" output
 			(at 198.12 180.34 0)
-			(uuid "881738ec-b897-4f63-9870-90061e618808")
+			(uuid "d6cd1d41-e1d5-484a-b1bb-0a92edb781fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CNV}_1" output
+			(at 198.12 95.25 0)
+			(uuid "a8d61cf7-6e1b-444c-82f5-2eba0d06e386")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,16 +4900,6 @@
 				(justify left)
 			)
 		)
-		(pin "CLK_OUT" input
-			(at 223.52 177.8 180)
-			(uuid "55aac2a5-4aa1-4437-9dc8-de2e633579ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SDO1" output
 			(at 223.52 185.42 180)
 			(uuid "33ffe9f3-87ed-444e-81e4-68b4c4a69cfc")
@@ -5060,9 +5050,19 @@
 				(justify left)
 			)
 		)
-		(pin "CNV" input
+		(pin "CLK_OUT" output
+			(at 223.52 177.8 180)
+			(uuid "b331440b-2bc5-41c1-9bb5-f62f8038379f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CNV}" input
 			(at 223.52 180.34 180)
-			(uuid "6ad9ae22-d0cd-4b91-bcd7-a567e15dddbb")
+			(uuid "1510e4a4-f36e-401e-8c72-18f4e3734846")
 			(effects
 				(font
 					(size 1.27 1.27)

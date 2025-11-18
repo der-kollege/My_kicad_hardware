@@ -3397,6 +3397,10 @@
 		(uuid "04062943-3e43-4498-a376-a5259ceed78e")
 	)
 	(no_connect
+		(at 279.4 134.62)
+		(uuid "0f03e75c-ced3-48e8-9767-e5029cabd544")
+	)
+	(no_connect
 		(at 342.9 115.57)
 		(uuid "0f0f82b5-0182-4906-986c-dd494072ed7f")
 	)
@@ -3413,12 +3417,24 @@
 		(uuid "27b1dc27-aa26-413c-b052-2fd65f1ef16e")
 	)
 	(no_connect
+		(at 231.14 127)
+		(uuid "2d16f1ca-9a16-4bbe-b141-ba540d5e6641")
+	)
+	(no_connect
 		(at 342.9 118.11)
 		(uuid "2f8c98cc-39bc-4c74-92ee-9ff299d0552b")
 	)
 	(no_connect
 		(at 279.4 124.46)
 		(uuid "4a79695a-eb22-4fe1-93c5-f8b81baf8172")
+	)
+	(no_connect
+		(at 231.14 142.24)
+		(uuid "5cdf39ff-6837-4ebc-881b-08686ea7219f")
+	)
+	(no_connect
+		(at 231.14 121.92)
+		(uuid "8582bd55-7dbf-4201-a3c5-7a7a2d58c5e9")
 	)
 	(no_connect
 		(at 279.4 127)
@@ -3429,8 +3445,36 @@
 		(uuid "8fed510e-b4dd-4711-baec-81fd338878a1")
 	)
 	(no_connect
+		(at 231.14 137.16)
+		(uuid "a191bdb4-77f2-4786-9033-19b756b20f9c")
+	)
+	(no_connect
+		(at 231.14 134.62)
+		(uuid "acb86b84-0a08-4321-a02b-0434bb606932")
+	)
+	(no_connect
+		(at 231.14 139.7)
+		(uuid "c56ec066-6a56-4b2d-ba11-4424ada24e5c")
+	)
+	(no_connect
+		(at 279.4 137.16)
+		(uuid "c6cebfc1-83cf-4932-8008-9ca891917f83")
+	)
+	(no_connect
+		(at 231.14 119.38)
+		(uuid "d68fb497-e1b7-4d2e-8121-15fad96bba71")
+	)
+	(no_connect
+		(at 231.14 124.46)
+		(uuid "d8a6bc92-d378-47e0-9625-aaaf48bd4b53")
+	)
+	(no_connect
 		(at 342.9 123.19)
 		(uuid "e7186bb2-45c6-49c9-bf01-935c1aacecef")
+	)
+	(no_connect
+		(at 231.14 129.54)
+		(uuid "f1221f5a-d18a-41d1-8fb3-aaf2e9e02676")
 	)
 	(wire
 		(pts
@@ -8808,7 +8852,7 @@
 		(uuid "1b19efc0-948e-4664-92a9-6b84cb3eb22f")
 	)
 	(hierarchical_label "CLK_OUT"
-		(shape output)
+		(shape input)
 		(at 285.75 109.22 0)
 		(effects
 			(font
@@ -9181,7 +9225,7 @@
 		)
 		(uuid "81ca263f-1cf7-4d85-a72f-27a9b7bc0efa")
 	)
-	(hierarchical_label "CNV"
+	(hierarchical_label "~{CNV}"
 		(shape output)
 		(at 285.75 111.76 0)
 		(effects
@@ -9225,7 +9269,7 @@
 		)
 		(uuid "8f2abfa8-018a-43a4-8b46-bd1976838e86")
 	)
-	(hierarchical_label "CNV_1"
+	(hierarchical_label "~{CNV}_1"
 		(shape output)
 		(at 201.93 156.21 0)
 		(effects
@@ -9435,7 +9479,7 @@
 		(uuid "baa54a5b-e96f-4c38-bee8-97d114a8656c")
 	)
 	(hierarchical_label "CLK_OUT_1"
-		(shape output)
+		(shape input)
 		(at 140.97 151.13 180)
 		(effects
 			(font
@@ -9890,7 +9934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Chip electrical info" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
+		(property "AC,DC Characteristics" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
 			(at 76.2 114.3 0)
 			(effects
 				(font
@@ -10525,7 +10569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Chip electrical info" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
+		(property "AC,DC Characteristics" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
 			(at 255.27 124.46 0)
 			(effects
 				(font
@@ -11160,7 +11204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Chip electrical info" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
+		(property "AC,DC Characteristics" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
 			(at 328.93 119.38 0)
 			(effects
 				(font
@@ -11729,7 +11773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Chip electrical info" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
+		(property "AC,DC Characteristics" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
 			(at 173.99 121.92 0)
 			(effects
 				(font

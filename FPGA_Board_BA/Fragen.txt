@@ -3,4 +3,5 @@
 3: Habe 1.8V Supply überflüssig hunzugefügt (hätte 3A vom FPGA nehmen können)
 4: Conversion start pin (CNV) sollte mit maximal OVDD betrieben werden (1.8V)
 5: CHB Output Connector noch war noch nicht ganz Klar
-6: Müsste man beim Single Ended -> Diff Signal nicht doch Vref auf den nicht-invertierenden Eingang darauflegen?
+6: Musste level-shifter zum SCK und
+7: Poti auf XADC (was max 1.8V erträgt)

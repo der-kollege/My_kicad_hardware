@@ -767,12 +767,20 @@
       "Level_shifter_error_2"
     ],
     [
+      "3aef2b1a-46e4-4d2a-8508-77241448084f",
+      "Level Shift for DIO"
+    ],
+    [
       "d6c6031d-c1b3-49bb-af8f-093ee0f25456",
       "Level_shifter_Rx_En"
     ],
     [
       "195faa44-0949-4e4a-a075-cc82f959d0cf",
       "Level_shifter_error_1"
+    ],
+    [
+      "90f23285-27cc-4590-a3de-f3bed661e97d",
+      "Level Shift for DIO"
     ]
   ],
   "text_variables": {}
