@@ -5,3 +5,4 @@
 5: CHB Output Connector noch war noch nicht ganz Klar
 6: Musste level-shifter zum SCK und
 7: Poti auf XADC (was max 1.8V erträgt)
+8: Sollte ich in latex eine tiefe technische Beschreibung über der hardware machen? Zb Ersatzschaltbild von CHB, oder HV-Probe schaltung, OpAmp Berechnungen? Sollte ich der Falsche pin reinschreiben?

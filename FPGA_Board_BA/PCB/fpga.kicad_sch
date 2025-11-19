@@ -3381,7 +3381,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Bank 13: Total 12 pins -> ADC (11pins)\nBank 34: Total 48 pins -> Tx Phase A,B,C,D (48 pins)\nBank 35: Total 48 pins -> B6 (8pins) + CHB En/Err/Rx (12pins)\n+ User Interactions (4 pins) + ADC_Machine (11pin)\nXADC: Poti\n"
+	(text "Bank 13: Total 12 pins -> ADC (11pins)\nBank 34: Total 48 pins -> Tx Phase A,B,C,D (48 pins)\nBank 35: Total 48 pins -> B6 (8pins) + CHB En/Err/Rx (12pins)\n+ User Interactions (4 pins) + ADC_Machine (11pin)\nXADC: Poti\n\nFree pins left: 14"
 		(exclude_from_sim no)
 		(at 280.924 76.454 0)
 		(effects
