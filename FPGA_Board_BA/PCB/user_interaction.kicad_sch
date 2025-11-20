@@ -1660,6 +1660,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Poti -> ADC of B6\nVmax: 4.096V"
+		(exclude_from_sim no)
+		(at 216.916 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91e9a109-41ad-4bf7-b7b1-1ac98a66c33c")
+	)
 	(junction
 		(at 133.35 139.7)
 		(diameter 0)

@@ -148,9 +148,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "- DCDC for Isolation-amplifier\n[X] ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] Add another ADC for B6\n[X] CHB Rx En Err -> 10 pin (wie base board)\n[X] Poti an Analog Input\n[X] ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n[X] FPGA falsche pin namen an Hersteller + BA \n[X] Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n[X] Pullup Resistor für Tx der CHB und auch Rx\n[X] Latex dokumentation beginnen\n[X] Diff Eingang für ADC (mit OP-Amps)\n[X] CMOS Fest, DDR mit 2 Widerstände\n[X] HV-Probe hinzufügen\n[X] 26 pin wannenstecker\n- CHB to PCB Connector \n- 0402 R und C (maybe)\n- Plug Terminal 8 Pin Footprint korrigieren\n- Alle unconnected pins mit dem \"not-connected\" funktion machen"
+	(text "- DCDC for Isolation-amplifier\n[X] ADC power supply (1.8V ... 2.5V)\n- Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] Add another ADC for B6\n[X] CHB Rx En Err -> 10 pin (wie base board)\n[X] Poti an Analog Input\n[X] ADC Datenbatt Recherche LVDS/CMOS ob 24pin + 2pins für comversion start frei sind\n[X] FPGA falsche pin namen an Hersteller + BA \n[X] Level shifter für Tx Rx und Fault pins (CHB -> FPGA)\n[X] Pullup Resistor für Tx der CHB und auch Rx\n[X] Latex dokumentation beginnen\n[X] Diff Eingang für ADC (mit OP-Amps)\n[X] CMOS Fest, DDR mit 2 Widerstände\n[X] HV-Probe hinzufügen\n[X] 26 pin wannenstecker\n- CHB to PCB Connector \n- 0402 R und C (maybe)\n- Plug Terminal 8 Pin Footprint korrigieren\n- Alle unconnected pins mit dem \"not-connected\" funktion machen\n- Drehzahlsensor widerstand zum dir pin von level shifter\n- En Pulldown (wahrscheinlich (muss noch nachschauen))\n- Error auch\n- Rx vor dem Level-Shifter pull-up\n- Leo link schicken über 24 pin Wannenstecker Mouser\n- Noch einen Poti \n- Refout -> 2 Opamps für diff-Eingang (Vref/2)\n- Xilinx pinout anschauen + Versorgung\n- Vllt ein Bank auf 1.8V"
 		(exclude_from_sim no)
-		(at 302.26 230.378 0)
+		(at 278.892 244.348 0)
 		(effects
 			(font
 				(size 1.27 1.27)
