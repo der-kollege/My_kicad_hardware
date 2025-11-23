@@ -1132,7 +1132,7 @@
 					)
 				)
 			)
-			(property "Footprint" "WLIB_DO:LED_0603_1608Metric"
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -2816,7 +2816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3331c218-924e-40bc-b5c1-31ac47383470")
-		(property "Reference" "R36"
+		(property "Reference" "R48"
 			(at 193.04 78.7399 0)
 			(effects
 				(font
@@ -2897,7 +2897,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "R36")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -3027,7 +3027,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WLIB_DO:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 161.29 142.24 0)
 			(effects
 				(font
@@ -3115,7 +3115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e0fe1a0-5f9a-478f-a5f1-b975c8af267a")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR065"
 			(at 129.54 152.4 0)
 			(effects
 				(font
@@ -3165,7 +3165,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "#PWR060")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3199,7 +3199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WLIB_DO:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 180.34 88.9 0)
 			(effects
 				(font
@@ -3287,7 +3287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b5df078-4fce-41dd-8535-201defd36a98")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 67.31 92.71 0)
 			(effects
 				(font
@@ -3337,7 +3337,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3353,7 +3353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f9ad082-b8dc-40ec-bbd6-d730330f29aa")
-		(property "Reference" "R33"
+		(property "Reference" "R45"
 			(at 147.32 76.1999 0)
 			(effects
 				(font
@@ -3407,7 +3407,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "R33")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67ff0417-2440-4ee1-9cec-b06e7ce072ae")
-		(property "Reference" "R35"
+		(property "Reference" "R47"
 			(at 173.99 132.0799 0)
 			(effects
 				(font
@@ -3600,7 +3600,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "R35")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -3904,7 +3904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d5b6e06-9945-4c57-8811-5e5f22776850")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 171.45 154.94 0)
 			(effects
 				(font
@@ -3954,7 +3954,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac63c07e-a3fa-404d-aa13-2c8aaffae3c5")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 144.78 102.87 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8dfe68c-6477-44fe-afce-b99737bc4269")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR067"
 			(at 153.67 123.19 0)
 			(effects
 				(font
@@ -4172,7 +4172,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "#PWR062")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4188,7 +4188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bffadb73-e0ba-4c6e-80f8-c7703f5a5ae4")
-		(property "Reference" "R34"
+		(property "Reference" "R46"
 			(at 147.32 88.8999 0)
 			(effects
 				(font
@@ -4269,7 +4269,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "R34")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -4285,7 +4285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdb6f6fb-ca7a-49f6-8918-d5c67dadeaed")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR070"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "#PWR065")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4434,7 +4434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e834087d-1678-4e49-b54e-b0e48d603403")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR069"
 			(at 173.99 96.52 0)
 			(effects
 				(font
@@ -4484,7 +4484,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "#PWR064")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4500,7 +4500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eadf119a-5400-4862-b1ce-9ee84a80db9b")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR064"
 			(at 121.92 96.52 0)
 			(effects
 				(font
@@ -4550,7 +4550,7 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/01163162-2dd3-462f-91a6-fa3b981b9fc9"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)

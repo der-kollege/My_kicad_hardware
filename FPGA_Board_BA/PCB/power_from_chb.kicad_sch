@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(property "Description" "Wannenstecker 6pin, THT Vertikal, Imax = 3A"
 				(at 0.762 11.938 0)
 				(effects
 					(font
@@ -928,7 +928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+		(property "Description" "Wannenstecker 6pin, THT Vertikal, Imax = 3A"
 			(at 143.002 107.442 0)
 			(effects
 				(font
@@ -1008,7 +1008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+		(property "Description" "Wannenstecker 6pin, THT Vertikal, Imax = 3A"
 			(at 143.002 68.072 0)
 			(effects
 				(font
@@ -1088,7 +1088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+		(property "Description" "Wannenstecker 6pin, THT Vertikal, Imax = 3A"
 			(at 143.002 87.122 0)
 			(effects
 				(font
@@ -1168,7 +1168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+		(property "Description" "Wannenstecker 6pin, THT Vertikal, Imax = 3A"
 			(at 143.002 47.752 0)
 			(effects
 				(font

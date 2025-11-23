@@ -1036,19 +1036,19 @@
 		)
 	)
 	(junction
-		(at 182.88 97.79)
+		(at 88.9 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11285e44-d123-48b7-a551-2d137adc49f5")
 	)
 	(junction
-		(at 177.8 92.71)
+		(at 83.82 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "546f1103-fa65-481e-a037-7a82bd4cea88")
 	)
 	(junction
-		(at 180.34 69.85)
+		(at 86.36 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f0eca89-2e9f-45f8-b1fc-63ca741679d3")
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 92.71) (xy 177.8 92.71)
+			(xy 140.97 92.71) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 182.88 97.79)
+			(xy 88.9 81.28) (xy 88.9 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1123,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 69.85) (xy 177.8 69.85)
+			(xy 88.9 97.79) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2e58dc-8cc6-4f0a-bc09-1bfc6196b57a")
+	)
+	(wire
+		(pts
+			(xy 86.36 69.85) (xy 83.82 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1163,23 +1173,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 97.79) (xy 120.65 97.79)
+			(xy 76.2 97.79) (xy 88.9 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b9ab0bd-ab1e-455b-b7b9-5806a6b656bf")
-	)
-	(wire
-		(pts
-			(xy 177.8 92.71) (xy 193.04 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76907e39-cedd-4607-81cd-27fbab3b4c97")
 	)
 	(wire
 		(pts
@@ -1233,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 182.88 69.85)
+			(xy 88.9 73.66) (xy 88.9 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1243,7 +1243,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 69.85) (xy 177.8 73.66)
+			(xy 83.82 69.85) (xy 83.82 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1260,16 +1260,6 @@
 			(type default)
 		)
 		(uuid "bdba18bd-5c41-43dd-afa9-85cd360624c2")
-	)
-	(wire
-		(pts
-			(xy 182.88 97.79) (xy 193.04 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c14ab6e2-b89d-4a7c-a8a7-d09e5a1e8be0")
 	)
 	(wire
 		(pts
@@ -1293,7 +1283,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 120.65 92.71)
+			(xy 76.2 92.71) (xy 83.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1303,7 +1293,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 81.28) (xy 177.8 92.71)
+			(xy 83.82 81.28) (xy 83.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 97.79) (xy 182.88 97.79)
+			(xy 140.97 97.79) (xy 149.86 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1333,13 +1323,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 67.31) (xy 180.34 69.85)
+			(xy 86.36 67.31) (xy 86.36 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e84055fa-1cda-4d20-a5e5-10f26dd5429b")
+	)
+	(wire
+		(pts
+			(xy 83.82 92.71) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa04bbd-d907-4985-a456-bb14d828d23e")
 	)
 	(wire
 		(pts
@@ -1353,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 180.34 69.85)
+			(xy 88.9 69.85) (xy 86.36 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1383,7 +1383,7 @@
 	)
 	(hierarchical_label "A2"
 		(shape input)
-		(at 115.57 97.79 180)
+		(at 76.2 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1394,7 +1394,7 @@
 	)
 	(hierarchical_label "A1"
 		(shape input)
-		(at 115.57 92.71 180)
+		(at 76.2 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1405,7 +1405,7 @@
 	)
 	(hierarchical_label "B1"
 		(shape output)
-		(at 193.04 92.71 0)
+		(at 149.86 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,7 +1416,7 @@
 	)
 	(hierarchical_label "B2"
 		(shape output)
-		(at 193.04 97.79 0)
+		(at 149.86 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1435,7 +1435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05253417-a7c6-4c0a-bd66-326f2d1ba669")
-		(property "Reference" "C148"
+		(property "Reference" "C143"
 			(at 110.49 72.39 90)
 			(effects
 				(font
@@ -1514,11 +1514,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "C158")
+					(reference "C153")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "C148")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -1526,15 +1526,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 177.8 77.47 0)
+		(at 83.82 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2e0dfb65-0e48-454b-a417-7f61a7c4d267")
-		(property "Reference" "R179"
-			(at 172.72 82.804 90)
+		(property "Reference" "R218"
+			(at 78.74 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1543,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 175.26 82.804 90)
+			(at 81.28 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1552,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 58.42 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1561,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 177.8 55.88 0)
+			(at 83.82 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 77.47 0)
+			(at 83.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1579,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 177.8 60.96 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1588,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 177.8 63.5 0)
+			(at 83.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +1597,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 177.8 66.04 0)
+			(at 83.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,81 +1614,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "R199")
+					(reference "R238")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "R179")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 180.34 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31d5565f-06fb-4c62-9121-3c9522476056")
-		(property "Reference" "#PWR0219"
-			(at 180.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 180.34 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c88bea96-0498-4e87-a56c-a6c4762de56b")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "#PWR0253")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "#PWR0219")
+					(reference "R218")
 					(unit 1)
 				)
 			)
@@ -1704,7 +1634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "413be15d-b2d9-4e1b-901c-87bbbb3f8467")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0228"
 			(at 130.81 118.11 0)
 			(effects
 				(font
@@ -1754,11 +1684,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "#PWR0250")
+					(reference "#PWR0262")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "#PWR0216")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -1774,7 +1704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45435c94-e132-4c56-8281-20e70b9fff66")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0229"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -1824,11 +1754,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "#PWR0251")
+					(reference "#PWR0263")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "#PWR0217")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -1836,7 +1766,7 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 182.88 77.47 0)
+		(at 88.9 77.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1844,8 +1774,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "484b6f1b-86e9-48b8-8ce7-2d47941a8713")
-		(property "Reference" "R180"
-			(at 187.96 82.804 90)
+		(property "Reference" "R219"
+			(at 93.98 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1784,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 185.42 82.804 90)
+			(at 91.44 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1793,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.88 58.42 0)
+			(at 88.9 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1802,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 182.88 55.88 0)
+			(at 88.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +1811,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 77.47 0)
+			(at 88.9 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1820,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 182.88 60.96 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1829,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 182.88 63.5 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1838,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 182.88 66.04 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,11 +1855,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "R200")
+					(reference "R239")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "R180")
+					(reference "R219")
 					(unit 1)
 				)
 			)
@@ -1945,7 +1875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513b44f2-90f6-4199-8e9a-6c1ce3e69eee")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0226"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -1995,11 +1925,81 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "#PWR0248")
+					(reference "#PWR0260")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "#PWR0214")
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 86.36 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75729adb-4d3d-4dd3-9902-64a0392045b5")
+		(property "Reference" "#PWR0231"
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 86.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c85744fc-c4b4-47cd-b4b0-da26f82d9e3b")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
+					(reference "#PWR0265")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -2015,7 +2015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a3b1901-c6fa-4e47-9432-5f9fa010054e")
-		(property "Reference" "C149"
+		(property "Reference" "C144"
 			(at 154.94 72.39 90)
 			(effects
 				(font
@@ -2094,11 +2094,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "C159")
+					(reference "C154")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "C149")
+					(reference "C144")
 					(unit 1)
 				)
 			)
@@ -2114,7 +2114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "856e3cd7-d2d5-4111-af05-45faee971666")
-		(property "Reference" "U36"
+		(property "Reference" "U35"
 			(at 132.9533 107.95 0)
 			(effects
 				(font
@@ -2195,11 +2195,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "U42")
+					(reference "U41")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "U36")
+					(reference "U35")
 					(unit 1)
 				)
 			)
@@ -2215,7 +2215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a49fdbe2-c3be-4f88-ba75-d1040ad30757")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0227"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -2265,11 +2265,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "#PWR0249")
+					(reference "#PWR0261")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "#PWR0215")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -2285,7 +2285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de06e76e-7bc2-4f70-b423-bff346eed81e")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0230"
 			(at 162.56 91.44 0)
 			(effects
 				(font
@@ -2335,11 +2335,11 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "#PWR0252")
+					(reference "#PWR0264")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "#PWR0218")
+					(reference "#PWR0230")
 					(unit 1)
 				)
 			)

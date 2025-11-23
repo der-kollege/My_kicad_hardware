@@ -5,17 +5,6 @@
 	(uuid "fd7503bc-e7fc-4766-b224-3d1c3d7de5ff")
 	(paper "A3")
 	(lib_symbols)
-	(text "[X] Breakout for all unused pins\n- ESD Diode Array for unused pins\n[X] CHB to PCB Connector \n- 0402 R und C (maybe)\n- Alle unconnected pins mit dem \"not-connected\" funktion machen\n[X] Drehzahlsensor widerstand zum dir pin von level shifter\n[X] En Pulldown (wahrscheinlich (muss noch nachschauen))\n[X] Error auch\n[X] Rx vor dem Level-Shifter pull-up\n[X] Leo link schicken über 24 pin Wannenstecker Mouser\n[X] Noch einen Poti \n[X] Refout -> 2 Opamps für diff-Eingang (Vref/2)\n[X] Xilinx pinout anschauen + Versorgung\n[X] Tamura Hall-Sensor hinzufügen\n- Add 4 pin TVS diode array"
-		(exclude_from_sim no)
-		(at 278.638 230.632 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "adc4814b-96a9-4752-ad4e-d5b72c0c7dea")
-	)
 	(junction
 		(at 368.3 135.89)
 		(diameter 0)
@@ -4749,9 +4738,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Ph_A1" output
+		(pin "PH_A1" output
 			(at 332.74 36.83 270)
-			(uuid "07f7c34f-4879-4c9d-a571-b7d7de77c496")
+			(uuid "e16f86a9-4e18-4978-8f79-6a7c79fed362")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4750,7 @@
 		)
 		(pin "Ph_A2" output
 			(at 337.82 36.83 270)
-			(uuid "3f7df2bc-f160-480d-99c2-620550bae349")
+			(uuid "bc7397f5-7bfa-4b4d-a8e5-54ec5ac1c445")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4760,7 @@
 		)
 		(pin "PH_B1" output
 			(at 342.9 36.83 270)
-			(uuid "9f71e9b6-0665-458b-b207-561056b4113f")
+			(uuid "74f6c2cb-11e3-4f3a-9ed7-538c66ee8dd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +4770,7 @@
 		)
 		(pin "Ph_B2" output
 			(at 347.98 36.83 270)
-			(uuid "892daaf4-c4b0-4ffc-829d-74edd2ab9adc")
+			(uuid "5bc5db38-2461-40d0-af26-ea17a4286810")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,9 +4778,9 @@
 				(justify left)
 			)
 		)
-		(pin "Ph_C1" output
+		(pin "PH_C1" output
 			(at 353.06 36.83 270)
-			(uuid "ab67354a-6c79-4515-9224-abfb136f6c94")
+			(uuid "80ee47a0-3955-4e63-9058-c334e53f32b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +4790,7 @@
 		)
 		(pin "Ph_C2" output
 			(at 358.14 36.83 270)
-			(uuid "6e863d83-2c07-42f8-8a2a-121b6e83f611")
+			(uuid "938a2ca6-1cab-4ef2-a31c-6773dce1203c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,9 +4798,9 @@
 				(justify left)
 			)
 		)
-		(pin "Ph_D1" output
+		(pin "PH_D1" output
 			(at 363.22 36.83 270)
-			(uuid "6d896fcf-da0e-4d45-b252-4279434129b2")
+			(uuid "6588b4f4-1571-4d4e-a871-1cc50c0a93ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4810,7 @@
 		)
 		(pin "Ph_D2" output
 			(at 368.3 36.83 270)
-			(uuid "ed3b47dd-b5bc-47a7-870c-50e36c7c87af")
+			(uuid "aee03ef8-e085-4169-bdbd-1d2e9e8821ae")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2717,7 +2717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc52534-8c91-4465-aae0-459052ced116")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0176"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -2767,27 +2767,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0178")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0171")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0203")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0185")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0164")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0196")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ea86fdd-a11a-4da5-9c9d-1cc7fea65192")
-		(property "Reference" "U28"
+		(property "Reference" "U27"
 			(at 194.31 120.65 0)
 			(effects
 				(font
@@ -2921,27 +2921,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "U30")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
 					(reference "U29")
 					(unit 1)
 				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "U34")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "U31")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
 					(reference "U28")
 					(unit 1)
 				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
 					(reference "U33")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
+					(reference "U30")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
+					(reference "U27")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
+					(reference "U32")
 					(unit 1)
 				)
 			)
@@ -2957,7 +2957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "140142fa-ccb1-4f3c-a775-d7c15ab71046")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0177"
 			(at 185.42 59.69 0)
 			(effects
 				(font
@@ -3007,27 +3007,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0179")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0172")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0204")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0186")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0165")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0197")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28b844da-caaa-4c16-8cf1-985f07397c0d")
-		(property "Reference" "R130"
+		(property "Reference" "R169"
 			(at 112.776 66.04 90)
 			(effects
 				(font
@@ -3123,27 +3123,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R146")
+					(reference "R185")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R138")
+					(reference "R177")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R173")
+					(reference "R212")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R154")
+					(reference "R193")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R130")
+					(reference "R169")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R165")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -3159,7 +3159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b6cffa8-3694-42db-9386-db6ca02bbf37")
-		(property "Reference" "C134"
+		(property "Reference" "C129"
 			(at 212.09 53.34 90)
 			(effects
 				(font
@@ -3238,27 +3238,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "C138")
+					(reference "C133")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "C136")
+					(reference "C131")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "C145")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
 					(reference "C140")
 					(unit 1)
 				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
+					(reference "C135")
+					(unit 1)
+				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "C134")
+					(reference "C129")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "C143")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -3273,7 +3273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31741a0f-de9d-4e59-a87d-cfd604dbab09")
-		(property "Reference" "R128"
+		(property "Reference" "R167"
 			(at 94.996 66.04 90)
 			(effects
 				(font
@@ -3354,27 +3354,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R144")
+					(reference "R183")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R136")
+					(reference "R175")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R171")
+					(reference "R210")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R152")
+					(reference "R191")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R128")
+					(reference "R167")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R163")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -3389,7 +3389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41c29671-08f6-4c9c-92fc-3e41ca2c88ac")
-		(property "Reference" "R131"
+		(property "Reference" "R170"
 			(at 120.396 66.04 90)
 			(effects
 				(font
@@ -3470,27 +3470,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R147")
+					(reference "R186")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R139")
+					(reference "R178")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R174")
+					(reference "R213")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R155")
+					(reference "R194")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R131")
+					(reference "R170")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R166")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46c039c4-0903-4e3e-8315-bc8dd7f40316")
-		(property "Reference" "R129"
+		(property "Reference" "R168"
 			(at 103.886 66.04 90)
 			(effects
 				(font
@@ -3586,27 +3586,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R145")
+					(reference "R184")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R137")
+					(reference "R176")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R172")
+					(reference "R211")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R153")
+					(reference "R192")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R129")
+					(reference "R168")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R164")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -3622,7 +3622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490b59c8-5f61-4917-9b3f-062a9dc6d7b5")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0174"
 			(at 113.03 45.72 0)
 			(effects
 				(font
@@ -3672,27 +3672,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0176")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0169")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0201")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0183")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0162")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0194")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -3708,7 +3708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50a11796-1935-4561-8967-bb6aa6802b46")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0180"
 			(at 223.52 72.39 0)
 			(effects
 				(font
@@ -3758,27 +3758,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0182")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0175")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0207")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0189")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0168")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0200")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -3793,7 +3793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "571fd4cd-72bb-4200-bbfa-2a6dc5dabeab")
-		(property "Reference" "R133"
+		(property "Reference" "R172"
 			(at 138.176 66.04 90)
 			(effects
 				(font
@@ -3874,27 +3874,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R149")
+					(reference "R188")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R141")
+					(reference "R180")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R176")
+					(reference "R215")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R157")
+					(reference "R196")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R133")
+					(reference "R172")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R168")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -3909,7 +3909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59855a2d-2d05-42a3-9e7c-dd4f9ddd367d")
-		(property "Reference" "R132"
+		(property "Reference" "R171"
 			(at 129.286 66.04 90)
 			(effects
 				(font
@@ -3990,27 +3990,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R148")
+					(reference "R187")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R140")
+					(reference "R179")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R175")
+					(reference "R214")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R156")
+					(reference "R195")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R132")
+					(reference "R171")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R167")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -4026,7 +4026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b583fe4-ba9d-4bf4-8fde-736f5b76a308")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0179"
 			(at 214.63 125.73 0)
 			(effects
 				(font
@@ -4076,27 +4076,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0181")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0174")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0206")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0188")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0167")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0199")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -4112,7 +4112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4aad5b6-de00-468b-9dcb-7571cad654a0")
-		(property "Reference" "C133"
+		(property "Reference" "C128"
 			(at 171.45 53.34 90)
 			(effects
 				(font
@@ -4191,27 +4191,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "C137")
+					(reference "C132")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "C135")
+					(reference "C130")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "C144")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
 					(reference "C139")
 					(unit 1)
 				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
+					(reference "C134")
+					(unit 1)
+				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "C133")
+					(reference "C128")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "C142")
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -4226,7 +4226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa12ff16-7700-4649-b818-887f4c6a8a52")
-		(property "Reference" "R126"
+		(property "Reference" "R165"
 			(at 77.216 66.04 90)
 			(effects
 				(font
@@ -4307,27 +4307,27 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R142")
+					(reference "R181")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R134")
+					(reference "R173")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R169")
+					(reference "R208")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R150")
+					(reference "R189")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R126")
+					(reference "R165")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R161")
+					(reference "R200")
 					(unit 1)
 				)
 			)
@@ -4343,7 +4343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0031c3b-bd9e-4463-af79-7e3077797c41")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0175"
 			(at 152.4 72.39 0)
 			(effects
 				(font
@@ -4393,27 +4393,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0177")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0170")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0202")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0184")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0163")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0195")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b531cd5d-e5b6-489a-9199-0bcaf3c95d5c")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0178"
 			(at 203.2 59.69 0)
 			(effects
 				(font
@@ -4479,27 +4479,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0180")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0173")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0205")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0187")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0166")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0198")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -4514,7 +4514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe828158-8c37-4812-a4a6-90e92b5b9aca")
-		(property "Reference" "R127"
+		(property "Reference" "R166"
 			(at 86.106 66.04 90)
 			(effects
 				(font
@@ -4595,27 +4595,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R143")
+					(reference "R182")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R135")
+					(reference "R174")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R170")
+					(reference "R209")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R151")
+					(reference "R190")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R127")
+					(reference "R166")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R162")
+					(reference "R201")
 					(unit 1)
 				)
 			)

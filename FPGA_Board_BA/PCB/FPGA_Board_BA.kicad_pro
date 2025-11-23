@@ -703,36 +703,28 @@
       "Diffamp8"
     ],
     [
-      "0f8b8c0d-8d17-4ee9-bc08-703091d04de4",
-      "Diffamp1"
+      "c54619e6-6392-4600-bdf7-cfa9c7071a95",
+      "Diffamp_2"
     ],
     [
-      "971bb431-acbf-4e6b-bbb8-657f7e112efb",
-      "Diffamp2"
+      "ac8498bb-a532-4001-8c45-5cf802a58150",
+      "Diffamp_3"
     ],
     [
-      "292bb8e0-0265-40bb-937a-e3584158845b",
-      "Diffamp3"
+      "63fa3971-dd70-4657-8ff1-ed2f8a267c11",
+      "Diffamp_4"
     ],
     [
-      "558ff4b4-5991-4769-9e81-d6c769bf2fdb",
-      "Diffamp4"
+      "0e8298d8-0835-43aa-b411-707e30992ebf",
+      "Diffamp_5"
     ],
     [
-      "d1933eb3-d053-4a0c-a4c8-1802ff07d6d5",
-      "Diffamp5"
+      "51abf537-dd2a-4da5-b0b6-4cd4082c70af",
+      "Diffamp_6"
     ],
     [
-      "3a977ff5-ced9-4d54-9352-0c31cd1e5a3f",
-      "Diffamp6"
-    ],
-    [
-      "a9dbff09-4845-4216-b958-7134b6bd162a",
-      "Diffamp7"
-    ],
-    [
-      "cb0f8086-e652-475e-a637-a73d5388d465",
-      "Diffamp8"
+      "722f30b1-70f2-4af5-b92f-10c7bc8d71f7",
+      "Diffamp_7"
     ],
     [
       "b132d2b4-fa1f-46e7-9132-09c17e9d7846",
@@ -801,6 +793,14 @@
     [
       "be9b0038-45c4-4d10-b23c-e774c19157e6",
       "Tamura_1"
+    ],
+    [
+      "36596d62-9129-467a-b52e-72e709636837",
+      "esd_diodes"
+    ],
+    [
+      "7f98af5c-294d-4bac-a926-77020da2d4d3",
+      "Diffamp_1"
     ]
   ],
   "text_variables": {}

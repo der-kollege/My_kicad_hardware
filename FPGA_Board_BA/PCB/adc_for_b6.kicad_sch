@@ -871,7 +871,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "CLKOUT-"
@@ -2047,6 +2047,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 107.95 21.59)
@@ -2205,9 +2306,19 @@
 		(color 0 0 0 0)
 		(uuid "fe915d6e-2d26-4aac-9314-531ab5e41307")
 	)
+	(junction
+		(at 96.52 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe9c28e0-7e4d-4a15-9c90-5dbab428a2d9")
+	)
 	(no_connect
-		(at 246.38 132.08)
-		(uuid "f06cc1fc-38a3-4256-94d4-1ee8d8928b89")
+		(at 184.15 114.3)
+		(uuid "27c4fd70-27a0-4b2c-ac77-bf9ebb57ab00")
+	)
+	(no_connect
+		(at 184.15 116.84)
+		(uuid "4459c06f-e67f-438b-905b-56631aba1651")
 	)
 	(wire
 		(pts
@@ -2351,16 +2462,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 116.84) (xy 194.31 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d6913ce-928d-4bf1-95f4-fe4877d3cc2a")
-	)
-	(wire
-		(pts
 			(xy 142.24 82.55) (xy 153.67 82.55)
 		)
 		(stroke
@@ -2408,6 +2509,16 @@
 			(type default)
 		)
 		(uuid "2c58556a-a3b5-4769-bb46-9db02ce87d5a")
+	)
+	(wire
+		(pts
+			(xy 50.8 116.84) (xy 50.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cad0195-5637-4de1-8afd-32011f0cfdcd")
 	)
 	(wire
 		(pts
@@ -2558,6 +2669,16 @@
 			(type default)
 		)
 		(uuid "3c9a2728-7af1-4cf2-b355-a85edab2858a")
+	)
+	(wire
+		(pts
+			(xy 40.64 132.08) (xy 40.64 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc23a51-8068-4023-bdba-ed8520b80357")
 	)
 	(wire
 		(pts
@@ -2891,16 +3012,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 133.35) (xy 215.9 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "792ff6df-72d1-4641-894d-671788f69bf6")
-	)
-	(wire
-		(pts
 			(xy 118.11 135.89) (xy 118.11 139.7)
 		)
 		(stroke
@@ -3101,6 +3212,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 110.49) (xy 96.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a80de2-ffc0-49c5-b3ba-10d762fb0e35")
+	)
+	(wire
+		(pts
 			(xy 144.78 93.98) (xy 153.67 93.98)
 		)
 		(stroke
@@ -3121,16 +3242,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 116.84) (xy 194.31 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94a3c46-748d-461b-b43e-f19a6e25e514")
-	)
-	(wire
-		(pts
 			(xy 121.92 62.23) (xy 121.92 48.26)
 		)
 		(stroke
@@ -3148,16 +3259,6 @@
 			(type default)
 		)
 		(uuid "ab8f667b-c7af-4fc6-8d91-f0aa87ace36a")
-	)
-	(wire
-		(pts
-			(xy 241.3 132.08) (xy 246.38 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad207394-defe-4fa3-856f-bac7ec5463ce")
 	)
 	(wire
 		(pts
@@ -3461,16 +3562,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 130.81) (xy 196.85 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc475dbd-a84d-4a96-8120-3763a701eb97")
-	)
-	(wire
-		(pts
 			(xy 153.67 59.69) (xy 144.78 59.69)
 		)
 		(stroke
@@ -3478,16 +3569,6 @@
 			(type default)
 		)
 		(uuid "df61db63-57c1-4705-8a01-4f5a599cbca6")
-	)
-	(wire
-		(pts
-			(xy 196.85 114.3) (xy 184.15 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc6186c-191c-4d32-aa60-abdc75e4c103")
 	)
 	(wire
 		(pts
@@ -3528,16 +3609,6 @@
 			(type default)
 		)
 		(uuid "e389fe8a-54af-469c-8042-6806fb9cc674")
-	)
-	(wire
-		(pts
-			(xy 196.85 130.81) (xy 196.85 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7246a0a-8f6f-4e3e-972d-a7c3ea758678")
 	)
 	(wire
 		(pts
@@ -5578,6 +5649,28 @@
 		)
 		(uuid "ef381334-065c-4722-9aed-a10e1580606c")
 	)
+	(global_label "REFOUT_B6"
+		(shape bidirectional)
+		(at 85.09 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3234a14a-ddeb-4572-9890-016c03e33ed8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.4102 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "SDO5"
 		(shape output)
 		(at 142.24 80.01 180)
@@ -6588,7 +6681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e2e8be-c3ad-4b27-b3e6-9cf66957243c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 123.19 151.13 0)
 			(effects
 				(font
@@ -6638,7 +6731,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7488,7 +7581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8781e19d-08a6-4dfb-a2c2-67cfb6ca36df")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 170.18 139.7 0)
 			(effects
 				(font
@@ -7538,7 +7631,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7554,7 +7647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8796e259-c2ba-4240-acd4-1e18547186cc")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 121.92 52.07 0)
 			(effects
 				(font
@@ -7604,7 +7697,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7701,7 +7794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9947bb6a-dbe3-4269-8f85-c679a3d4b6b4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 165.1 44.45 0)
 			(effects
 				(font
@@ -7751,7 +7844,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7950,6 +8043,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 50.8 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc3ac47e-7153-4536-a1c1-b30ddd005bdd")
+		(property "Reference" "#FLG02"
+			(at 50.8 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f771dc61-20cb-403c-9bf0-b7ce08783249")
+		)
+		(instances
+			(project ""
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 175.26 38.1 0)
 		(unit 1)
@@ -7959,7 +8118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df528418-6df6-4226-8a42-ea583798f2a0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -8009,7 +8168,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8111,80 +8270,74 @@
 			)
 		)
 	)
-	(sheet
-		(at 215.9 39.37)
-		(size 25.4 7.62)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 135.89 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0f8b8c0d-8d17-4ee9-bc08-703091d04de4")
-		(property "Sheetname" "Diffamp1"
-			(at 215.9 38.6584 0)
+		(uuid "fce8a148-e46f-4eb9-934d-bc3a42eb450d")
+		(property "Reference" "#FLG03"
+			(at 40.64 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 215.9 47.5746 0)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "Ain+" output
-			(at 215.9 41.91 180)
-			(uuid "7342c581-8f96-4e83-a21a-f63a0fe1dae1")
+		(property "Footprint" ""
+			(at 40.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(pin "Ain-" output
-			(at 215.9 44.45 180)
-			(uuid "e35ca76c-026c-4372-99bc-935859d16d98")
+		(property "Datasheet" "~"
+			(at 40.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(pin "Analog" input
-			(at 241.3 43.18 0)
-			(uuid "a4434819-6ec4-413f-89f8-ee1b5bcfb2c7")
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "b1189499-8bff-40ba-9857-1bca65bcc143")
 		)
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(page "20")
+					(reference "#FLG03")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 215.9 64.77)
+		(at 215.9 90.17)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8198,9 +8351,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "292bb8e0-0265-40bb-937a-e3584158845b")
-		(property "Sheetname" "Diffamp3"
-			(at 215.9 64.0584 0)
+		(uuid "0e8298d8-0835-43aa-b411-707e30992ebf")
+		(property "Sheetname" "Diffamp_5"
+			(at 215.9 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,8 +8361,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 215.9 72.9746 0)
+		(property "Sheetfile" "diffamp_.kicad_sch"
+			(at 215.9 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,8 +8371,8 @@
 			)
 		)
 		(pin "Ain+" output
-			(at 215.9 67.31 180)
-			(uuid "c2415d44-0f56-4cb6-973a-2476bf2c7237")
+			(at 215.9 92.71 180)
+			(uuid "6fbc801a-76c0-4e76-be8a-f585dcada382")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,8 +8381,8 @@
 			)
 		)
 		(pin "Ain-" output
-			(at 215.9 69.85 180)
-			(uuid "e6c90044-131f-4d1c-8359-16cf60b86471")
+			(at 215.9 95.25 180)
+			(uuid "c5a2fa4b-c2ee-4f1c-82a7-e24145b79f7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,8 +8391,8 @@
 			)
 		)
 		(pin "Analog" input
-			(at 241.3 68.58 0)
-			(uuid "5da1dd57-111c-4267-a7db-b17ca53096e4")
+			(at 241.3 93.98 0)
+			(uuid "df76e09d-096a-49ec-a348-47d9e5148019")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8250,79 +8403,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 102.87)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3a977ff5-ced9-4d54-9352-0c31cd1e5a3f")
-		(property "Sheetname" "Diffamp6"
-			(at 215.9 102.1584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 215.9 111.0746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Ain+" output
-			(at 215.9 105.41 180)
-			(uuid "14dcf644-a063-43e5-ad90-bc4c0bc5051f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Ain-" output
-			(at 215.9 107.95 180)
-			(uuid "b671bbd6-da05-4ebe-b607-f9cebc89bc89")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Analog" input
-			(at 241.3 106.68 0)
-			(uuid "6bb4a423-3690-4cf6-a3b0-e69e30c14966")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(page "25")
+					(page "23")
 				)
 			)
 		)
@@ -8410,6 +8491,78 @@
 		)
 	)
 	(sheet
+		(at 215.9 102.87)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51abf537-dd2a-4da5-b0b6-4cd4082c70af")
+		(property "Sheetname" "Diffamp_6"
+			(at 215.9 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "diffamp_.kicad_sch"
+			(at 215.9 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ain+" output
+			(at 215.9 105.41 180)
+			(uuid "5a9b7faf-f12d-410d-bb34-b6605642855c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ain-" output
+			(at 215.9 107.95 180)
+			(uuid "d99fee47-d4ad-47b3-8a7f-d6be5dbbeb35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Analog" input
+			(at 241.3 106.68 0)
+			(uuid "17c3dec1-1b70-421c-ac0c-2921aba4fc83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 215.9 77.47)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
@@ -8424,8 +8577,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "558ff4b4-5991-4769-9e81-d6c769bf2fdb")
-		(property "Sheetname" "Diffamp4"
+		(uuid "63fa3971-dd70-4657-8ff1-ed2f8a267c11")
+		(property "Sheetname" "Diffamp_4"
 			(at 215.9 76.7584 0)
 			(effects
 				(font
@@ -8434,7 +8587,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
+		(property "Sheetfile" "diffamp_.kicad_sch"
 			(at 215.9 85.6746 0)
 			(effects
 				(font
@@ -8445,7 +8598,7 @@
 		)
 		(pin "Ain+" output
 			(at 215.9 80.01 180)
-			(uuid "5e0106ed-a4c6-4d7f-a407-922cd54d25c5")
+			(uuid "193b983e-0edf-47d3-8920-1869d37a86f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8608,7 @@
 		)
 		(pin "Ain-" output
 			(at 215.9 82.55 180)
-			(uuid "ea918caf-d91c-4105-badd-8cb5c865a3af")
+			(uuid "2690adeb-3550-4d48-ba0d-6e4aad1b14d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8618,7 @@
 		)
 		(pin "Analog" input
 			(at 241.3 81.28 0)
-			(uuid "9285814a-1993-4ffb-af49-64ea2f8732b7")
+			(uuid "91266334-19ac-4ebc-97e6-303466bacc99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8476,79 +8629,7 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(page "23")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 52.07)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "971bb431-acbf-4e6b-bbb8-657f7e112efb")
-		(property "Sheetname" "Diffamp2"
-			(at 215.9 51.3584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 215.9 60.2746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Ain+" output
-			(at 215.9 54.61 180)
-			(uuid "86df445b-05b7-463e-a0d1-cd6f77dde0bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Ain-" output
-			(at 215.9 57.15 180)
-			(uuid "214e4ba2-411a-4bd4-9ac1-ae9758aab6d1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Analog" input
-			(at 241.3 55.88 0)
-			(uuid "5c0780ec-0f94-4cb6-949d-b81eb2a321aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(page "21")
+					(page "22")
 				)
 			)
 		)
@@ -8568,8 +8649,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "a9dbff09-4845-4216-b958-7134b6bd162a")
-		(property "Sheetname" "Diffamp7"
+		(uuid "722f30b1-70f2-4af5-b92f-10c7bc8d71f7")
+		(property "Sheetname" "Diffamp_7"
 			(at 215.9 114.8584 0)
 			(effects
 				(font
@@ -8578,7 +8659,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
+		(property "Sheetfile" "diffamp_.kicad_sch"
 			(at 215.9 123.7746 0)
 			(effects
 				(font
@@ -8589,7 +8670,7 @@
 		)
 		(pin "Ain+" output
 			(at 215.9 118.11 180)
-			(uuid "37795364-ccaa-45bc-8a5f-7ee5ea285e6e")
+			(uuid "1e278ae5-d091-49fb-b27d-8c2536fdf903")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +8680,7 @@
 		)
 		(pin "Ain-" output
 			(at 215.9 120.65 180)
-			(uuid "62ef8827-169f-476a-9460-cb22586840b3")
+			(uuid "1adbc3e2-55b6-4a9b-8396-30149f73fbba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,7 +8690,7 @@
 		)
 		(pin "Analog" input
 			(at 241.3 119.38 0)
-			(uuid "460c99e8-993c-4512-8b26-fd6ce72e3682")
+			(uuid "6d66532e-b7db-458e-a14d-3bcddf639b4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,13 +8701,13 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(page "26")
+					(page "25")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 215.9 128.27)
+		(at 215.9 39.37)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8640,9 +8721,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "cb0f8086-e652-475e-a637-a73d5388d465")
-		(property "Sheetname" "Diffamp8"
-			(at 215.9 127.5584 0)
+		(uuid "7f98af5c-294d-4bac-a926-77020da2d4d3")
+		(property "Sheetname" "Diffamp_1"
+			(at 215.9 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,8 +8731,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 215.9 136.4746 0)
+		(property "Sheetfile" "diffamp_.kicad_sch"
+			(at 215.9 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,8 +8741,8 @@
 			)
 		)
 		(pin "Ain+" output
-			(at 215.9 130.81 180)
-			(uuid "e96ace9b-47a1-4333-9e68-1a45b53d4de7")
+			(at 215.9 41.91 180)
+			(uuid "5a751676-f8b9-46d0-aa37-1610b5375eee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,8 +8751,8 @@
 			)
 		)
 		(pin "Ain-" output
-			(at 215.9 133.35 180)
-			(uuid "32b50326-d9ea-4caa-9144-2b72c181bce0")
+			(at 215.9 44.45 180)
+			(uuid "1971e384-3161-4f71-b739-03f84e9e5861")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,8 +8761,8 @@
 			)
 		)
 		(pin "Analog" input
-			(at 241.3 132.08 0)
-			(uuid "7683f698-11f6-4dd5-859c-c808a173d208")
+			(at 241.3 43.18 0)
+			(uuid "c823ea3d-2458-49bf-a418-66e1abcf6f4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,13 +8773,13 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(page "27")
+					(page "50")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 215.9 90.17)
+		(at 215.9 64.77)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8712,9 +8793,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "d1933eb3-d053-4a0c-a4c8-1802ff07d6d5")
-		(property "Sheetname" "Diffamp5"
-			(at 215.9 89.4584 0)
+		(uuid "ac8498bb-a532-4001-8c45-5cf802a58150")
+		(property "Sheetname" "Diffamp_3"
+			(at 215.9 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,8 +8803,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 215.9 98.3746 0)
+		(property "Sheetfile" "diffamp_.kicad_sch"
+			(at 215.9 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,8 +8813,8 @@
 			)
 		)
 		(pin "Ain+" output
-			(at 215.9 92.71 180)
-			(uuid "3421b706-5eac-4a66-8ee7-06932aa74bc5")
+			(at 215.9 67.31 180)
+			(uuid "51611e6b-8c44-421e-b683-19fcf6ae74d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,8 +8823,8 @@
 			)
 		)
 		(pin "Ain-" output
-			(at 215.9 95.25 180)
-			(uuid "3ff81616-81bd-4ad6-b194-267b3056cd9e")
+			(at 215.9 69.85 180)
+			(uuid "ded2fd35-967d-4eb6-847b-9f7836a19e6f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,8 +8833,8 @@
 			)
 		)
 		(pin "Analog" input
-			(at 241.3 93.98 0)
-			(uuid "006f3b6c-c4ed-4f08-b6a3-95ad9bacce97")
+			(at 241.3 68.58 0)
+			(uuid "9f18ddaf-f2ef-4691-99e0-d695680ecf2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8845,79 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(page "24")
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 52.07)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c54619e6-6392-4600-bdf7-cfa9c7071a95")
+		(property "Sheetname" "Diffamp_2"
+			(at 215.9 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "diffamp_.kicad_sch"
+			(at 215.9 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ain+" output
+			(at 215.9 54.61 180)
+			(uuid "93c3d7f2-31ab-4eb3-b51e-7fa4b237a72e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Ain-" output
+			(at 215.9 57.15 180)
+			(uuid "3a85916a-9339-4023-802e-18aff4256460")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Analog" input
+			(at 241.3 55.88 0)
+			(uuid "3b952af9-cacd-4b06-8149-ca3e170457f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
+					(page "20")
 				)
 			)
 		)
