@@ -1,4 +1,4 @@
-23300917780174369
+23309755901215388
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62265,6 +62265,13 @@ TPS6282518DMQR
 6
 6
 MYLIB_Misc
+Tamura_S22P006S05
+
+
+0
+9
+9
+MYLIB_Misc
 WE_74479275147
 
 
@@ -92225,6 +92232,13 @@ Samtec_PCIE-G4-01-01-F-DV-A-K-TR
 36
 36
 WLIB_Connector_WE
+BoxHeader_1.27mm_SMD
+
+
+0
+10
+10
+WLIB_Connector_WE
 RJ45-WE-4Channel
 
 
@@ -92477,6 +92491,13 @@ SIP-8_22x9.6mm_P2.54mm
 8
 8
 WLIB_Package_SO
+PowerPAK_SO_8
+
+
+0
+11
+3
+WLIB_Package_SO
 SOIC-8_3.9x4.9mm_P1.27mm
 Custom WLIB footprint, 4mm clearance between pads. SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
@@ -92497,6 +92518,13 @@ PG-TISON-8
 0
 14
 8
+WLIB_Package_SOT
+ISC230N10NM6ATMA1
+
+
+0
+10
+10
 WLIB_Package_SOT
 ISC240P06LM
 
@@ -92532,6 +92560,13 @@ SOT8002-1
 0
 5
 5
+WLIB_Package_TO
+D2PAK7 (TO−263−7LD) 15.4x9.9x4.5
+
+
+0
+0
+0
 WLIB_Package_TO
 TO-220-2_Horizontal_TabDown
 TO-220-2, Horizontal, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF

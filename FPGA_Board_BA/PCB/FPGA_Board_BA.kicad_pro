@@ -751,8 +751,8 @@
       "Level_Shifter_8bit_5"
     ],
     [
-      "723da5aa-073c-46b3-9d44-c3664aff4ac6",
-      "ADC power"
+      "8271634d-caea-4f65-91c2-b23c4a6e3911",
+      "Tamura_2"
     ],
     [
       "d9b7de85-7c7f-46d0-8e80-ea471418e151",
@@ -771,6 +771,14 @@
       "Level Shift for DIO"
     ],
     [
+      "d2b4a720-02d4-4b22-8ca6-78ca6e0e04d1",
+      "Level Shifter Encoder 2"
+    ],
+    [
+      "05716552-f536-4eb9-af10-9019d97fc6eb",
+      "Tamura_3"
+    ],
+    [
       "d6c6031d-c1b3-49bb-af8f-093ee0f25456",
       "Level_shifter_Rx_En"
     ],
@@ -779,8 +787,20 @@
       "Level_shifter_error_1"
     ],
     [
+      "e2e96e1b-2006-4990-ad10-a5b0e0f34c9c",
+      "Tamura_4"
+    ],
+    [
       "90f23285-27cc-4590-a3de-f3bed661e97d",
       "Level Shift for DIO"
+    ],
+    [
+      "01c0a5e1-90db-4782-afb3-2d55d15a02b0",
+      "Level Shifter Encoder 1"
+    ],
+    [
+      "be9b0038-45c4-4d10-b23c-e774c19157e6",
+      "Tamura_1"
     ]
   ],
   "text_variables": {}

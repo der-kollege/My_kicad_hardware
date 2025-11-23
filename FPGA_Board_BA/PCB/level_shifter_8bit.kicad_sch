@@ -1750,110 +1750,110 @@
 		)
 	)
 	(junction
-		(at 233.68 100.33)
+		(at 100.33 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "105a68f5-3a56-4c1a-9a42-c14d32eb3c94")
+		(uuid "186150b5-72fe-4e4a-83f5-e446f360348d")
 	)
 	(junction
-		(at 190.5 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a3338c2-5936-4a11-aa51-362a756fd94f")
-	)
-	(junction
-		(at 224.79 40.64)
+		(at 125.73 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "354c99d2-5868-4444-8e40-926023f425ec")
 	)
 	(junction
-		(at 212.09 40.64)
+		(at 113.03 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "368d1186-450d-468b-8671-b65424b0b80b")
 	)
 	(junction
-		(at 181.61 69.85)
+		(at 134.62 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5783915a-b6a3-40f8-9397-357f3bec6322")
+		(uuid "39a71fee-278e-4374-a40c-0ab1919b3c16")
 	)
 	(junction
-		(at 224.79 95.25)
+		(at 82.55 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "603628ae-c21c-4462-8975-9590f938eb93")
+		(uuid "43156645-beba-4830-bcd6-44db64235801")
 	)
 	(junction
-		(at 128.27 55.88)
+		(at 185.42 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68528bcf-4b85-4ad2-a232-d022db39c437")
 	)
 	(junction
-		(at 208.28 40.64)
+		(at 109.22 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74e2ad65-3e8a-4ee9-85e5-56924a684f7c")
 	)
 	(junction
-		(at 208.28 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78edaaac-c4a8-47ba-9f11-fac6fef900e8")
-	)
-	(junction
-		(at 217.17 40.64)
+		(at 118.11 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ca5c760-d926-49a4-8148-3f8a7a7c0847")
 	)
 	(junction
-		(at 242.57 105.41)
+		(at 125.73 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95f83319-aec2-4cd4-b039-2f41f10a6f05")
+		(uuid "925dbeb9-9aab-4da6-844b-8cf41dfb07f5")
 	)
 	(junction
-		(at 146.05 55.88)
+		(at 203.2 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a375f5e2-4ce8-4b1e-b3c3-10f0cd646c0c")
 	)
 	(junction
-		(at 233.68 40.64)
+		(at 143.51 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab466ebd-3ad3-4586-a17d-685304c53f31")
+	)
+	(junction
+		(at 91.44 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b66986ce-6acc-431a-91c7-3b0c6f5c2226")
+	)
+	(junction
+		(at 134.62 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c92461f3-e070-4924-bd40-819949467866")
 	)
 	(junction
-		(at 217.17 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc89e5be-4316-49c8-bd82-1f5ea0c7b6ea")
-	)
-	(junction
-		(at 199.39 40.64)
+		(at 100.33 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdce4a91-96a8-43b5-b0be-e76c65017aeb")
 	)
 	(junction
-		(at 190.5 40.64)
+		(at 118.11 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2126035-4057-4a6f-83b3-e53ddb90ee81")
+	)
+	(junction
+		(at 91.44 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e247511b-07d6-45bc-a667-faf332dc1589")
 	)
 	(junction
-		(at 199.39 80.01)
+		(at 109.22 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa3736e2-099c-49f9-9163-acc4dabb74c0")
+		(uuid "f4748bc0-f888-4ec1-87c0-c85832192977")
 	)
 	(wire
 		(pts
-			(xy 208.28 59.69) (xy 208.28 85.09)
+			(xy 109.22 64.77) (xy 109.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +1863,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 55.88) (xy 95.25 55.88)
+			(xy 167.64 60.96) (xy 152.4 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 190.5 74.93)
+			(xy 204.47 80.01) (xy 210.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +1883,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 55.88) (xy 118.11 55.88)
+			(xy 91.44 80.01) (xy 184.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd9b3c7-e2f4-4616-a0af-8632ef41720c")
+	)
+	(wire
+		(pts
+			(xy 185.42 60.96) (xy 175.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +1903,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 60.96) (xy 166.37 55.88)
+			(xy 223.52 66.04) (xy 223.52 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1903,17 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 85.09) (xy 260.35 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13da1d8d-3070-4325-8f0a-e9cb6160230a")
-	)
-	(wire
-		(pts
-			(xy 147.32 85.09) (xy 208.28 85.09)
+			(xy 204.47 90.17) (xy 210.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 107.95) (xy 118.11 116.84)
+			(xy 175.26 113.03) (xy 175.26 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1933,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 59.69) (xy 217.17 90.17)
+			(xy 118.11 64.77) (xy 118.11 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1943,17 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 74.93) (xy 260.35 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b28d6c7-9a02-4ced-aaba-be0ba18a7baf")
-	)
-	(wire
-		(pts
-			(xy 139.7 59.69) (xy 139.7 55.88)
+			(xy 196.85 64.77) (xy 196.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1963,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 52.07) (xy 208.28 40.64)
+			(xy 109.22 57.15) (xy 109.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1973,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 74.93) (xy 127 74.93)
+			(xy 77.47 80.01) (xy 91.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 59.69) (xy 199.39 80.01)
+			(xy 100.33 64.77) (xy 100.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 127 69.85)
+			(xy 77.47 74.93) (xy 82.55 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2003,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 52.07) (xy 217.17 40.64)
+			(xy 118.11 57.15) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 40.64) (xy 208.28 40.64)
+			(xy 100.33 45.72) (xy 109.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2023,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 110.49) (xy 127 110.49)
+			(xy 179.07 115.57) (xy 184.15 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2033,7 +2023,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 52.07) (xy 190.5 40.64)
+			(xy 100.33 85.09) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcbf36d-5dfe-409d-aa19-affbd9423038")
+	)
+	(wire
+		(pts
+			(xy 91.44 57.15) (xy 91.44 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2043,7 +2043,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 59.69) (xy 224.79 95.25)
+			(xy 125.73 64.77) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2053,7 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 59.69) (xy 242.57 105.41)
+			(xy 143.51 64.77) (xy 143.51 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2063,7 +2063,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 40.64) (xy 199.39 40.64)
+			(xy 91.44 45.72) (xy 100.33 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2073,7 +2073,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 146.05 55.88)
+			(xy 196.85 60.96) (xy 203.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2083,7 +2083,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 52.07) (xy 233.68 40.64)
+			(xy 134.62 57.15) (xy 134.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2093,17 +2093,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 80.01) (xy 260.35 80.01)
+			(xy 118.11 95.25) (xy 184.15 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a8dff84-1484-49a2-84ee-fff672a09262")
+		(uuid "4b74e5ff-12cc-4f5f-ad9c-80cfd3592c42")
 	)
 	(wire
 		(pts
-			(xy 120.65 105.41) (xy 127 105.41)
+			(xy 77.47 110.49) (xy 143.51 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2113,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 52.07) (xy 224.79 40.64)
+			(xy 125.73 57.15) (xy 125.73 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2123,17 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 105.41) (xy 260.35 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f8cf2fb-cc0a-4eb4-bc0f-06147418f3e9")
-	)
-	(wire
-		(pts
-			(xy 181.61 52.07) (xy 181.61 40.64)
+			(xy 82.55 57.15) (xy 82.55 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2143,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 40.64) (xy 212.09 40.64)
+			(xy 109.22 45.72) (xy 113.03 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2153,17 +2143,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 90.17) (xy 260.35 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a63b52-50fe-4964-a2ea-fa2b0fb39de4")
-	)
-	(wire
-		(pts
-			(xy 147.32 95.25) (xy 224.79 95.25)
+			(xy 204.47 100.33) (xy 210.82 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2173,7 +2153,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 50.8) (xy 146.05 55.88)
+			(xy 203.2 55.88) (xy 203.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2163,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 40.64) (xy 217.17 40.64)
+			(xy 82.55 74.93) (xy 184.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb48280-1508-4c5f-b227-dd0f5299da86")
+	)
+	(wire
+		(pts
+			(xy 113.03 45.72) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2193,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 118.11 107.95)
+			(xy 184.15 113.03) (xy 175.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2203,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 233.68 100.33)
+			(xy 204.47 105.41) (xy 210.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2203,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 199.39 80.01)
+			(xy 204.47 85.09) (xy 210.82 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 55.88) (xy 128.27 55.88)
+			(xy 191.77 60.96) (xy 185.42 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 40.64) (xy 190.5 40.64)
+			(xy 82.55 45.72) (xy 91.44 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2243,7 +2233,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 40.64) (xy 233.68 40.64)
+			(xy 125.73 100.33) (xy 184.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9ac971-b9bb-48a4-ac33-a4b1aede8d8f")
+	)
+	(wire
+		(pts
+			(xy 125.73 45.72) (xy 134.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2253,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 55.88) (xy 95.25 60.96)
+			(xy 152.4 60.96) (xy 152.4 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 55.88) (xy 158.75 55.88)
+			(xy 223.52 60.96) (xy 215.9 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 59.69) (xy 233.68 100.33)
+			(xy 134.62 64.77) (xy 134.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 40.64) (xy 242.57 40.64)
+			(xy 134.62 45.72) (xy 143.51 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2293,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 114.3) (xy 157.48 110.49)
+			(xy 134.62 105.41) (xy 184.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28adcaa-fa22-4fa1-a9d8-9ed05f999500")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58eef45-70b5-41fa-bd8d-57ba24d82b8f")
+	)
+	(wire
+		(pts
+			(xy 214.63 119.38) (xy 214.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 50.8) (xy 128.27 55.88)
+			(xy 185.42 55.88) (xy 185.42 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2313,27 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 69.85) (xy 260.35 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab53c02b-dcd6-4602-96b5-599bdf2ca051")
-	)
-	(wire
-		(pts
-			(xy 233.68 100.33) (xy 260.35 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b66d16a2-34e9-4def-81ea-14c758e67bb2")
-	)
-	(wire
-		(pts
-			(xy 242.57 40.64) (xy 242.57 52.07)
+			(xy 143.51 45.72) (xy 143.51 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 69.85) (xy 181.61 69.85)
+			(xy 204.47 74.93) (xy 210.82 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 90.17) (xy 127 90.17)
+			(xy 77.47 95.25) (xy 118.11 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2363,7 +2363,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 40.64) (xy 224.79 40.64)
+			(xy 143.51 110.49) (xy 184.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb55cd7a-6494-41f5-95b9-699f644508d9")
+	)
+	(wire
+		(pts
+			(xy 118.11 45.72) (xy 125.73 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 127 80.01)
+			(xy 77.47 85.09) (xy 100.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2383,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 36.83) (xy 212.09 40.64)
+			(xy 113.03 41.91) (xy 113.03 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 100.33) (xy 127 100.33)
+			(xy 77.47 105.41) (xy 134.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 55.88) (xy 151.13 55.88)
+			(xy 203.2 60.96) (xy 208.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2413,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 59.69) (xy 190.5 74.93)
+			(xy 91.44 64.77) (xy 91.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 52.07) (xy 199.39 40.64)
+			(xy 100.33 57.15) (xy 100.33 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 157.48 110.49)
+			(xy 204.47 115.57) (xy 214.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 59.69) (xy 181.61 69.85)
+			(xy 82.55 64.77) (xy 82.55 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2453,7 +2463,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 127 85.09)
+			(xy 77.47 90.17) (xy 109.22 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 242.57 105.41)
+			(xy 204.47 110.49) (xy 210.82 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2473,17 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 95.25) (xy 260.35 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7345123-7c66-4097-b465-7973d27e7aff")
-	)
-	(wire
-		(pts
-			(xy 134.62 55.88) (xy 134.62 59.69)
+			(xy 191.77 60.96) (xy 191.77 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 95.25) (xy 127 95.25)
+			(xy 77.47 100.33) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 217.17 90.17)
+			(xy 204.47 95.25) (xy 210.82 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2512,7 @@
 		(uuid "ff357bad-8537-4b1b-955d-b322530aa654")
 	)
 	(label "+5V"
-		(at 121.92 110.49 0)
+		(at 179.07 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2522,7 +2522,7 @@
 		(uuid "1f1acca6-8e80-467c-bf97-8d91783dadc8")
 	)
 	(label "+5V"
-		(at 121.92 55.88 0)
+		(at 179.07 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2533,7 +2533,7 @@
 	)
 	(hierarchical_label "A1"
 		(shape input)
-		(at 120.65 69.85 180)
+		(at 77.47 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 	)
 	(hierarchical_label "B1"
 		(shape output)
-		(at 260.35 69.85 0)
+		(at 210.82 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2555,7 +2555,7 @@
 	)
 	(hierarchical_label "A3"
 		(shape input)
-		(at 120.65 80.01 180)
+		(at 77.47 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2566,7 +2566,7 @@
 	)
 	(hierarchical_label "A2"
 		(shape input)
-		(at 120.65 74.93 180)
+		(at 77.47 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2577,7 +2577,7 @@
 	)
 	(hierarchical_label "B6"
 		(shape output)
-		(at 260.35 95.25 0)
+		(at 210.82 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2588,7 +2588,7 @@
 	)
 	(hierarchical_label "A4"
 		(shape input)
-		(at 120.65 85.09 180)
+		(at 77.47 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2599,7 +2599,7 @@
 	)
 	(hierarchical_label "B4"
 		(shape output)
-		(at 260.35 85.09 0)
+		(at 210.82 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2610,7 +2610,7 @@
 	)
 	(hierarchical_label "B3"
 		(shape output)
-		(at 260.35 80.01 0)
+		(at 210.82 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2621,7 +2621,7 @@
 	)
 	(hierarchical_label "B7"
 		(shape output)
-		(at 260.35 100.33 0)
+		(at 210.82 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2632,7 +2632,7 @@
 	)
 	(hierarchical_label "B2"
 		(shape output)
-		(at 260.35 74.93 0)
+		(at 210.82 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2643,7 +2643,7 @@
 	)
 	(hierarchical_label "A6"
 		(shape input)
-		(at 120.65 95.25 180)
+		(at 77.47 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2654,7 +2654,7 @@
 	)
 	(hierarchical_label "B8"
 		(shape output)
-		(at 260.35 105.41 0)
+		(at 210.82 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2665,7 +2665,7 @@
 	)
 	(hierarchical_label "A5"
 		(shape input)
-		(at 120.65 90.17 180)
+		(at 77.47 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2676,7 +2676,7 @@
 	)
 	(hierarchical_label "B5"
 		(shape output)
-		(at 260.35 90.17 0)
+		(at 210.82 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2687,7 +2687,7 @@
 	)
 	(hierarchical_label "A7"
 		(shape input)
-		(at 120.65 100.33 180)
+		(at 77.47 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2698,7 +2698,7 @@
 	)
 	(hierarchical_label "A8"
 		(shape input)
-		(at 120.65 105.41 180)
+		(at 77.47 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2709,7 +2709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 116.84 0)
+		(at 175.26 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2717,8 +2717,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dc52534-8c91-4465-aae0-459052ced116")
-		(property "Reference" "#PWR0170"
-			(at 118.11 123.19 0)
+		(property "Reference" "#PWR0164"
+			(at 175.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 121.92 0)
+			(at 175.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 116.84 0)
+			(at 175.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 116.84 0)
+			(at 175.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 116.84 0)
+			(at 175.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,27 +2767,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0184")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0177")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0210")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0191")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0170")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0203")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -2795,7 +2795,7 @@
 	)
 	(symbol
 		(lib_id "MYLIB_Misc:SN74LXCH8T245RHLR")
-		(at 137.16 87.63 0)
+		(at 194.31 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2803,8 +2803,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ea86fdd-a11a-4da5-9c9d-1cc7fea65192")
-		(property "Reference" "U34"
-			(at 137.16 115.57 0)
+		(property "Reference" "U28"
+			(at 194.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2812,7 @@
 			)
 		)
 		(property "Value" "SN74LXCH8T245RHLR"
-			(at 137.16 118.11 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2820,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_Misc:SN74LXCH8T245"
-			(at 138.684 40.64 0)
+			(at 195.834 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2829,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lxch8t245.pdf?ts=1763371772541&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LXCH8T245%252Fpart-details%252FSN74LXCH8T245PWR%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-asc_opn_en-cpc-storeic-google-eu_en_pur%2526utm_content%253DDevice%2526ds_k%253DSN74LXCH8T245PWR%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D11662144970%2526gbraid%253D0AAAAAC068F39eJFhDO7IAjRN0B7HR1F_u%2526gclid%253DCj0KCQiArOvIBhDLARIsAPwJXOYrNobBoFNvEGFStXBaA-GNl_2J8-tjiZakLfPkxHBPueWciDcO--IaAq1yEALw_wcB"
-			(at 136.652 36.576 0)
+			(at 193.802 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2838,7 @@
 			)
 		)
 		(property "Description" "8-bit, dual-supply noninverting bidirectional level shifter, DIR = high: A -> B, OE = high: everything in high Z"
-			(at 137.414 32.512 0)
+			(at 194.564 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,27 +2921,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "U36")
+					(reference "U30")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "U35")
+					(reference "U29")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "U40")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "U37")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
 					(reference "U34")
 					(unit 1)
 				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
+					(reference "U31")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
+					(reference "U28")
+					(unit 1)
+				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "U39")
+					(reference "U33")
 					(unit 1)
 				)
 			)
@@ -2949,7 +2949,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 128.27 50.8 0)
+		(at 185.42 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2957,8 +2957,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "140142fa-ccb1-4f3c-a775-d7c15ab71046")
-		(property "Reference" "#PWR0171"
-			(at 128.27 54.61 0)
+		(property "Reference" "#PWR0165"
+			(at 185.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2967,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 128.27 45.72 0)
+			(at 185.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +2975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 50.8 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +2984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 50.8 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 128.27 50.8 0)
+			(at 185.42 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,27 +3007,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0185")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0178")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0211")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0192")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0171")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0204")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -3035,15 +3035,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 217.17 55.88 0)
+		(at 118.11 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "28b844da-caaa-4c16-8cf1-985f07397c0d")
-		(property "Reference" "R131"
-			(at 211.836 60.96 90)
+		(property "Reference" "R130"
+			(at 112.776 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 214.376 60.96 90)
+			(at 115.316 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3061,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 217.17 36.83 0)
+			(at 118.11 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3070,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 217.17 34.29 0)
+			(at 118.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3079,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 55.88 0)
+			(at 118.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3088,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 217.17 39.37 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3097,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 217.17 41.91 0)
+			(at 118.11 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 217.17 44.45 0)
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,27 +3123,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R147")
+					(reference "R146")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R139")
+					(reference "R138")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R172")
+					(reference "R173")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R155")
+					(reference "R154")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R131")
+					(reference "R130")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R164")
+					(reference "R165")
 					(unit 1)
 				)
 			)
@@ -3151,7 +3151,7 @@
 	)
 	(symbol
 		(lib_id "WLIB_C:100n_0603")
-		(at 154.94 55.88 90)
+		(at 212.09 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3159,8 +3159,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b6cffa8-3694-42db-9386-db6ca02bbf37")
-		(property "Reference" "C137"
-			(at 154.94 48.26 90)
+		(property "Reference" "C134"
+			(at 212.09 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3168,7 @@
 			)
 		)
 		(property "Value" "100n_0603"
-			(at 154.94 50.8 90)
+			(at 212.09 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3176,7 @@
 			)
 		)
 		(property "Footprint" "WLIB_Capacitor:C_0603"
-			(at 140.97 55.88 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3185,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860632.pdf"
-			(at 133.35 55.5752 0)
+			(at 190.5 60.6552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3194,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor SMD MLCC"
-			(at 154.94 55.88 0)
+			(at 212.09 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "FARNELL" "1759037"
-			(at 138.43 55.5752 0)
+			(at 195.58 60.6552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3212,7 @@
 			)
 		)
 		(property "VDC" "25V"
-			(at 135.89 55.5752 0)
+			(at 193.04 60.6552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +3221,7 @@
 			)
 		)
 		(property "JLCPCB" "C2762593"
-			(at 143.51 55.88 0)
+			(at 200.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,27 +3238,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "C141")
+					(reference "C138")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "C139")
+					(reference "C136")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "C152")
+					(reference "C145")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "C143")
+					(reference "C140")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "C137")
+					(reference "C134")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "C150")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -3266,15 +3266,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 199.39 55.88 0)
+		(at 100.33 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "31741a0f-de9d-4e59-a87d-cfd604dbab09")
-		(property "Reference" "R129"
-			(at 194.056 60.96 90)
+		(property "Reference" "R128"
+			(at 94.996 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3283,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 196.596 60.96 90)
+			(at 97.536 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +3292,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.39 36.83 0)
+			(at 100.33 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3301,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 199.39 34.29 0)
+			(at 100.33 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3310,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 199.39 55.88 0)
+			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3319,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 199.39 39.37 0)
+			(at 100.33 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3328,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 199.39 41.91 0)
+			(at 100.33 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3337,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 199.39 44.45 0)
+			(at 100.33 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,27 +3354,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R145")
+					(reference "R144")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R137")
+					(reference "R136")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R170")
+					(reference "R171")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R153")
+					(reference "R152")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R129")
+					(reference "R128")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R162")
+					(reference "R163")
 					(unit 1)
 				)
 			)
@@ -3382,15 +3382,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 224.79 55.88 0)
+		(at 125.73 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "41c29671-08f6-4c9c-92fc-3e41ca2c88ac")
-		(property "Reference" "R132"
-			(at 219.456 60.96 90)
+		(property "Reference" "R131"
+			(at 120.396 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3399,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 221.996 60.96 90)
+			(at 122.936 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3408,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 224.79 36.83 0)
+			(at 125.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3417,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 224.79 34.29 0)
+			(at 125.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3426,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 55.88 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3435,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 224.79 39.37 0)
+			(at 125.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3444,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 224.79 41.91 0)
+			(at 125.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3453,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 224.79 44.45 0)
+			(at 125.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,27 +3470,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R148")
+					(reference "R147")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R140")
+					(reference "R139")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R173")
+					(reference "R174")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R156")
+					(reference "R155")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R132")
+					(reference "R131")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R165")
+					(reference "R166")
 					(unit 1)
 				)
 			)
@@ -3498,15 +3498,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 208.28 55.88 0)
+		(at 109.22 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "46c039c4-0903-4e3e-8315-bc8dd7f40316")
-		(property "Reference" "R130"
-			(at 202.946 60.96 90)
+		(property "Reference" "R129"
+			(at 103.886 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3515,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 205.486 60.96 90)
+			(at 106.426 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3524,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 208.28 36.83 0)
+			(at 109.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3533,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 208.28 34.29 0)
+			(at 109.22 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3542,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 208.28 55.88 0)
+			(at 109.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3551,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 208.28 39.37 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3560,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 208.28 41.91 0)
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3569,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 208.28 44.45 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,44 +3586,44 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R146")
+					(reference "R145")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R138")
+					(reference "R137")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R171")
+					(reference "R172")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R154")
+					(reference "R153")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R130")
+					(reference "R129")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R163")
+					(reference "R164")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 166.37 60.96 0)
+		(lib_id "power:+5V")
+		(at 113.03 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50a11796-1935-4561-8967-bb6aa6802b46")
-		(property "Reference" "#PWR0174"
-			(at 166.37 67.31 0)
+		(uuid "490b59c8-5f61-4917-9b3f-062a9dc6d7b5")
+		(property "Reference" "#PWR0162"
+			(at 113.03 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,8 +3631,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 166.37 66.04 0)
+		(property "Value" "+5V"
+			(at 113.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 60.96 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3649,93 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 60.96 0)
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec5f2727-fb4b-4605-affb-222291b4e52f")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50a11796-1935-4561-8967-bb6aa6802b46")
+		(property "Reference" "#PWR0168"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 60.96 0)
+			(at 223.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,27 +3758,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0188")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0181")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0214")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0195")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0174")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0207")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -3700,15 +3786,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 242.57 55.88 0)
+		(at 143.51 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "571fd4cd-72bb-4200-bbfa-2a6dc5dabeab")
-		(property "Reference" "R134"
-			(at 237.236 60.96 90)
+		(property "Reference" "R133"
+			(at 138.176 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3803,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 239.776 60.96 90)
+			(at 140.716 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 242.57 36.83 0)
+			(at 143.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3821,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 242.57 34.29 0)
+			(at 143.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3830,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 55.88 0)
+			(at 143.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3839,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 242.57 39.37 0)
+			(at 143.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3848,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 242.57 41.91 0)
+			(at 143.51 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3857,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 242.57 44.45 0)
+			(at 143.51 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,27 +3874,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R150")
+					(reference "R149")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R142")
+					(reference "R141")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R175")
+					(reference "R176")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R158")
+					(reference "R157")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R134")
+					(reference "R133")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R167")
+					(reference "R168")
 					(unit 1)
 				)
 			)
@@ -3816,15 +3902,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 233.68 55.88 0)
+		(at 134.62 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "59855a2d-2d05-42a3-9e7c-dd4f9ddd367d")
-		(property "Reference" "R133"
-			(at 228.346 60.96 90)
+		(property "Reference" "R132"
+			(at 129.286 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +3919,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 230.886 60.96 90)
+			(at 131.826 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3928,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 233.68 36.83 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3937,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 233.68 34.29 0)
+			(at 134.62 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3946,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 233.68 55.88 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3955,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 233.68 39.37 0)
+			(at 134.62 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3964,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 233.68 41.91 0)
+			(at 134.62 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,7 +3973,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 233.68 44.45 0)
+			(at 134.62 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,27 +3990,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R149")
+					(reference "R148")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R141")
+					(reference "R140")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R174")
+					(reference "R175")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R157")
+					(reference "R156")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R133")
+					(reference "R132")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R166")
+					(reference "R167")
 					(unit 1)
 				)
 			)
@@ -3932,7 +4018,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 114.3 0)
+		(at 214.63 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3940,8 +4026,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b583fe4-ba9d-4bf4-8fde-736f5b76a308")
-		(property "Reference" "#PWR0173"
-			(at 157.48 120.65 0)
+		(property "Reference" "#PWR0167"
+			(at 214.63 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +4036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 119.38 0)
+			(at 214.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +4044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 114.3 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +4053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 114.3 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +4062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 114.3 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,113 +4076,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0187")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0180")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0213")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0194")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0173")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
 					(reference "#PWR0206")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 212.09 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b800f8f-c348-4ec8-b2fc-05aa99f5315e")
-		(property "Reference" "#PWR0175"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 212.09 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 212.09 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e286d643-cb6e-4f71-b0f9-90ff61b3ddae")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0189")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0182")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0215")
-					(unit 1)
-				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0196")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0175")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0208")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -4104,7 +4104,7 @@
 	)
 	(symbol
 		(lib_id "WLIB_C:100n_0603")
-		(at 114.3 55.88 90)
+		(at 171.45 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4112,8 +4112,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4aad5b6-de00-468b-9dcb-7571cad654a0")
-		(property "Reference" "C136"
-			(at 114.3 48.26 90)
+		(property "Reference" "C133"
+			(at 171.45 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4121,7 @@
 			)
 		)
 		(property "Value" "100n_0603"
-			(at 114.3 50.8 90)
+			(at 171.45 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4129,7 @@
 			)
 		)
 		(property "Footprint" "WLIB_Capacitor:C_0603"
-			(at 100.33 55.88 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4138,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860632.pdf"
-			(at 92.71 55.5752 0)
+			(at 149.86 60.6552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4147,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor SMD MLCC"
-			(at 114.3 55.88 0)
+			(at 171.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4156,7 @@
 			)
 		)
 		(property "FARNELL" "1759037"
-			(at 97.79 55.5752 0)
+			(at 154.94 60.6552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4165,7 @@
 			)
 		)
 		(property "VDC" "25V"
-			(at 95.25 55.5752 0)
+			(at 152.4 60.6552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4174,7 @@
 			)
 		)
 		(property "JLCPCB" "C2762593"
-			(at 102.87 55.88 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,27 +4191,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "C140")
+					(reference "C137")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "C138")
+					(reference "C135")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "C151")
+					(reference "C144")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "C142")
+					(reference "C139")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "C136")
+					(reference "C133")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "C149")
+					(reference "C142")
 					(unit 1)
 				)
 			)
@@ -4219,15 +4219,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 181.61 55.88 0)
+		(at 82.55 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "aa12ff16-7700-4649-b818-887f4c6a8a52")
-		(property "Reference" "R127"
-			(at 176.276 60.96 90)
+		(property "Reference" "R126"
+			(at 77.216 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4236,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 178.816 60.96 90)
+			(at 79.756 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4245,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 181.61 36.83 0)
+			(at 82.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +4254,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 181.61 34.29 0)
+			(at 82.55 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4263,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 55.88 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4272,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 181.61 39.37 0)
+			(at 82.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4281,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 181.61 41.91 0)
+			(at 82.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4290,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 181.61 44.45 0)
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,27 +4307,27 @@
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R143")
+					(reference "R142")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R135")
+					(reference "R134")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R168")
+					(reference "R169")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R151")
+					(reference "R150")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R127")
+					(reference "R126")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R160")
+					(reference "R161")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 60.96 0)
+		(at 152.4 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4343,8 +4343,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0031c3b-bd9e-4463-af79-7e3077797c41")
-		(property "Reference" "#PWR0169"
-			(at 95.25 67.31 0)
+		(property "Reference" "#PWR0163"
+			(at 152.4 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 66.04 0)
+			(at 152.4 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 60.96 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 60.96 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 60.96 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,27 +4393,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0183")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0176")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0209")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0190")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0169")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0202")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4421,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 146.05 50.8 0)
+		(at 203.2 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4429,8 +4429,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b531cd5d-e5b6-489a-9199-0bcaf3c95d5c")
-		(property "Reference" "#PWR0172"
-			(at 146.05 54.61 0)
+		(property "Reference" "#PWR0166"
+			(at 203.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 146.05 45.72 0)
+			(at 203.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 50.8 0)
+			(at 203.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 50.8 0)
+			(at 203.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 50.8 0)
+			(at 203.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,27 +4479,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "#PWR0186")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "#PWR0179")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "#PWR0212")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "#PWR0193")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "#PWR0172")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "#PWR0205")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -4507,15 +4507,15 @@
 	)
 	(symbol
 		(lib_id "WLIB_R:10k_0603")
-		(at 190.5 55.88 0)
+		(at 91.44 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fe828158-8c37-4812-a4a6-90e92b5b9aca")
-		(property "Reference" "R128"
-			(at 185.166 60.96 90)
+		(property "Reference" "R127"
+			(at 86.106 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4524,7 @@
 			)
 		)
 		(property "Value" "10k_0603"
-			(at 187.706 60.96 90)
+			(at 88.646 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4533,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 190.5 36.83 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4542,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
-			(at 190.5 34.29 0)
+			(at 91.44 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4551,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 55.88 0)
+			(at 91.44 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +4560,7 @@
 			)
 		)
 		(property "FARNELL" "2447230"
-			(at 190.5 39.37 0)
+			(at 91.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,7 +4569,7 @@
 			)
 		)
 		(property "Rated Power" "100mW"
-			(at 190.5 41.91 0)
+			(at 91.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4578,7 @@
 			)
 		)
 		(property "JLCPCB" "C25804"
-			(at 190.5 44.45 0)
+			(at 91.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,27 +4595,27 @@
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/19c31672-712c-496a-9822-8b4acb098fff"
-					(reference "R144")
+					(reference "R143")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/2c56f160-a2ae-4f59-8a6c-882f52f80e9b"
-					(reference "R136")
+					(reference "R135")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/50a6f00f-5ba3-427d-aa22-51eaafebbe36"
-					(reference "R169")
+					(reference "R170")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/a671d0ee-a9ca-43ae-8724-f1724f229817"
-					(reference "R152")
+					(reference "R151")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/b132d2b4-fa1f-46e7-9132-09c17e9d7846"
-					(reference "R128")
+					(reference "R127")
 					(unit 1)
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab/d9b7de85-7c7f-46d0-8e80-ea471418e151"
-					(reference "R161")
+					(reference "R162")
 					(unit 1)
 				)
 			)

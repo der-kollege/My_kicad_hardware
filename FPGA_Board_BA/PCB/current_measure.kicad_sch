@@ -4,635 +4,10 @@
 	(generator_version "9.0")
 	(uuid "ac9f7b4f-268b-444b-ba15-c2968bee7664")
 	(paper "A4")
-	(lib_symbols
-		(symbol "MYLIB_Misc:AMC0300D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AMC0300D"
-				(at 0 12.446 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-				(at -0.254 24.384 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-				(at 0.508 21.844 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "isolation Amplifier"
-				(at 1.016 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AMC0300D_0_0"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 1.27) (xy 0 1.524) (xy 0.508 1.27) (xy 0 1.016) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy 0 9.525)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 8.89) (xy 0 8.255)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 5.715)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.175) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.445) (xy 0 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.445) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.715) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.985) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -8.255) (xy 0 -8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -9.525) (xy 0 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -2.54 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at -2.54 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "+"
-					(at 2.54 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 2.54 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "AMC0300D_0_1"
-				(rectangle
-					(start -12.7 10.16)
-					(end 12.7 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 7.62) (xy -2.54 7.62) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -2.54 -7.62) (xy -6.35 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 1.27) (xy -1.27 0) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 1.27 -5.08) (xy 6.35 0) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 2.54 7.62) (xy 6.35 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 -7.62) (xy 6.35 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AMC0300D_1_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.27) (xy 0 -1.27) (xy 0 -1.016) (xy 0.508 -1.27) (xy 0 -1.524) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin power_in line
-					(at -15.24 7.62 0)
-					(length 2.54)
-					(name "VDD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 2.54)
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 2.54)
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -7.62 0)
-					(length 2.54)
-					(name "GND1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 7.62 180)
-					(length 2.54)
-					(name "VDD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "VOUT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "VOUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -7.62 180)
-					(length 2.54)
-					(name "GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
+	(lib_symbols)
 	(wire
 		(pts
-			(xy 106.68 44.45) (xy 118.11 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01802165-e793-4566-a618-5277f91c6350")
-	)
-	(wire
-		(pts
-			(xy 148.59 82.55) (xy 154.94 82.55)
+			(xy 129.54 77.47) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -642,17 +17,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 118.11 82.55)
+			(xy 129.54 59.69) (xy 135.89 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f82ed4e-0c0f-4134-9c0a-56c2750054de")
+		(uuid "307c2c97-fb26-422c-a8f2-dfea3b72d97e")
 	)
 	(wire
 		(pts
-			(xy 107.95 156.21) (xy 119.38 156.21)
+			(xy 99.06 110.49) (xy 106.68 110.49)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 77.47) (xy 154.94 77.47)
+			(xy 129.54 74.93) (xy 135.89 74.93)
 		)
 		(stroke
 			(width 0)
@@ -672,17 +47,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 121.92) (xy 119.38 121.92)
+			(xy 100.33 58.42) (xy 106.68 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "831718b6-4766-4039-876b-7e250ba90f12")
+		(uuid "5db62e48-b257-4dc0-a1b2-42ec8e4032ff")
 	)
 	(wire
 		(pts
-			(xy 149.86 116.84) (xy 156.21 116.84)
+			(xy 129.54 92.71) (xy 134.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -692,7 +67,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 156.21 121.92)
+			(xy 129.54 95.25) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 119.38 116.84)
+			(xy 99.06 93.98) (xy 106.68 93.98)
 		)
 		(stroke
 			(width 0)
@@ -712,17 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 161.29) (xy 119.38 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a95cbfba-b511-4cf8-b263-07bc588c637a")
-	)
-	(wire
-		(pts
-			(xy 149.86 156.21) (xy 156.21 156.21)
+			(xy 129.54 109.22) (xy 134.62 109.22)
 		)
 		(stroke
 			(width 0)
@@ -732,17 +97,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 39.37) (xy 157.48 39.37)
+			(xy 129.54 57.15) (xy 135.89 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cee84404-7959-49c2-8056-a93f1bf2066e")
+		(uuid "b85e8f29-a20c-4583-adca-cddb00973bb1")
 	)
 	(wire
 		(pts
-			(xy 149.86 161.29) (xy 156.21 161.29)
+			(xy 129.54 111.76) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
@@ -752,17 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 44.45) (xy 157.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee311c96-20fc-45b0-9046-b3fef7e9cc6e")
-	)
-	(wire
-		(pts
-			(xy 106.68 77.47) (xy 118.11 77.47)
+			(xy 99.06 76.2) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -770,19 +125,9 @@
 		)
 		(uuid "fa64a92e-2043-4dd1-bf0f-1d60c4e71e9b")
 	)
-	(wire
-		(pts
-			(xy 106.68 39.37) (xy 118.11 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffdfadf4-995b-48ee-b0a1-8b5d73e03e07")
-	)
 	(hierarchical_label "Ph_C-"
 		(shape input)
-		(at 156.21 121.92 0)
+		(at 134.62 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -791,20 +136,9 @@
 		)
 		(uuid "1d28cde1-ff82-4d8a-b5a9-35ba6a81dced")
 	)
-	(hierarchical_label "PHC_OUTN"
-		(shape output)
-		(at 107.95 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29e0f507-e628-45b3-b493-9279627c51c4")
-	)
 	(hierarchical_label "Ph_D+"
 		(shape input)
-		(at 156.21 156.21 0)
+		(at 134.62 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -815,7 +149,7 @@
 	)
 	(hierarchical_label "Ph_B+"
 		(shape input)
-		(at 154.94 77.47 0)
+		(at 135.89 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -826,7 +160,7 @@
 	)
 	(hierarchical_label "Ph_A-"
 		(shape input)
-		(at 157.48 44.45 0)
+		(at 135.89 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -837,7 +171,7 @@
 	)
 	(hierarchical_label "Ph_B-"
 		(shape input)
-		(at 154.94 82.55 0)
+		(at 135.89 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -846,20 +180,9 @@
 		)
 		(uuid "59e02561-b10b-4098-b2fc-ecd169fb85b1")
 	)
-	(hierarchical_label "PHA_OUTN"
-		(shape output)
-		(at 106.68 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "70495d7a-d413-439e-b1c6-682d6a5cde7a")
-	)
 	(hierarchical_label "Ph_A+"
 		(shape input)
-		(at 157.48 39.37 0)
+		(at 135.89 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -870,7 +193,7 @@
 	)
 	(hierarchical_label "Ph_C+"
 		(shape input)
-		(at 156.21 116.84 0)
+		(at 134.62 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -879,9 +202,9 @@
 		)
 		(uuid "b1801513-3231-48b3-9eaa-e8f475960e3a")
 	)
-	(hierarchical_label "PHD_OUTP"
+	(hierarchical_label "PHD"
 		(shape output)
-		(at 107.95 156.21 180)
+		(at 99.06 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -890,9 +213,9 @@
 		)
 		(uuid "c909b01f-1a78-43f3-bc3c-a3003d42e03c")
 	)
-	(hierarchical_label "PHB_OUTP"
+	(hierarchical_label "PHB"
 		(shape output)
-		(at 106.68 77.47 180)
+		(at 99.06 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -901,20 +224,9 @@
 		)
 		(uuid "d634be0b-062f-4e6a-aa75-7dab8ad645c7")
 	)
-	(hierarchical_label "PHD_OUTN"
-		(shape output)
-		(at 107.95 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e19e2e87-3e8d-493b-abec-2bacde575fea")
-	)
 	(hierarchical_label "Ph_D-"
 		(shape input)
-		(at 156.21 161.29 0)
+		(at 134.62 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -923,9 +235,9 @@
 		)
 		(uuid "e43279f4-f50d-4943-b4f7-9bb10e11a839")
 	)
-	(hierarchical_label "PHA_OUTP"
+	(hierarchical_label "PHA"
 		(shape output)
-		(at 106.68 39.37 180)
+		(at 100.33 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -934,9 +246,9 @@
 		)
 		(uuid "f6f5ea53-127f-426c-b76d-b3722e8ddec6")
 	)
-	(hierarchical_label "PHC_OUTP"
+	(hierarchical_label "PHC"
 		(shape output)
-		(at 107.95 116.84 180)
+		(at 99.06 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -945,361 +257,290 @@
 		)
 		(uuid "f8020cd0-f845-4b0d-918a-469532fcd411")
 	)
-	(hierarchical_label "PHB_OUTN"
-		(shape output)
-		(at 106.68 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fdb7f58d-4153-4863-adc1-a90b4aa4492c")
-	)
-	(symbol
-		(lib_id "MYLIB_Misc:AMC0300D")
-		(at 133.35 41.91 0)
-		(mirror y)
-		(unit 1)
+	(sheet
+		(at 106.68 88.9)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "41fcacb4-249a-4131-9317-954eeb1a76bb")
-		(property "Reference" "U3"
-			(at 133.35 26.67 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05716552-f536-4eb9-af10-9019d97fc6eb")
+		(property "Sheetname" "Tamura_3"
+			(at 106.68 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "AMC0300D"
-			(at 133.35 29.21 0)
+		(property "Sheetfile" "tamura.kicad_sch"
+			(at 106.68 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-			(at 133.604 17.526 0)
+		(pin "I_in" input
+			(at 129.54 92.71 0)
+			(uuid "daa626ba-d6e8-4f01-ac7d-3813c223298a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 132.842 20.066 0)
+		(pin "I_out" input
+			(at 129.54 95.25 0)
+			(uuid "21ff1a5a-2c7c-41b7-aa00-39cb553a7687")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Description" "isolation Amplifier"
-			(at 132.334 22.352 0)
+		(pin "Vout" output
+			(at 106.68 93.98 180)
+			(uuid "7798e2f7-85a5-47cd-babf-75f0caec0755")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
-		)
-		(pin "4"
-			(uuid "a3e001da-9c97-4f1e-8446-95169df18bb1")
-		)
-		(pin "3"
-			(uuid "6e145ed6-044e-4cae-9466-485fd6fb9b72")
-		)
-		(pin "5"
-			(uuid "a20eb2f0-d25d-473b-bf9c-818a8a4b9927")
-		)
-		(pin "1"
-			(uuid "cb47f6bf-d58c-4ab9-950c-64313df9c617")
-		)
-		(pin "2"
-			(uuid "c1019ef2-f49f-4dee-815a-a34fccd4b03d")
-		)
-		(pin "7"
-			(uuid "48b43aef-2b0e-459c-b769-731ce97585ea")
-		)
-		(pin "8"
-			(uuid "a473b58b-0aaf-4a6a-ac30-2930baa6d3c7")
-		)
-		(pin "6"
-			(uuid "1d3d8293-e201-4de0-a5a7-409d39f3f563")
-		)
-		(instances
-			(project ""
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MYLIB_Misc:AMC0300D")
-		(at 134.62 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ae08d2a-8ed8-44a4-aae8-14853fa989a5")
-		(property "Reference" "U6"
-			(at 134.62 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMC0300D"
-			(at 134.62 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-			(at 134.874 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 134.112 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "isolation Amplifier"
-			(at 133.604 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6fdaeda2-bd30-4e27-9580-e9ad195be4dc")
-		)
-		(pin "3"
-			(uuid "29c61b82-3625-49f8-8fdf-a79ea2a2c847")
-		)
-		(pin "5"
-			(uuid "8044d67d-3162-4c4a-98f4-cde783fdb43e")
-		)
-		(pin "1"
-			(uuid "b6a9d985-e62c-4e6a-b840-fb54f17f79a0")
-		)
-		(pin "2"
-			(uuid "b7e2bf2c-1680-4a60-85b5-9f31b9c6bdfc")
-		)
-		(pin "7"
-			(uuid "c3ee58eb-7ec5-4ab2-bf8f-1b8727b566dc")
-		)
-		(pin "8"
-			(uuid "bd2d3e5e-86b3-4b38-a3f0-ad43b97816de")
-		)
-		(pin "6"
-			(uuid "c6c161b4-3034-4a49-8653-837d444d0569")
 		)
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
-					(reference "U6")
-					(unit 1)
+					(page "38")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "MYLIB_Misc:AMC0300D")
-		(at 133.35 80.01 0)
-		(mirror y)
-		(unit 1)
+	(sheet
+		(at 106.68 71.12)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b21ef95-64b9-4900-8ee0-1701a89e34df")
-		(property "Reference" "U4"
-			(at 133.35 64.77 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8271634d-caea-4f65-91c2-b23c4a6e3911")
+		(property "Sheetname" "Tamura_2"
+			(at 106.68 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "AMC0300D"
-			(at 133.35 67.31 0)
+		(property "Sheetfile" "tamura.kicad_sch"
+			(at 106.68 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-			(at 133.604 55.626 0)
+		(pin "I_in" input
+			(at 129.54 74.93 0)
+			(uuid "f12edf38-887a-4c59-9436-4936e941f005")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 132.842 58.166 0)
+		(pin "I_out" input
+			(at 129.54 77.47 0)
+			(uuid "619cf60d-8582-401a-9ba2-d1cbd3ff4f15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Description" "isolation Amplifier"
-			(at 132.334 60.452 0)
+		(pin "Vout" output
+			(at 106.68 76.2 180)
+			(uuid "4d0dc0b9-a042-4736-9211-aa7bd0c04794")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
-		)
-		(pin "4"
-			(uuid "6db8bed3-21bb-42de-8519-b07d400e5ffe")
-		)
-		(pin "3"
-			(uuid "4ad190cd-bbe8-407b-9071-a8b43c826ba0")
-		)
-		(pin "5"
-			(uuid "59ca716c-23f2-4bf4-b154-cf0e470b950a")
-		)
-		(pin "1"
-			(uuid "62be322f-397e-4ab0-9c84-276ab5a3f658")
-		)
-		(pin "2"
-			(uuid "9a3f08a3-bd5d-41ed-844c-f792892760a3")
-		)
-		(pin "7"
-			(uuid "2a3ad047-3f7c-4719-8ae3-8c3ad2423c7e")
-		)
-		(pin "8"
-			(uuid "5d359c05-5d59-4ed7-b3f9-3884edf1e206")
-		)
-		(pin "6"
-			(uuid "1272b21c-1db3-468a-995d-b8e2bc616230")
 		)
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
-					(reference "U4")
-					(unit 1)
+					(page "32")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "MYLIB_Misc:AMC0300D")
-		(at 134.62 119.38 0)
-		(mirror y)
-		(unit 1)
+	(sheet
+		(at 106.68 53.34)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6e2f5006-62d9-4a5f-947c-8feb733cb1d8")
-		(property "Reference" "U5"
-			(at 134.62 104.14 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be9b0038-45c4-4d10-b23c-e774c19157e6")
+		(property "Sheetname" "Tamura_1"
+			(at 106.68 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "AMC0300D"
-			(at 134.62 106.68 0)
+		(property "Sheetfile" "tamura.kicad_sch"
+			(at 106.68 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "MYLIB_Misc:SOIC-8_7.5x5.85mm_P1.27mm"
-			(at 134.874 94.996 0)
+		(pin "I_in" input
+			(at 129.54 57.15 0)
+			(uuid "49614727-497e-457f-9506-91e2883a3763")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/amc0300d.pdf?ts=1761549500748&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAMC0300D%253FkeyMatch%253DAMC0300D%2526tisearch%253Duniversal_search%2526usecase%253DGPN"
-			(at 134.112 97.536 0)
+		(pin "I_out" input
+			(at 129.54 59.69 0)
+			(uuid "f54de61a-be53-45da-b0d3-eede2c59c82f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Description" "isolation Amplifier"
-			(at 133.604 99.822 0)
+		(pin "Vout" output
+			(at 106.68 58.42 180)
+			(uuid "e5252f19-6fa3-4111-be4d-5d13ab527526")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
-		)
-		(pin "4"
-			(uuid "f3d81391-912a-4865-83b9-fcba1383c5fd")
-		)
-		(pin "3"
-			(uuid "44a69dfe-91c6-486d-bef4-ea92ea8768b1")
-		)
-		(pin "5"
-			(uuid "9b444d6e-f36c-4e5f-a1a7-da9baf338003")
-		)
-		(pin "1"
-			(uuid "3ac415b1-e4c5-4160-af7b-34cf95d994c2")
-		)
-		(pin "2"
-			(uuid "9c5b1954-eb5a-4d51-8e01-e9319a7a2b47")
-		)
-		(pin "7"
-			(uuid "51f837e6-e71b-442f-ac32-dffa1d90d220")
-		)
-		(pin "8"
-			(uuid "0e27e693-1dac-437e-a52d-636a045cba39")
-		)
-		(pin "6"
-			(uuid "23e3c99e-267f-4c98-b732-73dbecc3d9f7")
 		)
 		(instances
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
-					(reference "U5")
-					(unit 1)
+					(page "45")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 105.41)
+		(size 22.86 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2e96e1b-2006-4990-ad10-a5b0e0f34c9c")
+		(property "Sheetname" "Tamura_4"
+			(at 106.68 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tamura.kicad_sch"
+			(at 106.68 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I_in" input
+			(at 129.54 109.22 0)
+			(uuid "f2088b8c-c66e-4911-accd-1a3f8b121864")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I_out" input
+			(at 129.54 111.76 0)
+			(uuid "3c56ac94-2006-4fc7-8d3e-0ba92febdb28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout" output
+			(at 106.68 110.49 180)
+			(uuid "5c0e933c-07bd-43f2-9e4f-412fc7c9c2f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6c3bdaeb-3a48-483c-8f1c-d2943b7053f6"
+					(page "41")
 				)
 			)
 		)
