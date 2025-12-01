@@ -5,6 +5,17 @@
 	(uuid "fd7503bc-e7fc-4766-b224-3d1c3d7de5ff")
 	(paper "A3")
 	(lib_symbols)
+	(text "TODO:\n- Kondensatoren für Main DCDC HV\n- 25uF Kondensator -> 3 mal 10uF "
+		(exclude_from_sim no)
+		(at 328.422 239.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55393b4f-5374-4d5b-8fd8-2c3b6ef06bfc")
+	)
 	(junction
 		(at 368.3 135.89)
 		(diameter 0)

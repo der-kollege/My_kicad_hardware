@@ -360,40 +360,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MYLIB_Misc:Box_Header_26pin"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "MYLIB_Misc:Box_Header_24pin"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 21.844 0)
+			(property "Reference" "U"
+				(at 0 20.066 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Box_Header_26pin"
-				(at 0.508 19.558 0)
+			(property "Value" "BoxHeader_24pin"
+				(at 0.762 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical"
-				(at 0.254 25.908 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_26-polig_gerade-22828"
-				(at 3.302 29.21 0)
+			(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical_SMD"
+				(at 0 26.162 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -401,8 +389,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Box Header 2x13 pin, Imax = 3A"
-				(at -0.254 35.56 0)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61202421621.pdf"
+				(at 1.778 29.464 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -410,8 +398,8 @@
 					(hide yes)
 				)
 			)
-			(property "Reichelt nr" "WSL 26G"
-				(at -0.254 32.766 0)
+			(property "Description" "Box Header 24 pin 2x12, 2.54mm pitch SMD"
+				(at 0.254 34.798 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -419,10 +407,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Box_Header_26pin_1_1"
+			(property "Mouser nr" " 710-61202421621 "
+				(at 0.762 32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Box_Header_24pin_1_1"
 				(rectangle
-					(start -2.54 16.51)
-					(end 2.54 -16.51)
+					(start -2.54 15.24)
+					(end 2.54 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -432,8 +429,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 15.367)
-					(end -1.27 15.113)
+					(start -2.54 14.097)
+					(end -1.27 13.843)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -443,8 +440,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 12.827)
-					(end -1.27 12.573)
+					(start -2.54 11.557)
+					(end -1.27 11.303)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -454,8 +451,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 10.287)
-					(end -1.27 10.033)
+					(start -2.54 9.017)
+					(end -1.27 8.763)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -465,8 +462,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 7.747)
-					(end -1.27 7.493)
+					(start -2.54 6.477)
+					(end -1.27 6.223)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -476,8 +473,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 5.207)
-					(end -1.27 4.953)
+					(start -2.54 3.937)
+					(end -1.27 3.683)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -487,8 +484,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 2.667)
-					(end -1.27 2.413)
+					(start -2.54 1.397)
+					(end -1.27 1.143)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -498,8 +495,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 0.127)
-					(end -1.27 -0.127)
+					(start -2.54 -1.143)
+					(end -1.27 -1.397)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -509,8 +506,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -2.413)
-					(end -1.27 -2.667)
+					(start -2.54 -3.683)
+					(end -1.27 -3.937)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -520,8 +517,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -4.953)
-					(end -1.27 -5.207)
+					(start -2.54 -6.223)
+					(end -1.27 -6.477)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -531,8 +528,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -7.493)
-					(end -1.27 -7.747)
+					(start -2.54 -8.763)
+					(end -1.27 -9.017)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -542,8 +539,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -10.033)
-					(end -1.27 -10.287)
+					(start -2.54 -11.303)
+					(end -1.27 -11.557)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -553,8 +550,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -12.573)
-					(end -1.27 -12.827)
+					(start -2.54 -13.843)
+					(end -1.27 -14.097)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -564,8 +561,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -15.113)
-					(end -1.27 -15.367)
+					(start 2.54 14.097)
+					(end 1.27 13.843)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -575,8 +572,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 15.367)
-					(end 1.27 15.113)
+					(start 2.54 11.557)
+					(end 1.27 11.303)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -586,8 +583,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 12.827)
-					(end 1.27 12.573)
+					(start 2.54 9.017)
+					(end 1.27 8.763)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -597,8 +594,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 10.287)
-					(end 1.27 10.033)
+					(start 2.54 6.477)
+					(end 1.27 6.223)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -608,8 +605,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 7.747)
-					(end 1.27 7.493)
+					(start 2.54 3.937)
+					(end 1.27 3.683)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -619,8 +616,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 5.207)
-					(end 1.27 4.953)
+					(start 2.54 1.397)
+					(end 1.27 1.143)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -630,8 +627,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 2.667)
-					(end 1.27 2.413)
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -641,8 +638,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 0.127)
-					(end 1.27 -0.127)
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -652,8 +649,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -2.413)
-					(end 1.27 -2.667)
+					(start 2.54 -6.223)
+					(end 1.27 -6.477)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -663,8 +660,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -4.953)
-					(end 1.27 -5.207)
+					(start 2.54 -8.763)
+					(end 1.27 -9.017)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -674,8 +671,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -7.493)
-					(end 1.27 -7.747)
+					(start 2.54 -11.303)
+					(end 1.27 -11.557)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -685,30 +682,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -10.033)
-					(end 1.27 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -12.573)
-					(end 1.27 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -15.113)
-					(end 1.27 -15.367)
+					(start 2.54 -13.843)
+					(end 1.27 -14.097)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -718,9 +693,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 15.24 0)
+					(at -6.35 13.97 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -736,9 +711,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 12.7 0)
+					(at -6.35 11.43 0)
 					(length 3.81)
-					(name "Pin_3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -754,9 +729,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 10.16 0)
+					(at -6.35 8.89 0)
 					(length 3.81)
-					(name "Pin_5"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -772,9 +747,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 7.62 0)
+					(at -6.35 6.35 0)
 					(length 3.81)
-					(name "Pin_7"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -790,9 +765,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 5.08 0)
+					(at -6.35 3.81 0)
 					(length 3.81)
-					(name "Pin_9"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -808,9 +783,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 2.54 0)
+					(at -6.35 1.27 0)
 					(length 3.81)
-					(name "Pin_11"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -826,9 +801,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 0 0)
+					(at -6.35 -1.27 0)
 					(length 3.81)
-					(name "Pin_13"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -844,9 +819,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -2.54 0)
+					(at -6.35 -3.81 0)
 					(length 3.81)
-					(name "Pin_15"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -862,9 +837,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -5.08 0)
+					(at -6.35 -6.35 0)
 					(length 3.81)
-					(name "Pin_17"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -880,9 +855,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -7.62 0)
+					(at -6.35 -8.89 0)
 					(length 3.81)
-					(name "Pin_19"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -898,9 +873,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -10.16 0)
+					(at -6.35 -11.43 0)
 					(length 3.81)
-					(name "Pin_21"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -916,9 +891,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -12.7 0)
+					(at -6.35 -13.97 0)
 					(length 3.81)
-					(name "Pin_23"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -934,27 +909,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -15.24 0)
+					(at 6.35 13.97 180)
 					(length 3.81)
-					(name "Pin_25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 15.24 180)
-					(length 3.81)
-					(name "Pin_2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -970,9 +927,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 12.7 180)
+					(at 6.35 11.43 180)
 					(length 3.81)
-					(name "Pin_4"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -988,9 +945,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 10.16 180)
+					(at 6.35 8.89 180)
 					(length 3.81)
-					(name "Pin_6"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1006,9 +963,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 7.62 180)
+					(at 6.35 6.35 180)
 					(length 3.81)
-					(name "Pin_8"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1024,9 +981,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 5.08 180)
+					(at 6.35 3.81 180)
 					(length 3.81)
-					(name "Pin_10"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1042,9 +999,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 2.54 180)
+					(at 6.35 1.27 180)
 					(length 3.81)
-					(name "Pin_12"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1060,9 +1017,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 0 180)
+					(at 6.35 -1.27 180)
 					(length 3.81)
-					(name "Pin_14"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1078,9 +1035,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -2.54 180)
+					(at 6.35 -3.81 180)
 					(length 3.81)
-					(name "Pin_16"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1096,9 +1053,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -5.08 180)
+					(at 6.35 -6.35 180)
 					(length 3.81)
-					(name "Pin_18"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1114,9 +1071,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -7.62 180)
+					(at 6.35 -8.89 180)
 					(length 3.81)
-					(name "Pin_20"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1132,9 +1089,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -10.16 180)
+					(at 6.35 -11.43 180)
 					(length 3.81)
-					(name "Pin_22"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1150,9 +1107,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -12.7 180)
+					(at 6.35 -13.97 180)
 					(length 3.81)
-					(name "Pin_24"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1160,24 +1117,6 @@
 						)
 					)
 					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -15.24 180)
-					(length 3.81)
-					(name "Pin_26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2346,22 +2285,10 @@
 		(uuid "04bb637e-a20c-4a19-8af0-4ea846945e0e")
 	)
 	(junction
-		(at 139.7 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "055800da-3aa2-4558-b532-74e164f6b3ef")
-	)
-	(junction
 		(at 142.24 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07eff573-e8d9-4289-817a-f380b406496c")
-	)
-	(junction
-		(at 142.24 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "084d633d-8ff6-42f3-bf7b-7add9d9e203f")
 	)
 	(junction
 		(at 224.79 219.71)
@@ -2404,12 +2331,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18f66031-506f-44d0-93f2-c2a226c4b200")
-	)
-	(junction
-		(at 31.75 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1977e566-62ea-4219-af1b-1f65be66d6cb")
 	)
 	(junction
 		(at 224.79 214.63)
@@ -2568,12 +2489,6 @@
 		(uuid "7121701c-187c-44dd-8a10-67fb69f833b0")
 	)
 	(junction
-		(at 142.24 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7243b518-058c-4b7f-8fed-76f6bcecdd05")
-	)
-	(junction
 		(at 142.24 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2700,12 +2615,6 @@
 		(uuid "bd598401-b2a4-40f8-9ba0-0f93908048f4")
 	)
 	(junction
-		(at 30.48 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4f00957-6ee3-42f4-9288-2f034cba3cbd")
-	)
-	(junction
 		(at 31.75 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2788,12 +2697,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9859cb9-d6ee-4eea-bd6c-27dcdf3bc7ec")
-	)
-	(junction
-		(at 30.48 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9e37c09-7e9c-46ba-aaef-ee909a37464e")
 	)
 	(junction
 		(at 142.24 97.79)
@@ -3009,16 +2912,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 114.3) (xy 34.29 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3827b1-a34d-4690-acdc-701e1e137908")
-	)
-	(wire
-		(pts
 			(xy 40.64 201.93) (xy 40.64 204.47)
 		)
 		(stroke
@@ -3079,16 +2972,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 139.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3b4774-2ae5-49b0-ba56-58a533193825")
-	)
-	(wire
-		(pts
 			(xy 31.75 58.42) (xy 31.75 60.96)
 		)
 		(stroke
@@ -3119,16 +3002,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.31) (xy 31.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1263bcb7-d2cd-4119-90ad-e82b1e9eed6f")
-	)
-	(wire
-		(pts
 			(xy 142.24 44.45) (xy 144.78 44.45)
 		)
 		(stroke
@@ -3156,16 +3029,6 @@
 			(type default)
 		)
 		(uuid "1547b8aa-0cbb-4812-851a-33f40337dfc4")
-	)
-	(wire
-		(pts
-			(xy 142.24 62.23) (xy 144.78 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b8633d-2751-45f9-af9e-355eb35201fe")
 	)
 	(wire
 		(pts
@@ -3216,16 +3079,6 @@
 			(type default)
 		)
 		(uuid "16a326e1-06c3-4660-9360-bccbbe7e55a2")
-	)
-	(wire
-		(pts
-			(xy 139.7 115.57) (xy 139.7 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c385e8-40de-4920-adb4-666074a279ae")
 	)
 	(wire
 		(pts
@@ -3459,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 118.11) (xy 30.48 121.92)
+			(xy 30.48 111.76) (xy 30.48 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3506,16 +3359,6 @@
 			(type default)
 		)
 		(uuid "30c09dcc-118d-4c54-877a-5bcca52cd5c3")
-	)
-	(wire
-		(pts
-			(xy 138.43 62.23) (xy 138.43 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3127d9f9-319c-4ad9-85e1-ab9ffca13fae")
 	)
 	(wire
 		(pts
@@ -3729,16 +3572,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 113.03) (xy 158.75 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41af2000-206c-4fa7-b8ca-2d24ada2acad")
-	)
-	(wire
-		(pts
 			(xy 82.55 236.22) (xy 76.2 236.22)
 		)
 		(stroke
@@ -3879,16 +3712,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 113.03) (xy 144.78 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4960eb5b-b1bf-428a-b4cd-64246d0b7c35")
-	)
-	(wire
-		(pts
 			(xy 60.96 243.84) (xy 71.12 243.84)
 		)
 		(stroke
@@ -3969,16 +3792,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 118.11) (xy 30.48 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50cdacaa-d275-4bc2-9d8d-2cb6d9c099ef")
-	)
-	(wire
-		(pts
 			(xy 175.26 90.17) (xy 175.26 80.01)
 		)
 		(stroke
@@ -3986,16 +3799,6 @@
 			(type default)
 		)
 		(uuid "516e89c3-4c6a-4e55-bc2b-b91adc6169b2")
-	)
-	(wire
-		(pts
-			(xy 31.75 63.5) (xy 34.29 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51cd9fa3-b13b-4274-aa3f-a8b44de16c93")
 	)
 	(wire
 		(pts
@@ -4016,16 +3819,6 @@
 			(type default)
 		)
 		(uuid "539818ae-d8d2-485e-9b3a-cecb59a0072f")
-	)
-	(wire
-		(pts
-			(xy 142.24 113.03) (xy 139.7 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5400e060-2e9a-4914-9a93-31765c9fcbac")
 	)
 	(wire
 		(pts
@@ -4269,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 60.96) (xy 25.4 69.85)
+			(xy 31.75 60.96) (xy 31.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5069,16 +4862,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 63.5) (xy 48.26 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bf6208-133a-4d0d-8097-ed490efb0790")
-	)
-	(wire
-		(pts
 			(xy 76.2 236.22) (xy 76.2 254)
 		)
 		(stroke
@@ -5126,16 +4909,6 @@
 			(type default)
 		)
 		(uuid "9998a78c-b1f9-4e72-a253-19721fecab3b")
-	)
-	(wire
-		(pts
-			(xy 31.75 60.96) (xy 31.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b25958d-4699-4e97-ab26-aea19db0cc7b")
 	)
 	(wire
 		(pts
@@ -5236,16 +5009,6 @@
 			(type default)
 		)
 		(uuid "a09992bf-c6bf-4d46-9ec9-b557b61c94bc")
-	)
-	(wire
-		(pts
-			(xy 31.75 60.96) (xy 25.4 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0b93ecd-7213-42d3-8e90-d1e532d1d978")
 	)
 	(wire
 		(pts
@@ -5699,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 142.24 62.23)
+			(xy 142.24 59.69) (xy 142.24 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5809,16 +5572,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 114.3) (xy 46.99 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c7e44b-ab09-487b-840c-e0da024aca3c")
-	)
-	(wire
-		(pts
 			(xy 40.64 172.72) (xy 40.64 175.26)
 		)
 		(stroke
@@ -5846,16 +5599,6 @@
 			(type default)
 		)
 		(uuid "c608cbd5-2859-47f2-b6b7-b3754b841589")
-	)
-	(wire
-		(pts
-			(xy 46.99 118.11) (xy 30.48 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6150f5e-1faa-49d0-8cd5-3d07e8a4ab2d")
 	)
 	(wire
 		(pts
@@ -5999,16 +5742,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 62.23) (xy 160.02 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf9406be-7317-4999-98cb-b1c1e1dc446d")
-	)
-	(wire
-		(pts
 			(xy 40.64 228.6) (xy 40.64 231.14)
 		)
 		(stroke
@@ -6049,16 +5782,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 62.23) (xy 160.02 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3aa7937-0597-4ba7-939b-a0abc69cafe4")
-	)
-	(wire
-		(pts
 			(xy 57.15 88.9) (xy 46.99 88.9)
 		)
 		(stroke
@@ -6086,16 +5809,6 @@
 			(type default)
 		)
 		(uuid "d4699ce6-0e95-4b9d-965a-892b5ad34fd5")
-	)
-	(wire
-		(pts
-			(xy 142.24 62.23) (xy 142.24 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4af5a13-1232-42df-8fe3-8a23c4c73e09")
 	)
 	(wire
 		(pts
@@ -6129,7 +5842,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 110.49) (xy 142.24 113.03)
+			(xy 142.24 110.49) (xy 142.24 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6319,16 +6032,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 111.76) (xy 30.48 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e56085d6-6dbb-455d-9863-c849163fccb6")
-	)
-	(wire
-		(pts
 			(xy 52.07 83.82) (xy 52.07 72.39)
 		)
 		(stroke
@@ -6439,16 +6142,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 142.24 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f208b9d1-2cb4-4832-9e50-ba7fb34d40fc")
-	)
-	(wire
-		(pts
 			(xy 142.24 52.07) (xy 142.24 54.61)
 		)
 		(stroke
@@ -6509,26 +6202,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 139.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53a04b7-c50f-45f4-a904-88d666d0db06")
-	)
-	(wire
-		(pts
-			(xy 48.26 67.31) (xy 31.75 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53e3e3b-19bb-4ec4-a322-26e837c3ccd5")
-	)
-	(wire
-		(pts
 			(xy 59.69 60.96) (xy 59.69 69.85)
 		)
 		(stroke
@@ -6546,26 +6219,6 @@
 			(type default)
 		)
 		(uuid "f5f4c67f-327b-4eec-a977-75da10ffeba7")
-	)
-	(wire
-		(pts
-			(xy 48.26 63.5) (xy 48.26 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f63b46c8-41ac-43ea-b2be-dca68c761ce2")
-	)
-	(wire
-		(pts
-			(xy 142.24 62.23) (xy 138.43 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6c447a6-3571-4e66-9406-1480c81574ee")
 	)
 	(wire
 		(pts
@@ -6616,16 +6269,6 @@
 			(type default)
 		)
 		(uuid "f92406d0-11fd-4028-b724-ef8a14778a81")
-	)
-	(wire
-		(pts
-			(xy 158.75 113.03) (xy 158.75 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa265d44-92b8-43d8-b8df-3f6e1ff85f69")
 	)
 	(wire
 		(pts
@@ -9348,42 +8991,33 @@
 		(uuid "f987c240-7c46-47a3-93b8-0e89ae0df0ed")
 	)
 	(symbol
-		(lib_id "MYLIB_Misc:Box_Header_26pin")
-		(at 40.64 48.26 0)
+		(lib_id "MYLIB_Misc:Box_Header_24pin")
+		(at 40.64 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a6941ec-f0da-4a4f-bbf5-8b503faf451c")
-		(property "Reference" "J10"
-			(at 40.64 26.67 0)
+		(uuid "05bf8582-eca2-4618-94c7-528f93e6dbf1")
+		(property "Reference" "U45"
+			(at 40.64 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Box_Header_26pin"
-			(at 40.64 29.21 0)
+		(property "Value" "BoxHeader_24pin"
+			(at 40.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical"
-			(at 40.894 22.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_26-polig_gerade-22828"
-			(at 43.942 19.05 0)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical_SMD"
+			(at 40.64 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,8 +9025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Box Header 2x13 pin, Imax = 3A"
-			(at 40.386 12.7 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61202421621.pdf"
+			(at 42.418 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,8 +9034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Reichelt nr" "WSL 26G"
-			(at 40.386 15.494 0)
+		(property "Description" "Box Header 24 pin 2x12, 2.54mm pitch SMD"
+			(at 40.894 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,88 +9043,91 @@
 				(hide yes)
 			)
 		)
-		(pin "20"
-			(uuid "e8d47df3-1124-42c2-a0d4-92dd4f7e77da")
+		(property "Mouser nr" " 710-61202421621 "
+			(at 41.402 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "16"
-			(uuid "5d940797-0240-4c2a-887b-fec71259db24")
-		)
-		(pin "7"
-			(uuid "9664ee99-b87b-4354-8f01-b1f8014dffe2")
-		)
-		(pin "10"
-			(uuid "67e3d589-7acf-414d-a69e-a0e76bca9d57")
-		)
-		(pin "24"
-			(uuid "99311f0f-0f43-4b4f-b654-6fde0b865e21")
-		)
-		(pin "18"
-			(uuid "2a4d5d3f-a803-471e-80d3-feddf3d993e7")
-		)
-		(pin "3"
-			(uuid "f28bc3d8-2cf3-4dea-9983-df1299079e1f")
-		)
-		(pin "1"
-			(uuid "5e573d7e-e6d3-45e8-87a3-8056ea9b44eb")
-		)
-		(pin "21"
-			(uuid "37e1b506-f065-4571-b3e7-7ec3a4db15e9")
-		)
-		(pin "6"
-			(uuid "eed7f1e9-23b7-4062-9cbd-7f1440f91444")
-		)
-		(pin "19"
-			(uuid "e3d262bb-35d5-4204-928e-3722426a1371")
-		)
-		(pin "9"
-			(uuid "f653b42e-9e36-4561-a138-fec24d527013")
-		)
-		(pin "11"
-			(uuid "29354b3e-fee1-4dd7-9492-bb586c7d098c")
-		)
-		(pin "13"
-			(uuid "bf20b1b5-7ff9-4c2c-8bdc-4d55dbca1eb3")
-		)
-		(pin "17"
-			(uuid "b69ac9af-f83f-432e-8d27-57ac034df449")
-		)
-		(pin "14"
-			(uuid "c6c3860d-993e-487e-bb5f-794412b5a095")
+			(uuid "f78e8293-bbe9-4639-9e5a-52c5f2290661")
 		)
 		(pin "12"
-			(uuid "9fe6b497-31ce-47c1-9744-f0b3815e0804")
+			(uuid "dce0389e-18a9-41f5-88c4-933ffbfa32bc")
 		)
-		(pin "15"
-			(uuid "e6d524f9-1bab-42d3-a5f4-fa03777365ce")
-		)
-		(pin "25"
-			(uuid "5073f1c4-95e4-412d-9677-e28a306b7f9c")
-		)
-		(pin "23"
-			(uuid "8277a3bc-0717-4b8d-90ae-6aa47ce3b950")
-		)
-		(pin "26"
-			(uuid "4dd64a43-88b3-409f-96af-c38dc004bb45")
-		)
-		(pin "2"
-			(uuid "490ffb1a-2663-4b28-9157-e3a6533baecd")
-		)
-		(pin "5"
-			(uuid "aaa4841e-2bdd-486a-8a95-d8d1a43c1655")
-		)
-		(pin "4"
-			(uuid "dc2fa38c-63af-4616-8266-421ceccf354b")
-		)
-		(pin "8"
-			(uuid "34901f0d-b6ea-444e-ba42-7238dd92826b")
+		(pin "20"
+			(uuid "b6fcb489-f047-4b61-9b55-b02bba780b7c")
 		)
 		(pin "22"
-			(uuid "589e9a66-e840-4c90-a2fe-74c955bff06a")
+			(uuid "f6bc1fb0-89d9-41d3-98cd-20742e2028dd")
+		)
+		(pin "21"
+			(uuid "e8310e4f-2153-4e5e-b61a-148061784f43")
+		)
+		(pin "4"
+			(uuid "f7a06236-678f-43b7-b014-a2a1240be17a")
+		)
+		(pin "5"
+			(uuid "b747f1df-1a1c-4783-b4dd-89c4e5ff42d3")
+		)
+		(pin "3"
+			(uuid "ba873fe7-aaba-4dcd-b669-6de509da9545")
+		)
+		(pin "23"
+			(uuid "a21b460c-8523-491c-b475-5e0d00cf14b3")
+		)
+		(pin "18"
+			(uuid "bdb20d2a-87ee-439b-9d18-b94e9f4d49ba")
+		)
+		(pin "6"
+			(uuid "d99b27f5-8367-4763-8de4-41d16970d717")
+		)
+		(pin "10"
+			(uuid "cfb76f47-c39d-4906-901a-c22793032074")
+		)
+		(pin "1"
+			(uuid "3da415e6-20dc-44e1-8ad1-f27f69b68a9e")
+		)
+		(pin "2"
+			(uuid "a27dd29a-afe6-4e1e-af02-847c59661775")
+		)
+		(pin "9"
+			(uuid "4d97361f-bbfe-4280-b01f-a2d3cdb8b9da")
+		)
+		(pin "7"
+			(uuid "1f202a04-4707-4667-b69a-432fecd3912b")
+		)
+		(pin "8"
+			(uuid "c8f9b68e-33de-40aa-9454-05a9e1b4eec8")
+		)
+		(pin "17"
+			(uuid "bd887c13-2f3b-432e-9d89-7a2b63044d01")
+		)
+		(pin "24"
+			(uuid "df2905de-50e6-46f8-b2f6-e069286e961d")
+		)
+		(pin "15"
+			(uuid "cc9594e4-2446-489a-934d-9f195f4662c3")
+		)
+		(pin "14"
+			(uuid "8a7ca9a8-f330-4c36-a883-1ff210289617")
+		)
+		(pin "13"
+			(uuid "d05f5e79-b440-4df9-b2b8-0d2c9b54190d")
+		)
+		(pin "19"
+			(uuid "b3ff4a84-dac5-413c-abf7-0c31446aeea8")
+		)
+		(pin "11"
+			(uuid "9d27ca35-7c96-4c2e-bdd1-674fbde00f06")
 		)
 		(instances
-			(project ""
+			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
-					(reference "J10")
+					(reference "U45")
 					(unit 1)
 				)
 			)
@@ -9590,7 +9227,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 71.12 0)
+		(at 142.24 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9599,7 +9236,7 @@
 		(fields_autoplaced yes)
 		(uuid "11f96ecd-0865-4165-94e8-cf84acd2444f")
 		(property "Reference" "#PWR086"
-			(at 138.43 77.47 0)
+			(at 142.24 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 76.2 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 71.12 0)
+			(at 142.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 71.12 0)
+			(at 142.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9271,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 71.12 0)
+			(at 142.24 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +9385,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 69.85 0)
+		(at 31.75 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9757,7 +9394,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cc84061-ada1-42d0-a971-6d0605b3beeb")
 		(property "Reference" "#PWR080"
-			(at 25.4 76.2 0)
+			(at 31.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,7 +9403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 74.93 0)
+			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,7 +9411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 69.85 0)
+			(at 31.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +9420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 69.85 0)
+			(at 31.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 69.85 0)
+			(at 31.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,453 +9444,6 @@
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MYLIB_Misc:Box_Header_26pin")
-		(at 151.13 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27176c80-9db3-4ff6-b19a-e723a7ce1050")
-		(property "Reference" "J17"
-			(at 151.13 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Box_Header_26pin"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical"
-			(at 151.384 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_26-polig_gerade-22828"
-			(at 154.432 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Box Header 2x13 pin, Imax = 3A"
-			(at 150.876 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reichelt nr" "WSL 26G"
-			(at 150.876 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "20"
-			(uuid "f3832ad8-e0cb-48f9-acd6-14e555d147fe")
-		)
-		(pin "16"
-			(uuid "bda47383-1564-42d8-a857-4ea4899ff582")
-		)
-		(pin "7"
-			(uuid "afd96a14-65de-4f14-92ed-ceb872f63d58")
-		)
-		(pin "10"
-			(uuid "e6b99729-6fe1-40d6-a97b-d8d071afb43a")
-		)
-		(pin "24"
-			(uuid "c685e379-1817-4a93-ab2d-1648d74c3276")
-		)
-		(pin "18"
-			(uuid "ba55f7f8-d666-4616-b1f3-b3babb9b15ae")
-		)
-		(pin "3"
-			(uuid "41f67427-2182-4bde-b1eb-b9a7e06a054f")
-		)
-		(pin "1"
-			(uuid "46ab9b17-2dba-4dc9-a13f-546f35052eab")
-		)
-		(pin "21"
-			(uuid "c1e4f46e-f5e8-41c1-b65a-8afb319f0c7e")
-		)
-		(pin "6"
-			(uuid "0364ed12-86bc-44f5-a927-5921c96af846")
-		)
-		(pin "19"
-			(uuid "1fe2a35c-abda-4fac-990b-bebed0b23fdc")
-		)
-		(pin "9"
-			(uuid "c9188ce8-a613-4cac-bdd4-a194f683faf4")
-		)
-		(pin "11"
-			(uuid "63bfa13a-f394-48fa-b690-6c26ada70c87")
-		)
-		(pin "13"
-			(uuid "96940e88-2cd6-484b-b9f0-fe6cb480b7f8")
-		)
-		(pin "17"
-			(uuid "b38382f4-4ff5-4321-a97f-19bf2531be9d")
-		)
-		(pin "14"
-			(uuid "205b894a-9f14-466c-982d-d35ffa8d2310")
-		)
-		(pin "12"
-			(uuid "0b4bea27-f207-4f7c-aa79-df1cbb2d1483")
-		)
-		(pin "15"
-			(uuid "d4f5948d-664d-4554-ab4d-f07b01a29527")
-		)
-		(pin "25"
-			(uuid "a2ef72b9-fb21-400f-a46d-0453c1b3012b")
-		)
-		(pin "23"
-			(uuid "ed7cfbd1-339c-4f09-a499-d28290d62b69")
-		)
-		(pin "26"
-			(uuid "1885e09d-6e6c-4d98-bcb4-1e192c777400")
-		)
-		(pin "2"
-			(uuid "8322b080-33d2-4e58-b854-ec5670708276")
-		)
-		(pin "5"
-			(uuid "c84a383c-941b-48dd-8be4-b99b002018ec")
-		)
-		(pin "4"
-			(uuid "c62e01c8-1a42-4391-8157-82c94329dfcf")
-		)
-		(pin "8"
-			(uuid "a1276652-4adc-48cb-844e-7ec054e60b92")
-		)
-		(pin "22"
-			(uuid "3caf4769-b82d-479d-bf9e-0fc7c5694305")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MYLIB_Misc:Box_Header_26pin")
-		(at 40.64 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28fe60c4-19e7-4b9e-b249-5ede6a8771eb")
-		(property "Reference" "J11"
-			(at 40.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Box_Header_26pin"
-			(at 40.64 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical"
-			(at 40.894 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_26-polig_gerade-22828"
-			(at 43.942 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Box Header 2x13 pin, Imax = 3A"
-			(at 40.386 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reichelt nr" "WSL 26G"
-			(at 40.386 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "20"
-			(uuid "bb97e8aa-77a1-4d2a-a911-b2aafd99b088")
-		)
-		(pin "16"
-			(uuid "f6f9311d-58ff-4cd2-99b5-824f11b66009")
-		)
-		(pin "7"
-			(uuid "3d7cfcc0-2f26-456d-a47a-052c4bef7da5")
-		)
-		(pin "10"
-			(uuid "b2d9b091-0339-42dc-a222-86942f8e4564")
-		)
-		(pin "24"
-			(uuid "d9fbc3d1-51ad-4e40-9e90-ffcd973b271c")
-		)
-		(pin "18"
-			(uuid "1d9ac4a9-cf1d-48d8-a088-4c378ffc9d9f")
-		)
-		(pin "3"
-			(uuid "dcb1fde6-25e0-4ea7-8678-b7d7b0d397b1")
-		)
-		(pin "1"
-			(uuid "bc6abe3a-958f-4869-aa17-742a309dad88")
-		)
-		(pin "21"
-			(uuid "495ab43d-7963-4212-905e-50042dd25eb6")
-		)
-		(pin "6"
-			(uuid "584ee460-2963-4fb6-8d3f-5f9d39dafc94")
-		)
-		(pin "19"
-			(uuid "04a6be91-7a66-4973-8910-bd72a47055f3")
-		)
-		(pin "9"
-			(uuid "5f55e2bd-3dda-484a-963c-8f589a95dc83")
-		)
-		(pin "11"
-			(uuid "07792448-efca-4dd9-9cc6-a84f1c4078cf")
-		)
-		(pin "13"
-			(uuid "8be92a6e-e12b-4b3e-886e-9fb36d17f403")
-		)
-		(pin "17"
-			(uuid "a33ca675-9e04-40de-9e44-e8adaadbc571")
-		)
-		(pin "14"
-			(uuid "be68046f-7874-4cb5-9c68-ee70dcb1daf1")
-		)
-		(pin "12"
-			(uuid "603edd2a-c6cd-46b9-a41f-88e3d4e2062c")
-		)
-		(pin "15"
-			(uuid "dda135b5-772f-4b26-be08-933b4738f3a5")
-		)
-		(pin "25"
-			(uuid "13dccae0-3504-4ae1-af80-a1d200f52dcd")
-		)
-		(pin "23"
-			(uuid "c234b3e2-5824-409b-b2ec-0edd52a8dc27")
-		)
-		(pin "26"
-			(uuid "9e13e22c-d977-4b7d-848c-7c256eab8dce")
-		)
-		(pin "2"
-			(uuid "90327a6d-b268-4508-8735-5b5a93813c77")
-		)
-		(pin "5"
-			(uuid "beccab03-0f9b-4fc6-8950-7c10fb9cb8e9")
-		)
-		(pin "4"
-			(uuid "2e46d296-c015-402c-a5ad-177994747f16")
-		)
-		(pin "8"
-			(uuid "76fb9367-2fd9-445b-8cc0-549167566a08")
-		)
-		(pin "22"
-			(uuid "845fd91b-a3a2-4515-b5fc-c40bd9a253b2")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MYLIB_Misc:Box_Header_26pin")
-		(at 151.13 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2988621c-086d-4e17-b88f-1059b3ee8147")
-		(property "Reference" "J16"
-			(at 151.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Box_Header_26pin"
-			(at 151.13 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical"
-			(at 151.384 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_26-polig_gerade-22828"
-			(at 154.432 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Box Header 2x13 pin, Imax = 3A"
-			(at 150.876 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reichelt nr" "WSL 26G"
-			(at 150.876 14.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "20"
-			(uuid "1f30990c-31b9-4c97-8a8b-1108ce1c2bca")
-		)
-		(pin "16"
-			(uuid "1ddf87f7-b2b1-47a6-ae87-45c6cbc0bca0")
-		)
-		(pin "7"
-			(uuid "1f9fd79b-ff07-4e7e-a427-f17dbcc4e9a4")
-		)
-		(pin "10"
-			(uuid "012a4d36-f577-4bd6-9510-bb4a563c2cad")
-		)
-		(pin "24"
-			(uuid "c2a91fbf-2e75-4475-bc9a-5e7e96e03c9e")
-		)
-		(pin "18"
-			(uuid "1eeb677f-cc42-40d3-bdb5-4319842c28f8")
-		)
-		(pin "3"
-			(uuid "5b9b769f-bf26-460f-8132-b405733550c1")
-		)
-		(pin "1"
-			(uuid "f20498f4-3a40-4bd7-a451-e24f83e119e8")
-		)
-		(pin "21"
-			(uuid "82673eba-9f9b-4508-a8ae-bfa1f5d1c69f")
-		)
-		(pin "6"
-			(uuid "1f813c34-4785-48f0-8fcb-41299826a3cc")
-		)
-		(pin "19"
-			(uuid "254f49b2-9c34-49aa-b888-b313e370ee6b")
-		)
-		(pin "9"
-			(uuid "51da4371-eddd-4d25-8b0d-5a6054c5c52b")
-		)
-		(pin "11"
-			(uuid "dac4660c-d081-41f6-a447-fa1a54782e47")
-		)
-		(pin "13"
-			(uuid "f5fd3890-5f72-4ae3-ae66-e7fb6146d8e7")
-		)
-		(pin "17"
-			(uuid "bac57669-3efe-4e67-b4b5-cf14faf9bac4")
-		)
-		(pin "14"
-			(uuid "6c7ffbba-b08a-4e24-ad2e-0db44243d9eb")
-		)
-		(pin "12"
-			(uuid "837cb67a-707f-46ff-a6ec-75c2a05e4248")
-		)
-		(pin "15"
-			(uuid "e2172438-39ac-4d5a-a66e-24617800a8a2")
-		)
-		(pin "25"
-			(uuid "6a06a1f9-c914-424d-b191-da9c6e5c7e8e")
-		)
-		(pin "23"
-			(uuid "abd99152-5c17-4570-b771-8377f6154e63")
-		)
-		(pin "26"
-			(uuid "03ee82d2-459e-4c9a-86eb-cd6acdbb5c0e")
-		)
-		(pin "2"
-			(uuid "cf9228b8-d4d1-4dec-98fc-179b74569b3e")
-		)
-		(pin "5"
-			(uuid "43a579c4-b6d0-4248-af97-0e2467f4d1fe")
-		)
-		(pin "4"
-			(uuid "ab59f84c-6c00-459c-b1fb-7d174cedf2a3")
-		)
-		(pin "8"
-			(uuid "bfac8c7c-13f9-439e-a7d8-61aef3b52938")
-		)
-		(pin "22"
-			(uuid "1fa6f204-7ecf-44cd-93e3-46fd27089df4")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
-					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -10327,7 +9517,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 121.92 0)
+		(at 30.48 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10336,7 +9526,7 @@
 		(fields_autoplaced yes)
 		(uuid "3668a201-8270-45b5-860b-99ccb7927d26")
 		(property "Reference" "#PWR081"
-			(at 30.48 128.27 0)
+			(at 30.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +9535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 127 0)
+			(at 30.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,7 +9543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 121.92 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +9552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 121.92 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10371,7 +9561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 121.92 0)
+			(at 30.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +9675,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 119.38 0)
+		(at 142.24 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10494,7 +9684,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c3af2ef-7d6f-4c83-9f51-4e5842131e7c")
 		(property "Reference" "#PWR087"
-			(at 139.7 125.73 0)
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +9693,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 124.46 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10511,7 +9701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 119.38 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10520,7 +9710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 119.38 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,7 +9719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 119.38 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,6 +9734,149 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_24pin")
+		(at 151.13 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "535bef6a-0a52-4da6-a9de-1c0ff78b875f")
+		(property "Reference" "U46"
+			(at 151.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BoxHeader_24pin"
+			(at 151.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical_SMD"
+			(at 151.13 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61202421621.pdf"
+			(at 152.908 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Box Header 24 pin 2x12, 2.54mm pitch SMD"
+			(at 151.384 10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr" " 710-61202421621 "
+			(at 151.892 13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "f120bdba-e7e9-4a5b-9266-4984447c4d46")
+		)
+		(pin "12"
+			(uuid "f68b76a1-9c9c-4351-9e06-b065c5adb684")
+		)
+		(pin "20"
+			(uuid "8961c557-6344-418a-94bb-11b280d0e685")
+		)
+		(pin "22"
+			(uuid "8fa1788c-8e1e-448d-9253-c318f048c8d5")
+		)
+		(pin "21"
+			(uuid "3f07aeb5-b67c-45a5-9f52-72c19bf1ae00")
+		)
+		(pin "4"
+			(uuid "67c6d29d-1f6b-4fb1-9f6f-bf66abf296b0")
+		)
+		(pin "5"
+			(uuid "99e4e59d-b983-4b2a-9588-989bb98fa05f")
+		)
+		(pin "3"
+			(uuid "6b3e9f99-9064-43d8-aca8-b642106040cf")
+		)
+		(pin "23"
+			(uuid "a621336e-cffe-46fb-abfa-0fcd1506b619")
+		)
+		(pin "18"
+			(uuid "97a323dd-caf1-41dc-9af2-94caee8d7267")
+		)
+		(pin "6"
+			(uuid "6f1baa12-e9c7-4bf6-8893-986477866fed")
+		)
+		(pin "10"
+			(uuid "d069f60d-7f9a-42c2-8d7f-ce21bdfb7783")
+		)
+		(pin "1"
+			(uuid "846ec2cd-001b-4bad-930e-43e59e8904c9")
+		)
+		(pin "2"
+			(uuid "a5c26c27-0670-42cb-aa87-df868c722c1f")
+		)
+		(pin "9"
+			(uuid "d3b3e564-533e-47b9-8760-16465ab06062")
+		)
+		(pin "7"
+			(uuid "f55aad42-9054-49de-b7e1-5a73af5639b7")
+		)
+		(pin "8"
+			(uuid "5b539eaf-2f05-47af-9a66-e885b6328804")
+		)
+		(pin "17"
+			(uuid "3b69840e-45ff-42ca-8b05-7c2c72996df4")
+		)
+		(pin "24"
+			(uuid "c45cbdb5-b3e8-4466-9600-4e1232e972df")
+		)
+		(pin "15"
+			(uuid "3cfa4a2a-cfed-4436-b60f-9b9a4dbe80fc")
+		)
+		(pin "14"
+			(uuid "daa24590-380c-479e-a38e-07cdcf0fd384")
+		)
+		(pin "13"
+			(uuid "cbdb0919-e6c4-4ae3-857e-08f2adea86fa")
+		)
+		(pin "19"
+			(uuid "6758502e-0782-4dbd-808b-ef4553d28e37")
+		)
+		(pin "11"
+			(uuid "3fc37ad1-3c95-481f-b6fe-66b79f3db740")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
+					(reference "U46")
 					(unit 1)
 				)
 			)
@@ -10675,6 +10008,149 @@
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_24pin")
+		(at 40.64 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98df5fb-ddd6-4a3f-93f2-432b0475a9c3")
+		(property "Reference" "U26"
+			(at 40.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BoxHeader_24pin"
+			(at 40.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical_SMD"
+			(at 40.64 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61202421621.pdf"
+			(at 42.418 17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Box Header 24 pin 2x12, 2.54mm pitch SMD"
+			(at 40.894 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr" " 710-61202421621 "
+			(at 41.402 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "ccd5e766-34b9-4210-b5e2-a0aeff74f433")
+		)
+		(pin "12"
+			(uuid "17099224-6b96-4e54-90e2-f4cb539ffabc")
+		)
+		(pin "20"
+			(uuid "a1761840-6839-4463-9319-4ac84035505f")
+		)
+		(pin "22"
+			(uuid "895231de-f508-472b-b67f-a1f4e065b4fa")
+		)
+		(pin "21"
+			(uuid "516df20c-a157-4605-b3b3-22d30852b9fe")
+		)
+		(pin "4"
+			(uuid "deae46af-5605-4a54-85bd-741b85aec503")
+		)
+		(pin "5"
+			(uuid "df6f5605-c528-4df1-baf5-4aaa281d5145")
+		)
+		(pin "3"
+			(uuid "53e05a9a-7ac1-4518-8bac-c4e97da9f603")
+		)
+		(pin "23"
+			(uuid "7d9c1334-1dd3-4005-b1f2-9cc139dd4d41")
+		)
+		(pin "18"
+			(uuid "6bf21b68-5959-4405-a564-ee70a88d261e")
+		)
+		(pin "6"
+			(uuid "0869064f-10b6-42b6-ba5a-c6da69a9e77f")
+		)
+		(pin "10"
+			(uuid "d2c7fc19-4ebd-4b8c-96fc-0ea5ba4ae2c9")
+		)
+		(pin "1"
+			(uuid "00f2e6df-8546-4f06-9460-4d6ee4f53e03")
+		)
+		(pin "2"
+			(uuid "641b0de3-2b40-4cc2-939d-d94b2c9af17f")
+		)
+		(pin "9"
+			(uuid "89b67f3a-d88f-465e-95d3-296b7cb6d55f")
+		)
+		(pin "7"
+			(uuid "f3d2ccd9-7220-4d40-956f-c0348883b93a")
+		)
+		(pin "8"
+			(uuid "d5b31684-77d3-4de4-bd6e-231847d76fb3")
+		)
+		(pin "17"
+			(uuid "dd3b6f21-8b82-4248-b12b-f26945d10eb5")
+		)
+		(pin "24"
+			(uuid "0a4740a1-cbea-4eeb-a31f-c1b0798ec490")
+		)
+		(pin "15"
+			(uuid "d2706bc4-2a32-4531-9db4-c53c47eff0d3")
+		)
+		(pin "14"
+			(uuid "a99a8899-01f0-496c-b564-0c0ccdb841bb")
+		)
+		(pin "13"
+			(uuid "4676bb57-77b8-49b8-81b3-a6e49f968ad5")
+		)
+		(pin "19"
+			(uuid "83012db4-84ac-4b6c-9261-d1651dcdb1f4")
+		)
+		(pin "11"
+			(uuid "eac0be57-e0d6-4a34-8296-1ffef4a29c93")
+		)
+		(instances
+			(project ""
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
+					(reference "U26")
 					(unit 1)
 				)
 			)
@@ -11116,6 +10592,149 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_24pin")
+		(at 151.13 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f546f965-9aea-4262-aeba-e601f1959092")
+		(property "Reference" "U47"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BoxHeader_24pin"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical_SMD"
+			(at 151.13 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61202421621.pdf"
+			(at 152.908 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Box Header 24 pin 2x12, 2.54mm pitch SMD"
+			(at 151.384 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr" " 710-61202421621 "
+			(at 151.892 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "e6d5b4dc-0284-4cd7-a587-fe05b402e7e8")
+		)
+		(pin "12"
+			(uuid "a111e711-8534-4003-86cb-b33864790949")
+		)
+		(pin "20"
+			(uuid "19e90349-98b4-499b-aeb8-4741a28f66e8")
+		)
+		(pin "22"
+			(uuid "ffa5999d-e8a5-4f4b-a7b4-163e25a1578f")
+		)
+		(pin "21"
+			(uuid "082a61d1-79c8-42b2-a612-a64118096b4b")
+		)
+		(pin "4"
+			(uuid "82e2796c-837c-4565-bb0b-98662ca8cfc3")
+		)
+		(pin "5"
+			(uuid "e2645c0a-3521-4964-a46e-f6a5f5674a60")
+		)
+		(pin "3"
+			(uuid "839958f2-782f-4ef1-9c71-b8ac1864cfbb")
+		)
+		(pin "23"
+			(uuid "a622b5a0-4d16-41d6-b316-336d0f4e56af")
+		)
+		(pin "18"
+			(uuid "da81ecde-69d2-4c8d-9435-bd5b5581ad82")
+		)
+		(pin "6"
+			(uuid "e6d909c4-a776-4c5f-bc79-a88be1fe3ffa")
+		)
+		(pin "10"
+			(uuid "20ffd54a-9413-49ca-9f50-033f3091619f")
+		)
+		(pin "1"
+			(uuid "b128c124-9e24-4223-9068-4044d49a8eea")
+		)
+		(pin "2"
+			(uuid "2dd3b885-fa84-4d58-9c78-d409b1c9c7d8")
+		)
+		(pin "9"
+			(uuid "ff4a0c28-1543-48dd-aedf-81671c213bd6")
+		)
+		(pin "7"
+			(uuid "62e98d23-c141-40ef-8c8c-297df9be67a3")
+		)
+		(pin "8"
+			(uuid "9346e4fa-2188-430d-a605-f3aa82f9dcc1")
+		)
+		(pin "17"
+			(uuid "76f8d334-e291-4a0f-adca-c13b106fa594")
+		)
+		(pin "24"
+			(uuid "9dcde40d-25b8-45f3-b3e1-ea498e288ccb")
+		)
+		(pin "15"
+			(uuid "6d6ab3ef-de24-4268-8c9b-67cd46d63b76")
+		)
+		(pin "14"
+			(uuid "b93655f6-5779-49a0-bce2-ce8224a35ab3")
+		)
+		(pin "13"
+			(uuid "c4253d3f-8020-4ee8-8be7-41a112e3dc7f")
+		)
+		(pin "19"
+			(uuid "f01f3e26-26c5-4d5e-bce7-d1518ec06bb0")
+		)
+		(pin "11"
+			(uuid "3f088715-bdc6-4236-b5b5-82c4e72cb8b4")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/1b181806-12f4-40c8-bf91-78ac0d892dab"
+					(reference "U47")
 					(unit 1)
 				)
 			)
