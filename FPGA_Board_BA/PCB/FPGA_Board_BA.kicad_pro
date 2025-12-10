@@ -598,7 +598,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/home/szilard/My_kicad_hardware/FPGA_Board_BA/exports/schematic/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -727,6 +727,10 @@
       "Diffamp_7"
     ],
     [
+      "7c7c74d0-5d2b-4366-9c9e-f8177503f130",
+      "5VA-2"
+    ],
+    [
       "b132d2b4-fa1f-46e7-9132-09c17e9d7846",
       "Level_Shifter_8bit_2"
     ],
@@ -793,6 +797,10 @@
     [
       "be9b0038-45c4-4d10-b23c-e774c19157e6",
       "Tamura_1"
+    ],
+    [
+      "ac38a32a-bc7e-45ab-9b9d-474ce365a7f1",
+      "5VA-1"
     ],
     [
       "36596d62-9129-467a-b52e-72e709636837",
