@@ -1249,12 +1249,6 @@
 		(uuid "1e33d73b-4a2b-43b1-83a6-2d5ddcfd46b3")
 	)
 	(junction
-		(at 158.75 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "204bb7f7-099e-4b79-8ecd-8bd5d309e915")
-	)
-	(junction
 		(at 114.3 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1283,6 +1277,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b377114-9728-4594-ac3d-d50a64b3cde0")
+	)
+	(junction
+		(at 142.24 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7db60238-5b82-4d75-b4f4-1184c740c48d")
 	)
 	(junction
 		(at 81.28 134.62)
@@ -1402,7 +1402,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 142.24 95.25)
+			(xy 142.24 83.82) (xy 142.24 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1419,16 +1419,6 @@
 			(type default)
 		)
 		(uuid "24c6f1ed-0f77-4410-b54b-5d7936cf9235")
-	)
-	(wire
-		(pts
-			(xy 158.75 78.74) (xy 158.75 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24d4daeb-8e21-42b7-8e8b-3e89c74be32a")
 	)
 	(wire
 		(pts
@@ -1582,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 189.23 78.74)
+			(xy 133.35 78.74) (xy 189.23 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1649,6 +1639,16 @@
 			(type default)
 		)
 		(uuid "8f780bc3-5859-42a4-b5f6-22b4dcbc5fe2")
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91cf9339-26ae-4398-83ae-711dda93e092")
 	)
 	(wire
 		(pts
@@ -1802,6 +1802,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 88.9) (xy 142.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c4278f-c36d-469e-a4a7-09738d4df00f")
+	)
+	(wire
+		(pts
 			(xy 86.36 116.84) (xy 86.36 123.19)
 		)
 		(stroke
@@ -1819,16 +1829,6 @@
 			(type default)
 		)
 		(uuid "ee768181-88f1-4241-b1da-8fc968db9f46")
-	)
-	(wire
-		(pts
-			(xy 133.35 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4fc8510-d316-4919-b93c-b984d19453c4")
 	)
 	(wire
 		(pts
@@ -1859,6 +1859,16 @@
 			(type default)
 		)
 		(uuid "fef51d64-a018-4df2-b31a-5f61e7d06984")
+	)
+	(wire
+		(pts
+			(xy 158.75 88.9) (xy 142.24 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff234681-ba7f-4f7a-8762-688c9d0edc11")
 	)
 	(image
 		(at 252.73 35.56)
