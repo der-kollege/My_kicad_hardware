@@ -5,7 +5,7 @@
 	(uuid "fd7503bc-e7fc-4766-b224-3d1c3d7de5ff")
 	(paper "A3")
 	(lib_symbols)
-	(text "TODO:\n- 25uF Kondensator -> 3 mal 10uF \n[X] Extra 5VA für Tamura Sensoren\n[X] INA Spannungspegel / Bereich Prüfen\n[X] SMD 2*4 pin (2.54 pitch) stecker suchen Stiftleiste\n[X] Wannenstecker / Buchse für FPGA free Pins (26pin) kein 5VA, zweite Reihe\nFür GND\n- ESD Protection für Tamura PinHeaders\n- Silkscreen bei FPGA korrigieren\n- Matchy 3D model für Plug Terminals"
+	(text "TODO:\n- 25uF Kondensator -> 3 mal 10uF \n[X] Extra 5VA für Tamura Sensoren\n[X] INA Spannungspegel / Bereich Prüfen\n[X] SMD 2*4 pin (2.54 pitch) stecker suchen Stiftleiste\n[X] Wannenstecker / Buchse für FPGA free Pins (26pin) kein 5VA, zweite Reihe\nFür GND\n- ESD Protection für Tamura PinHeaders\n- Silkscreen bei FPGA korrigieren\n- Matchy 3D model für Plug Terminals\n- Change PinSocket to PinHeader for TI-B6"
 		(exclude_from_sim no)
 		(at 328.422 239.268 0)
 		(effects

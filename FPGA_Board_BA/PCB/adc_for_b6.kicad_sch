@@ -2193,22 +2193,10 @@
 		(uuid "cd994d88-f2fe-4001-8e5d-5f5907a979a5")
 	)
 	(junction
-		(at 60.96 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bed1bf0-acdc-4112-bc0f-4594c146b15f")
-	)
-	(junction
 		(at 59.69 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "195403a1-b7de-47e9-b070-deabd93e516c")
-	)
-	(junction
-		(at 50.8 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d128921-f23f-42cc-a1da-10f9dd073b8c")
 	)
 	(junction
 		(at 118.11 139.7)
@@ -2227,12 +2215,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41e902dc-0ab8-48fd-8618-6db40e36ae29")
-	)
-	(junction
-		(at 50.8 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47c4802e-2ead-4ffe-8671-413e1429b110")
 	)
 	(junction
 		(at 107.95 139.7)
@@ -2269,12 +2251,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "813eaeec-9abf-45c9-b80a-544d70ebc3cd")
-	)
-	(junction
-		(at 60.96 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8154753f-e815-4be7-9381-e6c3cc97afb9")
 	)
 	(junction
 		(at 165.1 44.45)
@@ -2349,26 +2325,6 @@
 			(type default)
 		)
 		(uuid "079d2f26-6b84-41e4-adb7-3c527a5ffddc")
-	)
-	(wire
-		(pts
-			(xy 50.8 132.08) (xy 60.96 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e917d9-5da5-40ce-b5b2-f15ae0de17b1")
-	)
-	(wire
-		(pts
-			(xy 60.96 119.38) (xy 60.96 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07f286b4-b868-4c39-831f-983efad97de7")
 	)
 	(wire
 		(pts
@@ -2502,17 +2458,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 119.38) (xy 71.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c58556a-a3b5-4769-bb46-9db02ce87d5a")
-	)
-	(wire
-		(pts
-			(xy 50.8 116.84) (xy 50.8 119.38)
+			(xy 40.64 116.84) (xy 40.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2562,16 +2508,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 119.38) (xy 50.8 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3099f41b-56bb-4555-bc82-3534805d9a2a")
-	)
-	(wire
-		(pts
 			(xy 49.53 173.99) (xy 49.53 171.45)
 		)
 		(stroke
@@ -2589,16 +2525,6 @@
 			(type default)
 		)
 		(uuid "31eca6c6-5723-4d43-b658-3b2734c43216")
-	)
-	(wire
-		(pts
-			(xy 71.12 132.08) (xy 71.12 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33fc2199-70b6-4882-9367-60c0ae5da26b")
 	)
 	(wire
 		(pts
@@ -2812,16 +2738,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 121.92) (xy 71.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "561c80f4-3022-460d-a714-f36afe7fcefd")
-	)
-	(wire
-		(pts
 			(xy 96.52 139.7) (xy 107.95 139.7)
 		)
 		(stroke
@@ -2922,16 +2838,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 119.38) (xy 60.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f8be9c-9899-457a-ab2b-5d9a0d58d4b8")
-	)
-	(wire
-		(pts
 			(xy 205.74 93.98) (xy 205.74 95.25)
 		)
 		(stroke
@@ -2989,16 +2895,6 @@
 			(type default)
 		)
 		(uuid "75ed16ab-1e28-4c4c-8f94-51de7b1673ee")
-	)
-	(wire
-		(pts
-			(xy 40.64 119.38) (xy 50.8 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7842bbf7-48f9-4b4c-ac27-24acf826645e")
 	)
 	(wire
 		(pts
@@ -3082,16 +2978,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 129.54) (xy 60.96 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed19e18-70a3-4b72-a3ea-381e4608d5ff")
-	)
-	(wire
-		(pts
 			(xy 118.11 139.7) (xy 123.19 139.7)
 		)
 		(stroke
@@ -3162,16 +3048,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 132.08) (xy 71.12 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98948f94-1493-40c2-a67e-875bab69d5a3")
-	)
-	(wire
-		(pts
 			(xy 241.3 55.88) (xy 248.92 55.88)
 		)
 		(stroke
@@ -3199,16 +3075,6 @@
 			(type default)
 		)
 		(uuid "9c94107d-70b6-491f-a6bc-7723018bc06c")
-	)
-	(wire
-		(pts
-			(xy 40.64 132.08) (xy 50.8 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0bdc128-17ad-4f8b-aae1-8a927e269596")
 	)
 	(wire
 		(pts
@@ -3269,16 +3135,6 @@
 			(type default)
 		)
 		(uuid "ad90bc89-b148-4a80-a6e8-cb3aa3d4ae0b")
-	)
-	(wire
-		(pts
-			(xy 50.8 129.54) (xy 50.8 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e35992-d514-4afe-b0cc-3969d69cf400")
 	)
 	(wire
 		(pts
@@ -5684,7 +5540,7 @@
 	)
 	(hierarchical_label "V_DC"
 		(shape input)
-		(at 248.92 119.38 0)
+		(at 248.92 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5717,7 +5573,7 @@
 	)
 	(hierarchical_label "V_C"
 		(shape input)
-		(at 248.92 68.58 0)
+		(at 248.92 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5739,7 +5595,7 @@
 	)
 	(hierarchical_label "I_B"
 		(shape input)
-		(at 248.92 93.98 0)
+		(at 248.92 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5761,7 +5617,7 @@
 	)
 	(hierarchical_label "I_C"
 		(shape input)
-		(at 248.92 106.68 0)
+		(at 248.92 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5816,7 +5672,7 @@
 	)
 	(hierarchical_label "V_B"
 		(shape input)
-		(at 248.92 55.88 0)
+		(at 248.92 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5827,7 +5683,7 @@
 	)
 	(hierarchical_label "V_A"
 		(shape input)
-		(at 248.92 43.18 0)
+		(at 248.92 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5838,7 +5694,7 @@
 	)
 	(hierarchical_label "I_A"
 		(shape input)
-		(at 248.92 81.28 0)
+		(at 248.92 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6253,102 +6109,6 @@
 	)
 	(symbol
 		(lib_id "WLIB_C:100n_0603")
-		(at 50.8 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07637a5f-7a47-4e67-b0f6-2342781cc880")
-		(property "Reference" "C6"
-			(at 44.704 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n_0603"
-			(at 47.244 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "WLIB_Capacitor:C_0603"
-			(at 50.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2860632.pdf"
-			(at 51.1048 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor SMD MLCC"
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1759037"
-			(at 51.1048 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VDC" "25V"
-			(at 51.1048 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2762593"
-			(at 50.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6be2be44-ce40-41e6-aef7-11a4760c9daf")
-		)
-		(pin "1"
-			(uuid "2939ad4f-476d-4ebf-9a13-937388b42a19")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WLIB_C:100n_0603")
 		(at 69.85 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6570,102 +6330,6 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WLIB_C:100n_0603")
-		(at 71.12 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d5ff6a1-d206-479c-a22e-3f55d5ce4004")
-		(property "Reference" "C10"
-			(at 65.024 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n_0603"
-			(at 67.564 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "WLIB_Capacitor:C_0603"
-			(at 71.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2860632.pdf"
-			(at 71.4248 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor SMD MLCC"
-			(at 71.12 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1759037"
-			(at 71.4248 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VDC" "25V"
-			(at 71.4248 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2762593"
-			(at 71.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cfec50a1-aa7c-41c2-a163-198f3d4036fa")
-		)
-		(pin "1"
-			(uuid "e113521d-8e3e-4119-85ae-7ad1aeb9835d")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7086,102 +6750,6 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WLIB_C:100n_0603")
-		(at 60.96 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "656616f9-363c-405a-9781-d11fcccef459")
-		(property "Reference" "C8"
-			(at 54.864 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n_0603"
-			(at 57.404 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "WLIB_Capacitor:C_0603"
-			(at 60.96 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2860632.pdf"
-			(at 61.2648 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor SMD MLCC"
-			(at 60.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1759037"
-			(at 61.2648 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VDC" "25V"
-			(at 61.2648 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2762593"
-			(at 60.96 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2f3ed71d-f6d2-45af-9414-5b5e890bbdd8")
-		)
-		(pin "1"
-			(uuid "3dec915a-fadc-4805-be69-18bbe1960d46")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8044,7 +7612,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 50.8 116.84 0)
+		(at 40.64 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8053,7 +7621,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc3ac47e-7153-4536-a1c1-b30ddd005bdd")
 		(property "Reference" "#FLG02"
-			(at 50.8 114.935 0)
+			(at 40.64 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,7 +7630,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 50.8 111.76 0)
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +7638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 116.84 0)
+			(at 40.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +7647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 116.84 0)
+			(at 40.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +7656,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 50.8 116.84 0)
+			(at 40.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
