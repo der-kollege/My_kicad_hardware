@@ -12426,7 +12426,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6f53aa62-ea5e-42cc-9c04-dba43c92abc7")
 		(property "Reference" "J9"

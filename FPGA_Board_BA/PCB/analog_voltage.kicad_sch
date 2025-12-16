@@ -3080,7 +3080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MYLIB_Misc:74404043010A"
 			(at 82.55 24.13 0)
 			(effects
 				(font
