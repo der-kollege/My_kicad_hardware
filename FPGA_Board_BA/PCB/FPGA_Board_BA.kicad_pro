@@ -748,6 +748,10 @@
       "5VA-2"
     ],
     [
+      "a8143cfd-ddb3-4057-8e4e-552f3aa79edb",
+      "Leg-2"
+    ],
+    [
       "b132d2b4-fa1f-46e7-9132-09c17e9d7846",
       "Level_Shifter_8bit_2"
     ],
@@ -826,6 +830,10 @@
     [
       "7f98af5c-294d-4bac-a926-77020da2d4d3",
       "Diffamp_1"
+    ],
+    [
+      "b09ceb72-5b70-4bc2-a2af-bf1e7fddc9a1",
+      "Leg-1"
     ]
   ],
   "text_variables": {}

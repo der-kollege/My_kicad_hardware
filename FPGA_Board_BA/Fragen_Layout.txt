@@ -1,3 +1,12 @@
 Layout:
 - 4 Layer
 
+Stromsensor (Tamura):
+- F.Cu:   Power
+- In1.Cu: GND
+- In2.Cu: Routing to ADC
+- B.Cu:   GND + minimal needed signal routing
+
+Fragen:
+- Buffer in Platz der Bohrlöchen von HV-Probe
+- FPGA Versorgung auch von 5V Buck
