@@ -5,7 +5,7 @@
 	(uuid "fd7503bc-e7fc-4766-b224-3d1c3d7de5ff")
 	(paper "A3")
 	(lib_symbols)
-	(text "TODO:\n- 25uF Kondensator -> 3 mal 10uF \n[X] Extra 5VA für Tamura Sensoren\n[X] INA Spannungspegel / Bereich Prüfen\n[X] SMD 2*4 pin (2.54 pitch) stecker suchen Stiftleiste\n[X] Wannenstecker / Buchse für FPGA free Pins (26pin) kein 5VA, zweite Reihe\nFür GND\n- ESD Protection für Tamura PinHeaders\n- Silkscreen bei FPGA korrigieren\n- Matchy 3D model für Plug Terminals\n- Change PinSocket to PinHeader (SMD) for TI-B6\n- Plug Terminal 8 pin -> Footprint adjustment\n[X] Fix Footprint of 5VA Inductor"
+	(text "TODO:\n- 25uF Kondensator -> 3 mal 10uF \n[X] Extra 5VA für Tamura Sensoren\n[X] INA Spannungspegel / Bereich Prüfen\n[X] SMD 2*4 pin (2.54 pitch) stecker suchen Stiftleiste\n[X] Wannenstecker / Buchse für FPGA free Pins (26pin) kein 5VA, zweite Reihe für GND\n[X] Silkscreen bei FPGA korrigieren\n[X] Matchy 3D model für Plug Terminals\n- Change PinSocket to PinHeader (SMD) for TI-B6\n[X] Plug Terminal 8 pin -> Footprint adjustment\n[X] Fix Footprint of 5VA Inductor\n- Spannungspegel ADC vs FPGA\n[X] 3W 2512 Shunt Widerstand\n- Berechnungen für Voltage Probe\n- Add output caps für main DCDC"
 		(exclude_from_sim no)
 		(at 327.66 232.156 0)
 		(effects
@@ -103,6 +103,16 @@
 			(type default)
 		)
 		(uuid "04d4a29e-858a-4673-aae4-4f90a0f2ade8")
+	)
+	(wire
+		(pts
+			(xy 256.54 124.46) (xy 284.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051a070c-5f7f-40b4-ab29-43fae3c76177")
 	)
 	(wire
 		(pts
@@ -346,16 +356,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 127) (xy 284.48 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1cb9d4-c51d-4976-9ae3-33f0cc3da73c")
-	)
-	(wire
-		(pts
 			(xy 313.69 128.27) (xy 353.06 128.27)
 		)
 		(stroke
@@ -373,16 +373,6 @@
 			(type default)
 		)
 		(uuid "2fdac258-7add-4ac4-9dfb-acf396c9c675")
-	)
-	(wire
-		(pts
-			(xy 256.54 129.54) (xy 284.48 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30351a79-0fe5-471c-ba10-b97394e92541")
 	)
 	(wire
 		(pts
@@ -576,6 +566,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 121.92) (xy 284.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539fec8d-acaa-40b1-a5ff-f36cdba3f615")
+	)
+	(wire
+		(pts
 			(xy 337.82 120.65) (xy 337.82 186.69)
 		)
 		(stroke
@@ -643,6 +643,16 @@
 			(type default)
 		)
 		(uuid "5b8c357d-a5bb-40a8-b02e-1e8c555e53d2")
+	)
+	(wire
+		(pts
+			(xy 256.54 127) (xy 284.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e420455-8f3c-4ba2-be18-092bb22c9faa")
 	)
 	(wire
 		(pts
@@ -836,6 +846,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 129.54) (xy 284.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80505b82-acdc-419e-a97c-1b51d8b2f052")
+	)
+	(wire
+		(pts
 			(xy 313.69 118.11) (xy 332.74 118.11)
 		)
 		(stroke
@@ -976,16 +996,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 124.46) (xy 284.48 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee16534-798f-43d4-a260-27b95cc17b81")
-	)
-	(wire
-		(pts
 			(xy 198.12 252.73) (xy 220.98 252.73)
 		)
 		(stroke
@@ -1076,6 +1086,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 132.08) (xy 284.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0457c3e-bd13-4330-bcbc-db2413b5ff3e")
+	)
+	(wire
+		(pts
 			(xy 116.84 186.69) (xy 156.21 186.69)
 		)
 		(stroke
@@ -1163,6 +1183,16 @@
 			(type default)
 		)
 		(uuid "b318ac96-2a31-40c1-b860-28cecc9037c9")
+	)
+	(wire
+		(pts
+			(xy 256.54 119.38) (xy 284.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b621b180-83d1-411b-bc86-260095652772")
 	)
 	(wire
 		(pts
@@ -1283,6 +1313,16 @@
 			(type default)
 		)
 		(uuid "cbe9ebd1-9328-4faf-a034-52eadf59df48")
+	)
+	(wire
+		(pts
+			(xy 256.54 134.62) (xy 284.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6b0368-f8fb-444a-b791-be029a7272d8")
 	)
 	(wire
 		(pts
@@ -1446,6 +1486,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 116.84) (xy 284.48 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20a6c54-5b05-4e37-a86e-33fde2d4d508")
+	)
+	(wire
+		(pts
 			(xy 116.84 123.19) (xy 156.21 123.19)
 		)
 		(stroke
@@ -1513,16 +1563,6 @@
 			(type default)
 		)
 		(uuid "f9cff61b-d8f7-489c-b9c1-6369705241fe")
-	)
-	(wire
-		(pts
-			(xy 256.54 121.92) (xy 284.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6c0121-3330-44da-9a51-9ebfd66172a0")
 	)
 	(wire
 		(pts
@@ -2575,46 +2615,6 @@
 				(justify left)
 			)
 		)
-		(pin "Vout_1" input
-			(at 256.54 121.92 0)
-			(uuid "f83162ea-8d31-45b4-8927-86c946a56611")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vout_2" input
-			(at 256.54 124.46 0)
-			(uuid "6c38d5de-71da-4c9b-b04c-d0924a9d94f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vout_3" input
-			(at 256.54 127 0)
-			(uuid "330e80d1-f027-46c8-a850-9c3578c23163")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vout_4" input
-			(at 256.54 129.54 0)
-			(uuid "ae6b3088-3ddf-41fe-8c00-74daeed6b956")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CLK_OUT_1" output
 			(at 222.25 92.71 180)
 			(uuid "95b17f92-8f21-423b-b994-9350e5aac948")
@@ -2668,6 +2668,86 @@
 		(pin "Iin_4" input
 			(at 256.54 86.36 0)
 			(uuid "e0adee39-b524-4ddd-ad0d-0bb3dfca85a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout1+" input
+			(at 256.54 116.84 0)
+			(uuid "d869a077-f623-4260-9c82-11cb5298585a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout1-" input
+			(at 256.54 119.38 0)
+			(uuid "e57b3e90-5ff0-4aad-ab5d-5cb30b481003")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout2+" input
+			(at 256.54 121.92 0)
+			(uuid "12571618-8a42-47bf-b05c-88343d2944a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout2-" input
+			(at 256.54 124.46 0)
+			(uuid "0cb6faba-4fa0-4836-88d2-44608caa39d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout3+" input
+			(at 256.54 127 0)
+			(uuid "70d0ecfc-b813-4fd5-aa29-96bb70f61a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout3-" input
+			(at 256.54 129.54 0)
+			(uuid "a2d2186b-5261-42ef-acfd-3af21a2fd96f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout4+" input
+			(at 256.54 132.08 0)
+			(uuid "e9e16179-8b23-47fc-9bc4-f5c4f9577e9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout4-" input
+			(at 256.54 134.62 0)
+			(uuid "9d0f401c-3767-47cb-b001-f06d78123acf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,9 +4495,29 @@
 				(justify right)
 			)
 		)
-		(pin "Vout_1" output
+		(pin "Vout1+" output
+			(at 284.48 116.84 180)
+			(uuid "44f69346-637d-4440-b2ad-7de257305e01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout1-" output
+			(at 284.48 119.38 180)
+			(uuid "e2281138-f010-4a28-9161-fd389e476004")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout2+" output
 			(at 284.48 121.92 180)
-			(uuid "b676bf3f-289f-46e6-903a-629a0efa5ea2")
+			(uuid "faf200e6-98da-45ec-8226-61e8e7386564")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,9 +4525,9 @@
 				(justify left)
 			)
 		)
-		(pin "Vout_2" output
+		(pin "Vout2-" output
 			(at 284.48 124.46 180)
-			(uuid "e214c8a9-cef3-4af2-ac1b-b115904ade2e")
+			(uuid "89fb29a5-4829-4b91-b48e-745255b10a9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,9 +4535,9 @@
 				(justify left)
 			)
 		)
-		(pin "Vout_3" output
+		(pin "Vout3+" output
 			(at 284.48 127 180)
-			(uuid "ec95e150-dc55-4cd4-a6f7-4644bdaceb1d")
+			(uuid "a3670c2d-185b-4627-80ab-cc974249063c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,9 +4545,29 @@
 				(justify left)
 			)
 		)
-		(pin "Vout_4" output
+		(pin "Vout3-" output
 			(at 284.48 129.54 180)
-			(uuid "05d7df04-ff55-431b-a172-a82900897bbf")
+			(uuid "a45de5e5-3414-4629-95d8-bac99b30a490")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout4+" output
+			(at 284.48 132.08 180)
+			(uuid "ace537fd-0e61-4168-9c1b-af1448e0a93c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout4-" output
+			(at 284.48 134.62 180)
+			(uuid "7f59d1ee-14b6-44f7-adb4-f3bec056bf7c")
 			(effects
 				(font
 					(size 1.27 1.27)

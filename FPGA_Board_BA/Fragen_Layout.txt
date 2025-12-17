@@ -8,5 +8,17 @@ Stromsensor (Tamura):
 - B.Cu:   GND + minimal needed signal routing
 
 Fragen:
-- Buffer in Platz der Bohrlöchen von HV-Probe
+- Buffer in Platz der Bohrlöchen von HV-Probe (habe schon gemacht)
 - FPGA Versorgung auch von 5V Buck
+- Maximale Dimensionen / Layerzahl
+- TI-B6: Socket oder Header? -> Header
+
+1206 Widerstand so nah wie möglich an die OpAmps
+- Zweites DCDC Wandler für Zynq
+
+Wichtiges:
+- Ethernet von FPGA muss in Vivado richtig definiert werden!!
+
+Fragen nach dem Treffen:
+- LVCMOS18: 0.65 * Vcc
+- LVCMOS25: 1.7 V -> was ist eigentlich diese LVCMOS_xx?

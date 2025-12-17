@@ -5,7 +5,7 @@
 	(uuid "b66b5e18-8a56-480f-9e1c-350d056871c6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "MYLIB_Misc:Plug_Terminal_2x4pin"
+		(symbol "MYLIB_Misc:Plug_Terminal_2x4_Vertical"
 			(pin_names
 				(hide yes)
 			)
@@ -13,32 +13,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.334 0)
+				(at 0 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Plug_Terminal_2x4pin"
-				(at 0 3.302 0)
+			(property "Value" "Plug_Terminal_2x4_Vertical"
+				(at 0.254 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "MYLIB_Misc:DMC 1,5_ 8-G1-3,5 P20THR"
-				(at -0.762 19.304 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://product-download.phoenixcontact.com/7581871?response-content-disposition=inline;%20filename%3D%221786895_02_en_00.pdf%22&Expires=1762790272&Signature=swgT~pfHFsm~KFte~1FyTUdCZaY3mURW7Sm3ZO1670aosCFDktyp77XVjT~WM-BF5UAYAn7SB97Gn5JYnUQEo2Fo4coNlwQu8FvGxlAgu6cPDUpTS7qKwCUFJAfHbnWDITx10Xgr4f3IGJZgshPlJKuMwfqJ1~soOFux2NQtmqne1nW1QpnapOHvfXEmIqUT8lfI05sqOMTbP8aHqqhzBDIfpY8psZXo36OHFrhnt8hDQ0wXe394Nf9wPZgUL--r-V-FA68hmgIiKUjjxetMxbp5wlmyiyZTnTkfqKPBXq4SCTPMeVpkhphIF7vmWwvwFFSD8XTuiqvSgzKTNBIHtQ__&Key-Pair-Id=K1I2N54A7B0GD"
-				(at 0.508 10.16 0)
+			(property "Footprint" "MYLIB_Misc:Plug_Terminal_2x4_Vertical"
+				(at 0 23.876 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -46,8 +37,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pluggable Terminal Blocks 8 Pos 3.5mm Dbl Row Plug 24-16AWG Spring"
-				(at -0.508 6.858 0)
+			(property "Datasheet" "https://www.mouser.de/datasheet/3/507/8/phoenix_contact_1787221_en.pdf"
+				(at -0.254 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -55,8 +46,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mating Connector Mouser" " 651-1790357"
-				(at 1.016 16.51 0)
+			(property "Description" "Vertical 2x4 pin, 8A max 160V max"
+				(at 0.508 14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -64,8 +55,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mating Connector Link" "https://product-download.phoenixcontact.com/8945604?response-content-disposition=inline;%20filename%3D%221790357_04_en_03.pdf%22&Expires=1762789986&Signature=ipEMNH2oRldeatNpCt2LgQ2qfu7zONe9r5fTnUSu~jVXEFxJXimB1mNBJG54W6gMaB3mL1auhUEZHbNWKHeBpVePo4wLkQTSMGiAroKySyTr75NkMuRgQrBNp5zFPa0nsk04bgnmTglvgn3Nkk0r-ygqga5CCZms3pwphqmh2MiSRDj1dVFlWYrLZMXfeWBeOA8eRxkTpTCFV9F7L5cZnVIsq0jCQRITzgdzqH05q~PF1m-rPiv5SdIFT0eLthdpIX2QoY37c2J4~ZpfG3fvrBenTcVOu77f1kcfo4KCglyWA8fQXeP5CE9fn8rCtQ8mClfe-vR81PjWTNgBQX~ynw__&Key-Pair-Id=K1I2N54A7B0GD"
-				(at 0.508 13.462 0)
+			(property "Socket Mouser" "651-1787221"
+				(at -0.254 19.812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -73,10 +64,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Plug_Terminal_2x4pin_1_1"
+			(property "Header Mouser" "651-1790124"
+				(at -0.508 21.844 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Plug_Terminal_2x4_Vertical_1_1"
 				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -8.89)
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -86,8 +86,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 0.127)
-					(end -1.27 -0.127)
+					(start -2.54 3.937)
+					(end -1.27 3.683)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -97,8 +97,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -2.413)
-					(end -1.27 -2.667)
+					(start -2.54 1.397)
+					(end -1.27 1.143)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -108,8 +108,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -4.953)
-					(end -1.27 -5.207)
+					(start -2.54 -1.143)
+					(end -1.27 -1.397)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -119,8 +119,8 @@
 					)
 				)
 				(rectangle
-					(start -2.54 -7.493)
-					(end -1.27 -7.747)
+					(start -2.54 -3.683)
+					(end -1.27 -3.937)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -130,8 +130,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 0.127)
-					(end 1.27 -0.127)
+					(start 2.54 3.937)
+					(end 1.27 3.683)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -141,8 +141,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -2.413)
-					(end 1.27 -2.667)
+					(start 2.54 1.397)
+					(end 1.27 1.143)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -152,8 +152,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -4.953)
-					(end 1.27 -5.207)
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -163,8 +163,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -7.493)
-					(end 1.27 -7.747)
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -174,7 +174,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 0 0)
+					(at -6.35 3.81 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -192,63 +192,9 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -2.54 0)
+					(at -6.35 1.27 0)
 					(length 3.81)
 					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 3.81)
-					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -264,9 +210,27 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -2.54 180)
+					(at -6.35 -1.27 0)
 					(length 3.81)
-					(name "Pin_4"
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 3.81)
+					(name "Pin_7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -282,9 +246,27 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -5.08 180)
+					(at 6.35 3.81 180)
 					(length 3.81)
-					(name "Pin_6"
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -300,7 +282,25 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -7.62 180)
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -501,16 +501,16 @@
 		(uuid "f88c56ce-55df-41ed-823a-16544d8cceae")
 	)
 	(symbol
-		(lib_id "MYLIB_Misc:Plug_Terminal_2x4pin")
-		(at 128.27 85.09 0)
+		(lib_id "MYLIB_Misc:Plug_Terminal_2x4_Vertical")
+		(at 128.27 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc0135bf-bb11-4236-b917-e25276d4dab5")
-		(property "Reference" "J21"
+		(uuid "53a58d9d-ea08-4a73-be4d-02857a902587")
+		(property "Reference" "J17"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -518,7 +518,7 @@
 				)
 			)
 		)
-		(property "Value" "Plug_Terminal_2x4pin"
+		(property "Value" "Plug_Terminal_2x4_Vertical"
 			(at 128.27 81.28 0)
 			(effects
 				(font
@@ -526,8 +526,8 @@
 				)
 			)
 		)
-		(property "Footprint" "MYLIB_Misc:DMC 1,5_ 8-G1-3,5 P20THR"
-			(at 127.508 65.786 0)
+		(property "Footprint" "MYLIB_Misc:Plug_Terminal_2x4_Vertical"
+			(at 128.27 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,8 +535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7581871?response-content-disposition=inline;%20filename%3D%221786895_02_en_00.pdf%22&Expires=1762790272&Signature=swgT~pfHFsm~KFte~1FyTUdCZaY3mURW7Sm3ZO1670aosCFDktyp77XVjT~WM-BF5UAYAn7SB97Gn5JYnUQEo2Fo4coNlwQu8FvGxlAgu6cPDUpTS7qKwCUFJAfHbnWDITx10Xgr4f3IGJZgshPlJKuMwfqJ1~soOFux2NQtmqne1nW1QpnapOHvfXEmIqUT8lfI05sqOMTbP8aHqqhzBDIfpY8psZXo36OHFrhnt8hDQ0wXe394Nf9wPZgUL--r-V-FA68hmgIiKUjjxetMxbp5wlmyiyZTnTkfqKPBXq4SCTPMeVpkhphIF7vmWwvwFFSD8XTuiqvSgzKTNBIHtQ__&Key-Pair-Id=K1I2N54A7B0GD"
-			(at 128.778 74.93 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/3/507/8/phoenix_contact_1787221_en.pdf"
+			(at 128.016 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -544,8 +544,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pluggable Terminal Blocks 8 Pos 3.5mm Dbl Row Plug 24-16AWG Spring"
-			(at 127.762 78.232 0)
+		(property "Description" "Vertical 2x4 pin, 8A max 160V max"
+			(at 128.778 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,8 +553,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector Mouser" " 651-1790357"
-			(at 129.286 68.58 0)
+		(property "Socket Mouser" "651-1787221"
+			(at 128.016 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,43 +562,43 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector Link" "https://product-download.phoenixcontact.com/8945604?response-content-disposition=inline;%20filename%3D%221790357_04_en_03.pdf%22&Expires=1762789986&Signature=ipEMNH2oRldeatNpCt2LgQ2qfu7zONe9r5fTnUSu~jVXEFxJXimB1mNBJG54W6gMaB3mL1auhUEZHbNWKHeBpVePo4wLkQTSMGiAroKySyTr75NkMuRgQrBNp5zFPa0nsk04bgnmTglvgn3Nkk0r-ygqga5CCZms3pwphqmh2MiSRDj1dVFlWYrLZMXfeWBeOA8eRxkTpTCFV9F7L5cZnVIsq0jCQRITzgdzqH05q~PF1m-rPiv5SdIFT0eLthdpIX2QoY37c2J4~ZpfG3fvrBenTcVOu77f1kcfo4KCglyWA8fQXeP5CE9fn8rCtQ8mClfe-vR81PjWTNgBQX~ynw__&Key-Pair-Id=K1I2N54A7B0GD"
-			(at 128.778 71.628 0)
+		(property "Header Mouser" "651-1790124"
+			(at 127.762 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "5"
-			(uuid "f58541ba-e0fc-4138-a216-4d49b2504a42")
-		)
-		(pin "8"
-			(uuid "2be2c679-dda1-448e-b09c-74bb2a95d94a")
-		)
-		(pin "6"
-			(uuid "852d18c6-fed0-47d3-9fb5-388d53fc90a8")
-		)
-		(pin "2"
-			(uuid "42886be6-7d77-41c0-b6c3-828c026d601e")
-		)
-		(pin "3"
-			(uuid "8396d11f-561b-49dd-be75-e16043e48abe")
 		)
 		(pin "1"
-			(uuid "caab5751-28f5-48f4-b06e-e1d7a3550859")
+			(uuid "c62b1862-dcdf-417d-9402-07956215ea81")
 		)
 		(pin "7"
-			(uuid "c1b4d15a-2c33-440a-833d-b65b4e14903e")
+			(uuid "1e8a8cf8-6716-4862-9135-88fe79c5fe4f")
+		)
+		(pin "2"
+			(uuid "4471d370-b4dc-41d7-81e9-a78147d26d48")
+		)
+		(pin "3"
+			(uuid "3d339fff-8b72-451b-a4dd-5761cf14d6a5")
+		)
+		(pin "8"
+			(uuid "09f8b34f-74fd-44df-901f-b1ac4abeffa0")
+		)
+		(pin "6"
+			(uuid "34b7b1ce-f3ab-4013-a3a8-f757f8e0d81b")
 		)
 		(pin "4"
-			(uuid "d68f73e9-1880-464f-8dc8-001307948623")
+			(uuid "e2cec19e-3e2c-4305-ad81-1e949bff6722")
+		)
+		(pin "5"
+			(uuid "d4d9b25a-ef9a-4202-960e-bb1c0911ea89")
 		)
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/9a7bfc82-408b-4644-8882-19405b07f717"
-					(reference "J21")
+					(reference "J17")
 					(unit 1)
 				)
 			)

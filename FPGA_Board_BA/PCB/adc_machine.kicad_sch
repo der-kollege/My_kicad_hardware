@@ -1516,31 +1516,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WLIB_J:PinHeader_03_male"
-			(pin_names
-				(offset 1.016)
+		(symbol "WLIB_R:0R_0603"
+			(pin_numbers
 				(hide yes)
+			)
+			(pin_names
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 11.43 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PinHeader_03_male"
-				(at 0 13.97 0)
+			(property "Value" "0R_0603"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at 0 16.51 0)
 				(effects
 					(font
@@ -1549,25 +1551,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-999.pdf"
-				(at 1.27 21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "FARNELL" "1022248"
+			(property "Datasheet" "https://www.farnell.com/datasheets/2869757.pdf"
 				(at 0 19.05 0)
 				(effects
 					(font
@@ -1576,7 +1560,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector pin header 1022248 vertical"
+			(property "Description" "Jumper Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1585,7 +1569,25 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "FARNELL" "2309111"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Power" "100mW"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor 2309111"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1594,55 +1596,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "PinHeader_03_male_1_1"
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0R_0603_0_1"
 				(rectangle
-					(start -1.27 10.16)
-					(end 1.27 2.54)
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 9.017)
-					(end 0 8.763)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 6.477)
-					(end 0 6.223)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.937)
-					(end 0 3.683)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "0R_0603_1_1"
 				(pin passive line
-					(at -5.08 8.89 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1658,9 +1638,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 6.35 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1668,24 +1648,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 3.81 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2148,6 +2110,12 @@
 		(uuid "e15ec41f-17bc-4c5a-ba32-d8748ca5c2a2")
 	)
 	(junction
+		(at 151.13 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecca804a-ffa9-4dae-991e-e10b912511b0")
+	)
+	(junction
 		(at 115.57 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2164,26 +2132,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffbf0172-3ade-4350-9afb-5e711a626a22")
-	)
-	(wire
-		(pts
-			(xy 261.62 78.74) (xy 269.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02050ff3-09e8-4168-9170-b8bca40da935")
-	)
-	(wire
-		(pts
-			(xy 229.87 62.23) (xy 229.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021f6ebb-6271-495a-a8d3-0dae608f4bdd")
 	)
 	(wire
 		(pts
@@ -2204,26 +2152,6 @@
 			(type default)
 		)
 		(uuid "04b5d972-8189-4683-91b9-e0a632f2bfce")
-	)
-	(wire
-		(pts
-			(xy 236.22 77.47) (xy 228.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04c93ec2-ebf3-464d-8f15-b58669f7fe15")
-	)
-	(wire
-		(pts
-			(xy 227.33 90.17) (xy 227.33 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05179d43-e847-465f-9277-0151865f2c0d")
 	)
 	(wire
 		(pts
@@ -2267,23 +2195,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 46.99) (xy 222.25 46.99)
+			(xy 148.59 27.94) (xy 148.59 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0cb9547c-b83a-4049-a079-cc31367f293a")
-	)
-	(wire
-		(pts
-			(xy 148.59 40.64) (xy 148.59 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe9e696-e205-44fe-b17a-6a6e2b85d54f")
+		(uuid "0fa775c4-1f42-4251-b6af-9048124f6c02")
 	)
 	(wire
 		(pts
@@ -2327,13 +2245,23 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 93.98) (xy 269.24 93.98)
+			(xy 153.67 38.1) (xy 153.67 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "195ddcb9-e8f0-4f60-b0e3-89f866511460")
+		(uuid "172be35d-0e96-4271-bc9a-8617f82f8888")
+	)
+	(wire
+		(pts
+			(xy 148.59 38.1) (xy 148.59 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1787d8d8-b516-4479-9ee6-f43ec17a2481")
 	)
 	(wire
 		(pts
@@ -2347,17 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 48.26) (xy 269.24 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b741fa-8654-4b07-8f16-bfd890662796")
-	)
-	(wire
-		(pts
-			(xy 201.93 67.31) (xy 224.79 67.31)
+			(xy 201.93 67.31) (xy 222.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2407,16 +2325,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 40.64) (xy 153.67 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249cf6a6-70f0-4359-a81d-a2b6261ad4c1")
-	)
-	(wire
-		(pts
 			(xy 166.37 60.96) (xy 171.45 60.96)
 		)
 		(stroke
@@ -2424,16 +2332,6 @@
 			(type default)
 		)
 		(uuid "2979878f-546a-478f-9745-01d8f74674ff")
-	)
-	(wire
-		(pts
-			(xy 261.62 63.5) (xy 269.24 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf60632-3a82-4ec9-b402-944b63c66898")
 	)
 	(wire
 		(pts
@@ -2467,7 +2365,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 40.64) (xy 151.13 63.5)
+			(xy 153.67 27.94) (xy 153.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1a7cb5-1d07-4b1e-b246-4dec27b00430")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 151.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 82.55) (xy 231.14 82.55)
+			(xy 201.93 82.55) (xy 222.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2527,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 27.94) (xy 153.67 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40332c58-9dfd-461d-9cb5-1ac8faa9953a")
+	)
+	(wire
+		(pts
 			(xy 62.23 110.49) (xy 62.23 114.3)
 		)
 		(stroke
@@ -2554,16 +2472,6 @@
 			(type default)
 		)
 		(uuid "4762d854-1920-41a2-bf59-9931d3b46ab2")
-	)
-	(wire
-		(pts
-			(xy 236.22 80.01) (xy 231.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b659e47-6c40-4b40-ba76-49966c374c8b")
 	)
 	(wire
 		(pts
@@ -2597,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 90.17) (xy 227.33 90.17)
+			(xy 201.93 90.17) (xy 222.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2664,16 +2572,6 @@
 			(type default)
 		)
 		(uuid "5e5f0ca4-c78a-4809-b472-a068936599be")
-	)
-	(wire
-		(pts
-			(xy 222.25 46.99) (xy 222.25 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e67eb9c-0508-495f-897c-6ca0d57ab633")
 	)
 	(wire
 		(pts
@@ -2777,16 +2675,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 80.01) (xy 228.6 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ba17c6-7a0d-46f5-b293-4f43244004fb")
-	)
-	(wire
-		(pts
 			(xy 115.57 125.73) (xy 115.57 114.3)
 		)
 		(stroke
@@ -2804,16 +2692,6 @@
 			(type default)
 		)
 		(uuid "6cea7f21-1466-4bfd-8ae4-45bb78757911")
-	)
-	(wire
-		(pts
-			(xy 229.87 62.23) (xy 236.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f28b210-f82e-49b5-82e0-8081cb6013ba")
 	)
 	(wire
 		(pts
@@ -2857,7 +2735,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 74.93) (xy 201.93 74.93)
+			(xy 222.25 74.93) (xy 201.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2884,16 +2762,6 @@
 			(type default)
 		)
 		(uuid "7b9ce55d-b182-4639-a608-5ddb1062ef17")
-	)
-	(wire
-		(pts
-			(xy 232.41 64.77) (xy 232.41 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c08013e-4fed-49d0-a309-2582c3f59a64")
 	)
 	(wire
 		(pts
@@ -2927,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 80.01) (xy 228.6 80.01)
+			(xy 201.93 80.01) (xy 222.25 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3007,16 +2875,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 95.25) (xy 236.22 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8611821b-2858-44e0-b6e0-caf4ada0d6e5")
-	)
-	(wire
-		(pts
 			(xy 224.79 95.25) (xy 201.93 95.25)
 		)
 		(stroke
@@ -3067,16 +2925,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 229.87 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0fd31d-b4cf-4e98-b17c-b0da5611dcf6")
-	)
-	(wire
-		(pts
 			(xy 46.99 147.32) (xy 54.61 147.32)
 		)
 		(stroke
@@ -3094,16 +2942,6 @@
 			(type default)
 		)
 		(uuid "8f8e38d2-7a8b-48e9-96c6-5db8adfe54bc")
-	)
-	(wire
-		(pts
-			(xy 229.87 92.71) (xy 229.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa57600-6aff-4ce7-880b-9fe595a095f7")
 	)
 	(wire
 		(pts
@@ -3217,16 +3055,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 67.31) (xy 224.79 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b220fe48-1108-4fb5-90d2-c3c5402e3c4a")
-	)
-	(wire
-		(pts
 			(xy 146.05 105.41) (xy 171.45 105.41)
 		)
 		(stroke
@@ -3297,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 72.39) (xy 201.93 72.39)
+			(xy 201.93 72.39) (xy 222.25 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3377,7 +3205,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 87.63) (xy 201.93 87.63)
+			(xy 222.25 87.63) (xy 201.93 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3404,6 +3232,16 @@
 			(type default)
 		)
 		(uuid "d4aeded0-c08c-46ae-a219-0f3deecfb24a")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 148.59 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e88e2c-9c16-42be-99d5-5f48062d30d8")
 	)
 	(wire
 		(pts
@@ -3477,26 +3315,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 80.01) (xy 231.14 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75f4283-ce1f-4bd6-9301-5697f469cd4a")
-	)
-	(wire
-		(pts
-			(xy 224.79 49.53) (xy 236.22 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecc5a0de-237f-4458-80e3-52388c3d36bc")
-	)
-	(wire
-		(pts
 			(xy 160.02 92.71) (xy 171.45 92.71)
 		)
 		(stroke
@@ -3544,16 +3362,6 @@
 			(type default)
 		)
 		(uuid "fbe1f247-5cb9-498c-832d-7bb4d323a38f")
-	)
-	(wire
-		(pts
-			(xy 232.41 64.77) (xy 236.22 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf799f5-ab5d-4161-b8b7-7f011f762a69")
 	)
 	(wire
 		(pts
@@ -7943,6 +7751,17 @@
 			)
 		)
 	)
+	(hierarchical_label "Vout3+"
+		(shape input)
+		(at 222.25 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07e545ce-a378-4115-9f14-744c9bfa501a")
+	)
 	(hierarchical_label "SDO1_1"
 		(shape output)
 		(at 160.02 71.12 180)
@@ -7976,27 +7795,16 @@
 		)
 		(uuid "3465ac95-f057-4ffe-a705-36cb1caf99f4")
 	)
-	(hierarchical_label "Vout_4"
+	(hierarchical_label "Vout2+"
 		(shape input)
-		(at 269.24 93.98 0)
+		(at 222.25 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "35ebc3ae-a051-4469-a181-c1bbc874da45")
-	)
-	(hierarchical_label "Vout_1"
-		(shape input)
-		(at 269.24 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41091815-2a4a-459e-ad59-da73aba4bd30")
+		(uuid "4375b00b-0b12-40d6-ae12-f99618740a49")
 	)
 	(hierarchical_label "SDO4_1"
 		(shape output)
@@ -8008,6 +7816,17 @@
 			(justify right)
 		)
 		(uuid "53e60534-1805-4625-96ba-da7d176974cd")
+	)
+	(hierarchical_label "Vout2-"
+		(shape input)
+		(at 222.25 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6abc3852-d733-4a01-9860-49daec707387")
 	)
 	(hierarchical_label "SDO3_1"
 		(shape output)
@@ -8053,27 +7872,16 @@
 		)
 		(uuid "86cdcf3f-a26c-4e6f-ac88-235a940ecfb2")
 	)
-	(hierarchical_label "Vout_2"
+	(hierarchical_label "Vout1+"
 		(shape input)
-		(at 269.24 63.5 0)
+		(at 222.25 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "90af8154-3c76-41ef-b71a-7707a90a4417")
-	)
-	(hierarchical_label "Vout_3"
-		(shape input)
-		(at 269.24 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a918337e-59fa-4429-a01c-e83473464702")
+		(uuid "9e7970f4-4a50-49b7-8b5e-f12de4555d1a")
 	)
 	(hierarchical_label "~{CNV}_1"
 		(shape input)
@@ -8151,6 +7959,50 @@
 			(justify right)
 		)
 		(uuid "dcb5205d-8a0e-4abf-9ece-2c5785c36898")
+	)
+	(hierarchical_label "Vout3-"
+		(shape input)
+		(at 222.25 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4ab5edd-63a5-4b87-b68b-9a7ab3b75020")
+	)
+	(hierarchical_label "Vout1-"
+		(shape input)
+		(at 222.25 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e789a0ad-0d71-4164-8323-eaa4d5c86102")
+	)
+	(hierarchical_label "Vout4-"
+		(shape input)
+		(at 222.25 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4a0d9e9-1c7b-43ca-a60d-7d4e29c38f24")
+	)
+	(hierarchical_label "Vout4+"
+		(shape input)
+		(at 222.25 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f87a572b-b558-4c02-ba1f-f5fa73a07b9a")
 	)
 	(symbol
 		(lib_id "WLIB_C:100n_0603")
@@ -9021,6 +8873,94 @@
 		)
 	)
 	(symbol
+		(lib_id "WLIB_R:0R_0603")
+		(at 153.67 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "44bc6d16-4b00-48a4-8ed7-c6f0bcfb2260")
+		(property "Reference" "R1"
+			(at 156.21 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R_0603"
+			(at 156.21 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.67 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2869757.pdf"
+			(at 153.67 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper Resistor"
+			(at 153.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "2309111"
+			(at 153.67 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "100mW"
+			(at 153.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7364a00b-5224-45ac-89c3-e84a690eadf7")
+		)
+		(pin "2"
+			(uuid "f871f29a-4c6d-4316-b23a-fae2a7dc7b97")
+		)
+		(instances
+			(project ""
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WLIB_C:100n_0603")
 		(at 60.96 153.67 0)
 		(mirror y)
@@ -9112,6 +9052,94 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
 					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WLIB_R:0R_0603")
+		(at 148.59 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62333d8f-d757-4e6f-bb0a-c1572aca8438")
+		(property "Reference" "R27"
+			(at 146.05 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R_0603"
+			(at 146.05 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 148.59 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2869757.pdf"
+			(at 148.59 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper Resistor"
+			(at 148.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "2309111"
+			(at 148.59 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "100mW"
+			(at 148.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f81db675-fed3-4b41-aeaf-b6b57598ce15")
+		)
+		(pin "2"
+			(uuid "134d6f9c-faa3-4d14-8f8a-55083ef2386e")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9436,87 +9464,6 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
 					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WLIB_J:PinHeader_03_male")
-		(at 157.48 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8def447b-3b6e-460d-98f8-37aafa796383")
-		(property "Reference" "J19"
-			(at 148.336 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PinHeader_03_male"
-			(at 142.494 32.766 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 140.97 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-999.pdf"
-			(at 135.89 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03"
-			(at 157.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FARNELL" "1022248"
-			(at 138.43 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "18388ebc-d718-402f-b5da-7f2d8b4eb8e6")
-		)
-		(pin "2"
-			(uuid "164628c4-101f-4498-a1b8-babf1b3774f0")
-		)
-		(pin "1"
-			(uuid "59fb8a1c-0853-4f33-8ea8-b43c8829b952")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
-					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -10201,78 +10148,6 @@
 		)
 	)
 	(sheet
-		(at 236.22 59.69)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2909530f-5d2e-4a02-95a0-b3b4167499ae")
-		(property "Sheetname" "Diffamp2"
-			(at 236.22 58.9784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 236.22 67.8946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Ain+" output
-			(at 236.22 62.23 180)
-			(uuid "67041b39-c627-44df-9d6e-3b82c44721c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Ain-" output
-			(at 236.22 64.77 180)
-			(uuid "b398ec24-3a79-441e-9054-a600e1575583")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Analog" input
-			(at 261.62 63.5 0)
-			(uuid "87f7297d-c18b-4d74-85f8-3feaed0579c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 236.22 128.27)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
@@ -10499,78 +10374,6 @@
 		)
 	)
 	(sheet
-		(at 236.22 74.93)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "982b8f7d-15d0-414a-96f8-d1e93ae957b7")
-		(property "Sheetname" "Diffamp3"
-			(at 236.22 74.2184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 236.22 83.1346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Ain+" output
-			(at 236.22 77.47 180)
-			(uuid "c0efc25a-8969-48ab-9f83-5ffeeef5fda3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Ain-" output
-			(at 236.22 80.01 180)
-			(uuid "45ecc42e-ccb6-47d1-89a6-8729d5a58f1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Analog" input
-			(at 261.62 78.74 0)
-			(uuid "c08fa851-7d61-4dbb-8974-6723426dba66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 236.22 102.87)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
@@ -10643,78 +10446,6 @@
 		)
 	)
 	(sheet
-		(at 236.22 90.17)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a2980491-8d40-470a-913a-c4bef30507ea")
-		(property "Sheetname" "Diffamp4"
-			(at 236.22 89.4584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 236.22 98.3746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Ain+" output
-			(at 236.22 92.71 180)
-			(uuid "d453a6f5-3217-48bd-a2c9-f54352a98abf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Ain-" output
-			(at 236.22 95.25 180)
-			(uuid "530a9389-37e4-4905-b3a1-28e9958da288")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Analog" input
-			(at 261.62 93.98 0)
-			(uuid "040da6d5-f508-4686-9282-271e8246c675")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 236.22 115.57)
 		(size 25.4 7.62)
 		(exclude_from_sim no)
@@ -10782,78 +10513,6 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
 					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 236.22 44.45)
-		(size 25.4 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f458917b-df37-4861-8812-fe3406cfd86d")
-		(property "Sheetname" "Diffamp1"
-			(at 236.22 43.7384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "diffamp_adc.kicad_sch"
-			(at 236.22 52.6546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Ain+" output
-			(at 236.22 46.99 180)
-			(uuid "ffffe950-a632-4c2d-baf7-a6d6b54c2dcf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Ain-" output
-			(at 236.22 49.53 180)
-			(uuid "e02e9398-b8e7-4ab2-a36e-1d602b0fb3a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Analog" input
-			(at 261.62 48.26 0)
-			(uuid "4d669fad-86f2-4030-91fd-1c148a97d8b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2"
-					(page "16")
 				)
 			)
 		)

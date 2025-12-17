@@ -656,18 +656,6 @@
       "Power from CHB"
     ],
     [
-      "2909530f-5d2e-4a02-95a0-b3b4167499ae",
-      "Diffamp2"
-    ],
-    [
-      "982b8f7d-15d0-414a-96f8-d1e93ae957b7",
-      "Diffamp3"
-    ],
-    [
-      "a2980491-8d40-470a-913a-c4bef30507ea",
-      "Diffamp4"
-    ],
-    [
       "a235475e-2284-446b-bacb-f3bf84d47a36",
       "Diffamp5"
     ],
@@ -702,10 +690,6 @@
     [
       "bf010b8c-6832-4a61-9247-eaeb93645cb7",
       "Voltage Measure"
-    ],
-    [
-      "f458917b-df37-4861-8812-fe3406cfd86d",
-      "Diffamp1"
     ],
     [
       "a42b717c-1bb0-48e9-8224-0b5d9f1900c3",
@@ -812,12 +796,24 @@
       "Level Shift for DIO"
     ],
     [
+      "b0a9fdea-45b9-4653-872a-32e7a1e56392",
+      "Voltage Measure - 2"
+    ],
+    [
       "01c0a5e1-90db-4782-afb3-2d55d15a02b0",
       "Level Shifter Encoder 1"
     ],
     [
       "be9b0038-45c4-4d10-b23c-e774c19157e6",
       "Tamura_1"
+    ],
+    [
+      "891a47e7-1922-4399-a3cd-e1114e8927a7",
+      "Voltage Measure - 3"
+    ],
+    [
+      "b61920f7-229d-4a63-8922-cbfb1074afac",
+      "Voltage Measure - 4"
     ],
     [
       "ac38a32a-bc7e-45ab-9b9d-474ce365a7f1",
@@ -834,6 +830,10 @@
     [
       "b09ceb72-5b70-4bc2-a2af-bf1e7fddc9a1",
       "Leg-1"
+    ],
+    [
+      "7afce855-2f8c-4e0d-aab3-f8eb4f413603",
+      "Voltage Measure - 1"
     ]
   ],
   "text_variables": {}
