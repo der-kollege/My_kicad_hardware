@@ -4607,7 +4607,7 @@
 	)
 	(text "Bank 13: Total 12 pins -> ADC (11pins)\nBank 34: Total 48 pins -> Tx Phase A,B,C,D (48 pins)\nBank 35: Total 48 pins -> B6 (8pins) + CHB En/Err/Rx (12pins)\n+ User Interactions (5 pins) + ADC_Machine (11pin) + encoder (3pins)\nXADC: 2 Potis\n\nFree pins left: 10"
 		(exclude_from_sim no)
-		(at 280.924 76.454 0)
+		(at 299.974 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4695,7 +4695,7 @@
 		(uuid "213c0cf3-a1b6-47ad-8003-2c961e20b465")
 	)
 	(junction
-		(at 359.41 110.49)
+		(at 378.46 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24fa8b5f-60dc-47fc-a406-eb0edce9d73f")
@@ -4833,75 +4833,75 @@
 		(uuid "fdb5c32c-a4c0-4d4d-b315-d947383cbf9a")
 	)
 	(no_connect
-		(at 279.4 119.38)
+		(at 298.45 119.38)
 		(uuid "04062943-3e43-4498-a376-a5259ceed78e")
 	)
 	(no_connect
-		(at 342.9 115.57)
+		(at 361.95 115.57)
 		(uuid "0f0f82b5-0182-4906-986c-dd494072ed7f")
 	)
 	(no_connect
-		(at 342.9 120.65)
+		(at 361.95 120.65)
 		(uuid "1466a630-dce5-43f6-9f80-0fe4f6a2e39e")
 	)
 	(no_connect
-		(at 279.4 129.54)
+		(at 298.45 129.54)
 		(uuid "18e5480a-875f-41f8-b128-04d9b3880b63")
 	)
 	(no_connect
-		(at 279.4 121.92)
+		(at 298.45 121.92)
 		(uuid "27b1dc27-aa26-413c-b052-2fd65f1ef16e")
 	)
 	(no_connect
-		(at 231.14 127)
+		(at 250.19 127)
 		(uuid "2d16f1ca-9a16-4bbe-b141-ba540d5e6641")
 	)
 	(no_connect
-		(at 342.9 118.11)
+		(at 361.95 118.11)
 		(uuid "2f8c98cc-39bc-4c74-92ee-9ff299d0552b")
 	)
 	(no_connect
-		(at 279.4 124.46)
+		(at 298.45 124.46)
 		(uuid "4a79695a-eb22-4fe1-93c5-f8b81baf8172")
 	)
 	(no_connect
-		(at 231.14 142.24)
+		(at 250.19 142.24)
 		(uuid "5cdf39ff-6837-4ebc-881b-08686ea7219f")
 	)
 	(no_connect
-		(at 231.14 121.92)
+		(at 250.19 121.92)
 		(uuid "8582bd55-7dbf-4201-a3c5-7a7a2d58c5e9")
 	)
 	(no_connect
-		(at 279.4 127)
+		(at 298.45 127)
 		(uuid "8d76fabf-6b6c-4046-b6e3-83dbe43a1b9e")
 	)
 	(no_connect
-		(at 231.14 137.16)
+		(at 250.19 137.16)
 		(uuid "a191bdb4-77f2-4786-9033-19b756b20f9c")
 	)
 	(no_connect
-		(at 231.14 134.62)
+		(at 250.19 134.62)
 		(uuid "acb86b84-0a08-4321-a02b-0434bb606932")
 	)
 	(no_connect
-		(at 231.14 139.7)
+		(at 250.19 139.7)
 		(uuid "c56ec066-6a56-4b2d-ba11-4424ada24e5c")
 	)
 	(no_connect
-		(at 231.14 119.38)
+		(at 250.19 119.38)
 		(uuid "d68fb497-e1b7-4d2e-8121-15fad96bba71")
 	)
 	(no_connect
-		(at 231.14 124.46)
+		(at 250.19 124.46)
 		(uuid "d8a6bc92-d378-47e0-9625-aaaf48bd4b53")
 	)
 	(no_connect
-		(at 342.9 123.19)
+		(at 361.95 123.19)
 		(uuid "e7186bb2-45c6-49c9-bf01-935c1aacecef")
 	)
 	(no_connect
-		(at 231.14 129.54)
+		(at 250.19 129.54)
 		(uuid "f1221f5a-d18a-41d1-8fb3-aaf2e9e02676")
 	)
 	(wire
@@ -4926,7 +4926,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 125.73) (xy 359.41 125.73)
+			(xy 361.95 125.73) (xy 378.46 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4966,7 +4966,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 113.03) (xy 342.9 113.03)
+			(xy 378.46 113.03) (xy 361.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4986,7 +4986,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 161.29) (xy 190.5 161.29)
+			(xy 204.47 161.29) (xy 209.55 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5016,7 +5016,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 125.73) (xy 190.5 125.73)
+			(xy 204.47 125.73) (xy 209.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5056,7 +5056,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 110.49) (xy 368.3 110.49)
+			(xy 378.46 110.49) (xy 387.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5086,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 115.57) (xy 190.5 115.57)
+			(xy 204.47 115.57) (xy 209.55 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5096,7 +5096,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 168.91) (xy 137.16 168.91)
+			(xy 151.13 168.91) (xy 156.21 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5106,7 +5106,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 123.19) (xy 137.16 123.19)
+			(xy 151.13 123.19) (xy 156.21 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5136,7 +5136,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 110.49) (xy 342.9 110.49)
+			(xy 373.38 110.49) (xy 361.95 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5156,7 +5156,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.89) (xy 190.5 135.89)
+			(xy 204.47 135.89) (xy 209.55 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5176,7 +5176,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 143.51) (xy 137.16 143.51)
+			(xy 151.13 143.51) (xy 156.21 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5206,7 +5206,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 111.76) (xy 231.14 111.76)
+			(xy 243.84 111.76) (xy 250.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5216,7 +5216,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 142.24) (xy 279.4 142.24)
+			(xy 307.34 142.24) (xy 298.45 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5226,7 +5226,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 153.67) (xy 137.16 153.67)
+			(xy 151.13 153.67) (xy 156.21 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 140.97) (xy 190.5 140.97)
+			(xy 204.47 140.97) (xy 209.55 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5306,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 166.37) (xy 137.16 166.37)
+			(xy 151.13 166.37) (xy 156.21 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5316,7 +5316,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 163.83) (xy 137.16 163.83)
+			(xy 151.13 163.83) (xy 156.21 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5366,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 109.22) (xy 285.75 109.22)
+			(xy 298.45 109.22) (xy 304.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5376,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 105.41) (xy 137.16 105.41)
+			(xy 151.13 105.41) (xy 156.21 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5386,7 +5386,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 137.16) (xy 285.75 137.16)
+			(xy 298.45 137.16) (xy 304.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 146.05) (xy 288.29 142.24)
+			(xy 307.34 146.05) (xy 307.34 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5496,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 190.5 102.87)
+			(xy 204.47 102.87) (xy 209.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5516,7 +5516,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 128.27) (xy 342.9 128.27)
+			(xy 374.65 128.27) (xy 361.95 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5526,7 +5526,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 113.03) (xy 190.5 113.03)
+			(xy 204.47 113.03) (xy 209.55 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5586,7 +5586,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 161.29) (xy 137.16 161.29)
+			(xy 151.13 161.29) (xy 156.21 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 104.14) (xy 231.14 104.14)
+			(xy 243.84 104.14) (xy 250.19 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 110.49) (xy 190.5 110.49)
+			(xy 204.47 110.49) (xy 209.55 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5696,7 +5696,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 99.06) (xy 354.33 110.49)
+			(xy 373.38 99.06) (xy 373.38 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5736,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 190.5 97.79)
+			(xy 204.47 97.79) (xy 209.55 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5776,7 +5776,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 109.22) (xy 231.14 109.22)
+			(xy 243.84 109.22) (xy 250.19 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5786,7 +5786,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 101.6) (xy 289.56 101.6)
+			(xy 298.45 101.6) (xy 308.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5796,7 +5796,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 163.83) (xy 190.5 163.83)
+			(xy 204.47 163.83) (xy 209.55 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5806,7 +5806,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 100.33) (xy 190.5 100.33)
+			(xy 204.47 100.33) (xy 209.55 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5816,7 +5816,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 139.7) (xy 288.29 139.7)
+			(xy 298.45 139.7) (xy 307.34 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5826,7 +5826,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 168.91) (xy 190.5 168.91)
+			(xy 204.47 168.91) (xy 209.55 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5846,7 +5846,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 114.3) (xy 231.14 114.3)
+			(xy 243.84 114.3) (xy 250.19 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5856,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 125.73) (xy 137.16 125.73)
+			(xy 151.13 125.73) (xy 156.21 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5926,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 100.33) (xy 132.08 100.33)
+			(xy 156.21 100.33) (xy 151.13 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5956,7 +5956,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 138.43) (xy 137.16 138.43)
+			(xy 151.13 138.43) (xy 156.21 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5986,7 +5986,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 113.03) (xy 137.16 113.03)
+			(xy 151.13 113.03) (xy 156.21 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6036,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 143.51) (xy 190.5 143.51)
+			(xy 204.47 143.51) (xy 209.55 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6046,7 +6046,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 148.59) (xy 137.16 148.59)
+			(xy 151.13 148.59) (xy 156.21 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6056,7 +6056,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 151.13) (xy 190.5 151.13)
+			(xy 204.47 151.13) (xy 209.55 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6066,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 101.6) (xy 231.14 101.6)
+			(xy 243.84 101.6) (xy 250.19 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6076,7 +6076,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 106.68) (xy 359.41 110.49)
+			(xy 378.46 106.68) (xy 378.46 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6116,7 +6116,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 140.97) (xy 137.16 140.97)
+			(xy 151.13 140.97) (xy 156.21 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6146,7 +6146,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 130.81) (xy 137.16 130.81)
+			(xy 151.13 130.81) (xy 156.21 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6166,7 +6166,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 118.11) (xy 137.16 118.11)
+			(xy 151.13 118.11) (xy 156.21 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6176,7 +6176,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 114.3) (xy 285.75 114.3)
+			(xy 298.45 114.3) (xy 304.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6196,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 128.27) (xy 185.42 128.27)
+			(xy 209.55 128.27) (xy 204.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6216,7 +6216,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 128.27) (xy 137.16 128.27)
+			(xy 151.13 128.27) (xy 156.21 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6236,7 +6236,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 132.08 97.79)
+			(xy 156.21 97.79) (xy 151.13 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6246,7 +6246,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 102.87) (xy 137.16 102.87)
+			(xy 151.13 102.87) (xy 156.21 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6266,7 +6266,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 106.68) (xy 231.14 106.68)
+			(xy 243.84 106.68) (xy 250.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6286,7 +6286,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 118.11) (xy 190.5 118.11)
+			(xy 204.47 118.11) (xy 209.55 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6296,7 +6296,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 104.14) (xy 289.56 104.14)
+			(xy 298.45 104.14) (xy 308.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6326,7 +6326,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 138.43) (xy 190.5 138.43)
+			(xy 204.47 138.43) (xy 209.55 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6336,7 +6336,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 123.19) (xy 190.5 123.19)
+			(xy 204.47 123.19) (xy 209.55 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6346,7 +6346,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 166.37) (xy 190.5 166.37)
+			(xy 204.47 166.37) (xy 209.55 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6366,7 +6366,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 133.35) (xy 355.6 128.27)
+			(xy 374.65 133.35) (xy 374.65 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6376,7 +6376,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 148.59) (xy 190.5 148.59)
+			(xy 204.47 148.59) (xy 209.55 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6406,7 +6406,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 134.62) (xy 288.29 134.62)
+			(xy 298.45 134.62) (xy 307.34 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6416,7 +6416,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 125.73) (xy 359.41 121.92)
+			(xy 378.46 125.73) (xy 378.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6426,7 +6426,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 156.21) (xy 190.5 156.21)
+			(xy 204.47 156.21) (xy 209.55 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6456,7 +6456,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 151.13) (xy 137.16 151.13)
+			(xy 151.13 151.13) (xy 156.21 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6556,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 106.68) (xy 285.75 106.68)
+			(xy 298.45 106.68) (xy 304.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6596,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 156.21) (xy 137.16 156.21)
+			(xy 151.13 156.21) (xy 156.21 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6676,7 +6676,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 111.76) (xy 285.75 111.76)
+			(xy 298.45 111.76) (xy 304.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6686,7 +6686,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 153.67) (xy 190.5 153.67)
+			(xy 204.47 153.67) (xy 209.55 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6756,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 137.16 110.49)
+			(xy 151.13 110.49) (xy 156.21 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6796,7 +6796,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 130.81) (xy 190.5 130.81)
+			(xy 204.47 130.81) (xy 209.55 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6806,7 +6806,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 115.57) (xy 137.16 115.57)
+			(xy 151.13 115.57) (xy 156.21 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6866,7 +6866,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 110.49) (xy 359.41 113.03)
+			(xy 378.46 110.49) (xy 378.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6876,7 +6876,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 105.41) (xy 190.5 105.41)
+			(xy 204.47 105.41) (xy 209.55 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6886,7 +6886,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 135.89) (xy 137.16 135.89)
+			(xy 151.13 135.89) (xy 156.21 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10123,7 +10123,7 @@
 		)
 	)
 	(label "GND"
-		(at 285.75 137.16 180)
+		(at 304.8 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10134,7 +10134,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx12"
 		(shape input)
-		(at 132.08 130.81 180)
+		(at 151.13 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10145,7 +10145,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx6"
 		(shape input)
-		(at 190.5 143.51 0)
+		(at 209.55 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10156,7 +10156,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx8"
 		(shape input)
-		(at 132.08 125.73 180)
+		(at 151.13 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10167,7 +10167,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx6"
 		(shape input)
-		(at 190.5 163.83 0)
+		(at 209.55 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10178,7 +10178,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx9"
 		(shape input)
-		(at 190.5 166.37 0)
+		(at 209.55 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10200,7 +10200,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx4"
 		(shape input)
-		(at 132.08 100.33 180)
+		(at 151.13 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10211,7 +10211,7 @@
 	)
 	(hierarchical_label "CLK_IN"
 		(shape output)
-		(at 238.76 77.47 0)
+		(at 257.81 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10244,7 +10244,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx8"
 		(shape input)
-		(at 132.08 143.51 180)
+		(at 151.13 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10255,7 +10255,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx7"
 		(shape input)
-		(at 132.08 140.97 180)
+		(at 151.13 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10266,7 +10266,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx1"
 		(shape input)
-		(at 190.5 153.67 0)
+		(at 209.55 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10277,7 +10277,7 @@
 	)
 	(hierarchical_label "SDO2"
 		(shape input)
-		(at 226.06 74.93 180)
+		(at 245.11 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10288,7 +10288,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx5"
 		(shape input)
-		(at 190.5 123.19 0)
+		(at 209.55 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10299,7 +10299,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx10"
 		(shape input)
-		(at 190.5 113.03 0)
+		(at 209.55 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10321,7 +10321,7 @@
 	)
 	(hierarchical_label "PWM_AH"
 		(shape output)
-		(at 224.79 114.3 180)
+		(at 243.84 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10332,7 +10332,7 @@
 	)
 	(hierarchical_label "CLK_OUT"
 		(shape input)
-		(at 238.76 80.01 0)
+		(at 257.81 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10343,7 +10343,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx12"
 		(shape input)
-		(at 132.08 113.03 180)
+		(at 151.13 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10376,7 +10376,7 @@
 	)
 	(hierarchical_label "LED3"
 		(shape output)
-		(at 238.76 85.09 0)
+		(at 257.81 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10409,7 +10409,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx12"
 		(shape input)
-		(at 132.08 151.13 180)
+		(at 151.13 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10442,7 +10442,7 @@
 	)
 	(hierarchical_label "SDO7"
 		(shape input)
-		(at 238.76 72.39 0)
+		(at 257.81 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10464,7 +10464,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx10"
 		(shape input)
-		(at 190.5 130.81 0)
+		(at 209.55 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10475,7 +10475,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx3"
 		(shape input)
-		(at 132.08 135.89 180)
+		(at 151.13 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10497,7 +10497,7 @@
 	)
 	(hierarchical_label "SDO8"
 		(shape input)
-		(at 238.76 74.93 0)
+		(at 257.81 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10519,7 +10519,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx8"
 		(shape input)
-		(at 132.08 105.41 180)
+		(at 151.13 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10530,7 +10530,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx11"
 		(shape input)
-		(at 132.08 128.27 180)
+		(at 151.13 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10541,7 +10541,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx11"
 		(shape input)
-		(at 132.08 166.37 180)
+		(at 151.13 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10552,7 +10552,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx3"
 		(shape input)
-		(at 132.08 153.67 180)
+		(at 151.13 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10563,7 +10563,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx9"
 		(shape input)
-		(at 190.5 148.59 0)
+		(at 209.55 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10574,7 +10574,7 @@
 	)
 	(hierarchical_label "PWM_BH"
 		(shape output)
-		(at 224.79 109.22 180)
+		(at 243.84 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10585,7 +10585,7 @@
 	)
 	(hierarchical_label "Poti"
 		(shape input)
-		(at 288.29 139.7 0)
+		(at 307.34 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10596,7 +10596,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx12"
 		(shape input)
-		(at 132.08 168.91 180)
+		(at 151.13 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10607,7 +10607,7 @@
 	)
 	(hierarchical_label "SDO6"
 		(shape input)
-		(at 226.06 85.09 180)
+		(at 245.11 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10618,7 +10618,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx1"
 		(shape input)
-		(at 190.5 135.89 0)
+		(at 209.55 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10629,7 +10629,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx2"
 		(shape input)
-		(at 190.5 100.33 0)
+		(at 209.55 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10640,7 +10640,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx10"
 		(shape input)
-		(at 190.5 168.91 0)
+		(at 209.55 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10662,7 +10662,7 @@
 	)
 	(hierarchical_label "SDO3"
 		(shape input)
-		(at 226.06 77.47 180)
+		(at 245.11 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10695,7 +10695,7 @@
 	)
 	(hierarchical_label "SDO4"
 		(shape input)
-		(at 226.06 80.01 180)
+		(at 245.11 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10706,7 +10706,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx9"
 		(shape input)
-		(at 190.5 110.49 0)
+		(at 209.55 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10717,7 +10717,7 @@
 	)
 	(hierarchical_label "~{CNV}"
 		(shape output)
-		(at 238.76 82.55 0)
+		(at 257.81 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10728,7 +10728,7 @@
 	)
 	(hierarchical_label "OT"
 		(shape input)
-		(at 289.56 101.6 0)
+		(at 308.61 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10739,7 +10739,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx7"
 		(shape input)
-		(at 132.08 123.19 180)
+		(at 151.13 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10750,7 +10750,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx4"
 		(shape input)
-		(at 132.08 156.21 180)
+		(at 151.13 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10783,7 +10783,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx6"
 		(shape input)
-		(at 190.5 105.41 0)
+		(at 209.55 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10805,7 +10805,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx2"
 		(shape input)
-		(at 190.5 138.43 0)
+		(at 209.55 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10816,7 +10816,7 @@
 	)
 	(hierarchical_label "SDO1"
 		(shape input)
-		(at 226.06 72.39 180)
+		(at 245.11 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10827,7 +10827,7 @@
 	)
 	(hierarchical_label "SDO5"
 		(shape input)
-		(at 226.06 82.55 180)
+		(at 245.11 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10849,7 +10849,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx7"
 		(shape input)
-		(at 132.08 161.29 180)
+		(at 151.13 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10882,7 +10882,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx3"
 		(shape input)
-		(at 132.08 115.57 180)
+		(at 151.13 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10893,7 +10893,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx5"
 		(shape input)
-		(at 190.5 161.29 0)
+		(at 209.55 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10904,7 +10904,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx1"
 		(shape input)
-		(at 190.5 115.57 0)
+		(at 209.55 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10915,7 +10915,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx8"
 		(shape input)
-		(at 132.08 163.83 180)
+		(at 151.13 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10926,7 +10926,7 @@
 	)
 	(hierarchical_label "Ph_D_Tx2"
 		(shape input)
-		(at 190.5 156.21 0)
+		(at 209.55 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10937,7 +10937,7 @@
 	)
 	(hierarchical_label "PWM_CL"
 		(shape output)
-		(at 224.79 101.6 180)
+		(at 243.84 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10959,7 +10959,7 @@
 	)
 	(hierarchical_label "PWM_BL"
 		(shape output)
-		(at 224.79 106.68 180)
+		(at 243.84 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10981,7 +10981,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx6"
 		(shape input)
-		(at 190.5 125.73 0)
+		(at 209.55 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10992,7 +10992,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx2"
 		(shape input)
-		(at 190.5 118.11 0)
+		(at 209.55 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11014,7 +11014,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx4"
 		(shape input)
-		(at 132.08 118.11 180)
+		(at 151.13 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11036,7 +11036,7 @@
 	)
 	(hierarchical_label "PWM_CH"
 		(shape output)
-		(at 224.79 104.14 180)
+		(at 243.84 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11058,7 +11058,7 @@
 	)
 	(hierarchical_label "Ph_B_Tx9"
 		(shape input)
-		(at 190.5 128.27 0)
+		(at 209.55 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11069,7 +11069,7 @@
 	)
 	(hierarchical_label "PWM_AL"
 		(shape output)
-		(at 224.79 111.76 180)
+		(at 243.84 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11080,7 +11080,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx5"
 		(shape input)
-		(at 190.5 102.87 0)
+		(at 209.55 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11091,7 +11091,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx4"
 		(shape input)
-		(at 132.08 138.43 180)
+		(at 151.13 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11102,7 +11102,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx7"
 		(shape input)
-		(at 132.08 102.87 180)
+		(at 151.13 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11124,7 +11124,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx3"
 		(shape input)
-		(at 132.08 97.79 180)
+		(at 151.13 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11135,7 +11135,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx11"
 		(shape input)
-		(at 132.08 110.49 180)
+		(at 151.13 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11146,7 +11146,7 @@
 	)
 	(hierarchical_label "B6_En"
 		(shape output)
-		(at 289.56 104.14 0)
+		(at 308.61 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11157,7 +11157,7 @@
 	)
 	(hierarchical_label "Poti2"
 		(shape input)
-		(at 288.29 134.62 0)
+		(at 307.34 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11168,7 +11168,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx5"
 		(shape input)
-		(at 190.5 140.97 0)
+		(at 209.55 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11179,7 +11179,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx10"
 		(shape input)
-		(at 190.5 151.13 0)
+		(at 209.55 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11190,7 +11190,7 @@
 	)
 	(hierarchical_label "Ph_A_Tx1"
 		(shape input)
-		(at 190.5 97.79 0)
+		(at 209.55 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11212,7 +11212,7 @@
 	)
 	(hierarchical_label "Ph_C_Tx11"
 		(shape input)
-		(at 132.08 148.59 180)
+		(at 151.13 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11234,7 +11234,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 359.41 121.92 0)
+		(at 378.46 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11243,7 +11243,7 @@
 		(fields_autoplaced yes)
 		(uuid "0affc340-d604-4f64-bb10-4b392476bb56")
 		(property "Reference" "#PWR021"
-			(at 359.41 125.73 0)
+			(at 378.46 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11252,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 359.41 116.84 0)
+			(at 378.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,7 +11260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 121.92 0)
+			(at 378.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,7 +11269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 121.92 0)
+			(at 378.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11278,7 +11278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 359.41 121.92 0)
+			(at 378.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +11300,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 368.3 110.49 270)
+		(at 387.35 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11309,7 +11309,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ff2309c-f095-4801-a2db-84ecd2dd19d6")
 		(property "Reference" "#FLG01"
-			(at 370.205 110.49 0)
+			(at 389.255 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11318,7 +11318,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 372.11 110.4899 90)
+			(at 391.16 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11327,7 +11327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 110.49 0)
+			(at 387.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11336,7 +11336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 110.49 0)
+			(at 387.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11345,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 368.3 110.49 0)
+			(at 387.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11367,7 +11367,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 355.6 133.35 0)
+		(at 374.65 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11376,7 +11376,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f0dfa39-7876-4d40-954e-e3987225c7b1")
 		(property "Reference" "#PWR019"
-			(at 355.6 139.7 0)
+			(at 374.65 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,7 +11385,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.6 138.43 0)
+			(at 374.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +11393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.6 133.35 0)
+			(at 374.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11402,7 +11402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 133.35 0)
+			(at 374.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,7 +11411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 355.6 133.35 0)
+			(at 374.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 288.29 146.05 0)
+		(at 307.34 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11442,7 +11442,7 @@
 		(fields_autoplaced yes)
 		(uuid "57c0c1f2-d001-4385-826f-58bdb43da05e")
 		(property "Reference" "#PWR017"
-			(at 288.29 152.4 0)
+			(at 307.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11451,7 +11451,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 288.29 151.13 0)
+			(at 307.34 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,7 +11459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 146.05 0)
+			(at 307.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +11468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 146.05 0)
+			(at 307.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11477,7 +11477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 288.29 146.05 0)
+			(at 307.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,7 +12516,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 354.33 99.06 0)
+		(at 373.38 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12525,7 +12525,7 @@
 		(fields_autoplaced yes)
 		(uuid "8db22d29-d972-47cc-8eea-7ad90c3451a4")
 		(property "Reference" "#PWR018"
-			(at 354.33 102.87 0)
+			(at 373.38 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12534,7 +12534,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 354.33 93.98 0)
+			(at 373.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12542,7 +12542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 354.33 99.06 0)
+			(at 373.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12551,7 +12551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 99.06 0)
+			(at 373.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12560,7 +12560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 354.33 99.06 0)
+			(at 373.38 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12726,7 +12726,7 @@
 	)
 	(symbol
 		(lib_id "MYLIB_Misc:Zynq7020")
-		(at 255.27 124.46 0)
+		(at 274.32 124.46 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12735,7 +12735,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab3e8bf9-2898-40f2-b7d3-21b6178c458c")
 		(property "Reference" "U2"
-			(at 255.27 92.71 0)
+			(at 274.32 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12743,7 +12743,7 @@
 			)
 		)
 		(property "Value" "Zynq7020"
-			(at 255.27 95.25 0)
+			(at 274.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12751,7 +12751,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_Misc:Zynq7020"
-			(at 256.54 55.372 0)
+			(at 275.59 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12760,7 +12760,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.myirtech.com/list.asp?id=708"
-			(at 258.064 60.452 0)
+			(at 277.114 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12769,7 +12769,7 @@
 			)
 		)
 		(property "Description" "FPGA Microcomputer"
-			(at 257.81 57.658 0)
+			(at 276.86 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12778,7 +12778,7 @@
 			)
 		)
 		(property "Mouser nr connector" "200-TFM14002LDWT "
-			(at 257.048 63.5 0)
+			(at 276.098 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12787,7 +12787,7 @@
 			)
 		)
 		(property "Chip pinout datasheet" "https://cdn.hackaday.io/files/19354828041536/ug865-Zynq-7000-Pkg-Pinout.pdf"
-			(at 255.27 124.46 0)
+			(at 274.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +12796,7 @@
 			)
 		)
 		(property "AC,DC Characteristics" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
-			(at 255.27 124.46 0)
+			(at 274.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12805,7 +12805,7 @@
 			)
 		)
 		(property "Chip pinout" "https://cdn.hackaday.io/files/19354828041536/ug865-Zynq-7000-Pkg-Pinout.pdf"
-			(at 255.27 68.072 0)
+			(at 274.32 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13370,7 +13370,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 359.41 106.68 0)
+		(at 378.46 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13379,7 +13379,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad2cd3e7-60d9-45fe-85bf-3587a2d2363e")
 		(property "Reference" "#PWR020"
-			(at 359.41 110.49 0)
+			(at 378.46 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,7 +13388,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 359.41 101.6 0)
+			(at 378.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,7 +13396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 106.68 0)
+			(at 378.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13405,7 +13405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 106.68 0)
+			(at 378.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,7 +13414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 359.41 106.68 0)
+			(at 378.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +13436,7 @@
 	)
 	(symbol
 		(lib_id "MYLIB_Misc:Zynq7020")
-		(at 328.93 119.38 0)
+		(at 347.98 119.38 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13445,7 +13445,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf1b3629-fe4a-4b20-a444-9dd633fe4268")
 		(property "Reference" "U2"
-			(at 328.93 102.87 0)
+			(at 347.98 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13453,7 +13453,7 @@
 			)
 		)
 		(property "Value" "Zynq7020"
-			(at 328.93 105.41 0)
+			(at 347.98 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13461,7 +13461,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_Misc:Zynq7020"
-			(at 330.2 50.292 0)
+			(at 349.25 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,7 +13470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.myirtech.com/list.asp?id=708"
-			(at 331.724 55.372 0)
+			(at 350.774 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,7 +13479,7 @@
 			)
 		)
 		(property "Description" "FPGA Microcomputer"
-			(at 331.47 52.578 0)
+			(at 350.52 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,7 +13488,7 @@
 			)
 		)
 		(property "Mouser nr connector" "200-TFM14002LDWT "
-			(at 330.708 58.42 0)
+			(at 349.758 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,7 +13497,7 @@
 			)
 		)
 		(property "Chip pinout datasheet" "https://cdn.hackaday.io/files/19354828041536/ug865-Zynq-7000-Pkg-Pinout.pdf"
-			(at 328.93 119.38 0)
+			(at 347.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +13506,7 @@
 			)
 		)
 		(property "AC,DC Characteristics" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
-			(at 328.93 119.38 0)
+			(at 347.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,7 +13515,7 @@
 			)
 		)
 		(property "Chip pinout" "https://cdn.hackaday.io/files/19354828041536/ug865-Zynq-7000-Pkg-Pinout.pdf"
-			(at 328.93 62.992 0)
+			(at 347.98 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14079,7 +14079,7 @@
 	)
 	(symbol
 		(lib_id "MYLIB_Misc:Zynq7020")
-		(at 161.29 121.92 0)
+		(at 180.34 121.92 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14088,7 +14088,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1d6d310-4b16-49df-be72-1ba0f5f61574")
 		(property "Reference" "U2"
-			(at 161.29 88.9 0)
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14096,7 +14096,7 @@
 			)
 		)
 		(property "Value" "Zynq7020"
-			(at 161.29 91.44 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14104,7 +14104,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_Misc:Zynq7020"
-			(at 162.56 52.832 0)
+			(at 181.61 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,7 +14113,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.myirtech.com/list.asp?id=708"
-			(at 164.084 57.912 0)
+			(at 183.134 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14122,7 +14122,7 @@
 			)
 		)
 		(property "Description" "FPGA Microcomputer"
-			(at 163.83 55.118 0)
+			(at 182.88 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,7 +14131,7 @@
 			)
 		)
 		(property "Mouser nr connector" "200-TFM14002LDWT "
-			(at 163.068 60.96 0)
+			(at 182.118 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,7 +14140,7 @@
 			)
 		)
 		(property "Chip pinout datasheet" "https://cdn.hackaday.io/files/19354828041536/ug865-Zynq-7000-Pkg-Pinout.pdf"
-			(at 161.29 121.92 0)
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14149,7 +14149,7 @@
 			)
 		)
 		(property "AC,DC Characteristics" "https://docs.amd.com/v/u/en-US/ds187-XC7Z010-XC7Z020-Data-Sheet"
-			(at 161.29 121.92 0)
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14158,7 +14158,7 @@
 			)
 		)
 		(property "Chip pinout" "https://cdn.hackaday.io/files/19354828041536/ug865-Zynq-7000-Pkg-Pinout.pdf"
-			(at 161.29 65.532 0)
+			(at 180.34 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
