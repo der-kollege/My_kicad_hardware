@@ -5,9 +5,81 @@
 	(uuid "8226ab3b-34e1-40b0-8a4c-032f0f8a4ea5")
 	(paper "A4")
 	(lib_symbols)
+	(bus_entry
+		(at 104.14 107.95)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5290e5-89fe-46d1-bcd9-9fd9758f94eb")
+	)
+	(bus_entry
+		(at 104.14 59.69)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a1a715-adff-4670-99ee-649c2c70882c")
+	)
+	(bus_entry
+		(at 104.14 57.15)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c9bcdd-26f1-409e-a24d-8017dd8a91b1")
+	)
+	(bus_entry
+		(at 104.14 132.08)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5283ea8a-f0b7-4b42-b971-fa20429ae8d4")
+	)
+	(bus_entry
+		(at 104.14 80.01)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7414ef-5643-499e-82b4-10fbc3fedf28")
+	)
+	(bus_entry
+		(at 104.14 82.55)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95de8c1-6910-43b8-a52c-97f43be6ff01")
+	)
+	(bus_entry
+		(at 104.14 105.41)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e0e264-c868-410e-b285-1b2bb105bf04")
+	)
+	(bus_entry
+		(at 104.14 134.62)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5d9035-bb51-4a7a-a1f1-642aa5c2be78")
+	)
 	(wire
 		(pts
-			(xy 156.21 95.25) (xy 162.56 95.25)
+			(xy 157.48 107.95) (xy 163.83 107.95)
 		)
 		(stroke
 			(width 0)
@@ -17,17 +89,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 95.25) (xy 124.46 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06eb914b-a984-4d53-ab3c-f74b5572836a")
-	)
-	(wire
-		(pts
-			(xy 156.21 92.71) (xy 162.56 92.71)
+			(xy 157.48 105.41) (xy 163.83 105.41)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +99,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 121.92) (xy 162.56 121.92)
+			(xy 104.14 57.15) (xy 125.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae58afd-c76f-4571-9a6f-672fb41610fb")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 163.83 134.62)
 		)
 		(stroke
 			(width 0)
@@ -47,37 +119,47 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 44.45) (xy 124.46 44.45)
+			(xy 104.14 59.69) (xy 125.73 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dade8b1-6488-4f90-b659-b615ffd16aaf")
+		(uuid "1ff10db0-c505-46e2-844d-e30edd3d384f")
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 124.46 92.71)
+			(xy 104.14 105.41) (xy 125.73 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "314f20ad-ca4e-4281-be5d-208878c0e96d")
+		(uuid "2ccbcfd9-384e-4403-ade5-b5e644fbd9e8")
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 124.46 119.38)
+			(xy 104.14 82.55) (xy 125.73 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4041e7f0-a78c-4c5f-9256-a197bcca8264")
+		(uuid "3cbb546c-9a39-466e-8b81-f17c02c4fb18")
+	)
+	(bus
+		(pts
+			(xy 101.6 54.61) (xy 95.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8d8cc0-0d37-48bc-aa38-0287e6352a07")
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 162.56 67.31)
+			(xy 157.48 80.01) (xy 163.83 80.01)
 		)
 		(stroke
 			(width 0)
@@ -85,39 +167,69 @@
 		)
 		(uuid "4f0ce4c3-d3a0-4e19-8575-326eef20cb85")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 118.11 69.85) (xy 124.46 69.85)
+			(xy 101.6 80.01) (xy 101.6 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c5949aa-e207-4794-8293-7738ff3083c2")
+		(uuid "52dc7e41-f801-45c4-bf63-aeb84b97da4b")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 118.11 67.31) (xy 124.46 67.31)
+			(xy 101.6 129.54) (xy 101.6 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "965168c6-94d5-4746-8573-8795728cda5c")
+		(uuid "585aea90-8a34-4a55-8d73-e3ae3584b079")
 	)
 	(wire
 		(pts
-			(xy 118.11 121.92) (xy 124.46 121.92)
+			(xy 104.14 132.08) (xy 125.73 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f81931f-4498-486c-a373-835705422c0a")
+		(uuid "625ae1b4-1d35-433e-8262-f3e4500ff9a2")
+	)
+	(bus
+		(pts
+			(xy 101.6 132.08) (xy 101.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "642814b7-ae4c-45a2-9a49-cc76ec531d1f")
 	)
 	(wire
 		(pts
-			(xy 156.21 46.99) (xy 162.56 46.99)
+			(xy 104.14 107.95) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6461714f-3784-49a8-a87d-1a17e3ebb199")
+	)
+	(bus
+		(pts
+			(xy 101.6 77.47) (xy 101.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6dc158-09b8-42af-9a9a-500f55a947e2")
+	)
+	(wire
+		(pts
+			(xy 157.48 59.69) (xy 163.83 59.69)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +239,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 44.45) (xy 162.56 44.45)
+			(xy 157.48 57.15) (xy 163.83 57.15)
 		)
 		(stroke
 			(width 0)
@@ -135,19 +247,39 @@
 		)
 		(uuid "b1263be2-18dd-4096-9221-9c485c2f61fe")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 118.11 46.99) (xy 124.46 46.99)
+			(xy 101.6 102.87) (xy 101.6 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3c3c427-1356-4af1-9e0a-6bb36b94075b")
+		(uuid "bb27b29a-134f-4be3-82f3-dcb824f1693b")
 	)
 	(wire
 		(pts
-			(xy 156.21 119.38) (xy 162.56 119.38)
+			(xy 104.14 134.62) (xy 125.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc36e75a-ccf2-4c3e-8a77-5fd99eb5f8f0")
+	)
+	(bus
+		(pts
+			(xy 101.6 105.41) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1646396-7798-462a-95a1-06298cdd3024")
+	)
+	(wire
+		(pts
+			(xy 157.48 132.08) (xy 163.83 132.08)
 		)
 		(stroke
 			(width 0)
@@ -155,9 +287,29 @@
 		)
 		(uuid "ebe6196a-d3a5-4ffb-9aee-30a59abe079f")
 	)
+	(bus
+		(pts
+			(xy 101.6 57.15) (xy 101.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbaf01a2-f5b0-43d2-a7e1-cdf6cbd03f88")
+	)
 	(wire
 		(pts
-			(xy 156.21 69.85) (xy 162.56 69.85)
+			(xy 104.14 80.01) (xy 125.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2771a5-8677-4e1f-a5ff-a138bb3e710a")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -165,9 +317,89 @@
 		)
 		(uuid "ff5c6653-8dc9-4160-8708-1efe44f2a0de")
 	)
+	(label "PHB_V-"
+		(at 111.76 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33b4020f-bf14-4a84-8af0-5e30c5a99400")
+	)
+	(label "PHA_V+"
+		(at 111.76 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59a9ec00-d5d7-42ad-a9a7-d6003a3ad6be")
+	)
+	(label "PHD_V+"
+		(at 111.76 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d8ccd58-b77f-4b8d-ac4f-d85680e39e0a")
+	)
+	(label "PHD_V-"
+		(at 111.76 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ff80862-c72d-4db0-ab04-96dc8d8360dd")
+	)
+	(label "PHA_V-"
+		(at 111.76 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3129c29-84cf-4a3e-ac69-a6c8d9897477")
+	)
+	(label "PHC_V-"
+		(at 111.76 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1ad6190-8eb8-44d6-88b7-461a4fb63514")
+	)
+	(label "PHC_V+"
+		(at 111.76 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7763511-be81-45a7-a46d-db4f0ceba5fb")
+	)
+	(label "PHB_V+"
+		(at 111.76 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff5311b5-96c1-447b-8a0c-327d12305162")
+	)
 	(hierarchical_label "Vin_3-"
 		(shape input)
-		(at 162.56 95.25 0)
+		(at 163.83 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -178,7 +410,7 @@
 	)
 	(hierarchical_label "Vin_1+"
 		(shape input)
-		(at 162.56 44.45 0)
+		(at 163.83 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -187,42 +419,9 @@
 		)
 		(uuid "265dc8fc-a2d6-430c-9c35-99d423aaf52b")
 	)
-	(hierarchical_label "Vout2+"
-		(shape output)
-		(at 118.11 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29f499bc-11ce-4f63-985e-c1e4b3707afc")
-	)
-	(hierarchical_label "Vout4-"
-		(shape output)
-		(at 118.11 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31d64970-bd86-4170-9723-e24ac340e87a")
-	)
-	(hierarchical_label "Vout3-"
-		(shape output)
-		(at 118.11 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5388c5c5-0eda-4a4e-bde3-e8953f085010")
-	)
 	(hierarchical_label "Vin_1-"
 		(shape input)
-		(at 162.56 46.99 0)
+		(at 163.83 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -233,7 +432,7 @@
 	)
 	(hierarchical_label "Vin_2+"
 		(shape input)
-		(at 162.56 67.31 0)
+		(at 163.83 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -244,7 +443,7 @@
 	)
 	(hierarchical_label "Vin_3+"
 		(shape input)
-		(at 162.56 92.71 0)
+		(at 163.83 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -253,42 +452,20 @@
 		)
 		(uuid "7eb090e4-e68e-42a7-a4ca-813d26a86585")
 	)
-	(hierarchical_label "Vout4+"
+	(hierarchical_label "{Voltages_Machine}"
 		(shape output)
-		(at 118.11 119.38 180)
+		(at 95.25 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8495c769-a426-4bb5-ba44-f36787685edc")
-	)
-	(hierarchical_label "Vout3+"
-		(shape output)
-		(at 118.11 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e0a9ae7-0538-4315-ab51-1d85550a1cfc")
-	)
-	(hierarchical_label "Vout1+"
-		(shape output)
-		(at 118.11 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e7ee360-1f55-4951-932c-71acfb9c7a74")
+		(uuid "91d768a0-0e53-43aa-8186-6b3d24295d67")
 	)
 	(hierarchical_label "Vin_2-"
 		(shape input)
-		(at 162.56 69.85 0)
+		(at 163.83 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -297,20 +474,9 @@
 		)
 		(uuid "c0cbf5c6-3b41-4c26-9364-d115225a3161")
 	)
-	(hierarchical_label "Vout2-"
-		(shape output)
-		(at 118.11 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9bb37a9-5ce4-4668-8744-2ffcf867d23f")
-	)
 	(hierarchical_label "Vin_4+"
 		(shape input)
-		(at 162.56 119.38 0)
+		(at 163.83 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -319,20 +485,9 @@
 		)
 		(uuid "d4ef6f36-bd9e-4a94-894e-7427e47e5e6a")
 	)
-	(hierarchical_label "Vout1-"
-		(shape output)
-		(at 118.11 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed4c8eda-902b-4777-adae-2b27e803108b")
-	)
 	(hierarchical_label "Vin_4-"
 		(shape input)
-		(at 162.56 121.92 0)
+		(at 163.83 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -342,7 +497,7 @@
 		(uuid "f6671c7e-64ce-4b02-8ca7-46c86e776d32")
 	)
 	(sheet
-		(at 124.46 38.1)
+		(at 125.73 50.8)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -358,7 +513,7 @@
 		)
 		(uuid "7afce855-2f8c-4e0d-aab3-f8eb4f413603")
 		(property "Sheetname" "Voltage Measure - 1"
-			(at 124.46 37.3884 0)
+			(at 125.73 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +522,7 @@
 			)
 		)
 		(property "Sheetfile" "v_measure.kicad_sch"
-			(at 124.46 53.9246 0)
+			(at 125.73 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +531,7 @@
 			)
 		)
 		(pin "Vin+" input
-			(at 156.21 44.45 0)
+			(at 157.48 57.15 0)
 			(uuid "317b44d1-7920-46a7-a24f-a4afebd410a2")
 			(effects
 				(font
@@ -386,7 +541,7 @@
 			)
 		)
 		(pin "Vin-" input
-			(at 156.21 46.99 0)
+			(at 157.48 59.69 0)
 			(uuid "2a2292b3-54e0-469c-af95-4114c75fcd2e")
 			(effects
 				(font
@@ -396,7 +551,7 @@
 			)
 		)
 		(pin "Vout+" output
-			(at 124.46 44.45 180)
+			(at 125.73 57.15 180)
 			(uuid "209e3399-7fde-4e44-b888-242a2bf89c9d")
 			(effects
 				(font
@@ -406,7 +561,7 @@
 			)
 		)
 		(pin "Vout-" output
-			(at 124.46 46.99 180)
+			(at 125.73 59.69 180)
 			(uuid "0cf3cfb8-c866-40cc-a078-882de6e60f9e")
 			(effects
 				(font
@@ -424,7 +579,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 86.36)
+		(at 125.73 99.06)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -440,7 +595,7 @@
 		)
 		(uuid "891a47e7-1922-4399-a3cd-e1114e8927a7")
 		(property "Sheetname" "Voltage Measure - 3"
-			(at 124.46 85.6484 0)
+			(at 125.73 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +604,7 @@
 			)
 		)
 		(property "Sheetfile" "v_measure.kicad_sch"
-			(at 124.46 102.1846 0)
+			(at 125.73 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +613,7 @@
 			)
 		)
 		(pin "Vin+" input
-			(at 156.21 92.71 0)
+			(at 157.48 105.41 0)
 			(uuid "0e19232c-890e-4977-8f63-e39a45192ad1")
 			(effects
 				(font
@@ -468,7 +623,7 @@
 			)
 		)
 		(pin "Vin-" input
-			(at 156.21 95.25 0)
+			(at 157.48 107.95 0)
 			(uuid "17e1ad70-e3c4-4b67-8e66-73a6c430b547")
 			(effects
 				(font
@@ -478,7 +633,7 @@
 			)
 		)
 		(pin "Vout+" output
-			(at 124.46 92.71 180)
+			(at 125.73 105.41 180)
 			(uuid "e806e78c-3547-43b7-affe-935b64242e8f")
 			(effects
 				(font
@@ -488,7 +643,7 @@
 			)
 		)
 		(pin "Vout-" output
-			(at 124.46 95.25 180)
+			(at 125.73 107.95 180)
 			(uuid "3e390a76-4c87-45ac-98c7-a7b193cf9065")
 			(effects
 				(font
@@ -506,7 +661,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 60.96)
+		(at 125.73 73.66)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -522,7 +677,7 @@
 		)
 		(uuid "b0a9fdea-45b9-4653-872a-32e7a1e56392")
 		(property "Sheetname" "Voltage Measure - 2"
-			(at 124.46 60.2484 0)
+			(at 125.73 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +686,7 @@
 			)
 		)
 		(property "Sheetfile" "v_measure.kicad_sch"
-			(at 124.46 76.7846 0)
+			(at 125.73 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +695,7 @@
 			)
 		)
 		(pin "Vin+" input
-			(at 156.21 67.31 0)
+			(at 157.48 80.01 0)
 			(uuid "dff3184a-8e0b-4fa0-b6b6-051dd411abf1")
 			(effects
 				(font
@@ -550,7 +705,7 @@
 			)
 		)
 		(pin "Vin-" input
-			(at 156.21 69.85 0)
+			(at 157.48 82.55 0)
 			(uuid "0d615dba-5e6b-452d-9c66-c9018c18dba4")
 			(effects
 				(font
@@ -560,7 +715,7 @@
 			)
 		)
 		(pin "Vout+" output
-			(at 124.46 67.31 180)
+			(at 125.73 80.01 180)
 			(uuid "dbd337a5-0c2a-498b-a6a7-d2f4691fa2aa")
 			(effects
 				(font
@@ -570,7 +725,7 @@
 			)
 		)
 		(pin "Vout-" output
-			(at 124.46 69.85 180)
+			(at 125.73 82.55 180)
 			(uuid "fdd81a71-f3f3-4a80-bb8a-5b1f6f914b37")
 			(effects
 				(font
@@ -588,7 +743,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 113.03)
+		(at 125.73 125.73)
 		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -604,7 +759,7 @@
 		)
 		(uuid "b61920f7-229d-4a63-8922-cbfb1074afac")
 		(property "Sheetname" "Voltage Measure - 4"
-			(at 124.46 112.3184 0)
+			(at 125.73 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -613,7 +768,7 @@
 			)
 		)
 		(property "Sheetfile" "v_measure.kicad_sch"
-			(at 124.46 128.8546 0)
+			(at 125.73 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,7 +777,7 @@
 			)
 		)
 		(pin "Vin+" input
-			(at 156.21 119.38 0)
+			(at 157.48 132.08 0)
 			(uuid "61857773-78b7-4acd-8383-22bd177f18e7")
 			(effects
 				(font
@@ -632,7 +787,7 @@
 			)
 		)
 		(pin "Vin-" input
-			(at 156.21 121.92 0)
+			(at 157.48 134.62 0)
 			(uuid "d49f7daa-673a-4c41-b9f5-e0f25bfea38d")
 			(effects
 				(font
@@ -642,7 +797,7 @@
 			)
 		)
 		(pin "Vout+" output
-			(at 124.46 119.38 180)
+			(at 125.73 132.08 180)
 			(uuid "48c5dfde-6641-4267-bcbf-9f5041c221b9")
 			(effects
 				(font
@@ -652,7 +807,7 @@
 			)
 		)
 		(pin "Vout-" output
-			(at 124.46 121.92 180)
+			(at 125.73 134.62 180)
 			(uuid "4f045fd4-27c5-4d3c-ba2d-9f10aa677469")
 			(effects
 				(font

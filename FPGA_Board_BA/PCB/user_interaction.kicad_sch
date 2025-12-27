@@ -2870,6 +2870,36 @@
 		)
 		(uuid "fd77ed8c-0fb8-4267-a422-845b181aa001")
 	)
+	(label "LED3"
+		(at 81.28 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34e9fb59-43b2-48ca-90ae-332d39f8450a")
+	)
+	(label "LED2"
+		(at 81.28 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a52f6f81-a826-487a-9833-920fea26510f")
+	)
+	(label "LED1"
+		(at 81.28 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4cc43d6-4265-4ba5-9bfc-4a37a75c7a28")
+	)
 	(hierarchical_label "Button2"
 		(shape output)
 		(at 161.29 160.02 0)
