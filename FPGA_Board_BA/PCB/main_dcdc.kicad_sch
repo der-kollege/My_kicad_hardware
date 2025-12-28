@@ -1081,6 +1081,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 8.89 -30.48 90)
+					(length 2.54)
+					(name "Pad"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 17.78 15.24 180)
 					(length 2.54)
@@ -4072,6 +4090,16 @@
 			(type default)
 		)
 		(uuid "9e6011dc-299d-44a7-959b-26ee294c2a64")
+	)
+	(wire
+		(pts
+			(xy 158.75 124.46) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e9ab4c4-f9f9-4369-b2f0-acbe11e38608")
 	)
 	(wire
 		(pts
@@ -8647,6 +8675,9 @@
 		(pin "17"
 			(uuid "b19e9d27-1e16-4e7e-8497-76b1e67f76a9")
 		)
+		(pin "41"
+			(uuid "9306f09d-d475-4aba-93aa-d04b8d59cc45")
+		)
 		(instances
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c363a192-a091-4a49-a77c-8a6e46625814"
@@ -9363,6 +9394,71 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c363a192-a091-4a49-a77c-8a6e46625814"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f996f73f-326c-44b4-aa62-17018acbe318")
+		(property "Reference" "#PWR044"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56c356e7-242f-4ecc-be4c-f462ac23d179")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c363a192-a091-4a49-a77c-8a6e46625814"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)

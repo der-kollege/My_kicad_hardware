@@ -8156,15 +8156,35 @@
 			"C+Q8AACgC+Q8AACgi/8HzoPArPl2j9sAAAAASUVORK5CYII="
 		)
 	)
-	(label "SDO4"
-		(at 152.4 101.6 0)
+	(label "~{CNV}_1"
+		(at 95.25 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0554ab0d-84db-4645-9943-1b6d0091819a")
+		(uuid "0dc1c5a1-b511-42fa-9a1b-c4426cf2498e")
+	)
+	(label "SDO4_1"
+		(at 158.75 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "121b4c16-7e6a-427d-815c-3d6125290755")
+	)
+	(label "CLK_IN_1"
+		(at 95.25 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1fb7d1e1-7b77-489b-a8dc-a615cc8b2962")
 	)
 	(label "Iin_d"
 		(at 247.65 101.6 0)
@@ -8175,6 +8195,16 @@
 			(justify left bottom)
 		)
 		(uuid "2209b97c-4d47-471a-b29a-fcec0bc1e0bb")
+	)
+	(label "SDO5_1"
+		(at 158.75 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23332425-269e-4c05-8de5-5db635b94a9f")
 	)
 	(label "PHA_V+"
 		(at 194.31 116.84 0)
@@ -8196,6 +8226,16 @@
 		)
 		(uuid "38d2c853-1a43-485e-8f86-23f931f8ae4d")
 	)
+	(label "SDO8_1"
+		(at 158.75 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dbd57b6-da67-4906-b120-bd4d822de288")
+	)
 	(label "PHD_V-"
 		(at 194.31 142.24 0)
 		(effects
@@ -8205,26 +8245,6 @@
 			(justify left bottom)
 		)
 		(uuid "5296dae0-9dda-4edb-98e2-7f3728debb44")
-	)
-	(label "SDO8"
-		(at 152.3999 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56d12661-7320-4cdf-a459-3fb66fe24005")
-	)
-	(label "~{CNV}"
-		(at 87.63 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5be3ef9f-8e90-46b9-a32b-f2ec25b7011e")
 	)
 	(label "Iin_a"
 		(at 247.65 63.5 0)
@@ -8246,45 +8266,15 @@
 		)
 		(uuid "60cad79e-5176-4d0c-a5b9-27a191cee192")
 	)
-	(label "SDO2"
-		(at 152.4 95.25 0)
+	(label "SDO7_1"
+		(at 158.75 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "64439506-44d4-4865-87ab-72af9bd3fd0f")
-	)
-	(label "SDO7"
-		(at 152.4 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b1af8eb-f12f-4e0e-a6c9-17b9c3f6aed0")
-	)
-	(label "SDO5"
-		(at 152.4 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76d9e741-8542-4fa2-8c65-e67f9b4e9d11")
-	)
-	(label "SDO3"
-		(at 152.4 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d63b374-6569-47b3-9dff-f8c526ac809c")
+		(uuid "6db49d5d-078a-40c5-9e40-a11f6e06dd15")
 	)
 	(label "Iin_b"
 		(at 247.65 76.2 0)
@@ -8306,6 +8296,16 @@
 		)
 		(uuid "8985320a-0745-4ebe-8f03-3ce993704bdf")
 	)
+	(label "SDO3_1"
+		(at 158.75 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cb1926e-1c83-4b45-b8a0-2ff59309f85a")
+	)
 	(label "PHD_V+"
 		(at 194.31 139.7 0)
 		(effects
@@ -8316,15 +8316,35 @@
 		)
 		(uuid "93ae15e1-2d37-452b-8895-725f02eea9f2")
 	)
-	(label "SDO6"
-		(at 152.4 107.95 0)
+	(label "SDO6_1"
+		(at 158.75 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "a9f90f08-9497-4868-9281-0cdbf22e3916")
+		(uuid "994fa5a7-7111-43e8-ba7d-66b389d61f7b")
+	)
+	(label "SDO1_1"
+		(at 158.75 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bed6444-6651-43e2-a6b9-0580b400b21b")
+	)
+	(label "CLK_OUT_1"
+		(at 160.02 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ccb877c-da7c-45f0-a3eb-ec3fd2b4ce75")
 	)
 	(label "PHC_V+"
 		(at 194.31 132.08 0)
@@ -8346,35 +8366,15 @@
 		)
 		(uuid "b2a5cf1a-789d-474e-96b6-6158a6fa8e67")
 	)
-	(label "CLK_IN"
-		(at 87.63 124.46 0)
+	(label "SDO2_1"
+		(at 158.75 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "b479126f-958b-4c2b-a81f-edde8a86e94f")
-	)
-	(label "SDO1"
-		(at 152.4 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2adad21-5c6d-4032-922f-2e2cf648be01")
-	)
-	(label "CLK_OUT"
-		(at 152.4 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c565c3cb-6290-4da1-bd94-bffea7b206ca")
+		(uuid "cb6d89d1-1549-4c31-b935-4c4041e9b853")
 	)
 	(label "Iin_c"
 		(at 247.65 88.9 0)

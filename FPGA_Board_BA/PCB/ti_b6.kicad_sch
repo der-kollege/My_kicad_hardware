@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser nr Connector" "855-M20-7811045R "
+			(property "Mouser nr Connector" "710-61002021121"
 				(at 0.762 29.21 0)
 				(effects
 					(font
@@ -502,6 +502,9 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(bus_alias "B6_Control"
+		(members "PWM_AH" "PWM_AL" "PWM_BH" "PWM_BL" "PWM_CH" "PWM_CL" "B6_En")
 	)
 	(text "All pins scaled to max 3.3V"
 		(exclude_from_sim no)
@@ -16313,7 +16316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser nr Connector" "855-M20-7811045R "
+		(property "Mouser nr Connector" "710-61002021121"
 			(at 188.722 39.37 0)
 			(effects
 				(font

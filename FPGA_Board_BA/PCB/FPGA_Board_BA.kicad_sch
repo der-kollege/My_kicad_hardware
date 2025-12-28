@@ -6,11 +6,11 @@
 	(paper "A4")
 	(lib_symbols)
 	(bus_alias "ADC_Machine"
-		(members "SDO1" "SDO2" "SDO3" "SDO4" "SDO5" "SDO6" "SDO7" "SDO8" "CLK_OUT"
-			"CLK_IN" "~{CNV}"
+		(members "SDO1_1" "SDO2_1" "SDO3_1" "SDO4_1" "SDO5_1" "SDO6_1" "SDO7_1"
+			"SDO8_1" "CLK_OUT_1" "CLK_IN_1" "~{CNV}_1"
 		)
 	)
-	(text "TODO:\n- 25uF Kondensator -> 3 mal 10uF \n[X] Extra 5VA für Tamura Sensoren\n[X] INA Spannungspegel / Bereich Prüfen\n[X] SMD 2*4 pin (2.54 pitch) stecker suchen Stiftleiste\n[X] Wannenstecker / Buchse für FPGA free Pins (26pin) kein 5VA, zweite Reihe für GND\n[X] Silkscreen bei FPGA korrigieren\n[X] Matchy 3D model für Plug Terminals\n- Change PinSocket to PinHeader (SMD) for TI-B6\n[X] Plug Terminal 8 pin -> Footprint adjustment\n[X] Fix Footprint of 5VA Inductor\n- Spannungspegel ADC vs FPGA\n[X] 3W 2512 Shunt Widerstand\n- Berechnungen für Voltage Probe\n- Add output caps für main DCDC\n- Diode für Error / En"
+	(text "TODO:\n[X] Extra 5VA für Tamura Sensoren\n[X] INA Spannungspegel / Bereich Prüfen\n[X] SMD 2*4 pin (2.54 pitch) stecker suchen Stiftleiste\n[X] Wannenstecker / Buchse für FPGA free Pins (26pin) kein 5VA, zweite Reihe für GND\n[X] Silkscreen bei FPGA korrigieren\n[X] Matchy 3D model für Plug Terminals\n[X] Change PinSocket to PinHeader (SMD) for TI-B6\n[X] Plug Terminal 8 pin -> Footprint adjustment\n[X] Fix Footprint of 5VA Inductor\n- Spannungspegel ADC vs FPGA\n[X] 3W 2512 Shunt Widerstand\n- Berechnungen für Voltage Probe\n- Add output caps für main DCDC\n- Diode für Error / En"
 		(exclude_from_sim no)
 		(at 24.892 171.196 0)
 		(effects
