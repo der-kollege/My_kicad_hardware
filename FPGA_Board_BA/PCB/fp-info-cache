@@ -1,4 +1,4 @@
-23353898156314101
+23360966959098517
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62216,12 +62216,26 @@ LT1819
 8
 8
 MYLIB_Misc
+L_5u6_78439346056
+
+
+0
+2
+2
+MYLIB_Misc
 Molex_2x8pin_vertical_tht
 
 
 0
 16
 16
+MYLIB_Misc
+PRL1632-R006-F-T1
+
+
+0
+2
+2
 MYLIB_Misc
 Plug_Terminal_2x4
 
@@ -62243,6 +62257,13 @@ RK09D1130A1N
 0
 5
 5
+MYLIB_Misc
+RRX Package, 29-Pin VQFN
+
+
+0
+30
+30
 MYLIB_Misc
 SBR10U200P5
 
@@ -71798,6 +71819,13 @@ UQFN NoLead
 0
 75
 49
+Package_DFN_QFN
+Untitled
+
+
+0
+0
+0
 Package_DFN_QFN
 VDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.7mm
 8-Lead Very Thin Dual Flatpack No-Lead (LZ) - 2x3x0.9 mm Body [VDFN] (see Microchip Packaging Specification 00000049BS.pdf)
