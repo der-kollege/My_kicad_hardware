@@ -31,8 +31,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -0.508 14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -150,8 +150,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1282,6 +1282,25 @@
 					)
 				)
 				(pin input line
+					(at 15.24 -6.35 180)
+					(length 2.54)
+					(hide yes)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 15.24 -8.89 180)
 					(length 2.54)
 					(name "CONFIG"
@@ -1895,6 +1914,216 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WLIB_D:LED_G_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_G_0603"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.farnell.com/datasheets/2068423.pdf"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FARNELL" "2610409"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Max DC Current" "25mA"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Forward Voltage" "2.65 V @ 2mA"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB" "C965805"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode 2610409"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_G_0603_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_G_0603_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3060,12 +3289,6 @@
 		(uuid "6dda78ea-4884-4ada-bf31-f9f771573da1")
 	)
 	(junction
-		(at 207.01 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "740b57a9-35ed-408e-9dff-db64cbd0904b")
-	)
-	(junction
 		(at 104.14 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3084,7 +3307,7 @@
 		(uuid "8d34e302-10d5-40de-9054-e22f21d45b79")
 	)
 	(junction
-		(at 189.23 90.17)
+		(at 194.31 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "953b0951-4375-4a37-9a2d-ea712f454285")
@@ -3138,6 +3361,12 @@
 		(uuid "c4e8ab24-6659-4b8f-8fa2-994ac6811ab1")
 	)
 	(junction
+		(at 213.36 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c587ef5c-d3f7-4856-b82f-e102c1ac0cae")
+	)
+	(junction
 		(at 252.73 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3172,6 +3401,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efa92458-1adb-487e-9c34-3cefe89488c4")
+	)
+	(wire
+		(pts
+			(xy 232.41 146.05) (xy 232.41 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059bdca5-1e82-48a2-92d7-2549495938d6")
 	)
 	(wire
 		(pts
@@ -3295,6 +3534,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 147.32) (xy 252.73 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a3afd5-1ae0-4910-ad4f-3b1d13995d44")
+	)
+	(wire
+		(pts
 			(xy 243.84 107.95) (xy 252.73 107.95)
 		)
 		(stroke
@@ -3362,16 +3611,6 @@
 			(type default)
 		)
 		(uuid "4561e1c4-cced-4b1e-b80a-ccfff2c5bcd9")
-	)
-	(wire
-		(pts
-			(xy 207.01 90.17) (xy 201.93 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a240d25-355d-453d-a64b-0c2392520fd3")
 	)
 	(wire
 		(pts
@@ -3455,6 +3694,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 147.32) (xy 240.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d92137-d148-4d4e-9e34-013b84d188f1")
+	)
+	(wire
+		(pts
 			(xy 252.73 93.98) (xy 252.73 90.17)
 		)
 		(stroke
@@ -3535,6 +3784,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 147.32) (xy 260.35 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688cf71e-242c-443e-ab39-195e7aa8a8c9")
+	)
+	(wire
+		(pts
 			(xy 219.71 93.98) (xy 219.71 90.17)
 		)
 		(stroke
@@ -3555,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 90.17) (xy 219.71 90.17)
+			(xy 207.01 90.17) (xy 213.36 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3565,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 90.17) (xy 189.23 90.17)
+			(xy 191.77 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3622,6 +3881,16 @@
 			(type default)
 		)
 		(uuid "7967e636-7beb-4be9-bfb6-7848bec2ea33")
+	)
+	(wire
+		(pts
+			(xy 213.36 90.17) (xy 219.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d982e2-fdce-4d41-8aaf-cb19ac4d8190")
 	)
 	(wire
 		(pts
@@ -3745,6 +4014,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 147.32) (xy 203.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975f1828-a08d-41f2-a62b-b9b33849233c")
+	)
+	(wire
+		(pts
 			(xy 59.69 77.47) (xy 59.69 73.66)
 		)
 		(stroke
@@ -3795,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 95.25) (xy 207.01 95.25)
+			(xy 199.39 95.25) (xy 213.36 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3815,7 +4094,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 90.17) (xy 207.01 95.25)
+			(xy 213.36 90.17) (xy 213.36 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3852,6 +4131,26 @@
 			(type default)
 		)
 		(uuid "a73fafbd-af69-48c7-8e79-af6253d1eebf")
+	)
+	(wire
+		(pts
+			(xy 210.82 147.32) (xy 218.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d14a8e-b02e-42be-8679-735f96bd5e09")
+	)
+	(wire
+		(pts
+			(xy 269.24 151.13) (xy 269.24 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad47d7ba-eaf6-464a-8e28-28b4838dcf50")
 	)
 	(wire
 		(pts
@@ -3965,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 147.32) (xy 193.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c297aa4f-70e1-4b40-8c2d-30604e1efb92")
+	)
+	(wire
+		(pts
 			(xy 173.99 85.09) (xy 173.99 69.85)
 		)
 		(stroke
@@ -3975,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 92.71) (xy 189.23 90.17)
+			(xy 194.31 92.71) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3995,7 +4304,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 92.71) (xy 189.23 92.71)
+			(xy 170.18 92.71) (xy 194.31 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4015,7 +4324,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 90.17) (xy 194.31 90.17)
+			(xy 194.31 90.17) (xy 199.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4072,6 +4381,16 @@
 			(type default)
 		)
 		(uuid "dc168e61-7909-42f7-9e20-5952ec916e21")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd898552-df13-4671-a015-ab35def3f7fd")
 	)
 	(wire
 		(pts
@@ -4185,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 179.07 90.17)
+			(xy 170.18 90.17) (xy 184.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4203,6 +4522,16 @@
 		)
 		(uuid "ff1a7878-7576-42a8-9667-bae7dfc81e59")
 	)
+	(label "CBOOT"
+		(at 176.53 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18da7e80-6be3-4fba-82a3-058e0632e4df")
+	)
 	(label "GND"
 		(at 110.49 83.82 0)
 		(effects
@@ -4213,6 +4542,26 @@
 		)
 		(uuid "1e415861-42c8-4fa1-a9e9-f650520b0885")
 	)
+	(label "SW"
+		(at 176.53 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29c44d32-be45-41dd-863d-52547105bdfa")
+	)
+	(label "CBOOT"
+		(at 184.15 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66cc643e-5ef0-4a71-915e-04250f611567")
+	)
 	(label "FB"
 		(at 129.54 97.79 0)
 		(effects
@@ -4222,6 +4571,16 @@
 			(justify left bottom)
 		)
 		(uuid "75155d8f-78e2-47fc-a597-0f791bf731f8")
+	)
+	(label "SW"
+		(at 218.44 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c012ef6-3d1d-4670-a2b3-4bce403faf1c")
 	)
 	(label "GND"
 		(at 129.54 92.71 0)
@@ -4473,6 +4832,101 @@
 		)
 	)
 	(symbol
+		(lib_id "WLIB_R:10k_0603")
+		(at 243.84 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1779823d-69ea-462d-a06a-166d18843c63")
+		(property "Reference" "R146"
+			(at 243.84 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k_0603"
+			(at 243.84 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2860681.pdf"
+			(at 222.25 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "2447230"
+			(at 227.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "100mW"
+			(at 229.87 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd896e60-95cf-49c3-9ab0-85f562cc586f")
+		)
+		(pin "2"
+			(uuid "c69d1745-0e98-4f02-b2cc-fc87964a81c2")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c218fce5-e0d6-44e0-8fcb-a1a13743da8a"
+					(reference "R146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 243.84 111.76 0)
 		(unit 1)
@@ -4663,7 +5117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 109.22 127 0)
 			(effects
 				(font
@@ -4804,7 +5258,7 @@
 	)
 	(symbol
 		(lib_id "MYLIB_Misc:PRL1632-R006-F-T1")
-		(at 198.12 90.17 0)
+		(at 203.2 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4813,7 +5267,7 @@
 		(fields_autoplaced yes)
 		(uuid "38152f8f-885a-420d-bc9b-f15e30585243")
 		(property "Reference" "R68"
-			(at 198.12 83.82 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +5275,7 @@
 			)
 		)
 		(property "Value" "Shunt_0R006"
-			(at 198.12 86.36 0)
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5283,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_Misc:PRL1632-R006-F-T1"
-			(at 196.596 72.898 0)
+			(at 201.676 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5292,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition07_en.pdf"
-			(at 197.612 79.248 0)
+			(at 202.692 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +5301,7 @@
 			)
 		)
 		(property "Description" "Shunt resistor 6m, 1W, SMD"
-			(at 198.12 74.93 0)
+			(at 203.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +5310,7 @@
 			)
 		)
 		(property "Mouser nr" "754-PRL1632-R006-FT1 "
-			(at 198.374 82.042 0)
+			(at 203.454 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5319,7 @@
 			)
 		)
 		(property "Manuf nr" "PRL1632-R006-F-T1"
-			(at 198.374 77.216 0)
+			(at 203.454 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5797,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 132.08 0)
 			(effects
 				(font
@@ -5380,6 +5834,72 @@
 			(project ""
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c218fce5-e0d6-44e0-8fcb-a1a13743da8a"
 					(reference "C166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d6f552d-6690-4fa6-90c4-4adf02cfbc00")
+		(property "Reference" "#PWR0108"
+			(at 269.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb5b401-d03c-4aeb-b472-d781d5349474")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c218fce5-e0d6-44e0-8fcb-a1a13743da8a"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -5482,7 +6002,7 @@
 	)
 	(symbol
 		(lib_id "MYLIB_Misc:Inductor_5.6uH")
-		(at 182.88 90.17 0)
+		(at 187.96 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5491,7 +6011,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b8fcd1f-9e96-4d89-b7b8-6f49cc0be2dd")
 		(property "Reference" "L2"
-			(at 182.88 85.09 0)
+			(at 187.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +6019,7 @@
 			)
 		)
 		(property "Value" "Inductor 5.6uH"
-			(at 182.88 87.63 0)
+			(at 187.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +6027,7 @@
 			)
 		)
 		(property "Footprint" "MYLIB_Misc:L_5u6_78439346056"
-			(at 183.642 83.058 0)
+			(at 188.722 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +6036,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/78439346056.pdf"
-			(at 182.626 76.454 0)
+			(at 187.706 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +6045,7 @@
 			)
 		)
 		(property "Description" "5.6 µH Shielded Drum Core, Wirewound Inductor 6.9 A 15mOhm Nonstandard"
-			(at 181.864 78.74 0)
+			(at 186.944 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +6054,7 @@
 			)
 		)
 		(property "Manufacturer nr" "78439346056"
-			(at 182.88 81.026 0)
+			(at 187.96 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,6 +6338,101 @@
 		)
 	)
 	(symbol
+		(lib_id "WLIB_C:15n_0603")
+		(at 207.01 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b2b0ae-c594-496b-8ae7-b936d5ae2145")
+		(property "Reference" "C172"
+			(at 207.01 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15n_0603"
+			(at 207.01 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WLIB_Capacitor:C_0603"
+			(at 193.04 147.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0805C153J1RACAUTO"
+			(at 185.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor SMD MLCC"
+			(at 207.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "2984967"
+			(at 190.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDC" "100V"
+			(at 187.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "    C527994"
+			(at 195.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23a1abe2-d369-47d3-849b-f5974c5ea1c7")
+		)
+		(pin "2"
+			(uuid "73b85dfa-43de-48de-a0d0-7bed4aceae73")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c218fce5-e0d6-44e0-8fcb-a1a13743da8a"
+					(reference "C172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MYLIB_Misc:47u_1210")
 		(at 252.73 97.79 0)
 		(unit 1)
@@ -6041,6 +6656,9 @@
 		)
 		(pin "15"
 			(uuid "b98e9c1d-7e3c-4ad3-85a3-4dc3b7c5167e")
+		)
+		(pin "30"
+			(uuid "2022dd63-3a53-40a4-ab6c-6475246558ad")
 		)
 		(instances
 			(project ""
@@ -6530,6 +7148,205 @@
 		)
 	)
 	(symbol
+		(lib_id "WLIB_D:LED_G_0603")
+		(at 256.54 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bde210b0-efc8-461d-b8ab-4c0c4104bf18")
+		(property "Reference" "D2"
+			(at 258.1275 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_G_0603"
+			(at 258.1275 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2068423.pdf"
+			(at 256.54 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "2610409"
+			(at 256.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max DC Current" "25mA"
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Forward Voltage" "2.65 V @ 2mA"
+			(at 256.54 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C965805"
+			(at 256.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be04fb7f-a256-4c25-848a-4f3c53b06ddc")
+		)
+		(pin "2"
+			(uuid "7f11c4b1-a2dc-492e-ad50-70474b4dfde7")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c218fce5-e0d6-44e0-8fcb-a1a13743da8a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WLIB_R:1R_0603")
+		(at 196.85 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d173b3e2-7d30-42d5-bc2d-a76821e59df0")
+		(property "Reference" "R128"
+			(at 196.85 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1R_0603"
+			(at 196.85 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 213.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2860635.pdf"
+			(at 210.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FARNELL" "2073361"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" "100mW"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C325636"
+			(at 208.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25032d16-bfe5-40f7-b52c-5c6405cfebbd")
+		)
+		(pin "2"
+			(uuid "b3168dfe-f344-4ff5-a3c8-966fa117a314")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c218fce5-e0d6-44e0-8fcb-a1a13743da8a"
+					(reference "R128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WLIB_C:4u7_0603")
 		(at 26.67 81.28 0)
 		(unit 1)
@@ -6621,6 +7438,72 @@
 			(project "FPGA_Board_BA"
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c218fce5-e0d6-44e0-8fcb-a1a13743da8a"
 					(reference "C164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 232.41 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7a4cd54-8a4e-41a0-823d-e8887c2d58ec")
+		(property "Reference" "#PWR0109"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_Zynq"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b823e19e-1a07-4c1e-914a-57c5efd03289")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/c218fce5-e0d6-44e0-8fcb-a1a13743da8a"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)

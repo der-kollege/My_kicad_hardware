@@ -23848,7 +23848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_Zynq"
 			(at 373.38 93.98 0)
 			(effects
 				(font
