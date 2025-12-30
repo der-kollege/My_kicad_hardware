@@ -656,6 +656,10 @@
       "Power from CHB"
     ],
     [
+      "052c3e33-f19b-4572-8a06-ccf7ab7127cc",
+      "LS CLKOUT"
+    ],
+    [
       "a235475e-2284-446b-bacb-f3bf84d47a36",
       "Diffamp5"
     ],
@@ -838,6 +842,10 @@
     [
       "7afce855-2f8c-4e0d-aab3-f8eb4f413603",
       "Voltage Measure - 1"
+    ],
+    [
+      "e421e5b9-9920-4583-8094-4f82aa7688c6",
+      "LS CLKOUT"
     ]
   ],
   "text_variables": {}

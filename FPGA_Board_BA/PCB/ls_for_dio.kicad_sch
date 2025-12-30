@@ -1506,10 +1506,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "da63b9b9-103f-40c4-931f-03a295e714a1")
+			(uuid "1a60639d-17e2-4927-985d-c621dcad655a")
 		)
 		(pin "1"
-			(uuid "52091410-6c70-4975-b095-00c143584d3b")
+			(uuid "105a759d-6ac9-490b-885c-74cac8a95eae")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -1606,10 +1606,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "10013cdd-f342-40d4-ac42-85dfa88dd37b")
+			(uuid "175f1907-f3e8-4dbc-abcd-3a6b7f2c5b3e")
 		)
 		(pin "1"
-			(uuid "037cbf77-8012-49f2-ad36-bb722af765cf")
+			(uuid "b9cc9bf3-c952-4019-91d2-7677f9c81911")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -1679,7 +1679,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "60506e85-38d7-497d-850a-7c708ce6f743")
+			(uuid "b3988eec-3568-4e84-90ec-be780ff5336f")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -1749,7 +1749,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0f66569-cbb6-4155-8565-bcf9d85cb8d5")
+			(uuid "7566e531-113b-4ca0-be45-cbf113913700")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -1847,10 +1847,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4c96d6c1-37da-4531-bc65-3e73c2d3d4ab")
+			(uuid "3d09738a-bf6a-468f-9b1e-991a19effefc")
 		)
 		(pin "1"
-			(uuid "3c6e65ed-166d-43ce-b70d-5ce19622d995")
+			(uuid "49276338-72ca-49b9-93ce-45e322f31c91")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9445e952-7470-48b3-a4fe-3b632650824f")
+			(uuid "91dcfb81-5b80-4bb7-bef9-b0cc13085410")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -1930,76 +1930,6 @@
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
 					(reference "#PWR0226")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 86.36 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75729adb-4d3d-4dd3-9902-64a0392045b5")
-		(property "Reference" "#PWR0231"
-			(at 86.36 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 86.36 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 86.36 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c85744fc-c4b4-47cd-b4b0-da26f82d9e3b")
-		)
-		(instances
-			(project "FPGA_Board_BA"
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
-					(reference "#PWR0265")
-					(unit 1)
-				)
-				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
-					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -2086,10 +2016,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ceddf425-0b52-4c89-81b5-72fbc360f6ce")
+			(uuid "00c51fa6-e1ec-4d33-975b-0b2ff88db0b1")
 		)
 		(pin "1"
-			(uuid "c271345d-4c12-4abc-b89d-36c6f43a4dc8")
+			(uuid "ef7bd8f5-ccca-49b8-8dec-98337f6a5147")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -2169,28 +2099,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "00fa963f-797c-402f-8053-2f3b24b22847")
+			(uuid "5828e682-69dc-4065-b47c-0b25ca74a866")
 		)
 		(pin "7"
-			(uuid "68703209-ec3d-44dc-bf0e-cece1e21e0f9")
+			(uuid "594dc56e-ae61-4ffa-aaaa-2c76ba2ab38b")
 		)
 		(pin "6"
-			(uuid "90988953-bac5-473c-8247-431f22d2fc11")
+			(uuid "f571dbd4-971b-4dcb-889a-024893d048c6")
 		)
 		(pin "1"
-			(uuid "1ff4f5b8-c185-489d-b569-cdbcfd402637")
+			(uuid "28e44e79-4526-4852-80c5-fba805ee37da")
 		)
 		(pin "2"
-			(uuid "ce86e52b-ba5f-4787-9bb3-ca4c1496a88f")
+			(uuid "750fad5c-ca17-4e1f-a3ee-43f589f69b4b")
 		)
 		(pin "4"
-			(uuid "45a44d6b-60bb-4f11-bfeb-2495c7ef5689")
+			(uuid "b178c0d3-2036-4cde-b1b6-3fbd343946af")
 		)
 		(pin "3"
-			(uuid "7d0b003d-7bbe-43c7-a506-c1d9b63f8c14")
+			(uuid "4a260d10-d192-4efc-9bdb-de91aca06892")
 		)
 		(pin "5"
-			(uuid "c57c7e14-6dfe-488b-bfe1-dc9f3edac9ec")
+			(uuid "1ad02b82-3100-416f-a76f-e1644e0c4fec")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -2260,7 +2190,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0af3c3d0-94c8-482d-bac9-eca5a4e67804")
+			(uuid "54cd60b3-6f09-484b-ac45-f14f32c12ab0")
 		)
 		(instances
 			(project "FPGA_Board_BA"
@@ -2270,6 +2200,76 @@
 				)
 				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
 					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 86.36 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c22647cc-faca-4ef4-a953-aedd29d42468")
+		(property "Reference" "#PWR0135"
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 86.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8ce93d9-5067-459f-87e0-8169be2b09f8")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/61f82991-823e-4c29-9a78-9b2ec5b110b2/90f23285-27cc-4590-a3de-f3bed661e97d"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/b651456b-f82d-416a-adc2-766f971f7bfa/3aef2b1a-46e4-4d2a-8508-77241448084f"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -2330,7 +2330,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa993767-b70d-47ec-8964-a1486e145038")
+			(uuid "ed7a96ad-035e-4bff-91b3-6c955680b906")
 		)
 		(instances
 			(project "FPGA_Board_BA"
