@@ -2130,6 +2130,15 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "Enable_Lines"
+		(members "En_Ph1" "En_Ph2" "En_Ph3" "En_Ph4")
+	)
+	(bus_alias "Error_Lines"
+		(members "Err_Ph1" "Err_Ph2" "Err_Ph3" "Err_Ph4")
+	)
+	(bus_alias "Rx_Lines"
+		(members "Rx_Ph1" "Rx_Ph2" "Rx_Ph3" "Rx_Ph4")
+	)
 	(rectangle
 		(start 224.79 181.61)
 		(end 269.24 241.3)
@@ -9542,16 +9551,6 @@
 			"BQAAAAAAAHX4/wG9Y8RvlI1vOwAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "Rx_Ph[1..4]"
-		(at 187.96 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "053644fc-bfb4-46a9-b1ac-f8e9112971e7")
-	)
 	(label "Ph_A_Tx2"
 		(at 114.3 132.08 180)
 		(effects
@@ -9591,16 +9590,6 @@
 			(justify left bottom)
 		)
 		(uuid "0bf0c9ea-75be-4cea-9034-97e4227593ff")
-	)
-	(label "En_Ph[1..4]"
-		(at 186.69 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d98ffe7-ad19-4b38-a188-c9f3b4abf2ea")
 	)
 	(label "Ph_B_Tx3"
 		(at 114.3 83.82 180)
@@ -10121,16 +10110,6 @@
 			(justify right bottom)
 		)
 		(uuid "b1f86c6c-eda7-4a1d-a7db-4454be80e576")
-	)
-	(label "Err_Ph[1..4]"
-		(at 118.11 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b9d9eac3-6b3a-4fb1-bd8a-77fa1a75e9e1")
 	)
 	(label "Ph_A_Tx5"
 		(at 114.3 124.46 180)

@@ -5,6 +5,9 @@
 	(uuid "ac9f7b4f-268b-444b-ba15-c2968bee7664")
 	(paper "A4")
 	(lib_symbols)
+	(bus_alias "ADC_Current_Machine"
+		(members "Iin_a" "Iin_b" "Iin_c" "Iin_d")
+	)
 	(bus_entry
 		(at 74.93 93.98)
 		(size -2.54 -2.54)

@@ -479,6 +479,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "Encoder"
+		(members "ENC_A" "ENC_B" "ENC_I")
+	)
 	(rectangle
 		(start 194.31 26.67)
 		(end 257.81 55.88)
