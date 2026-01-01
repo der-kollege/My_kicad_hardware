@@ -5,6 +5,11 @@
 	(uuid "8226ab3b-34e1-40b0-8a4c-032f0f8a4ea5")
 	(paper "A4")
 	(lib_symbols)
+	(bus_alias "Voltages_Machine"
+		(members "PHA_V+" "PHA_V-" "PHB_V+" "PHB_V-" "PHC_V+" "PHC_V-" "PHD_V+"
+			"PHD_V-"
+		)
+	)
 	(bus_entry
 		(at 104.14 107.95)
 		(size -2.54 -2.54)
