@@ -1,0 +1,6 @@
+Leo Treffen:
+
+TODO:
+- Radius für Stecker von Maschine
+- BOM nochmal schauen (Mouser bevorzugt)
+
