@@ -1,4 +1,4 @@
-23366450883214927
+23369989650296361
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62209,6 +62209,13 @@ HV_Probe_no_drillinghole
 8
 8
 MYLIB_Misc
+Hot_surface
+
+
+0
+0
+0
+MYLIB_Misc
 LT1819
 
 
@@ -62341,6 +62348,13 @@ Zynq7020
 0
 164
 162
+MYLIB_Misc
+esd_protection
+
+
+0
+0
+0
 MYLIB_chips
 UKG_52_7mm_8mm
 
