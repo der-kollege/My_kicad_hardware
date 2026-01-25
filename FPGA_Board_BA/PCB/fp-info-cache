@@ -1,4 +1,4 @@
-23361135283136212
+23366450883214927
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92694,6 +92694,13 @@ SOIC SO
 8
 8
 WLIB_Package_SO
+SOP65P640X120-17N
+PWP (R-PDSO-G16)-1
+Integrated Circuit
+0
+17
+17
+WLIB_Package_SO
 VSSOP-8_3.0x3.0mm_P0.65mm_ThermalVias
 https://www.ti.com/lit/ds/symlink/tps62840.pdf?ts=1638336552700&ref_url=https%253A%252F%252Fwww.mouser.de%252F
 VSSOP-8 3.0x3.0 mm P0.65mm Thermal Vias
@@ -92728,6 +92735,13 @@ SOT-23-6
 0
 6
 6
+WLIB_Package_SOT
+SOT65P280X110-8N
+DDF0008A_(H=1.1mm)
+Integrated Circuit
+0
+8
+8
 WLIB_Package_SOT
 SOT1220
 
@@ -92812,6 +92826,13 @@ QFN NoLead
 0
 38
 29
+WLIB_package_QFN
+QFN50P300X300X80-17N-D
+RTE  (S-PWQFN-N16)
+Integrated Circuit
+0
+17
+17
 WLIB_package_QFN
 QFN76-10.5x6.5
 Motorcontrol chip for BLDC motors

@@ -660,6 +660,14 @@
       "LS CLKOUT"
     ],
     [
+      "899b4b6b-0ff2-443c-b507-e3af11cb5e55",
+      "En-Err-circuit-2"
+    ],
+    [
+      "eb4c6263-ef47-47bc-9655-6d0aedb1f85f",
+      "En-Err-circuit-3"
+    ],
+    [
       "a235475e-2284-446b-bacb-f3bf84d47a36",
       "Diffamp5"
     ],
@@ -694,6 +702,10 @@
     [
       "bf010b8c-6832-4a61-9247-eaeb93645cb7",
       "Voltage Measure"
+    ],
+    [
+      "3018afa9-4636-42a6-9076-7f4ab342c5f6",
+      "En-Err-circuit-4"
     ],
     [
       "a42b717c-1bb0-48e9-8224-0b5d9f1900c3",
@@ -846,6 +858,10 @@
     [
       "e421e5b9-9920-4583-8094-4f82aa7688c6",
       "LS CLKOUT"
+    ],
+    [
+      "89f2a6ac-b1a8-4bd8-b0dc-57e9067786e7",
+      "En-Err-circuit-1"
     ]
   ],
   "text_variables": {}

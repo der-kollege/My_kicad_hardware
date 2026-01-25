@@ -8190,7 +8190,7 @@
 		(uuid "1fb7d1e1-7b77-489b-a8dc-a615cc8b2962")
 	)
 	(label "Iin_d"
-		(at 247.65 101.6 0)
+		(at 247.65 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8250,7 +8250,7 @@
 		(uuid "5296dae0-9dda-4edb-98e2-7f3728debb44")
 	)
 	(label "Iin_a"
-		(at 247.65 63.5 0)
+		(at 247.65 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8280,7 +8280,7 @@
 		(uuid "6db49d5d-078a-40c5-9e40-a11f6e06dd15")
 	)
 	(label "Iin_b"
-		(at 247.65 76.2 0)
+		(at 247.65 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8380,7 +8380,7 @@
 		(uuid "cb6d89d1-1549-4c31-b935-4c4041e9b853")
 	)
 	(label "Iin_c"
-		(at 247.65 88.9 0)
+		(at 247.65 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
