@@ -1,0 +1,9 @@
+FPGA_Board_improvements
+
+1: Pitch von Bananenbuchse auf Standard fixieren
+2: Deutlich mehr vias!!!!!! (An den richtigen Stellen)
+	-> Viele Vias für den Power-Loop vom Power-Buck
+3: Kondensatorenwerte auch ESR beachten
+4: 100V 0603 4.7u
+5: Die 5.5V Boost converter sollte vom 5V Zynq gespeist werden. Die Breakout auch, Level shifter
+6: OpAmps LT1819 orientierung
