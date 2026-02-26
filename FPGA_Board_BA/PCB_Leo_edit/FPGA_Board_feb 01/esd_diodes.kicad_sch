@@ -1,0 +1,1582 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "509239b4-a0d2-49fb-bf03-183d3bd825ae")
+	(paper "A4")
+	(lib_symbols
+		(symbol "MYLIB_Misc:ESD_Diode_5V6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B72590D50H160"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+				(at -1.524 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+				(at 0.254 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Diode, maximal 5.6V DC"
+				(at -0.508 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser nr." "871-B72590D50H160 "
+				(at -0.254 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD_Diode_5V6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD_Diode_5V6_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 152.4 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1de86b62-b7ce-4e05-a1e8-3efd1fd3d2ad")
+	)
+	(junction
+		(at 139.7 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26e7acde-191c-4f3b-b336-0bcedc951a48")
+	)
+	(junction
+		(at 157.48 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "583f03bb-9c46-4dd3-8554-0d9553d3a76e")
+	)
+	(junction
+		(at 147.32 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c2a155b-ed33-4a15-9353-0bb7a4564089")
+	)
+	(junction
+		(at 130.81 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af1d2cee-d574-45b2-8064-b2ddd852b2df")
+	)
+	(junction
+		(at 123.19 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf264ac4-38d8-4556-ac7c-65162fee6867")
+	)
+	(junction
+		(at 175.26 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd58951a-0a3c-4620-b62d-d77b13649b6e")
+	)
+	(junction
+		(at 166.37 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de2871e2-7beb-4dbb-ba1e-ed62d71e9a13")
+	)
+	(junction
+		(at 184.15 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fad98558-bac6-4652-8032-bb4d3a6115a9")
+	)
+	(wire
+		(pts
+			(xy 139.7 77.47) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b7e167-c395-49da-9e7d-6aee1feb6528")
+	)
+	(wire
+		(pts
+			(xy 184.15 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047dbbaa-7568-40ab-a9cd-9c2be861f99d")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c959e7-6ace-4790-a6da-53dd4bc9864c")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2148e8b7-25fb-441e-812a-9635e8a17431")
+	)
+	(wire
+		(pts
+			(xy 184.15 92.71) (xy 184.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2313aef4-3783-4518-9295-1b722f8231bf")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f51ddb4-d8cc-4608-807b-295ff123f68b")
+	)
+	(wire
+		(pts
+			(xy 114.3 77.47) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321720b2-7d10-4285-8286-193cd2d74e34")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 184.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32780d10-085d-447b-9a0a-764eb90183e1")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4082b2e2-dc52-4818-a0fe-06b910989354")
+	)
+	(wire
+		(pts
+			(xy 175.26 77.47) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df985ac-8b39-40cc-9b41-2a5d4d83fc20")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bfc43e-1f59-41fe-bc60-8da750a872dc")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638a0c83-fc97-4da2-9695-bbce96c6bf61")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f457920-7d3a-4327-a097-9a345dc116ee")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccc46d1-7f66-4b48-a8b2-2882022cf578")
+	)
+	(wire
+		(pts
+			(xy 166.37 104.14) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8189cd1b-f29f-48bf-8caf-88af7ed394aa")
+	)
+	(wire
+		(pts
+			(xy 193.04 77.47) (xy 193.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8700e722-2da3-4bc3-b838-45082721a1c8")
+	)
+	(wire
+		(pts
+			(xy 157.48 77.47) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efd5914-bcfa-49fa-9b1a-594f663cbe42")
+	)
+	(wire
+		(pts
+			(xy 123.19 77.47) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901ff9e6-2108-49e2-856c-95817b30213c")
+	)
+	(wire
+		(pts
+			(xy 123.19 92.71) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ceee53-1318-44b7-99c0-818f9fb52ee4")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99801077-0199-4d6f-bb9d-d2529493f97a")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab321e6d-e472-4c61-a24e-4cbf409ea967")
+	)
+	(wire
+		(pts
+			(xy 123.19 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af48a31f-a6db-4778-adf8-81f9197a60d2")
+	)
+	(wire
+		(pts
+			(xy 166.37 77.47) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba548487-f59f-4bd9-8e68-9c71f2b2db0a")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 114.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e9c173-23b3-4777-bcdb-e696d2882117")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c330b60b-c50b-4411-b4dd-e50b6388b874")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce58b6c0-fd46-4520-aed0-36d91108778a")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4750fec-57ce-4356-9f5f-b991ab156ada")
+	)
+	(wire
+		(pts
+			(xy 147.32 77.47) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b275c6-1f5c-4009-acf3-4d7bb5c47f65")
+	)
+	(wire
+		(pts
+			(xy 193.04 104.14) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef079626-4b14-4136-8ea1-e15c56309913")
+	)
+	(wire
+		(pts
+			(xy 130.81 77.47) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9257aa1-c6fd-4840-b7fe-ab00e46993c3")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2d42dc-f420-42e7-b157-37d132e09ade")
+	)
+	(hierarchical_label "Pin9"
+		(shape input)
+		(at 184.15 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38e87fc3-e510-4410-8f4a-fe1995e5bfb4")
+	)
+	(hierarchical_label "Pin4"
+		(shape input)
+		(at 139.7 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5422ee87-cac6-4d72-b339-f9ed4a2f2416")
+	)
+	(hierarchical_label "Pin1"
+		(shape input)
+		(at 114.3 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "590da6d9-fbbe-45ad-8d3f-79255b59e8bc")
+	)
+	(hierarchical_label "Pin2"
+		(shape input)
+		(at 123.19 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ace32df-a7cb-4907-8f6f-64ba0c0d8e8a")
+	)
+	(hierarchical_label "Pin10"
+		(shape input)
+		(at 193.04 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d5f7d90-23c4-481d-b305-ce0b95777144")
+	)
+	(hierarchical_label "Pin6"
+		(shape input)
+		(at 157.48 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c633e43-1e31-478a-8a19-9159a22b33d7")
+	)
+	(hierarchical_label "Pin5"
+		(shape input)
+		(at 147.32 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79653909-79fc-499f-a393-704844e54242")
+	)
+	(hierarchical_label "Pin7"
+		(shape input)
+		(at 166.37 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c06351c-0028-491a-8e59-a9de139942c7")
+	)
+	(hierarchical_label "Pin8"
+		(shape input)
+		(at 175.26 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2ceff19-d1fe-4cba-9693-4d7e4dd3e44a")
+	)
+	(hierarchical_label "Pin3"
+		(shape input)
+		(at 130.81 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0267d12-20ed-4b0b-8c5e-632a19954649")
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 139.7 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35c089c2-8615-408a-9554-671a4e525c95")
+		(property "Reference" "D17"
+			(at 133.604 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 136.144 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 153.924 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 151.892 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 149.606 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 147.828 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f2bc7ac-ea88-4d71-a87a-144daaaf06bb")
+		)
+		(pin "2"
+			(uuid "d5411e3c-912d-4632-9f66-222e190ab475")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 175.26 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b147995-6e0c-48d3-91a3-096585262314")
+		(property "Reference" "D21"
+			(at 169.164 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 171.704 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 189.484 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 187.452 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 185.166 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 183.388 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b9d43e9-e685-4fd1-aef9-769a644a2807")
+		)
+		(pin "2"
+			(uuid "8839d171-1a4d-4b56-b81d-c661d3a40a6a")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 114.3 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd82f00-fba1-4466-b69c-bb5c36db7515")
+		(property "Reference" "D14"
+			(at 108.204 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 110.744 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 128.524 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 126.492 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 124.206 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 122.428 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbd6c050-92e2-4a28-b86f-2e61a2e154a1")
+		)
+		(pin "2"
+			(uuid "c66f1dc1-57cb-4048-a153-02ad797cb2a0")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 123.19 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72136cd1-b714-4aeb-acae-99d4f7c10321")
+		(property "Reference" "D15"
+			(at 117.094 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 119.634 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 137.414 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 135.382 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 133.096 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 131.318 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dfecff3-7875-45af-9e91-29d3a7ea98ea")
+		)
+		(pin "2"
+			(uuid "f49a64da-25e0-4e66-9130-a5fbb3760d9a")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 147.32 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84ccf0c3-a3f7-4a09-8419-06e526a94bf6")
+		(property "Reference" "D18"
+			(at 141.224 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 143.764 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 161.544 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 159.512 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 157.226 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 155.448 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53659126-b7af-493e-86c3-720e745fc131")
+		)
+		(pin "2"
+			(uuid "8dac320f-00de-4c68-87df-67fe2bc66842")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 130.81 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86d51169-fd3d-461f-b724-0ecda557aff4")
+		(property "Reference" "D16"
+			(at 124.714 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 127.254 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 145.034 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 143.002 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 140.716 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 138.938 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7821e0fe-a13d-4120-9f8f-0b873b9cccf2")
+		)
+		(pin "2"
+			(uuid "c4ed3d6d-8aef-4089-b0b2-1289b76b8075")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab758522-c290-4784-8811-9b1bbe05999f")
+		(property "Reference" "#PWR0277"
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef979ea7-3b4d-4d28-a2a6-cc16e411c0f8")
+		)
+		(instances
+			(project ""
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "#PWR0277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 157.48 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baf3bff4-a23e-4d62-acb3-e79c6020c68e")
+		(property "Reference" "D19"
+			(at 151.384 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 153.924 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 171.704 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 169.672 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 167.386 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 165.608 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72309929-2793-4f62-a2ad-a5fbf3028496")
+		)
+		(pin "2"
+			(uuid "def29455-66ac-44d9-846b-1bf26fd9b8bb")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 193.04 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c41663e8-e770-4d4f-8031-fcdc9f43e075")
+		(property "Reference" "D23"
+			(at 186.944 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 189.484 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 207.264 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 205.232 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 202.946 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 201.168 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee1c2c55-5c5b-4e3f-87e4-56efad12105e")
+		)
+		(pin "2"
+			(uuid "d702fa8c-d6ea-4cb3-a2f6-1d3b1af16d6c")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 184.15 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7c04be4-37ca-4e4e-b719-9e64093aa993")
+		(property "Reference" "D22"
+			(at 178.054 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 180.594 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 198.374 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 196.342 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 194.056 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 192.278 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "242772cc-2d65-480c-b849-1a904873dea2")
+		)
+		(pin "2"
+			(uuid "583abfc6-de52-4024-8e12-e847123885ab")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:ESD_Diode_5V6")
+		(at 166.37 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e77a062b-4d8f-451f-8f36-0a1429a7f528")
+		(property "Reference" "D20"
+			(at 160.274 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B72590D50H160"
+			(at 162.814 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 180.594 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/75/ds/High_speed_series.pdf"
+			(at 178.562 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Diode, maximal 5.6V DC"
+			(at 176.276 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser nr." "871-B72590D50H160 "
+			(at 174.498 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e33cf196-c71f-408f-a9ac-3d28cde56528")
+		)
+		(pin "2"
+			(uuid "6340d02b-f58f-47d0-8448-327649bc8dac")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/6ef258ed-945f-43cf-b75c-abeb7326966c/36596d62-9129-467a-b52e-72e709636837"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

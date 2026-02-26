@@ -1,0 +1,428 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4a12faab-c14f-4e46-b8b0-9c881e4d2e6b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "MYLIB_Misc:Plug_Termincal_8pin"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Plug_Termincal_8pin"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MYLIB_Misc:DMC 1,5_ 8-G1-3,5 P20THR"
+				(at -0.762 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product-download.phoenixcontact.com/7581871?response-content-disposition=inline;%20filename%3D%221786895_02_en_00.pdf%22&Expires=1762790272&Signature=swgT~pfHFsm~KFte~1FyTUdCZaY3mURW7Sm3ZO1670aosCFDktyp77XVjT~WM-BF5UAYAn7SB97Gn5JYnUQEo2Fo4coNlwQu8FvGxlAgu6cPDUpTS7qKwCUFJAfHbnWDITx10Xgr4f3IGJZgshPlJKuMwfqJ1~soOFux2NQtmqne1nW1QpnapOHvfXEmIqUT8lfI05sqOMTbP8aHqqhzBDIfpY8psZXo36OHFrhnt8hDQ0wXe394Nf9wPZgUL--r-V-FA68hmgIiKUjjxetMxbp5wlmyiyZTnTkfqKPBXq4SCTPMeVpkhphIF7vmWwvwFFSD8XTuiqvSgzKTNBIHtQ__&Key-Pair-Id=K1I2N54A7B0GD"
+				(at 0.508 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pluggable Terminal Blocks 8 Pos 3.5mm Dbl Row Plug 24-16AWG Spring"
+				(at -0.508 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mating Connector Mouser" " 651-1790357"
+				(at 1.016 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mating Connector Link" "https://product-download.phoenixcontact.com/8945604?response-content-disposition=inline;%20filename%3D%221790357_04_en_03.pdf%22&Expires=1762789986&Signature=ipEMNH2oRldeatNpCt2LgQ2qfu7zONe9r5fTnUSu~jVXEFxJXimB1mNBJG54W6gMaB3mL1auhUEZHbNWKHeBpVePo4wLkQTSMGiAroKySyTr75NkMuRgQrBNp5zFPa0nsk04bgnmTglvgn3Nkk0r-ygqga5CCZms3pwphqmh2MiSRDj1dVFlWYrLZMXfeWBeOA8eRxkTpTCFV9F7L5cZnVIsq0jCQRITzgdzqH05q~PF1m-rPiv5SdIFT0eLthdpIX2QoY37c2J4~ZpfG3fvrBenTcVOu77f1kcfo4KCglyWA8fQXeP5CE9fn8rCtQ8mClfe-vR81PjWTNgBQX~ynw__&Key-Pair-Id=K1I2N54A7B0GD"
+				(at 0.508 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Plug_Termincal_8pin_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -2.54 0.127)
+					(end -1.27 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.413)
+					(end -1.27 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -4.953)
+					(end -1.27 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -7.493)
+					(end -1.27 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 0.127)
+					(end 1.27 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.413)
+					(end 1.27 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -4.953)
+					(end 1.27 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.493)
+					(end 1.27 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -7.62 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Plug_Termincal_8pin")
+		(at 102.87 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cebc5b10-eb91-404a-a47e-20b4cc5e4d9a")
+		(property "Reference" "J103"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Plug_Termincal_8pin"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLIB_Misc:DMC 1,5_ 8-G1-3,5 P20THR"
+			(at 102.108 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product-download.phoenixcontact.com/7581871?response-content-disposition=inline;%20filename%3D%221786895_02_en_00.pdf%22&Expires=1762790272&Signature=swgT~pfHFsm~KFte~1FyTUdCZaY3mURW7Sm3ZO1670aosCFDktyp77XVjT~WM-BF5UAYAn7SB97Gn5JYnUQEo2Fo4coNlwQu8FvGxlAgu6cPDUpTS7qKwCUFJAfHbnWDITx10Xgr4f3IGJZgshPlJKuMwfqJ1~soOFux2NQtmqne1nW1QpnapOHvfXEmIqUT8lfI05sqOMTbP8aHqqhzBDIfpY8psZXo36OHFrhnt8hDQ0wXe394Nf9wPZgUL--r-V-FA68hmgIiKUjjxetMxbp5wlmyiyZTnTkfqKPBXq4SCTPMeVpkhphIF7vmWwvwFFSD8XTuiqvSgzKTNBIHtQ__&Key-Pair-Id=K1I2N54A7B0GD"
+			(at 103.378 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pluggable Terminal Blocks 8 Pos 3.5mm Dbl Row Plug 24-16AWG Spring"
+			(at 102.362 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector Mouser" " 651-1790357"
+			(at 103.886 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector Link" "https://product-download.phoenixcontact.com/8945604?response-content-disposition=inline;%20filename%3D%221790357_04_en_03.pdf%22&Expires=1762789986&Signature=ipEMNH2oRldeatNpCt2LgQ2qfu7zONe9r5fTnUSu~jVXEFxJXimB1mNBJG54W6gMaB3mL1auhUEZHbNWKHeBpVePo4wLkQTSMGiAroKySyTr75NkMuRgQrBNp5zFPa0nsk04bgnmTglvgn3Nkk0r-ygqga5CCZms3pwphqmh2MiSRDj1dVFlWYrLZMXfeWBeOA8eRxkTpTCFV9F7L5cZnVIsq0jCQRITzgdzqH05q~PF1m-rPiv5SdIFT0eLthdpIX2QoY37c2J4~ZpfG3fvrBenTcVOu77f1kcfo4KCglyWA8fQXeP5CE9fn8rCtQ8mClfe-vR81PjWTNgBQX~ynw__&Key-Pair-Id=K1I2N54A7B0GD"
+			(at 103.378 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "122bd213-8228-43dc-8575-329239600261")
+		)
+		(pin "8"
+			(uuid "e9494e1e-4970-49af-b5ed-074a37afe4bf")
+		)
+		(pin "4"
+			(uuid "d06b82b9-e611-4f76-aff5-705f381eea8b")
+		)
+		(pin "6"
+			(uuid "b6a633c1-8f39-4b99-b8b3-c9aa4be214f0")
+		)
+		(pin "3"
+			(uuid "a1abfb45-63d7-407f-9540-bcec97976a10")
+		)
+		(pin "1"
+			(uuid "0de92bfc-7a3c-4cee-b3a8-5032c3c4a421")
+		)
+		(pin "2"
+			(uuid "2c957ea0-8e0a-413d-9ec5-8125750ed475")
+		)
+		(pin "5"
+			(uuid "22742221-afa6-4762-991a-5eb7f46da49c")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/8d8cc2ce-248d-4278-aa53-2a8cdedd6af0"
+					(reference "J103")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

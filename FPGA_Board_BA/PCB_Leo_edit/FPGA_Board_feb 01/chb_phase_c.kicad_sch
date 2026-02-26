@@ -1,0 +1,4028 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4d3b15d8-dfc6-4418-99b1-ea591e095cfe")
+	(paper "A4")
+	(lib_symbols
+		(symbol "MYLIB_Misc:Box_Header_6pin"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Box_Header_6pin"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+				(at -3.556 17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+				(at 0 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Wannenstecker 6pin, THT Vertikal"
+				(at 0.762 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Box_Header_6pin_1_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -3.81 2.667)
+					(end -2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 0.127)
+					(end -2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 -2.413)
+					(end -2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 177.8 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "003594dd-4c1f-40d4-be2d-c635b9caf596")
+	)
+	(junction
+		(at 177.8 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05330ed0-ebcd-4e68-8611-17732936c299")
+	)
+	(junction
+		(at 153.67 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05d1bc85-24fe-491c-9971-6c4e84f72fa6")
+	)
+	(junction
+		(at 148.59 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07a36e78-6303-4980-a2d6-31c0404d0ec0")
+	)
+	(junction
+		(at 148.59 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09270ea5-d942-4a2c-915a-17cfca83d21e")
+	)
+	(junction
+		(at 148.59 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e7f7525-7e74-4ea9-8739-fa73162c721c")
+	)
+	(junction
+		(at 182.88 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11ec4809-2c45-4393-95e1-946a452847fe")
+	)
+	(junction
+		(at 207.01 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15ef380c-61bb-4471-be3e-8124a27daa9c")
+	)
+	(junction
+		(at 95.25 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18d3367d-6c2a-43b5-8643-d3c44a26a6ae")
+	)
+	(junction
+		(at 182.88 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26d0455a-b570-45ad-a35b-15d0ad9109ab")
+	)
+	(junction
+		(at 148.59 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "304339f8-da35-4bf6-839c-e3ef76078454")
+	)
+	(junction
+		(at 95.25 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f5f0ba-94d2-49eb-a3c0-3d77fb1068c8")
+	)
+	(junction
+		(at 95.25 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33337b01-7315-40c3-9ff2-b38145523150")
+	)
+	(junction
+		(at 207.01 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34401318-d6fe-4a14-b321-4460329de989")
+	)
+	(junction
+		(at 207.01 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34cc37e1-4c01-4713-8a4c-6926424b0759")
+	)
+	(junction
+		(at 207.01 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35c97797-183d-4cfc-babf-4a793c42bced")
+	)
+	(junction
+		(at 182.88 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "362e9e62-c1a5-4ef1-be14-89c0258c8166")
+	)
+	(junction
+		(at 124.46 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36dcc4c7-3dda-4691-a7e7-98a6c912574f")
+	)
+	(junction
+		(at 148.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3738646a-3db6-4c66-ab75-8da61a56aea2")
+	)
+	(junction
+		(at 95.25 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3943849d-a91a-4b4b-99bf-837dc7682b40")
+	)
+	(junction
+		(at 124.46 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bff4f7c-384c-48ff-8c68-05fbf0ef2110")
+	)
+	(junction
+		(at 207.01 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40c562c8-9c6f-4c0f-af72-7bb61d6a0e2a")
+	)
+	(junction
+		(at 177.8 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46038a9e-279b-42aa-a183-c81d7284973f")
+	)
+	(junction
+		(at 207.01 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c21d8a-491b-4b5b-b0db-6a6ea8dac9fc")
+	)
+	(junction
+		(at 119.38 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49f2eeb0-8b74-49e0-819b-10d892b51cfb")
+	)
+	(junction
+		(at 124.46 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a844dcc-e89b-41e1-ac92-0977926e02bf")
+	)
+	(junction
+		(at 95.25 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fb6493b-f3bf-4ccd-8966-c7b1aca7ee99")
+	)
+	(junction
+		(at 153.67 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51430243-a978-42f9-87dd-091d86e2e22a")
+	)
+	(junction
+		(at 153.67 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "514d802e-a627-446a-9358-0498d2b55e60")
+	)
+	(junction
+		(at 119.38 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a86f031-6bb4-47e6-a748-4796b31b78eb")
+	)
+	(junction
+		(at 119.38 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ede9d12-910a-4bc8-a232-5a6298a0d96c")
+	)
+	(junction
+		(at 119.38 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "649c3023-5db5-4ff7-96b0-f3236eb434d4")
+	)
+	(junction
+		(at 119.38 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65a72f5e-afda-4343-b876-b9a5db0b3dc4")
+	)
+	(junction
+		(at 207.01 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6761ebe7-f625-42c6-87d2-5d13b27eb132")
+	)
+	(junction
+		(at 124.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67951850-038c-47c8-932a-f9ee5b3b71d0")
+	)
+	(junction
+		(at 124.46 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d6dc178-84d5-43c4-9108-421d2b6fa172")
+	)
+	(junction
+		(at 124.46 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e39eaf4-2d0d-41be-b8b0-a293697634a9")
+	)
+	(junction
+		(at 148.59 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70749f2f-72ad-435f-8ae3-accbcce8af76")
+	)
+	(junction
+		(at 124.46 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749e8491-04b6-4d72-b9ed-19cce34e0aef")
+	)
+	(junction
+		(at 153.67 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74a01219-6c27-4114-a0e4-5afd6078cede")
+	)
+	(junction
+		(at 207.01 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78dc79e6-5031-4107-92f1-8628261c1cdf")
+	)
+	(junction
+		(at 182.88 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "790fe7df-08fa-47d6-849c-5fa6f3a00ae4")
+	)
+	(junction
+		(at 95.25 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7af2e19c-6e68-4b09-833d-06f62ecdc915")
+	)
+	(junction
+		(at 153.67 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b750caf-0406-4069-8f20-4b8a9fb8122d")
+	)
+	(junction
+		(at 177.8 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c04927a-1b6b-4695-b932-3ba7a2311743")
+	)
+	(junction
+		(at 153.67 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d0e57a7-4f26-4b5e-81fe-deae78a5170e")
+	)
+	(junction
+		(at 153.67 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dfbb0ae-1fa7-4b63-bf2f-fa897964a817")
+	)
+	(junction
+		(at 182.88 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86425e0b-ef62-41b0-b06e-384ae35c4c5f")
+	)
+	(junction
+		(at 207.01 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "889a8425-b7a0-4122-8dac-5abfddf515f4")
+	)
+	(junction
+		(at 124.46 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "892029ac-40a5-4543-9a22-35b8c40a50ce")
+	)
+	(junction
+		(at 182.88 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a15a0b9-c183-48a8-b601-3e2e0151b622")
+	)
+	(junction
+		(at 182.88 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dfe372b-784e-407b-bc99-7376de2bc87c")
+	)
+	(junction
+		(at 207.01 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "917c2180-f338-40b2-b857-23576db29d02")
+	)
+	(junction
+		(at 124.46 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d47092-9309-4835-8240-738852248a6b")
+	)
+	(junction
+		(at 95.25 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96849454-78b6-4f14-be46-888023500189")
+	)
+	(junction
+		(at 182.88 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9809330f-22c3-4c0b-9cda-259b30356a34")
+	)
+	(junction
+		(at 95.25 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a148adb-99f3-4e2b-a26e-c2b3e1d28649")
+	)
+	(junction
+		(at 177.8 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a22c2727-5b64-4a80-838b-5097d8a71b76")
+	)
+	(junction
+		(at 119.38 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7693301-04b6-4995-ba85-f0ca1ae0b7c0")
+	)
+	(junction
+		(at 119.38 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac4736b4-b1bb-4a1c-b7e4-a35028eb536e")
+	)
+	(junction
+		(at 182.88 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad5b7522-d27e-4603-b5b9-05deca68f90a")
+	)
+	(junction
+		(at 124.46 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b23cd1b7-2ded-4804-9fa7-ca198cebaf83")
+	)
+	(junction
+		(at 148.59 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4356fd9-ec83-453b-bf18-d1044c086bb1")
+	)
+	(junction
+		(at 148.59 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b70dcfdd-6c06-46ac-ae5a-26ff86cfc263")
+	)
+	(junction
+		(at 148.59 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd684577-3423-4539-ac77-65cc1ce856d5")
+	)
+	(junction
+		(at 95.25 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c28b3b38-d9bb-4c19-8980-e97fb55e26ff")
+	)
+	(junction
+		(at 124.46 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c593fd15-8247-4096-9756-9471cc9248c1")
+	)
+	(junction
+		(at 177.8 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6a818a9-6a03-4fe6-ba51-77ca46a67ac7")
+	)
+	(junction
+		(at 119.38 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7786179-f353-494c-8deb-d0237b8ee664")
+	)
+	(junction
+		(at 177.8 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c829cd8c-3a75-4960-b257-10994cfe1a8c")
+	)
+	(junction
+		(at 153.67 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c957b9b1-04e4-46d4-8309-8a0dac2aa6bb")
+	)
+	(junction
+		(at 177.8 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cec210aa-5b6c-4d7d-b20e-e4a7f7fd9833")
+	)
+	(junction
+		(at 182.88 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3b6e01d-2acc-4f22-a5b9-e18f505251c6")
+	)
+	(junction
+		(at 182.88 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0ec68a-9964-4abd-ac40-a7699ec42f29")
+	)
+	(junction
+		(at 153.67 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db5218b7-8d23-4b65-8501-9e8ff76213d3")
+	)
+	(junction
+		(at 119.38 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc57233a-b3dd-4ea8-890b-3bf66c544fa6")
+	)
+	(junction
+		(at 119.38 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd95bd2f-13e6-49d2-851a-1541bb25a9b3")
+	)
+	(junction
+		(at 177.8 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddffae54-ef54-475d-ac6c-fccac2c27ab2")
+	)
+	(junction
+		(at 153.67 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de038c57-37c5-425e-881f-112613583f04")
+	)
+	(junction
+		(at 207.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e189148a-67bd-4b34-baad-98f59e99255f")
+	)
+	(junction
+		(at 119.38 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e308224b-82f8-4ada-8fc1-16b63c8534f0")
+	)
+	(junction
+		(at 95.25 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e35b2b3d-3e00-44ca-a572-b1a6d4e2720e")
+	)
+	(junction
+		(at 153.67 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5b193b3-1f24-42d5-a943-c744e7235a18")
+	)
+	(junction
+		(at 177.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7af1a1f-aed8-4af4-af07-3e3a810de8ea")
+	)
+	(junction
+		(at 148.59 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e95cf5f2-744f-49c4-9522-13214fb7e2ed")
+	)
+	(junction
+		(at 177.8 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f44cca1a-274c-4122-ba4f-d20414247f39")
+	)
+	(junction
+		(at 148.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8826f26-e697-4ab3-8c43-a4b11b47c864")
+	)
+	(junction
+		(at 95.25 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffe9fbf1-5f55-4c34-9733-fd5b446641b3")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 95.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009529cd-1b66-486e-9248-47ef282481af")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025d2262-f3a5-4a1f-b90d-9bbe67b71890")
+	)
+	(wire
+		(pts
+			(xy 186.69 93.98) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02830419-02b0-44d8-96d6-b5905252c8dc")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046b0858-8107-4306-bb9e-040f6c700cf4")
+	)
+	(wire
+		(pts
+			(xy 95.25 59.69) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d5ceaa-3006-4fc9-947c-8887f702e270")
+	)
+	(wire
+		(pts
+			(xy 157.48 111.76) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9f81a7-0dfd-4a35-aa26-24caa4f891b1")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1079732e-23d9-43ea-be04-b57a2df2aee7")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1289f4a5-34ce-4c31-a09a-5e63b2484e44")
+	)
+	(wire
+		(pts
+			(xy 95.25 93.98) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c205a0-6959-4ea6-9753-d494437a4e23")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 95.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e68f80-d1e5-4edc-9f01-9c3fb630dbca")
+	)
+	(wire
+		(pts
+			(xy 153.67 129.54) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1648b475-b176-4d3a-b711-5ba5924b6052")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c102aa-95ba-468f-b79c-48439f1e81f4")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 186.69 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a881b14-b759-499d-a0fe-ca7f1688ee90")
+	)
+	(wire
+		(pts
+			(xy 119.38 81.28) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa66c66-6cc4-4f9f-a9d1-05337bca28ae")
+	)
+	(wire
+		(pts
+			(xy 143.51 132.08) (xy 148.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdd5601-b01f-422f-be3b-e581c94727dd")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c8204ef-19db-408c-a076-3559b4ffd69e")
+	)
+	(wire
+		(pts
+			(xy 95.25 129.54) (xy 95.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce08ed3-217e-4b60-90ea-53db036d93c5")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 124.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e422a75-805d-44b4-8a21-75e3326d80c2")
+	)
+	(wire
+		(pts
+			(xy 207.01 96.52) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4e3399-00d9-4ea2-bec7-95a003c7b8c3")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec14198-6a75-4415-89d4-7c8b6558adbd")
+	)
+	(wire
+		(pts
+			(xy 182.88 76.2) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee8527c-cf99-456f-9542-322f4eb1d64b")
+	)
+	(wire
+		(pts
+			(xy 186.69 99.06) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd29234-d6f7-40d5-b8a5-4a77fb7e268f")
+	)
+	(wire
+		(pts
+			(xy 153.67 132.08) (xy 157.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ae9d69-339c-45b8-97cd-fec4e74e9cb1")
+	)
+	(wire
+		(pts
+			(xy 186.69 134.62) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2284d00f-951c-450d-947e-5491ca560300")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22980037-f3d6-4084-80ad-b34e72ece8b7")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 148.59 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d2354e-a8d3-4f9d-ba5a-54f4f9c70d1a")
+	)
+	(wire
+		(pts
+			(xy 207.01 81.28) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243b3ae0-0346-4fae-8aa7-9b849038d51f")
+	)
+	(wire
+		(pts
+			(xy 201.93 134.62) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2460f318-9024-4e47-8504-6281171b290e")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b68041-70a6-423e-acfb-744d594b7e45")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254dbddf-0ea3-46ca-a0a8-6e59dd71fbf8")
+	)
+	(wire
+		(pts
+			(xy 119.38 140.97) (xy 124.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2643f0a4-f9c1-46d9-be8e-5eb0b9f8ca5a")
+	)
+	(wire
+		(pts
+			(xy 157.48 116.84) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27050d37-bf53-4bd1-b619-d72d79f398fc")
+	)
+	(wire
+		(pts
+			(xy 114.3 129.54) (xy 119.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d354d53-77a4-498d-88fb-e5622f5e69c7")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbcfeca-17d6-480b-a2aa-f45f6c61633f")
+	)
+	(wire
+		(pts
+			(xy 201.93 111.76) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f03d73d-791e-453a-945d-1c1951c19d87")
+	)
+	(wire
+		(pts
+			(xy 172.72 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f532b99-8e3f-4161-b635-cf5a5c7c1393")
+	)
+	(wire
+		(pts
+			(xy 153.67 111.76) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3092d6ea-5011-43fc-879b-0c9877cb0773")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 148.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30985786-7dc8-4e1f-821f-557ea647d726")
+	)
+	(wire
+		(pts
+			(xy 124.46 111.76) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d0e22c-f19e-4a49-aa0f-1c252ce39fe0")
+	)
+	(wire
+		(pts
+			(xy 119.38 132.08) (xy 119.38 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3173a872-417d-4149-809a-0837ac957751")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e9758b-e18d-41f7-bf72-925509424088")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3274d787-f361-4e4c-b291-a6e17d73a5ae")
+	)
+	(wire
+		(pts
+			(xy 207.01 78.74) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33471410-5b8e-4d1c-9dca-431549fdf094")
+	)
+	(wire
+		(pts
+			(xy 207.01 57.15) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e14fb3-65b5-4f36-84fc-c0a2e5b7baad")
+	)
+	(wire
+		(pts
+			(xy 95.25 99.06) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347caf38-ae59-4e9e-acac-7dfd0996e090")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 182.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3685c70c-3513-4e9b-b3f0-e1c509d7a991")
+	)
+	(wire
+		(pts
+			(xy 143.51 96.52) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3781cc42-174e-407d-8b96-7b8b121f01a9")
+	)
+	(wire
+		(pts
+			(xy 182.88 96.52) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b3739a-d6df-4a4a-b36c-2904880baf7c")
+	)
+	(wire
+		(pts
+			(xy 95.25 132.08) (xy 95.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ce0397-cbc4-4983-854e-78307b3cf52c")
+	)
+	(wire
+		(pts
+			(xy 182.88 93.98) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1f697c-3d8d-4623-8d2c-84999067a3c7")
+	)
+	(wire
+		(pts
+			(xy 207.01 76.2) (xy 201.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d777465-291f-4fc0-9cc6-32f3ac79a9e4")
+	)
+	(wire
+		(pts
+			(xy 119.38 116.84) (xy 119.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f3a1fa-882d-4289-923b-f4f4afc27cb1")
+	)
+	(wire
+		(pts
+			(xy 201.93 129.54) (xy 207.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42291144-3d2e-4edb-b1ea-89e13c0c2fcf")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dad94a-35c9-44ac-9d73-efd59c405195")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 119.38 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dfc371-fb36-4b01-83c5-aa31bcb1959d")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c0d95f-1e9b-4e7b-8bd9-d3ac7f29c626")
+	)
+	(wire
+		(pts
+			(xy 148.59 96.52) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4833f953-d80c-474e-bf0d-df12228f4e60")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4859b7d5-1a85-4782-a61d-412f2eecb647")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a46edd7-53fb-473c-96a8-a3cc8ea0e9a5")
+	)
+	(wire
+		(pts
+			(xy 124.46 129.54) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c995e30-ef03-4ff1-8ba3-7d12eb56e206")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 124.46 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf7d747-e11c-43cd-9d14-1ee6ab2c50c7")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed0d71c-67be-4144-9f15-6e97706579c3")
+	)
+	(wire
+		(pts
+			(xy 186.69 96.52) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50db360d-0067-4e48-9175-6d345d7cf01a")
+	)
+	(wire
+		(pts
+			(xy 172.72 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523f6745-2da7-4444-8442-b9a6373e8627")
+	)
+	(wire
+		(pts
+			(xy 177.8 139.7) (xy 182.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541c0439-afbc-4e0e-a965-3a6196f5f736")
+	)
+	(wire
+		(pts
+			(xy 153.67 96.52) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a61821-0b5f-4824-b813-462cb18fa441")
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56beb365-b884-4e79-903b-a7094f9676c1")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 177.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5769fd3d-54b1-444a-9451-20df43d6b87b")
+	)
+	(wire
+		(pts
+			(xy 186.69 129.54) (xy 182.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57840426-4571-445c-a1b0-4ceddd6fb469")
+	)
+	(wire
+		(pts
+			(xy 143.51 134.62) (xy 148.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59db4b05-c21a-4491-82e4-40f83bdc238e")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 177.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2a1bb0-cdc2-4079-b731-52dce3d045c5")
+	)
+	(wire
+		(pts
+			(xy 177.8 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb8f4bf-aa98-4262-857f-5013199a6763")
+	)
+	(wire
+		(pts
+			(xy 114.3 111.76) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f791e9b-82dd-49fa-acc8-1e3bdcd2ac24")
+	)
+	(wire
+		(pts
+			(xy 143.51 129.54) (xy 148.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa57c20-a737-482e-81f5-3e813c738177")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 177.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fce1a11-4177-4940-9e56-97e05b065f94")
+	)
+	(wire
+		(pts
+			(xy 201.93 81.28) (xy 207.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607aaa98-7bf3-4295-a79f-b8c17ae3817b")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 119.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6192d88d-4b86-4bc6-876c-da4de357ebeb")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ce0b92-7057-490e-9826-d45e69b391dc")
+	)
+	(wire
+		(pts
+			(xy 124.46 111.76) (xy 124.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632f0d7d-0036-4ab5-82db-5c65dc1bbd07")
+	)
+	(wire
+		(pts
+			(xy 148.59 129.54) (xy 148.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fdc7c1-bcb1-4570-afb4-a5aa8d418687")
+	)
+	(wire
+		(pts
+			(xy 182.88 132.08) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66203c23-45b4-4618-a272-cf48e808f31a")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d4c10e-6812-4d83-98de-d9f476f4b1e4")
+	)
+	(wire
+		(pts
+			(xy 95.25 129.54) (xy 95.25 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6836fd64-182e-428d-bf1b-eaabcf710ef2")
+	)
+	(wire
+		(pts
+			(xy 95.25 132.08) (xy 99.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a44a6d2-ad8b-4806-b155-03e232b76d90")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 95.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b22cd4a-8c81-4f42-bb21-cf98269f68f5")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef61150-e48c-4959-a80f-1e11dde0add3")
+	)
+	(wire
+		(pts
+			(xy 114.3 78.74) (xy 119.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2421aa-e8bf-4652-b9f9-a1caacfef128")
+	)
+	(wire
+		(pts
+			(xy 186.69 116.84) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa6ddb1-98fd-4fe7-a5e8-66ff00b09fc9")
+	)
+	(wire
+		(pts
+			(xy 182.88 132.08) (xy 186.69 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d66a14-7d88-475a-bcf3-c6daa5139987")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d11606-c760-4918-bb74-0f52e3b65d0a")
+	)
+	(wire
+		(pts
+			(xy 99.06 134.62) (xy 95.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7290ad57-c826-40be-8544-1417fc354694")
+	)
+	(wire
+		(pts
+			(xy 186.69 81.28) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742d1b12-c78f-4e58-b64f-0c6bf3bb6d22")
+	)
+	(wire
+		(pts
+			(xy 153.67 114.3) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7443bb95-0279-4025-803c-58afca5aa729")
+	)
+	(wire
+		(pts
+			(xy 182.88 114.3) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7465bebf-d240-4dd6-9132-19d188105faf")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 153.67 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755b5b29-04a2-45c9-b412-d7bbe5b358bd")
+	)
+	(wire
+		(pts
+			(xy 201.93 99.06) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7842b901-28ac-4799-9a97-b49dca238e8f")
+	)
+	(wire
+		(pts
+			(xy 182.88 99.06) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785234f9-84b0-4bfd-bdf2-d82cb925bb51")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 119.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4cbedd-9099-4922-a095-f40a64632e07")
+	)
+	(wire
+		(pts
+			(xy 201.93 78.74) (xy 207.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c766464-f94d-40f6-878b-4cc5fba131e8")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0a62a2-7474-4733-ba4e-a43045bd74b5")
+	)
+	(wire
+		(pts
+			(xy 153.67 129.54) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f932c04-61ee-4efe-86e5-209cc7e850da")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd39a04-7d70-4a3a-9d48-1333e7aa7042")
+	)
+	(wire
+		(pts
+			(xy 207.01 111.76) (xy 207.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8033b0e0-3df2-4120-be85-3ad1b1a772dd")
+	)
+	(wire
+		(pts
+			(xy 182.88 78.74) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e8cdbf-8dda-4fee-a012-d4107a6dc1df")
+	)
+	(wire
+		(pts
+			(xy 201.93 116.84) (xy 207.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834035f7-83ac-4123-b017-04c9abe9b846")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ee20ef-b68d-433e-a607-4159f1a4c69b")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a46334c-5c73-4d45-af29-78bfe82cf929")
+	)
+	(wire
+		(pts
+			(xy 207.01 132.08) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb52796-2e66-4f40-aa36-6bd561605564")
+	)
+	(wire
+		(pts
+			(xy 143.51 99.06) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7cd1ee-395d-4ec7-ad55-5dad83f85768")
+	)
+	(wire
+		(pts
+			(xy 148.59 134.62) (xy 148.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9084708f-9309-49a7-8cb2-b22afd11e8ac")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979315ee-ee90-444f-9f6e-a5e5980cf623")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9915c8fd-e07b-4e52-97dc-4143c684da42")
+	)
+	(wire
+		(pts
+			(xy 95.25 111.76) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5e062f-6d05-467e-984c-fd52e263c92d")
+	)
+	(wire
+		(pts
+			(xy 143.51 114.3) (xy 148.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8ec256-05e7-45b1-b39e-db8aef8ec3ed")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 119.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bee0175-126a-4b04-b9ac-f2774d6fc80d")
+	)
+	(wire
+		(pts
+			(xy 128.27 134.62) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfce457-3a6f-43e5-b50c-2a56793bdf33")
+	)
+	(wire
+		(pts
+			(xy 157.48 96.52) (xy 153.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef00024-80b5-4c3a-ac3f-80c3501fbcc3")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd1c8e5-8a48-4c16-87be-ac15f08e83a4")
+	)
+	(wire
+		(pts
+			(xy 124.46 78.74) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08a343d-2ea0-43d2-8ab3-5b6dc8574a66")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.74) (xy 148.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31043cc-ee7e-48d5-aaf1-676e518d3510")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56557aa-318a-45f1-a279-df768e535df6")
+	)
+	(wire
+		(pts
+			(xy 201.93 96.52) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5afcfdc-ca54-4ba8-b922-85894ae06201")
+	)
+	(wire
+		(pts
+			(xy 143.51 116.84) (xy 148.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ebcdd6-f916-4503-baa4-0e51da4a5847")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa268970-2f29-4042-8c4f-84a9229c084b")
+	)
+	(wire
+		(pts
+			(xy 153.67 134.62) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf34e13-d716-4020-828c-74fcf98065a2")
+	)
+	(wire
+		(pts
+			(xy 157.48 114.3) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf832a3-1c0e-4d4f-8d36-46d303cb3b10")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 95.25 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac5672a3-eebe-4bd1-8c6c-084388998359")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4a304e-49ab-4e07-86f9-4eef86b1b52d")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad81d7f1-baf4-40a4-9b8d-8fff9aa536fa")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0d6c97-5947-4cc4-b611-2bb22c435cb2")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6de185-9d94-4757-ba0a-24a438f106c8")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0160bc6-c1dc-47ea-95e3-21346125091c")
+	)
+	(wire
+		(pts
+			(xy 201.93 93.98) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1caebd0-81dc-422c-94fd-29669120b05f")
+	)
+	(wire
+		(pts
+			(xy 153.67 132.08) (xy 153.67 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b333aa43-be68-475c-bb70-ed4447b676c9")
+	)
+	(wire
+		(pts
+			(xy 207.01 116.84) (xy 207.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b769571e-be1c-45ef-a18a-2845fadc1e22")
+	)
+	(wire
+		(pts
+			(xy 172.72 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b9547a-b78d-4454-b68f-5d278965fdb3")
+	)
+	(wire
+		(pts
+			(xy 172.72 134.62) (xy 177.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7df753e-f3a3-484f-b59a-6f96ddeade4c")
+	)
+	(wire
+		(pts
+			(xy 124.46 132.08) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84f90e4-3ccb-457b-997c-e4beb985d64d")
+	)
+	(wire
+		(pts
+			(xy 201.93 114.3) (xy 207.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab9920b-36a2-494c-8ba8-710d719b4dce")
+	)
+	(wire
+		(pts
+			(xy 128.27 78.74) (xy 124.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbae3d6a-67c6-4824-bd49-54dcd6554e22")
+	)
+	(wire
+		(pts
+			(xy 148.59 114.3) (xy 148.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6a792f-3006-411e-a178-28c8091d7406")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 119.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befbfbe7-556d-43c7-aec6-6b3a20496b2f")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c2eafb-b03b-4af4-aba7-0eae391df0af")
+	)
+	(wire
+		(pts
+			(xy 201.93 132.08) (xy 207.01 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24df08e-4ad8-470c-9519-294fd6a5a7f0")
+	)
+	(wire
+		(pts
+			(xy 124.46 134.62) (xy 124.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bb3cdb-6fe6-475f-a026-f6c2233aa159")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c463c6c6-7a7d-4d1a-8eca-ac70b52da8f3")
+	)
+	(wire
+		(pts
+			(xy 95.25 111.76) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46816da-69c6-40f2-8561-a6616a8b393e")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 119.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dd2c2c-e2de-4b1d-90b7-5ca501870154")
+	)
+	(wire
+		(pts
+			(xy 124.46 114.3) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53cd85a-062b-4d02-adf1-248bfd4e0ffb")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60a6cae-086f-4bf7-b6df-d975980cc9d8")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88d2786-7fc2-4ba8-b9fb-5320c35477c5")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 124.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fd7c61-4a1d-4116-a6a1-cdf4ddde4e14")
+	)
+	(wire
+		(pts
+			(xy 153.67 99.06) (xy 153.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9102664-28fe-41fc-ab63-3a82053e8805")
+	)
+	(wire
+		(pts
+			(xy 148.59 116.84) (xy 148.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98fc574-ad60-4d00-8a36-b5f06b28779d")
+	)
+	(wire
+		(pts
+			(xy 177.8 93.98) (xy 177.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca449a3e-612a-47ba-b4ca-fd8910e7a35d")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca454730-2ee7-41d8-92aa-92f4f05b63b8")
+	)
+	(wire
+		(pts
+			(xy 207.01 114.3) (xy 207.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7c4dd6-2193-4978-908b-bb2090add04a")
+	)
+	(wire
+		(pts
+			(xy 207.01 93.98) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3f5d51-01b5-4784-b9ee-3ad10c752832")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 119.38 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce954748-f48e-4bf6-bd88-500de78a4e89")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25aa17e-dd5f-4c7b-863b-6ff9cbcf8192")
+	)
+	(wire
+		(pts
+			(xy 186.69 114.3) (xy 182.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ba601e-1a11-42b8-af08-e07647a37bc9")
+	)
+	(wire
+		(pts
+			(xy 177.8 132.08) (xy 177.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b74a23-bbab-4733-9790-68e725d870ac")
+	)
+	(wire
+		(pts
+			(xy 99.06 116.84) (xy 95.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8081d11-b5d8-4e2e-ba9d-9c11eb764d4b")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89a3c74-bf39-475b-9b00-46c2cca6523e")
+	)
+	(wire
+		(pts
+			(xy 124.46 132.08) (xy 128.27 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9617dc9-2874-4dd0-8f7b-2405c8bde310")
+	)
+	(wire
+		(pts
+			(xy 119.38 129.54) (xy 119.38 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db16e2b6-b16f-4461-87e3-a2317dbd4f45")
+	)
+	(wire
+		(pts
+			(xy 99.06 111.76) (xy 95.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc883623-0868-402f-b188-6300ce48b9ba")
+	)
+	(wire
+		(pts
+			(xy 153.67 111.76) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd719d80-f35c-485d-9940-d4503838f182")
+	)
+	(wire
+		(pts
+			(xy 157.48 129.54) (xy 153.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee46f15-4fb3-433f-8e2f-3b004f6a6298")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df41d31e-973f-4aeb-ae18-5b756340fce9")
+	)
+	(wire
+		(pts
+			(xy 177.8 129.54) (xy 177.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc9b6a2-f161-4274-bae6-a99bfd011572")
+	)
+	(wire
+		(pts
+			(xy 182.88 139.7) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d25dae-5b6c-46ad-a56b-c2a74708c7d5")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ef9a35-b1bd-422a-9639-3360a1fd6229")
+	)
+	(wire
+		(pts
+			(xy 124.46 129.54) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e467e8df-53ef-48d5-8fbc-4670455b4374")
+	)
+	(wire
+		(pts
+			(xy 95.25 78.74) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74f43c1-ae15-4b38-b6fc-e1cf92cec38b")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84fa3b6-da3a-4c21-b8a1-9e61f06cc926")
+	)
+	(wire
+		(pts
+			(xy 148.59 140.97) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6abcfb-90fc-43c6-9d08-2d960034e771")
+	)
+	(wire
+		(pts
+			(xy 157.48 99.06) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb819aa7-c28c-4a4a-9716-c5e064989537")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5d2167-26d8-4c39-b2ee-98418b14f2ad")
+	)
+	(wire
+		(pts
+			(xy 172.72 132.08) (xy 177.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee299a6d-8e63-4421-8c28-13f7cb5a7299")
+	)
+	(wire
+		(pts
+			(xy 186.69 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4d1744-491f-4ec6-b631-20974ca8d6b9")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea373ec-a55a-4921-bdb6-07d9d927baa2")
+	)
+	(wire
+		(pts
+			(xy 153.67 78.74) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2472a57-c500-4401-a90c-139166e2f393")
+	)
+	(wire
+		(pts
+			(xy 207.01 78.74) (xy 207.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bb63a1-c236-4a77-9690-03925b47dc30")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40b421c-1749-48e1-904a-0d831c4bb275")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 128.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4577bee-130f-41a6-8940-8ac284a69f34")
+	)
+	(wire
+		(pts
+			(xy 148.59 132.08) (xy 148.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5410cd0-7760-4683-a43f-71d511b5d2bb")
+	)
+	(wire
+		(pts
+			(xy 177.8 114.3) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7bec7d9-097f-4228-b526-124dd619c164")
+	)
+	(wire
+		(pts
+			(xy 99.06 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89ca207-9a03-4c46-80d3-8a9a27fca811")
+	)
+	(wire
+		(pts
+			(xy 207.01 111.76) (xy 207.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b84329-c6ba-4e6a-be90-c14ce8da7e7e")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c51b65-20c5-4c1d-a9aa-e601bf82d91e")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6e96f6-6726-4f28-92de-5b3a2c4e4c98")
+	)
+	(wire
+		(pts
+			(xy 207.01 129.54) (xy 207.01 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc77a6ca-d5bb-471c-9aff-0ade1c6a03f6")
+	)
+	(wire
+		(pts
+			(xy 148.59 111.76) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca9b7fb-ec3a-43e8-a4f6-a92eaf8247a9")
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 182.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbf57a3-ddbb-4e51-90b5-8d829e3baf7c")
+	)
+	(hierarchical_label "Out_2_Ph_C"
+		(shape output)
+		(at 207.01 57.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12dc79e6-cf81-4f82-96e0-6dc14a5342ce")
+	)
+	(hierarchical_label "Out_1_Ph_C"
+		(shape output)
+		(at 95.25 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcb0a914-51bd-43ad-a390-0efd0cbcd921")
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 165.1 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e075c04-cb7f-4333-82b1-b60b0f732fca")
+		(property "Reference" "J1010"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 168.656 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 165.1 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 164.338 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3772fbe-c4d6-4dab-98dd-dec41d307e69")
+		)
+		(pin "5"
+			(uuid "7ccaee60-abf5-4192-be59-d40c1fcbf913")
+		)
+		(pin "3"
+			(uuid "0d4ffd65-4b07-4d1d-aa46-b8c31b82119b")
+		)
+		(pin "4"
+			(uuid "fb6e6f0f-f04e-40da-8cb1-28b1e4a8a709")
+		)
+		(pin "6"
+			(uuid "a53bddeb-4632-4ae3-a667-2db6d65acd7e")
+		)
+		(pin "1"
+			(uuid "848c3e2e-9c96-46cd-ac97-40952d1a3a58")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 194.31 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "429266ef-99b2-4e65-a948-a431f71a2314")
+		(property "Reference" "J1016"
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 194.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 197.866 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 194.31 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 193.548 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "768e42cd-aca9-414d-a6e7-039a3770f36c")
+		)
+		(pin "5"
+			(uuid "53403ddb-42c8-475c-89e0-6cc093628738")
+		)
+		(pin "3"
+			(uuid "a24f9c1a-5e09-4b5e-a82a-78c939f8892c")
+		)
+		(pin "4"
+			(uuid "e5034189-8eb8-442e-90c5-64de41272e4d")
+		)
+		(pin "6"
+			(uuid "2fcbdc38-1f58-4ca9-b969-7271388b08e3")
+		)
+		(pin "1"
+			(uuid "f449eb7c-d7d9-41b4-9a4d-23d1be2a068f")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 194.31 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48ce368c-ae74-44d7-8ba7-4576c3b7f344")
+		(property "Reference" "J1015"
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 197.866 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 194.31 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 193.548 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "014d70e7-9d36-4ecd-9163-1af00f0dafb2")
+		)
+		(pin "5"
+			(uuid "6a098fbd-9878-4707-905c-bd57e844e016")
+		)
+		(pin "3"
+			(uuid "c9ec52cd-4cf6-466c-8a33-c7a1871e2324")
+		)
+		(pin "4"
+			(uuid "8d271e6e-53dc-4722-8f88-9f238d433507")
+		)
+		(pin "6"
+			(uuid "f68de5b9-badb-4efb-bfc4-79212354d2fb")
+		)
+		(pin "1"
+			(uuid "3b8fd738-e508-44e4-94a6-c2369caa7886")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 165.1 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e13b23e-2860-4388-8376-7b763460f47d")
+		(property "Reference" "J1011"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 168.656 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 165.1 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 164.338 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "279e5f92-356c-4e96-b4eb-a9f0b1deebb7")
+		)
+		(pin "5"
+			(uuid "17a58eae-2faa-4395-8fe4-189e11fceaf2")
+		)
+		(pin "3"
+			(uuid "89b19d61-27c9-4d1a-a1b6-bf86a9f7d297")
+		)
+		(pin "4"
+			(uuid "78b71550-3609-4e61-b6ca-67143272484b")
+		)
+		(pin "6"
+			(uuid "8214c40b-04ef-400b-ab01-16785fead80f")
+		)
+		(pin "1"
+			(uuid "c7e13d1f-7d4a-4249-9392-5698b0946f31")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 106.68 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "668a7de8-6724-4680-8e34-381eb5470f5e")
+		(property "Reference" "J1001"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 110.236 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 106.68 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 105.918 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55bc693b-9c33-4c49-b73c-9307bfe88558")
+		)
+		(pin "5"
+			(uuid "07df719c-6f99-48c5-b498-c27fe21c2556")
+		)
+		(pin "3"
+			(uuid "f215cd6f-6b16-4a20-869a-accad635804f")
+		)
+		(pin "4"
+			(uuid "4de088d6-e5c4-4fba-be02-c13d7510f64d")
+		)
+		(pin "6"
+			(uuid "54085a6a-e4f7-4e17-b437-3de10cdcfd1c")
+		)
+		(pin "1"
+			(uuid "f656d5ae-6581-42b2-9d8c-4da30d1fc4c8")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 106.68 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a3140c3-d7cc-437a-be23-7f276b815379")
+		(property "Reference" "J1003"
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 106.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 110.236 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 106.68 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 105.918 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "289c288e-ba4c-4ae5-aa0f-89ff577c146e")
+		)
+		(pin "5"
+			(uuid "faf57bac-f395-464b-8094-eb02e5ed2ecf")
+		)
+		(pin "3"
+			(uuid "63fe10ef-3a45-4e8e-91a4-80a37bdfc0a1")
+		)
+		(pin "4"
+			(uuid "96bb5d36-52b9-48ec-829f-a876d161c24e")
+		)
+		(pin "6"
+			(uuid "e7101dd8-081b-491f-b69b-073709bc150b")
+		)
+		(pin "1"
+			(uuid "9637994e-76d2-4b1d-afa8-9c2066c676e4")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 165.1 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7db893a3-bc45-406a-958e-c3c56a7941ea")
+		(property "Reference" "J1012"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 165.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 168.656 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 165.1 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 164.338 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e4add4b-f869-447c-b02a-3f599d9c8738")
+		)
+		(pin "5"
+			(uuid "5fc3ab3e-6980-4cd9-a268-bb5fdbc790bc")
+		)
+		(pin "3"
+			(uuid "b12a4ea5-dc8f-470c-bd82-5552bf0d7075")
+		)
+		(pin "4"
+			(uuid "01fe9dc0-4bd6-498f-994b-1393d706cbb4")
+		)
+		(pin "6"
+			(uuid "d5153e6e-b8a5-4dea-8347-89434cc4ae95")
+		)
+		(pin "1"
+			(uuid "cfe49bbf-66fc-4297-a222-a5f14a02ae74")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 194.31 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b70ed1d0-042c-4e83-acc6-aefa52b51194")
+		(property "Reference" "J1013"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 194.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 197.866 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 194.31 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 193.548 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a17e4ec2-5555-489f-8158-720c6cf111af")
+		)
+		(pin "5"
+			(uuid "0dcae0e0-3961-4aee-85fe-a055c2ce3aec")
+		)
+		(pin "3"
+			(uuid "2487cfce-4f89-468c-9d67-0db8b173e459")
+		)
+		(pin "4"
+			(uuid "73304b91-fc24-43b9-b53c-759bc0402d83")
+		)
+		(pin "6"
+			(uuid "33c72af0-c89f-4016-b797-18cd76a6cf7e")
+		)
+		(pin "1"
+			(uuid "44e3ace7-17f2-4cb5-bf02-b92b85ea2c05")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 194.31 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c05d9e91-217a-4d37-ab49-747c10f66c35")
+		(property "Reference" "J1014"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 197.866 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 194.31 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 193.548 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9dc29f3-8e67-42be-993f-c898d7a2ec8e")
+		)
+		(pin "5"
+			(uuid "5892ce2a-7a1e-4b10-859b-c6d0e717d261")
+		)
+		(pin "3"
+			(uuid "834affa4-864b-40d8-be7f-f405c8f61c58")
+		)
+		(pin "4"
+			(uuid "3f897d08-2533-45e7-bfa0-e1110bd3c0b9")
+		)
+		(pin "6"
+			(uuid "6d356fef-eede-46d6-a807-cf2c81b833a4")
+		)
+		(pin "1"
+			(uuid "0ffe3c35-5ebf-4aa1-98d1-e5cbf674a65f")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 135.89 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc47bd39-4300-406e-aa13-167c7d67d814")
+		(property "Reference" "J1005"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 139.446 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 135.89 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 135.128 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02be8381-7b61-43b7-b09b-0d9acc0a9625")
+		)
+		(pin "5"
+			(uuid "95a9d15e-4bf9-4762-8a3d-4b3e45746938")
+		)
+		(pin "3"
+			(uuid "96045f28-7ca8-4839-bfe3-f1c93c67808e")
+		)
+		(pin "4"
+			(uuid "6096da67-7039-4601-b590-4d85672784f3")
+		)
+		(pin "6"
+			(uuid "7d74b297-e71d-4985-b168-257a462b305a")
+		)
+		(pin "1"
+			(uuid "1f86967c-2b56-4ddf-a72b-95039e30fa0d")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 135.89 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0ec5bc9-2189-48cd-af45-7faf674fd385")
+		(property "Reference" "J1006"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 139.446 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 135.89 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 135.128 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a96a88b5-76a7-4a62-9357-9a073d3d7fed")
+		)
+		(pin "5"
+			(uuid "48d7208c-6137-484d-8936-f0ba862f13b2")
+		)
+		(pin "3"
+			(uuid "1b78ef87-bc8d-4b3f-974b-52d99797c449")
+		)
+		(pin "4"
+			(uuid "64750368-c773-4868-bec2-0f418680a9dd")
+		)
+		(pin "6"
+			(uuid "c36a7642-385a-4dab-bbc3-2a0568d12376")
+		)
+		(pin "1"
+			(uuid "df277f40-1bd6-4691-a42a-51f11746c263")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 106.68 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d110d84d-f10f-4e22-b37d-416d889a690d")
+		(property "Reference" "J1004"
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 110.236 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 106.68 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 105.918 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0558be04-9609-458f-a9a9-abccefdf34c3")
+		)
+		(pin "5"
+			(uuid "1ed1b485-9730-407e-96e1-bf2a69142f51")
+		)
+		(pin "3"
+			(uuid "8a322688-692a-403b-9851-2d9432806ceb")
+		)
+		(pin "4"
+			(uuid "623d3c15-663d-4e61-9ca6-9a757be69063")
+		)
+		(pin "6"
+			(uuid "73560398-fced-4119-bd66-d0fe095be0a3")
+		)
+		(pin "1"
+			(uuid "eed5462c-4c91-49b0-91ba-720428bdb415")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 135.89 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9a79542-db4f-4570-a12c-c1da4691111a")
+		(property "Reference" "J1008"
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 139.446 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 135.89 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 135.128 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a077aaea-e187-41e8-84bd-c30fa90c2dc6")
+		)
+		(pin "5"
+			(uuid "0ecb216e-a588-4614-b2f9-130e5105c52c")
+		)
+		(pin "3"
+			(uuid "cb3083b9-031e-4dbc-809a-12ec4aca1532")
+		)
+		(pin "4"
+			(uuid "ceba7df4-44e7-405f-9fa9-75b2814f26c2")
+		)
+		(pin "6"
+			(uuid "1e5d9068-32a6-4f21-918f-37050f602dd8")
+		)
+		(pin "1"
+			(uuid "a23a8f8a-f8f5-4bf9-99f4-e00aa095cb96")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 165.1 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb22cfbb-50ee-482e-ade8-fd30e6114b24")
+		(property "Reference" "J1009"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 168.656 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 165.1 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 164.338 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f886b14-71c6-46c9-bdda-189896eb021d")
+		)
+		(pin "5"
+			(uuid "3255ce3a-ab85-46ca-88bd-f2c20f9a1057")
+		)
+		(pin "3"
+			(uuid "c5dcc4f3-0ca9-4054-a799-041aef4c59a6")
+		)
+		(pin "4"
+			(uuid "0c06b6f6-99a6-4a67-a594-299e6b435f09")
+		)
+		(pin "6"
+			(uuid "440dd1bb-3608-4789-a4de-86468ce8b348")
+		)
+		(pin "1"
+			(uuid "d492030f-6124-4058-a5e7-85d50682a3b5")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 135.89 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1557c7e-e328-4bb3-a162-b88f4b3238b1")
+		(property "Reference" "J1007"
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 139.446 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 135.89 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 135.128 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ac28a84-b569-415b-adfc-3891ce9b75ea")
+		)
+		(pin "5"
+			(uuid "89dddd87-bdf8-4f73-8781-aa8bbc7fe1cf")
+		)
+		(pin "3"
+			(uuid "08e9d3b9-cb8a-44da-9543-74bdc05f2206")
+		)
+		(pin "4"
+			(uuid "7a43f0c7-5071-4471-b771-90033d167d14")
+		)
+		(pin "6"
+			(uuid "f7dc3995-9642-4d37-ade0-246a8afe5234")
+		)
+		(pin "1"
+			(uuid "89c85ecc-6f68-4d75-8f5d-970c8ac002d9")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MYLIB_Misc:Box_Header_6pin")
+		(at 106.68 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc89b3bd-c91e-48b0-9661-cfa271f7b647")
+		(property "Reference" "J1002"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Box_Header_6pin"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 110.236 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.reichelt.de/de/de/shop/produkt/wannenstecker_6-polig_gewinkelt-105978"
+			(at 106.68 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wannenstecker 6pin, THT Vertikal"
+			(at 105.918 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e02347d-f7e5-4c83-83fe-d0aaa715d346")
+		)
+		(pin "5"
+			(uuid "413b1aef-ff9b-4636-a175-8cb2505048f9")
+		)
+		(pin "3"
+			(uuid "5cb7b427-2dc2-4594-bfc2-024a7a51b73e")
+		)
+		(pin "4"
+			(uuid "9271a0d5-4d71-43a1-b09f-1819506b7075")
+		)
+		(pin "6"
+			(uuid "dd1b4b47-acd8-40f4-98fa-0b8039ab2566")
+		)
+		(pin "1"
+			(uuid "dd55d9a9-eba0-413b-bf5f-625ed8eabb7e")
+		)
+		(instances
+			(project "FPGA_Board_BA"
+				(path "/fd7503bc-e7fc-4766-b224-3d1c3d7de5ff/e884b539-4fb2-499d-8c9d-64645c35288e/b7d7b5a6-24ad-47c9-8ac7-e6fb0a867eb6"
+					(reference "J1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

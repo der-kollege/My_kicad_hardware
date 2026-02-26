@@ -1,0 +1,3726 @@
+<?xml version="1.0"?>
+<Recipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="FPGA_Board_BA-top-rezept">
+  <SoftwareInterfaceVersion>3400</SoftwareInterfaceVersion>
+  <Created>2026-02-11T13:08:16.0260648+01:00</Created>
+  <CreatedBy>makerDE</CreatedBy>
+  <Edited>2026-02-11T13:13:49.1858522+01:00</Edited>
+  <EditedBy>makerDE</EditedBy>
+  <ProductionSettings>
+    <BadMarkArray />
+    <ProductionSequenceSettingArray>
+      <ProductionSequence ProcessType="PICKANDPLACE" SequenceNumber="0" Execution="Continue" />
+    </ProductionSequenceSettingArray>
+    <AvailableProductionOptionArray />
+    <SelectedProductionOption LogicProductionOption="AND" />
+    <ElectricalVerificationMode>Off</ElectricalVerificationMode>
+    <ProduceInOrder>eNone</ProduceInOrder>
+    <DispenseFinalizePattern>false</DispenseFinalizePattern>
+    <DispenseLowestToHighest>false</DispenseLowestToHighest>
+    <DispenseSmallToBigVolume>false</DispenseSmallToBigVolume>
+    <DispenseAllowShapeReverseMovement>false</DispenseAllowShapeReverseMovement>
+  </ProductionSettings>
+  <BoardSettings>
+    <BoardVertex X_value="0" Y_value="0" />
+    <BoardVertexAnchor>bottomLeft</BoardVertexAnchor>
+    <BoardDimension Length_x="320" Width_y="160" />
+    <BoardThickness>1.6</BoardThickness>
+    <BoardHeightOffset>0</BoardHeightOffset>
+    <BoardStopPositionOffset>0</BoardStopPositionOffset>
+    <PcbType>eStandard</PcbType>
+    <AlignmentMode>eStandard</AlignmentMode>
+    <AlignmentTolerance>0.4</AlignmentTolerance>
+  </BoardSettings>
+  <MachineSettings>
+    <AdditionalRailYOffset>0.75</AdditionalRailYOffset>
+    <TimeToHeatingStandby>0</TimeToHeatingStandby>
+    <StandbyTemperatureReduction>0</StandbyTemperatureReduction>
+    <InputStage>
+      <Speed>rapid</Speed>
+      <HeatingOn>false</HeatingOn>
+      <Temperature>0</Temperature>
+      <WaitingTime>0</WaitingTime>
+    </InputStage>
+    <CenterStage>
+      <HeatingOn>false</HeatingOn>
+      <VacuumOn>false</VacuumOn>
+      <Temperature>0</Temperature>
+      <WaitingTime>0</WaitingTime>
+    </CenterStage>
+    <OutputStage>
+      <Speed>rapid</Speed>
+      <HeatingOn>false</HeatingOn>
+      <Temperature>0</Temperature>
+      <WaitingTime>0</WaitingTime>
+    </OutputStage>
+    <EnableLiftTable>false</EnableLiftTable>
+  </MachineSettings>
+  <Info />
+  <BoardIdentification />
+  <BoardFiducialArray>
+    <BoardFiducial>"fid1f"</BoardFiducial>
+    <BoardFiducial>"fid2f"</BoardFiducial>
+    <BoardFiducial>"fid3f"</BoardFiducial>
+  </BoardFiducialArray>
+  <IngredientArray>
+    <Ingredient Name="&quot;C1&quot;" Type="component">
+      <FK_Name>C_1u_50V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="82.75" Y_value="66.162900000000008" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C2&quot;" Type="component">
+      <FK_Name>C_1u_50V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="91.750000000000014" Y_value="60.075000000000017" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C3&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="78.5" Y_value="62.575000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C4&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="85.5" Y_value="66.162900000000008" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C5&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="78.25" Y_value="61.075000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C6&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="223.3625" Y_value="13.815100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C8&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="233.5" Y_value="13.565100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C10&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="243.3625" Y_value="13.815100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C17&quot;" Type="component">
+      <FK_Name>C_4u7_0603_C</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="38.25" Y_value="79.75" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C21&quot;" Type="component">
+      <FK_Name>C_4u7_0603_C</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="37.42" Y_value="91" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C24&quot;" Type="component">
+      <FK_Name>C_1u_50V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="40" Y_value="79.75" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C25&quot;" Type="component">
+      <FK_Name>C_4u7_0603_C</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="49.75" Y_value="90.982" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C27&quot;" Type="component">
+      <FK_Name>C_4u7_0603_C</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="47.25" Y_value="79.75" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C29&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="205" Y_value="14.75" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C32&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="201.75" Y_value="13.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C35&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="198.75" Y_value="13.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C38&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="205" Y_value="17.75" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C44&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="199.75" Y_value="25.75" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C46&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="286.97999999999996" Y_value="101.45500000000001" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C47&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="281.82599999999996" Y_value="97.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C48&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="135.175" Y_value="15.862500000000011" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C50&quot;" Type="component">
+      <FK_Name>C_1u_50V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="156.25" Y_value="19.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C51&quot;" Type="component">
+      <FK_Name>C_1u_50V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="156.25" Y_value="15.387500000000017" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C54&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="112.50000000000001" Y_value="137.275" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C57&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="91.02" Y_value="137" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C61&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="253.5" Y_value="13.565100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C63&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="263.3625" Y_value="13.815100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C65&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="273.5" Y_value="13.565100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C68&quot;" Type="component">
+      <FK_Name>C_1u_50V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="205.75" Y_value="20" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C75&quot;" Type="component">
+      <FK_Name>C_4u7_0603_C</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="97.4121" Y_value="125.75" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C76&quot;" Type="component">
+      <FK_Name>C_4u7_0603_C</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="97.4121" Y_value="124" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C77&quot;" Type="component">
+      <FK_Name>C_4u7_0603_C</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="97.4121" Y_value="122.25" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C79&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="202.75" Y_value="25.75" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C81&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="267.72999999999996" Y_value="101.45500000000001" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C82&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="262.57599999999996" Y_value="97.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C84&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="205" Y_value="25.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C86&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="248.47999999999996" Y_value="101.45500000000001" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C87&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="243.32599999999996" Y_value="97.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C89&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="205" Y_value="22.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C91&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="229.22999999999996" Y_value="101.45500000000001" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C92&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="224.07599999999996" Y_value="97.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C94&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="87.750000000000014" Y_value="52.825000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C96&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="67.75" Y_value="43.675000000000011" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C99&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="78.25" Y_value="54.325000000000017" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C101&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="56.5" Y_value="43.675000000000011" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C104&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="91.000000000000014" Y_value="54.825000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C106&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="67.710000000000008" Y_value="30.325000000000017" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C109&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="81.75" Y_value="52.825000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C111&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="56.460000000000008" Y_value="30.325000000000017" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C114&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="91.000000000000014" Y_value="57.825000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C116&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="67.67" Y_value="16.974999999999994" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C119&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="84.75" Y_value="52.825000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C121&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="56.42" Y_value="16.974999999999994" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C123&quot;" Type="component">
+      <FK_Name>C_1u_50V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="172.25" Y_value="19.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C124&quot;" Type="component">
+      <FK_Name>C_1u_50V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="172.25" Y_value="15.387500000000017" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C127&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="283.3625" Y_value="13.815100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C128&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="196.5" Y_value="123.7737" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C129&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="194.75" Y_value="123.7737" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C130&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="196.5" Y_value="107.7737" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C131&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="194.75" Y_value="107.7737" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C132&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="196.5" Y_value="91.7737" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C133&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="194.75" Y_value="91.7737" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C134&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="196.5" Y_value="75.773700000000019" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C135&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="194.75" Y_value="75.773700000000019" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C137&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="196.5" Y_value="139.77370000000002" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C138&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="194.75" Y_value="139.77370000000002" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C139&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="196.5" Y_value="59.773700000000019" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C140&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="194.75" Y_value="59.773700000000019" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C141&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="139.25" Y_value="97.1905" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C142&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="137.5" Y_value="97.1905" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C143&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="110.25000000000001" Y_value="59.9589" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C144&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="108.50000000000001" Y_value="59.9589" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C145&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="110.75000000000001" Y_value="88.534500000000008" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C146&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="112.50000000000001" Y_value="88.534500000000008" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C148&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="171.97629999999998" Y_value="60.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;C149&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="171.97629999999998" Y_value="58.75" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C150&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="139.25" Y_value="87.190500000000014" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C151&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="137.5" Y_value="87.190500000000014" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C153&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="140.25" Y_value="80.003199999999993" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C154&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="142" Y_value="80.003199999999993" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C155&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="110.75000000000001" Y_value="98.534500000000008" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C156&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="112.50000000000001" Y_value="98.534500000000008" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C159&quot;" Type="component">
+      <FK_Name>C_15p_25V_X7R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="78.25" Y_value="57.325000000000017" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C161&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="56.540000000000006" Y_value="57.025000000000006" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C163&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="293.5" Y_value="13.565100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C164&quot;" Type="component">
+      <FK_Name>C_4u7_0603_C</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="97.4121" Y_value="120.5" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;C173&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="139" Y_value="66.5" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C174&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="137.25" Y_value="66.5" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C175&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="111.50000000000001" Y_value="54.712099999999992" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;C176&quot;" Type="component">
+      <FK_Name>C_100nF_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="113.25000000000001" Y_value="54.712099999999992" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;D2&quot;" Type="component">
+      <FK_Name>LED_Green_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="111.21249999999999" Y_value="107.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;D7&quot;" Type="component">
+      <FK_Name>LED_Green_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="7.0200000000000031" Y_value="140.06" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;D8&quot;" Type="component">
+      <FK_Name>LED_Green_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="7.0200000000000031" Y_value="134.56" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;D9&quot;" Type="component">
+      <FK_Name>LED_Green_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="163.21249999999998" Y_value="11.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;D10&quot;" Type="component">
+      <FK_Name>LED_Green_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="143.8825" Y_value="10.560000000000002" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;D12&quot;" Type="component">
+      <FK_Name>LED_Green_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="174.5" Y_value="146.73000000000002" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;D24&quot;" Type="component">
+      <FK_Name>LED_Green_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="179.21249999999998" Y_value="11.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R7&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="10.525000000000006" Y_value="140.06" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R8&quot;" Type="component">
+      <FK_Name>R_100k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="10.770000000000003" Y_value="134.56" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R9&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="247.003" Y_value="23.8151" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R10&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="267.003" Y_value="23.8151" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R11&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="287.003" Y_value="23.8151" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R12&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="227.003" Y_value="23.8151" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R13&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="247" Y_value="19.082099999999997" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R14&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="267" Y_value="19.082099999999997" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R15&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="287" Y_value="19.082099999999997" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R16&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="227" Y_value="19.082099999999997" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R17&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="249.75" Y_value="23.798100000000005" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R18&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="249.75" Y_value="19.0651" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R19&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="269.75" Y_value="23.798100000000005" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R20&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="269.75" Y_value="19.0651" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R21&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="289.75" Y_value="23.798100000000005" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R22&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="289.75" Y_value="19.0651" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R23&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="229.75" Y_value="23.798100000000005" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R24&quot;" Type="component">
+      <FK_Name>R_100k_1206</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="229.75" Y_value="19.0651" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R27&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="193.5" Y_value="27.647099999999995" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R28&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="91.750000000000014" Y_value="62.825000000000017" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R30&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.25" Y_value="15.5" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R31&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.25" Y_value="14" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R32&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="202.5" Y_value="11.5" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R33&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="201" Y_value="11.5" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R34&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="199.5" Y_value="11.5" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R35&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="198" Y_value="11.5" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R36&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="199" Y_value="28" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R37&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="200.5" Y_value="28" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R38&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="284.25" Y_value="100.67500000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R39&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="288.75" Y_value="101.42500000000001" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R40&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="289.63599999999997" Y_value="95.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R41&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="290.38599999999997" Y_value="98" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R42&quot;" Type="component">
+      <FK_Name>9.1k 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="287.5" Y_value="89.325" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R43&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="284" Y_value="89.325" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R44&quot;" Type="component">
+      <FK_Name>9.1k 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="285.75" Y_value="89.325" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R46&quot;" Type="component">
+      <FK_Name>R_100k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="135.90500000000003" Y_value="21.462099999999992" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R47&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="159.6275" Y_value="11.210000000000008" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R48&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="147.34500000000003" Y_value="10.560000000000002" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R49&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="170.925" Y_value="149.5" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R50&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="170.925" Y_value="146.74" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R51&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="170.925" Y_value="143.75" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R52&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="105.50000000000001" Y_value="137.275" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R53&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="107.25000000000001" Y_value="137.275" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R55&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="109.00000000000001" Y_value="137.275" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R58&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="110.75000000000001" Y_value="137.275" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R61&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="87.52" Y_value="137" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R62&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="84.02" Y_value="137" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R64&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="85.77" Y_value="137" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R65&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="89.27" Y_value="137" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R66&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.25" Y_value="18.5" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R67&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.25" Y_value="17" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R70&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="100.1621" Y_value="108.575" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R72&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="89.6621" Y_value="111.5" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R73&quot;" Type="component">
+      <FK_Name>R_100k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="89.5871" Y_value="115" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R75&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="202" Y_value="28" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R76&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.5" Y_value="28" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R77&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="265" Y_value="100.67500000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R78&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="269.5" Y_value="101.42500000000001" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R79&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="270.38599999999997" Y_value="95.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R80&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="271.13599999999997" Y_value="98" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R81&quot;" Type="component">
+      <FK_Name>9.1k 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="268.25" Y_value="89.325" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R82&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="264.75" Y_value="89.325" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R83&quot;" Type="component">
+      <FK_Name>9.1k 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="266.5" Y_value="89.325" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R84&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.25" Y_value="26" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R85&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.25" Y_value="24.5" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R86&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="245.75" Y_value="100.67500000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R87&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="250.25" Y_value="101.42500000000001" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R88&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="251.13599999999997" Y_value="95.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R89&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="251.88599999999997" Y_value="98" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R90&quot;" Type="component">
+      <FK_Name>9.1k 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="247.25" Y_value="89.325" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R91&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="245.5" Y_value="89.325" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R92&quot;" Type="component">
+      <FK_Name>9.1k 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="249" Y_value="89.325" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R93&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.25" Y_value="23" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R94&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.25" Y_value="21.5" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R95&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="226.5" Y_value="100.67500000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R96&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="231" Y_value="101.42500000000001" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R97&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="231.88599999999997" Y_value="95.25" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R98&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="232.63599999999997" Y_value="98" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R99&quot;" Type="component">
+      <FK_Name>9.1k 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="228" Y_value="89.325" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R100&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="226.25" Y_value="89.325" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R101&quot;" Type="component">
+      <FK_Name>9.1k 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="229.75" Y_value="89.325" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R102&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="88.500000000000014" Y_value="50.575000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R103&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="87" Y_value="50.575000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R104&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="65.25" Y_value="43.099999999999994" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R105&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="69.5" Y_value="43.675000000000011" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R107&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="71" Y_value="39.925000000000011" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R108&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="175.6275" Y_value="11.210000000000008" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R111&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="76" Y_value="53.575000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R112&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="76" Y_value="55.075000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R113&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="54" Y_value="43.099999999999994" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R114&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="58.25" Y_value="43.675000000000011" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R116&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="59.75" Y_value="39.925000000000011" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R119&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="223.3625" Y_value="10.315100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R120&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="93.250000000000014" Y_value="55.575000000000017" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R121&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="93.250000000000014" Y_value="54.075000000000017" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R122&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="65.210000000000008" Y_value="29.75" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R123&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="69.460000000000008" Y_value="30.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R125&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="70.960000000000008" Y_value="26.575000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R126&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="223.3625" Y_value="12.065100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R129&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="82.5" Y_value="50.575000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R130&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="81" Y_value="50.575000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R131&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="53.960000000000008" Y_value="29.75" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R132&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="58.210000000000008" Y_value="30.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R134&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="59.710000000000008" Y_value="26.575000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R135&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="233.5" Y_value="10.065100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R136&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="233.5" Y_value="11.815100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R137&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="230.25" Y_value="6.1401000000000181" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R138&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="93.250000000000014" Y_value="58.575000000000017" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R139&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="93.250000000000014" Y_value="57.075000000000017" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R140&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="65.17" Y_value="16.400000000000006" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R141&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="69.42" Y_value="16.974999999999994" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R143&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="70.92" Y_value="13.224999999999994" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R144&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="228.5" Y_value="6.1401000000000181" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R145&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="226.80599999999998" Y_value="6.1399000000000115" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R146&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="107.71249999999999" Y_value="107.5" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R147&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="85.5" Y_value="50.575000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R148&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="84" Y_value="50.575000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R149&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="53.92" Y_value="16.400000000000006" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R150&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="58.17" Y_value="16.974999999999994" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R152&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="59.67" Y_value="13.224999999999994" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R153&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="141.5" Y_value="69.825000000000017" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R154&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="109.00000000000001" Y_value="51.387100000000004" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R155&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195" Y_value="54.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R156&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="243.3625" Y_value="12.065100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R157&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="243.3625" Y_value="10.315100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R158&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="253.5" Y_value="10.065100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R159&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="253.5" Y_value="11.815100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R160&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="246.80599999999998" Y_value="6.1399000000000115" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R161&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="250.25" Y_value="6.1401000000000181" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R162&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="248.5" Y_value="6.1401000000000181" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R163&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195" Y_value="51.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R164&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="187.25" Y_value="52.825000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R165&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="123.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R166&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="125.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R167&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="127.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R168&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="129" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R169&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="130.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R170&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="132.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R171&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="134.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R172&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="136" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R173&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="107.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R174&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="109.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R175&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="111.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R176&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="113" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R177&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="114.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R178&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="116.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R179&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="118.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R180&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="120" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R181&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="91.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R182&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="93.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R183&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="95.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R184&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="97" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R185&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="98.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R186&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="100.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R187&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="102.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R188&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="104" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R189&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="75.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R190&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="77.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R191&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="79.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R192&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="81" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R193&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="82.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R194&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="84.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R195&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="86.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R196&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="88" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R197&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="187.25" Y_value="51.325000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R198&quot;" Type="component">
+      <FK_Name>R_100k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="187.25" Y_value="54.325000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R199&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="263.3625" Y_value="12.065100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R200&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="139.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R201&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="141.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R202&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="143.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R203&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="145" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R204&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="146.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R205&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="148.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R206&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="150.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R207&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="152" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R208&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="59.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R209&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="61.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R210&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="63.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R211&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="65" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R212&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="66.75" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R213&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="68.5" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R214&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="70.25" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R215&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="203.075" Y_value="72" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R216&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="142.5" Y_value="99.9405" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R217&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="142.5" Y_value="101.6905" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R218&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="113.50000000000001" Y_value="62.7089" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R219&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="113.50000000000001" Y_value="64.4589" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R220&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="111.75000000000001" Y_value="82.534500000000008" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R222&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="263.3625" Y_value="10.315100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R223&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="273.5" Y_value="11.815100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R224&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="273.5" Y_value="10.065100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R225&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="172" Y_value="67.075000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R226&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="170.25" Y_value="67.075000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R227&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="168.5" Y_value="67.075000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R228&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="166.75" Y_value="67.075000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R229&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="165" Y_value="67.075000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R230&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="163.25" Y_value="67.075000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R231&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="161.5" Y_value="67.075000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R232&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="159.75" Y_value="67.075000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R233&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="142.5" Y_value="89.9405" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R234&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="142.5" Y_value="91.6905" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R235&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="266.806" Y_value="6.1399000000000115" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R236&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="270.25" Y_value="6.1401000000000181" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R237&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="268.5" Y_value="6.1401000000000181" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R238&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="137" Y_value="77.253199999999993" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R239&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="137" Y_value="75.503199999999993" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R240&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="111.75000000000001" Y_value="92.534500000000008" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R242&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195" Y_value="46.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R243&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195" Y_value="43.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R244&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="187.25" Y_value="43.325000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R245&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="76" Y_value="56.575000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R246&quot;" Type="component">
+      <FK_Name>R_30R_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="76" Y_value="58.075000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R247&quot;" Type="component">
+      <FK_Name>500R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="54.040000000000006" Y_value="56.450000000000017" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R248&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="58.290000000000006" Y_value="57.025000000000006" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R250&quot;" Type="component">
+      <FK_Name>R_5k1_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="59.790000000000006" Y_value="53.275000000000006" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R251&quot;" Type="component">
+      <FK_Name>R_100k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="187.25" Y_value="46.325000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R252&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="283.3625" Y_value="12.065100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R253&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="283.3625" Y_value="10.315100000000001" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R254&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="293.5" Y_value="11.815100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R255&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="293.5" Y_value="10.065100000000001" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;R256&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="286.806" Y_value="6.1399000000000115" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R257&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="290.25" Y_value="6.1401000000000181" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R258&quot;" Type="component">
+      <FK_Name>R_1k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="288.5" Y_value="6.1401000000000181" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R259&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="187.25" Y_value="44.825000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R260&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.75" Y_value="54.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R261&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.75" Y_value="51.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R262&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="200" Y_value="51.325000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R263&quot;" Type="component">
+      <FK_Name>R_100k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="200" Y_value="54.325000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R264&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="200" Y_value="52.825000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R265&quot;" Type="component">
+      <FK_Name>R_10k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.75" Y_value="46.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R266&quot;" Type="component">
+      <FK_Name>0R 0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="207.75" Y_value="43.325000000000017" T_value="-90" />
+    </Ingredient>
+    <Ingredient Name="&quot;R267&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="200" Y_value="43.325000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R268&quot;" Type="component">
+      <FK_Name>R_100k_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="200" Y_value="46.325000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;R269&quot;" Type="component">
+      <FK_Name>R_100_0603</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="200" Y_value="44.825000000000017" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;U5&quot;" Type="component">
+      <FK_Name>U_SN74LXC2T45Q1</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="138" Y_value="69.75" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U6&quot;" Type="component">
+      <FK_Name>U_SN74LXC2T45Q1</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="112.50000000000001" Y_value="51.462099999999992" T_value="270" />
+    </Ingredient>
+    <Ingredient Name="&quot;U7&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="285.812" Y_value="95.354" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U12&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="248.40499999999997" Y_value="12.103100000000012" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;U13&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="268.405" Y_value="12.103100000000012" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;U14&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="288.405" Y_value="12.103100000000012" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;U15&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="228.40499999999997" Y_value="12.103100000000012" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;U17&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="266.562" Y_value="95.354" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U18&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="247.312" Y_value="95.354" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U19&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="228.062" Y_value="95.354" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U20&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="67.095" Y_value="37.812000000000012" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U21&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="55.845" Y_value="37.812000000000012" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U22&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="67.055" Y_value="24.462000000000018" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U23&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="55.805000000000007" Y_value="24.462000000000018" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U24&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="67.015" Y_value="11.111999999999995" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U25&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="55.765" Y_value="11.111999999999995" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;U27&quot;" Type="component">
+      <FK_Name>U_SN74LXCH8T245RHLR</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195.61599999999999" Y_value="129.925" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U28&quot;" Type="component">
+      <FK_Name>U_SN74LXCH8T245RHLR</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195.61599999999999" Y_value="113.92500000000001" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U29&quot;" Type="component">
+      <FK_Name>U_SN74LXCH8T245RHLR</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195.61599999999999" Y_value="97.925000000000011" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U30&quot;" Type="component">
+      <FK_Name>U_SN74LXCH8T245RHLR</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195.61599999999999" Y_value="81.925000000000011" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U32&quot;" Type="component">
+      <FK_Name>U_SN74LXCH8T245RHLR</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195.61599999999999" Y_value="145.925" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U33&quot;" Type="component">
+      <FK_Name>U_SN74LXCH8T245RHLR</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="195.61599999999999" Y_value="65.925000000000011" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U34&quot;" Type="component">
+      <FK_Name>U_SN74LXC2T45Q1</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="138.25" Y_value="100.6905" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U35&quot;" Type="component">
+      <FK_Name>U_SN74LXC2T45Q1</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="109.25000000000001" Y_value="63.4589" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U36&quot;" Type="component">
+      <FK_Name>U_SN74LXC2T45Q1</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="111.75000000000001" Y_value="85.034500000000008" T_value="270" />
+    </Ingredient>
+    <Ingredient Name="&quot;U38&quot;" Type="component">
+      <FK_Name>U_SN74LXCH8T245RHLR</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="165.825" Y_value="59.616000000000014" T_value="180" />
+    </Ingredient>
+    <Ingredient Name="&quot;U39&quot;" Type="component">
+      <FK_Name>U_SN74LXC2T45Q1</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="138.25" Y_value="90.6905" T_value="90" />
+    </Ingredient>
+    <Ingredient Name="&quot;U41&quot;" Type="component">
+      <FK_Name>U_SN74LXC2T45Q1</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="141.25" Y_value="76.503199999999993" T_value="270" />
+    </Ingredient>
+    <Ingredient Name="&quot;U42&quot;" Type="component">
+      <FK_Name>U_SN74LXC2T45Q1</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="111.75000000000001" Y_value="95.034500000000008" T_value="270" />
+    </Ingredient>
+    <Ingredient Name="&quot;U44&quot;" Type="component">
+      <FK_Name>U_LT1819_ISB</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="55.885000000000005" Y_value="51.162000000000006" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;fid1f&quot;" Type="fiducial">
+      <FK_Name>CircleWhite1mm</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="3" Y_value="3" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;fid2f&quot;" Type="fiducial">
+      <FK_Name>CircleWhite1mm</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="307" Y_value="3" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;fid3f&quot;" Type="fiducial">
+      <FK_Name>CircleWhite1mm</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="307" Y_value="157" T_value="0" />
+    </Ingredient>
+    <Ingredient Name="&quot;fid_adc1&quot;" Type="fiducial">
+      <FK_Name>CircleWhite1mm</FK_Name>
+      <InspectBoardReferencesOrLocalFiducial>false</InspectBoardReferencesOrLocalFiducial>
+      <ProcessSequenceOptionArray>
+        <ProcessSequenceOption>0</ProcessSequenceOption>
+      </ProcessSequenceOptionArray>
+      <HeightOffset>0</HeightOffset>
+      <HeightLevel />
+      <Position X_value="92.750000000000014" Y_value="49.75" T_value="0" />
+    </Ingredient>
+  </IngredientArray>
+  <ProcessControl />
+  <ExtendedTransportParameters>
+    <Carrier>
+      <CenterOfFrontEdge>0</CenterOfFrontEdge>
+      <TappetGrooveDistance>0</TappetGrooveDistance>
+    </Carrier>
+    <SubRecipeStepOrder />
+  </ExtendedTransportParameters>
+  <InformationComment />
+  <PcbLayer />
+</Recipe>

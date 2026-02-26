@@ -1,0 +1,20 @@
+Pick_and_Place
+R:
+  0R
+  30R -> Mit Leo noch abreden
+  1k
+  5k1
+  9k1
+  10k
+  100k
+C:
+  15p -> Mit Leo noch abreden  
+  1u
+  100n
+  4u7
+D:
+  LED_G
+IC:
+  LT1819
+  SN74LXC2
+  SN74LXCH

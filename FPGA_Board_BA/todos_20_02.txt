@@ -1,0 +1,6 @@
+>dxf datei von PCB
+alle borhlöcher
+wie gross sollte die Alu-Platte sein
+-> Stromhystereseregelung
+-> erstmal FOC ohne PWM in matlab
+-> SVM für multilevel,
