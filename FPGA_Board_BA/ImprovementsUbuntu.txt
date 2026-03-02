@@ -1,0 +1,10 @@
+ImprovementsUbuntu
+
+SS1 und SS2 verbinden
+DITH zu AGND
+Output caps für CHB DCDC
+Input Elko für CHB DCDC
+Kelvin connection für MOSFETs
+DCDC Trennbar machen 
+Level shifters richtiges Package
+
