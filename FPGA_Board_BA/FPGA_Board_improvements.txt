@@ -7,3 +7,4 @@ FPGA_Board_improvements
 4: 100V 0603 4.7u
 5: Die 5.5V Boost converter sollte vom 5V Zynq gespeist werden. Die Breakout auch, Level shifter
 6: OpAmps LT1819 orientierung
+7: entladewiderstand
