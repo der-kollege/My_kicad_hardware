@@ -7,4 +7,5 @@ Input Elko für CHB DCDC
 Kelvin connection für MOSFETs
 DCDC Trennbar machen 
 Level shifters richtiges Package
+Stiftleisten nicht vom bottom-view
 

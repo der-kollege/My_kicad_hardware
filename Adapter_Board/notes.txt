@@ -1,0 +1,3 @@
+Zweilaging alle gnd stecker an gnd
+Pads so breit wie möglich
+Bei Versorgung pins viele vias
