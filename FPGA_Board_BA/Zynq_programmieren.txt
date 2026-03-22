@@ -1,0 +1,10 @@
+JTAG
+Reset
+Flash programmieren
+QSPI in Vivado einschalten
+DDRam auch einschalten
+-> software > Boot > FSBL + irgendwo noch BOOT.bin
+
+Counter als IP Block einstellen.
+Counter aus F0 clk 100MHz (es hieß irgendwie Slice)
+ 
