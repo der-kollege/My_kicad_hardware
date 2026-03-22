@@ -8,3 +8,13 @@ FPGA_Board_improvements
 5: Die 5.5V Boost converter sollte vom 5V Zynq gespeist werden. Die Breakout auch, Level shifter
 6: OpAmps LT1819 orientierung
 7: entladewiderstand
+8: Noch mehr Ausgangskapazitäten. Die 1000uF scheint nicht so effektiv zu sein. 220uF extra hat das oszillierende ein- und Ausschalten gefixt
+9: Marker für Zynq-Board Orientierung auf Silkscreen
+10: Mehr Platz um den Schraubenlöcher herum
+
+---------------------------
+17.03.2026:
+- 15:32: "Run" im QSPI Mode -> Failed, Done Pin is not HIGH
+- 15:35: "Run" im JTAG Mode -> Hat funktioniert
+
+11: Man DCDC eigentlich erst ab 12V finktionsfähig
