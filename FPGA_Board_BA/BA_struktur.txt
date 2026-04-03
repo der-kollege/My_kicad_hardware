@@ -1,0 +1,30 @@
+1.1 -> Motivation
+1.2 -> Goal (Zielsetung)
+1.4 -> Approach and structure
+1.3 -> Sate of the Art
+Introduction sollte nicht mehr als 5 Seiten sein (2-3 reicht)
+Approach and structure -> Approach and Structure
+
+Kapitel 2:
+-> Theorie von FPGA, MCUs technical Sachen wie AXI und so.
+Extra Sachen wie SVM nur dann wenn ich Zeit habe
+
+Kapitel 3: General system sollte beschreiben wie das Kapitel (und der Regler) strukturiert ist.
+
+Kapitel 4:
+-> keine Erfahrungsbericht
+Pick and Place kann man reinschreiben
+
+Kapitel 6: (Result and Evaluation)
+	Was geklappt hat und noch besser sein könnte.
+Kapitel 7 (Summary and Outlook):
+ 
+
+
+Extra:
+	In allen Kapiteln sollte Leserführung klar sein. (Worum im Kapitel sich handelt)
+	Die Bachelorarbeit sollte auch für fachfremde Leute klar strukturiert sein
+	Sachen wie Cascaded H-Bridge -> Power Electronics Interface
+	Man muss ehrlich sein und einsehen was man für das Thema besser machen könnte
+	Für HW-Implementation könnte man eine Liste reinpacken mit Sachen die man verbessern/ besser machen könnte
+	Auch reinschreiben dass zb die Baudrate runtergesetzt werden musste für die CHBs

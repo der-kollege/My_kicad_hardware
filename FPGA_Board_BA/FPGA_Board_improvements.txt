@@ -18,3 +18,17 @@ FPGA_Board_improvements
 - 15:35: "Run" im JTAG Mode -> Hat funktioniert
 
 11: Man DCDC eigentlich erst ab 12V finktionsfähig
+12: Poti 1 Spannungsteiler falsch eingestellt.
+13: User LED 3 umgekehrt bestückt
+14: Level shifters für die ADC datapins
+-> ADC kaputt? SDO5 bei B6 ADC hat short
+15: Spannungsfolger nach dem Buffer vom ADC
+16: ADC doch nicht kaputt, die maximale Last ist halt 385uA. Rmin = 10k
+17: Alle Widerstands- / Kapazitätswerten für die Bestückungsmaschine optimieren
+18: Möglichst alles auf top side.
+19: Kleine (2 Channel) Level shifters DIR pin hätte HIGH sein sollen. Fix: deadbug (B->A mit Gnd aktiviert)
+20: Pins mit Default Functions nicht benutzen!!! (Oder doch man muss nur nach regenerieren vom hw den .elf im app Löschen damit der auch den neuen hw mitbekommt)
+21: MYIR Intergenerational beef!! Pin CN1_46 funktioniert einfach nicht
+22: Wannenstecker richtig rum drehen
+23: Level shifter immer mit optionalen Richtungswähler. En und Err hat nicht funktioniert weil es immer zum GND gepullt wurde wegen falschem direction pin
+24: Test points (exposed Pads) für schwer messbare sachen wie Ref Spannungen am ADC, 
